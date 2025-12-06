@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 1: Prehistoric Art - UPPCS Notes</title>
+    <link rel="stylesheet" href="../dark-theme.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        [data-theme="dark"] body {
+            background: linear-gradient(135deg, #78350f 0%, #92400e 100%);
+        }
+
+        header {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            color: white;
+            padding: 50px 30px;
+            border-radius: 20px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 20px 60px rgba(245, 158, 11, 0.5);
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '🎨';
+            position: absolute;
+            font-size: 15rem;
+            opacity: 0.1;
+            top: -30px;
+            right: -30px;
+            animation: rotate 20s linear infinite;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #f59e0b;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(245, 158, 11, 0.2);
+        }
+
+        [data-theme="dark"] .card {
+            background: #1e293b;
+        }
+
+        h2 {
+            color: #f59e0b;
+            border-bottom: 3px solid #fef3c7;
+            padding-bottom: 10px;
+            font-size: 1.8rem;
+        }
+
+        [data-theme="dark"] h2 {
+            color: #fbbf24;
+            border-bottom-color: #78350f;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+            border-left: 5px solid #3b82f6;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        [data-theme="dark"] .highlight-box {
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        th,
+        td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #fef3c7;
+        }
+
+        th {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background: #fef3c7;
+        }
+
+        [data-theme="dark"] tr:hover {
+            background: #374151;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .tag-imp {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .tag-site {
+            background: #dcfce7;
+            color: #166534;
+        }
+
+        .pyq-box {
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 16px;
+            margin-top: 40px;
+        }
+
+        .pyq-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 10px;
+            border-left: 4px solid #f59e0b;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark Mode">🌓</button>
+            <h1>🎨 Chapter 1: Prehistoric Art</h1>
+            <div class="subtitle">Rock Paintings & Mesolithic Creativity</div>
+        </header>
+
+        <!-- Introduction -->
+        <div class="card">
+            <h2>📖 Introduction to Prehistoric Art</h2>
+            <p><strong>Prehistoric art</strong> is the earliest form of human creative expression, dating back to the
+                <strong>Paleolithic, Mesolithic, and Neolithic</strong> periods.</p>
+            <ul>
+                <li>Early humans used <strong>stone tools</strong> for creating art</li>
+                <li>Primary medium: <strong>Rock engravings (Petroglyphs)</strong> and <strong>Rock paintings</strong>
+                </li>
+                <li>Art provides insight into <strong>socio-cultural practices, daily life, beliefs</strong></li>
+            </ul>
+        </div>
+
+        <!-- Mesolithic Phase Art -->
+        <div class="card">
+            <h2>🖌️ Mesolithic Phase (10,000 BC - 6,000 BC) <span class="tag tag-imp">Super PYQ</span></h2>
+
+            <div class="highlight-box">
+                <strong>Key Development:</strong> Transition from cold to warm climate led to development of flora,
+                fauna, and human creativity.
+                <br><strong>Stone Tool:</strong> <strong>Microlith</strong> - Small, sharp tools that facilitated
+                detailed rock engraving
+            </div>
+
+            <h3>🎨 Mesolithic Painting Techniques:</h3>
+            <ul>
+                <li><strong>Colors Used:</strong> Naturally obtained - Green, Yellow, Brown, Red</li>
+                <li><strong>Red Color Source:</strong> Animal blood + Natural minerals</li>
+                <li><strong>Painting Style:</strong> Simple, stick-figure representations</li>
+                <li><strong>Tool:</strong> Microliths enabled fine detailing</li>
+            </ul>
+
+            <h3>🎭 Themes of Mesolithic Paintings: <span class="tag tag-imp">PYQ</span></h3>
+            <table>
+                <tr>
+                    <th>Theme</th>
+                    <th>Significance</th>
+                </tr>
+                <tr>
+                    <td><strong>Hunting & Gathering</strong></td>
+                    <td>Primary livelihood activity</td>
+                </tr>
+                <tr>
+                    <td><strong>Domestication of Animals</strong></td>
+                    <td>Beginning of settled life</td>
+                </tr>
+                <tr>
+                    <td><strong>Animal Riding</strong></td>
+                    <td>Advanced human-animal relationship</td>
+                </tr>
+                <tr>
+                    <td><strong>Group Dance</strong></td>
+                    <td>Community sense & social cohesion</td>
+                </tr>
+                <tr>
+                    <td><strong>Celebration</strong></td>
+                    <td>Community bonding</td>
+                </tr>
+                <tr>
+                    <td><strong>Fighting/Warfare</strong></td>
+                    <td>Division of labour, conflict resolution</td>
+                </tr>
+                <tr>
+                    <td><strong>Sexual Union</strong></td>
+                    <td>Fertility & reproduction</td>
+                </tr>
+                <tr>
+                    <td><strong>Household Chores</strong></td>
+                    <td>Women's role in society</td>
+                </tr>
+                <tr>
+                    <td><strong>Phallus Worship</strong></td>
+                    <td>Early religious beliefs (fertility cult)</td>
+                </tr>
+                <tr>
+                    <td><strong>Yoni Worship</strong></td>
+                    <td>Mother Goddess worship (matriarchal society)</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Important Sites -->
+        <div class="card">
+            <h2>📍 Important Prehistoric Art Sites <span class="tag tag-imp">Super PYQ</span></h2>
+
+            <h3>🗿 Major Sites:</h3>
+            <ul>
+                <li><strong>Bhimbetka (Madhya Pradesh)</strong> <span class="tag tag-site">UNESCO World Heritage</span>
+                    <ul>
+                        <li>Most famous prehistoric site in India</li>
+                        <li>Contains paintings from <strong>all three phases</strong> (Paleolithic, Mesolithic,
+                            Neolithic)</li>
+                        <li>More than 500 rock shelters</li>
+                        <li>Continuous habitation from 100,000 BC to 1000 AD</li>
+                    </ul>
+                </li>
+                <li><strong>Adamgarh (Madhya Pradesh)</strong>
+                    <ul>
+                        <li>Evidence of <strong>domestication of animals</strong></li>
+                    </ul>
+                </li>
+                <li><strong>Baghor (Rajasthan)</strong>
+                    <ul>
+                        <li>Animal domestication evidence</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Cultural Significance -->
+        <div class="card">
+            <h2>🏛️ Cultural & Historical Significance</h2>
+
+            <h3>📜 What Mesolithic Art Tells Us:</h3>
+            <ul>
+                <li><strong>Social Organization:</strong> Evidence of community living, group activities</li>
+                <li><strong>Division of Labour:</strong> Men involved in hunting, women in household chores</li>
+                <li><strong>Religious Beliefs:</strong> Phallus & Yoni worship indicate fertility cults</li>
+                <li><strong>Aesthetic Sense:</strong> Use of multiple colors shows artistic sensibility</li>
+                <li><strong>Communication:</strong> Art as a medium to record and communicate</li>
+            </ul>
+
+            <div class="highlight-box">
+                <strong>💡 Key Insight:</strong> Prehistoric art is not just "primitive drawings" but a sophisticated
+                system of communication, belief expression, and cultural documentation.
+            </div>
+        </div>
+
+        <!-- PYQ Section -->
+        <div class="pyq-box">
+            <h2>🎯 PYQ Sniper Shots</h2>
+
+            <div class="pyq-item">
+                <strong>Q: Which site has evidence from all three prehistoric phases?</strong><br>
+                A: <strong>Bhimbetka (Madhya Pradesh)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is Petroglyph?</strong><br>
+                A: <strong>Rock engravings</strong> created by prehistoric humans
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Which stone tool facilitated Mesolithic paintings?</strong><br>
+                A: <strong>Microlith</strong> (small, sharp stone tool)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Name the colors used in Mesolithic paintings.</strong><br>
+                A: <strong>Green, Yellow, Brown, Red</strong> (from natural sources + animal blood)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Which worship practices are depicted in Mesolithic art?</strong><br>
+                A: <strong>Phallus worship</strong> and <strong>Yoni worship</strong> (fertility cults)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Bhimbetka rock shelters are located in which state?</strong><br>
+                A: <strong>Madhya Pradesh</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What does the theme of "Group Dance" in Mesolithic art signify?</strong><br>
+                A: <strong>Community sense</strong> and social cohesion
+            </div>
+            <div class="pyq-item">
+                <strong>Q: UPPCS 2018: Which of the following is NOT a Mesolithic site?</strong><br>
+                A: (Options would include non-Mesolithic sites)
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; color: #64748b; font-size: 0.9em;">
+            Created by Antigravity • UPPCS Art & Culture • From Your Class Notes
+        </div>
+    </div>
+
+    <script src="../theme-toggle.js"></script>
+</body>
+
+</html>

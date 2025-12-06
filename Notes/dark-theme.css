@@ -1,0 +1,79 @@
+/* ============================================
+   UPPCS Notes - Dark Theme Stylesheet
+   Apply to all chapter files for consistent theming
+   ============================================ */
+
+:root {
+    /* Light mode colors (default) */
+    --bg-color: #f8fafc;
+    --text-color: #334155;
+    --card-bg: #ffffff;
+    --border-color: #e2e8f0;
+    --heading-color: #1e293b;
+}
+
+/* Dark theme colors */
+[data-theme="dark"] {
+    --bg-color: #0f172a;
+    --text-color: #e2e8f0;
+    --card-bg: #1e293b;
+    --border-color: #334155;
+    --heading-color: #e2e8f0;
+}
+
+/* Base styles with theme variables */
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card {
+    background: var(--card-bg);
+    transition: background-color 0.3s ease;
+}
+
+h2, h3 {
+    color: var(--heading-color);
+}
+
+table th,
+table td {
+    border-color: var(--border-color);
+}
+
+/* Theme toggle button */
+.theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.theme-toggle:hover {
+    transform: scale(1.1);
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Header needs to be positioned relative for toggle button */
+header {
+    position: relative;
+}
+
+/* Dark mode specific adjustments for highlights */
+[data-theme="dark"] .highlight {
+    /* Each chapter can override this with their own color */
+    opacity: 0.9;
+}
+
+[data-theme="dark"] table th {
+    /* Darker table headers in dark mode */
+    opacity: 0.85;
+}

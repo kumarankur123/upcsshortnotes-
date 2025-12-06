@@ -1,0 +1,40 @@
+# Python files
+*.py
+*.pyc
+__pycache__/
+
+# PDF files
+*.pdf
+
+# Extracted text files
+*_extracted.txt
+*.txt
+!README.md
+
+# Batch files
+*.bat
+
+# Windows files
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
+
+# Python virtual environment
+venv/
+env/
+
+# Other
+*.md
+!README.md
+UPPCS_Surgical_Strike_Guide.md
+MODERN_INDIA_PLAN.md
+DARK_THEME_GUIDE.md
+

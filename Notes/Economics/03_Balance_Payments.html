@@ -1,0 +1,1725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pillar 3: Balance of Payments & International Trade - UPPCS Notes</title>
+    <link rel="stylesheet" href="../dark-theme.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #fce7f3 0%, #fbcfe8 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        [data-theme="dark"] body {
+            background: linear-gradient(135deg, #831843 0%, #9f1239 100%);
+        }
+
+        header {
+            background: linear-gradient(135deg, #ec4899 0%, #db2777 100%);
+            color: white;
+            padding: 50px 30px;
+            border-radius: 20px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 20px 60px rgba(236, 72, 153, 0.4);
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '💱';
+            position: absolute;
+            font-size: 15rem;
+            opacity: 0.1;
+            top: -30px;
+            left: -30px;
+            animation: float 10s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(30px); }
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #ec4899;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(236, 72, 153, 0.2);
+        }
+
+        [data-theme="dark"] .card {
+            background: #1e293b;
+        }
+
+        h2 {
+            color: #ec4899;
+            border-bottom: 3px solid #fce7f3;
+            padding-bottom: 10px;
+            font-size: 1.8rem;
+        }
+
+        [data-theme="dark"] h2 {
+            color: #f472b6;
+            border-bottom-color: #9f1239;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #fce7f3 0%, #fbcfe8 100%);
+            border-left: 5px solid #ec4899;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        [data-theme="dark"] .highlight-box {
+            background: linear-gradient(135deg, #831843 0%, #9f1239 100%);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #fbcfe8;
+        }
+
+        th {
+            background: linear-gradient(135deg, #ec4899 0%, #db2777 100%);
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background: #fce7f3;
+        }
+
+        [data-theme="dark"] tr:hover {
+            background: #374151;
+        }
+
+        .pyq-box {
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 16px;
+            margin-top: 40px;
+        }
+
+        .pyq-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 10px;
+            border-left: 4px solid #ec4899;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" style="max-width: 1000px; margin: auto; padding: 40px 20px;">
+        <header>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark Mode">🌓</button>
+            <h1>💱 Pillar 3: Balance of Payments & International Trade</h1>
+            <div class="subtitle">BoP • FDI/FPI • Currency Exchange • WTO</div>
+        </header>
+
+        <!-- 1. Balance of Payments -->
+        <div class="card">
+            <h2>1. Balance of Payments (BoP: भुगतान संतुलन)</h2>
+            
+            <h3>📊 Definition</h3>
+            <p><strong>BoP:</strong> Systematic record of all economic transactions between residents and non-residents of a country for a specific time period, usually a year.</p>
+            <ul>
+                <li>Central Banks prepare BoP records as per IMF's BPM-6 manual format</li>
+                <li>All figures expressed in US Dollar ($)</li>
+                <li>Since any country's debit (outgoing money) is credit (incoming money) for another country → World's NET Balance of Payment is ZERO</li>
+                <li>BoP classified into: <strong>Current Account</strong> (चालू खाता) and <strong>Capital & Financial Account</strong> (पूंजी खाता)</li>
+            </ul>
+
+            <h3>🐯 RBI's Method of Classifying BoP</h3>
+            <table>
+                <tr>
+                    <th>Account</th>
+                    <th>Components</th>
+                </tr>
+                <tr>
+                    <td><strong>Current Account</strong><br>(चालू खाता)</td>
+                    <td>
+                        <ul>
+                            <li><strong>Goods and Services:</strong> Visible trade (goods) + Invisible trade (services)</li>
+                            <li><strong>Primary Income:</strong> Wages, dividend, interest, profit</li>
+                            <li><strong>Secondary Income/Transfer:</strong> Remittance, gift, grants, donations</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Capital & Financial Account</strong><br>(पूंजी खाता)</td>
+                    <td>
+                        <ul>
+                            <li><strong>Direct Investment:</strong> FDI (Foreign Direct Investment)</li>
+                            <li><strong>Portfolio Investment:</strong> FPI (Foreign Portfolio Investment)</li>
+                            <li><strong>Loans:</strong> External Commercial Borrowing (ECB)</li>
+                            <li><strong>Non-Resident Deposits:</strong> Investment in Bank, Insurance, Pension schemes</li>
+                            <li><strong>Reserves:</strong> RBI's foreign exchange reserves</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+
+            <h3>⛽️ Current Account Components (2018-19 Data)</h3>
+            <table>
+                <tr>
+                    <th>Component</th>
+                    <th>NET Amount (Bn $)</th>
+                    <th>2018-19</th>
+                    <th>2019-20</th>
+                    <th>2020-21</th>
+                </tr>
+                <tr>
+                    <td><strong>Visible Trade (Goods)</strong></td>
+                    <td>Export - Import</td>
+                    <td>-180</td>
+                    <td>-157</td>
+                    <td>-102</td>
+                </tr>
+                <tr>
+                    <td><strong>Invisible Trade (Services)</strong></td>
+                    <td>Export - Import</td>
+                    <td>+82</td>
+                    <td>+85</td>
+                    <td>+88</td>
+                </tr>
+                <tr>
+                    <td><strong>Primary Income</strong><br>(Wages, Profit, Interest, Dividend)</td>
+                    <td>Receipts - Payments</td>
+                    <td>-28</td>
+                    <td>-27</td>
+                    <td>-36</td>
+                </tr>
+                <tr>
+                    <td><strong>Secondary Income/Transfer</strong><br>(Remittance, Gift, Grants, Donations)</td>
+                    <td>Receipts - Payments</td>
+                    <td>+70</td>
+                    <td>+75</td>
+                    <td>+73</td>
+                </tr>
+                <tr>
+                    <td><strong>Net Current Account Balance</strong></td>
+                    <td></td>
+                    <td>-57 Bn (Deficit)</td>
+                    <td>-24 Bn (Deficit)</td>
+                    <td>+24 Bn (Surplus +0.9% GDP)</td>
+                </tr>
+            </table>
+
+            <div class="highlight-box">
+                <strong>Current Account Deficit (CAD) Trends:</strong>
+                <ul>
+                    <li><strong>2001-04:</strong> Current Account Surplus (before USA subprime crisis, global economy boom ↑ exports)</li>
+                    <li><strong>2004-19:</strong> India's CAD averaged -2.2% of GDP in last 10 years</li>
+                    <li><strong>2020-21:</strong> Corona - imports ↓ compared to export (decent exports in Pharmaceutical and IT sector). India witnessed Current Account surplus for first time after 17 years!</li>
+                    <li><strong>2022-23:</strong> Deficit -2%</li>
+                    <li><strong>2023-24:</strong> Deficit -0.7%</li>
+                </ul>
+            </div>
+
+            <h3>🚢 Benefits of International Trade</h3>
+            <table>
+                <tr>
+                    <th>Stakeholder</th>
+                    <th>Benefits</th>
+                </tr>
+                <tr>
+                    <td><strong>To Govt</strong></td>
+                    <td>Earning of forex, jobs, GDP, efficient use of resources (men, material), increase income, improved standard of living</td>
+                </tr>
+                <tr>
+                    <td><strong>To (Exporting) Companies</strong></td>
+                    <td>More customers, more profit, increased capacity utilisation, way out from intense competition within domestic market</td>
+                </tr>
+                <tr>
+                    <td><strong>To Customers</strong></td>
+                    <td>Improved choices - in terms of quality and price</td>
+                </tr>
+            </table>
+
+            <h3>🤔 Entry into International Business - Various Modes</h3>
+            <table>
+                <tr>
+                    <th>Type</th>
+                    <th>Meaning/Example</th>
+                    <th>Challenges</th>
+                </tr>
+                <tr>
+                    <td><strong>Import-Export</strong></td>
+                    <td>Simplest form of entry into intl. business</td>
+                    <td>Cost/risk of packaging-transport, Taxes, protectionism, exchange rate, geopolitical problems</td>
+                </tr>
+                <tr>
+                    <td><strong>Contract Manufacturing/Outsourcing</strong></td>
+                    <td>e.g. Tata making iPhones for Apple, Godrej making Dettol soaps for Reckitt</td>
+                    <td>Quality control. Contract manufacturer will not make as much % profit as original company</td>
+                </tr>
+                <tr>
+                    <td><strong>Franchising (Services)</strong></td>
+                    <td>Dominos Pizza (USA) → JUBILANT FOODWORKS (India)</td>
+                    <td>Quality control, Royalty fees, Danger to original brand (franchisee may pirate trade-secrets)</td>
+                </tr>
+                <tr>
+                    <td><strong>Licensing (Goods Mfg)</strong></td>
+                    <td>Pepsi → Varun Beverages</td>
+                    <td>Similar to Franchising</td>
+                </tr>
+                <tr>
+                    <td><strong>Joint Venture</strong></td>
+                    <td>Hero Honda = Hero Group (India) + Honda (Japan). Later terminated around 2010</td>
+                    <td>Leak of trade secrets, Clash of egos/ideas of two companies' top bosses</td>
+                </tr>
+                <tr>
+                    <td><strong>Wholly Owned Subsidiaries</strong></td>
+                    <td>Standard Chartered Bank (India) 100% owned by Standard Chartered Bank (UK Parent)</td>
+                    <td>Issues related to taxation, transfer pricing, Business stability depends on political/diplomatic relations</td>
+                </tr>
+            </table>
+
+            <h3>📝 Documents Related to Import/Export</h3>
+            <table>
+                <tr>
+                    <th>Document</th>
+                    <th>Meaning/Example</th>
+                </tr>
+                <tr>
+                    <td><strong>Quotation/Proforma Invoice</strong></td>
+                    <td>Exporter can supply importer tea at X price on Y date</td>
+                </tr>
+                <tr>
+                    <td><strong>Indent/Receipt of Order</strong></td>
+                    <td>Importer agrees with exporter's quotation & wants to buy specified kg tea at quoted price</td>
+                </tr>
+                <tr>
+                    <td><strong>Importer-Exporter Code (IEC)</strong></td>
+                    <td>Number/license/registration from DGFT (Directorate General Foreign Trade) under Commerce Ministry</td>
+                </tr>
+                <tr>
+                    <td><strong>Certificate of Inspection</strong></td>
+                    <td>From Export Inspection Council of India (EIC) - depending on type of product</td>
+                </tr>
+                <tr>
+                    <td><strong>Certificate of Origin</strong></td>
+                    <td>1) If USA banned Chinese seafood, Indian exporter needs certificate that product is from India (not China). 2) If India signed FTA with Sri Lanka (0% import tax), Srilankan seller needs certificate that product is made in Sri Lanka (not China)</td>
+                </tr>
+                <tr>
+                    <td><strong>End-user Certificate (EUC)</strong></td>
+                    <td>If USA sells fighter jets to Pak Airforce, PAF certifies to USA that they are final recipient, not planning to sell/transfer to another party (e.g. Hamas/Taliban). Required to restrict flow to undesired nations/orgs</td>
+                </tr>
+                <tr>
+                    <td><strong>Shipping/Courier Related Docs</strong></td>
+                    <td>Carting order, cart ticket, mate's receipt, bill of lading, airway bill</td>
+                </tr>
+                <tr>
+                    <td><strong>Demurrages</strong></td>
+                    <td>Mundra Port owner (Adani) demands penalty fees from importer/exporter/shipping company IF they cause delays in loading/unloading cargo</td>
+                </tr>
+            </table>
+
+            <h3>📝 Documents Related to Loans</h3>
+            <table>
+                <tr>
+                    <th>Document</th>
+                    <th>Meaning/Example</th>
+                </tr>
+                <tr>
+                    <td><strong>Export Credit Guarantee/Export Credit Insurance</strong><br>(NIRVIC Scheme)</td>
+                    <td>ECGC's letter to SBI: "Please approve loan to Indian Exporter. If he doesn't repay, we'll cover _% losses"</td>
+                </tr>
+                <tr>
+                    <td><strong>Letter of Credit/Letter of Undertaking</strong><br>(for importer)</td>
+                    <td>PNB (Mumbai Branch)'s letter to HSBC (HongKong): "Please give foreign currency loan to our client (Indian importer) Nirav Modi for import of diamonds. If he doesn't pay, we (PNB) will pay"</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- 2. Balance of Trade -->
+        <div class="card">
+            <h2>2. Balance of Trade (BoT: व्यापार संतुलन)</h2>
+
+            <h3>📊 Definition</h3>
+            <p>Balance of Trade is the difference between value of import and export.</p>
+            <ul>
+                <li><strong>NCERT Definition:</strong> Of Goods only</li>
+                <li><strong>IMF BPM-6 Definition:</strong> Of Goods and Services</li>
+                <li><strong>Trade Deficit:</strong> Imports > Exports</li>
+                <li><strong>Trade Surplus:</strong> Exports > Imports</li>
+            </ul>
+
+            <h3>📈 Balance of Trade (2018-19 Data in Billion $)</h3>
+            <table>
+                <tr>
+                    <th>Component</th>
+                    <th>Amount (Bn $)</th>
+                </tr>
+                <tr>
+                    <td>Export Goods</td>
+                    <td>+330</td>
+                </tr>
+                <tr>
+                    <td>Import Goods</td>
+                    <td>-510</td>
+                </tr>
+                <tr>
+                    <td>Export Services</td>
+                    <td>+208</td>
+                </tr>
+                <tr>
+                    <td>Import Services</td>
+                    <td>-126</td>
+                </tr>
+                <tr>
+                    <td><strong>Balance of Trade (ONLY Goods)</strong></td>
+                    <td>+330 - 510 = <strong>-180</strong> 😰 TRADE DEFICIT in GOODS</td>
+                </tr>
+                <tr>
+                    <td><strong>Balance of Trade (ONLY Services)</strong></td>
+                    <td>+208 - 126 = <strong>+82</strong> 🤩 TRADE SURPLUS in Services</td>
+                </tr>
+                <tr>
+                    <td><strong>Balance of Trade (Goods & Services Combined)</strong></td>
+                    <td>+330 + 208 - 510 - 126 = <strong>-98</strong> 😰 TRADE DEFICIT</td>
+                </tr>
+            </table>
+
+            <h3>⛽️ Terms of Trade</h3>
+            <table>
+                <tr>
+                    <th>Type</th>
+                    <th>Formula</th>
+                    <th>Meaning</th>
+                </tr>
+                <tr>
+                    <td><strong>Net Terms of Trade (NTT)</strong><br>or Commodity Terms of Trade</td>
+                    <td>Value of Export / Value of Import × 100<br>(For India: < 100 usually)</td>
+                    <td>($ or value) wise we are importing more and exporting less</td>
+                </tr>
+                <tr>
+                    <td><strong>Gross (Barter) Terms of Trade (GTT)</strong></td>
+                    <td>Quantity Vol of Import / Quantity Vol of Export × 100<br>(For India: < 100 usually)</td>
+                    <td>In physical quantity (kg, litres) we are exporting more than importing. Possible because exported Indian rice's quantity (kg) could be large even though its value ($) will not be very large</td>
+                </tr>
+                <tr>
+                    <td><strong>Income Terms of Trade (ITT)</strong></td>
+                    <td>(Value of Export / Value of Import) × (Quantum Index of Exports QIE)<br>= (Net Terms of Trade) × (QIE)</td>
+                    <td>For India and other developing countries, ITT is much relevant indicator for analysing foreign trade compared to previous 2 indicators</td>
+                </tr>
+            </table>
+
+            <h3>⛽️ Top Import and Exports of Goods for India</h3>
+            <table>
+                <tr>
+                    <th>Category</th>
+                    <th>Notable Items (as per ES23)</th>
+                </tr>
+                <tr>
+                    <td><strong>NOTABLE EXPORTS</strong></td>
+                    <td>
+                        <strong>Goods:</strong> Petroleum products (Naphtha, Bitumen, Lubricants, Wax, etc.), Gems & Jewellery, Organic & Inorganic chemicals, Drugs & Pharmaceuticals<br>
+                        <strong>Services:</strong> Telecommunications, computer and information services, transport, travel, financial services
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>NOTABLE IMPORTS</strong></td>
+                    <td>
+                        <strong>Goods:</strong> Crude oil, Electronic goods, Coal, Machinery, Gold, Chemicals<br>
+                        <strong>Services:</strong> Business services, transport, travel, fees paid for using intellectual property (e.g. drug patents)
+                    </td>
+                </tr>
+            </table>
+            <p><strong>ES24 Observation:</strong> India's major exports (2023-24): Consumer goods (e.g. Fridge) > Intermediate Goods (e.g. Fridge ka Compressor) > Capital Goods (machinery) > Raw Material</p>
+
+            <h3>📤 India's TOP Agriculture Exports</h3>
+            <ol>
+                <li>Marine Products</li>
+                <li>NON-Basmati Rice</li>
+                <li>Spices</li>
+                <li>Sugar</li>
+                <li>Buffalo Meat</li>
+                <li>Basmati Rice</li>
+                <li>Cotton</li>
+                <li>Wheat</li>
+                <li>Castor Oil</li>
+                <li>Misc. Processed Food</li>
+            </ol>
+
+            <h3>🛒 India's Trade Partners (as per ES23)</h3>
+            <table>
+                <tr>
+                    <th>Top Destination of Indian Exports</th>
+                    <th>Top Sources of Indian Import</th>
+                </tr>
+                <tr>
+                    <td>
+                        <ol>
+                            <li>USA</li>
+                            <li>UAE</li>
+                            <li>Netherlands</li>
+                            <li>Other notable: Bangladesh, Hong Kong, Singapore, Britain, Belgium, Germany</li>
+                        </ol>
+                    </td>
+                    <td>
+                        <ol>
+                            <li>China</li>
+                            <li>UAE (Gold, Crude Oil)</li>
+                            <li>USA</li>
+                            <li>Other notable: Saudi, Iraq, Switzerland, Hong Kong (Diamonds), Indonesia (Palm Oil), Singapore, S.Korea</li>
+                        </ol>
+                    </td>
+                </tr>
+            </table>
+
+            <h3>📊 Trade Surplus/Deficit with Notable Countries</h3>
+            <table>
+                <tr>
+                    <th>Trade Deficit<br>(India imports more, exports less)</th>
+                    <th>Trade Surplus<br>(India imports less, exports more)</th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li><strong>China:</strong> Over $50 billion (cheap electronics, toys etc.)</li>
+                            <li><strong>Middle Eastern nations:</strong> Oil import (esp Iraq, Saudi, Qatar)</li>
+                            <li><strong>Switzerland:</strong> Gold, Luxury items</li>
+                            <li><strong>S. Korea:</strong> Mobile, TV, electronics</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><strong>USA:</strong> Chemicals, textile, services etc.</li>
+                            <li><strong>Britain, Netherlands, Turkey:</strong> Tea, Spices, textile etc.</li>
+                            <li><strong>Bangladesh, Nepal:</strong> Food, medicine, vehicles etc.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+            <p><strong>India's Top 5 Trading Partners:</strong> USA, China, UAE, Saudi Arabia, Hong Kong</p>
+
+            <h3>👨‍💻 Service Sector Exports - Global Capacity Centres (GCC)</h3>
+            <ul>
+                <li><strong>Also called:</strong> Captive centres, Global In-house Centres (GIC)</li>
+                <li><strong>Services:</strong> Operation, product development, innovation in banking and financial services, software, telecom, semiconductors, aerospace, automotive, oil and gas, healthcare and pharma</li>
+                <li><strong>1985:</strong> Texas Instruments was first to setup GCC in Bengaluru</li>
+                <li><strong>2023:</strong> 150+ MNCs running 1600+ GCC in India, employing 32 lakh people (primarily engineers and scientists)</li>
+            </ul>
+
+            <h3>💌 Reports/Indices Related to Export & Remittance</h3>
+            <table>
+                <tr>
+                    <th>Report/Index</th>
+                    <th>Organization</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td><strong>Export Preparedness Index</strong></td>
+                    <td>NITI Aayog</td>
+                    <td>Ranks Indian states based on State govt policies, infrastructure, transport connectivity, ease of doing business. Most Coastal States are best performers</td>
+                </tr>
+                <tr>
+                    <td><strong>Global Survey on Digital and Sustainable Trade Facilitation</strong></td>
+                    <td>UNESCAP</td>
+                    <td>% score based on Govt's efforts for Transparency, ↓ Formalities, Institutional Cooperation, Cross-Border Paperless Trade</td>
+                </tr>
+                <tr>
+                    <td><strong>Goods Trade Barometer Index</strong></td>
+                    <td>WTO</td>
+                    <td>Signals changes in world goods trade growth. If Index > 100: 😍. But < 100 = 😥. Value is 96.1% (as of 2022-Dec)</td>
+                </tr>
+                <tr>
+                    <td><strong>World Bank's Remittance Report</strong></td>
+                    <td>World Bank</td>
+                    <td>Since 2008: largest remittance received by 1) India 2) China 3) Mexico. 2023: (1) India (2) Mexico (3) China. ES24: remittance is 2nd largest contributor to current account income, after services export</td>
+                </tr>
+            </table>
+
+            <h3>💌 Remittance: Key Destinations</h3>
+            <table>
+                <tr>
+                    <th>BEFORE</th>
+                    <th>NOWADAYS</th>
+                </tr>
+                <tr>
+                    <td><strong>Destination:</strong> Gulf nations<br><strong>Job types:</strong> Low-skilled, informal</td>
+                    <td><strong>Destination:</strong> USA, UK, East Asia, Singapore, Japan, Australia, NZ<br><strong>Job types:</strong> High-skilled jobs in high-income countries</td>
+                </tr>
+            </table>
+
+            <h3>💌 Positive Relationship: Oil Prices & Remittance (ES24)</h3>
+            <ul>
+                <li>India's primary source of remittances is oil-exporting countries</li>
+                <li>Crude oil prices ↑ → more profit for Oil companies in Middle East → more demand for Indian workers → more remittance to India</li>
+            </ul>
+
+            <h3>💌 Pravasi Bharatiya Diwas (PBD)</h3>
+            <ul>
+                <li><strong>1915:</strong> 9th January - Gandhi-ji returned from S.Africa to Bombay (India)</li>
+                <li><strong>2003:</strong> NDA-I (PM Vajpayee) decides to celebrate PBD annually every 9th January. First summit @New Delhi</li>
+                <li><strong>2015:</strong> NDA-II (PM Modi) converts PBD into "biennial" event (grand festival every second year)</li>
+                <li><strong>2023:</strong> @Indore, MP. Theme: "Diaspora: Reliable partners for India's progress in Amrit Kaal"</li>
+                <li><strong>Organized by:</strong> Ministry of External Affairs</li>
+            </ul>
+        </div>
+
+        <!-- 3. FDI & FPI -->
+        <div class="card">
+            <h2>3. Foreign Investment (FDI & FPI)</h2>
+
+            <h3>🗃 Foreign Direct Investment (FDI: प्रत्यक्ष विदेशी निवेश)</h3>
+            <p><strong>Definition:</strong> Investment of more than 10% equity/share made by foreign entity into Indian company, with objective to get involved in management/production of that Indian company.</p>
+            <p><strong>Example:</strong> 2018: Walmart-USA bought 77% stakes in Flipkart @$16 billion</p>
+
+            <h3>🗃 FDI: Inward vs Outward Direct Investment (ODI)</h3>
+            <ul>
+                <li><strong>Inward FDI:</strong> Foreign companies investing in India</li>
+                <li><strong>Outward Direct Investment (ODI):</strong> Indian companies investing abroad</li>
+            </ul>
+
+            <h3>📊 Gross vs NET FDI Inflow</h3>
+            <ul>
+                <li><strong>Gross FDI Inflow:</strong> Total FDI incoming to India</li>
+                <li><strong>Net FDI Inflows:</strong> Gross FDI Inflows - MINUS (Repatriation/Disinvestment)</li>
+                <li><strong>Repatriation/Disinvestment:</strong> When non-resident exits from Indian company (e.g. Jack Ma sold 28% ownership of Bigbasket to Tata)</li>
+                <li><strong>ES24:</strong> NET FDI inflow declined because foreigners repatriation → due to (1) they want to exit with profit (2) USA Fed Tapering</li>
+            </ul>
+
+            <h3>📡 Physical FDI vs Digital FDI Trend (ES24)</h3>
+            <table>
+                <tr>
+                    <th>Type</th>
+                    <th>Examples</th>
+                </tr>
+                <tr>
+                    <td><strong>Physical FDI</strong></td>
+                    <td>Automobiles, Pharma, Construction etc.</td>
+                </tr>
+                <tr>
+                    <td><strong>Digital FDI</strong></td>
+                    <td>Computer Services, telecom, Broadcasting, Consultancy etc.</td>
+                </tr>
+            </table>
+
+            <h3>🗃 FDI in India: Source Nation & Sector-wise (ES23)</h3>
+            <table>
+                <tr>
+                    <th>Category</th>
+                    <th>Top Names</th>
+                </tr>
+                <tr>
+                    <td><strong>Sector-wise</strong></td>
+                    <td>1. Computer Software & Hardware<br>2. Services Sector<br>3. Trading</td>
+                </tr>
+                <tr>
+                    <td><strong>Nation-wise</strong></td>
+                    <td>1. Singapore<br>2. Mauritius<br>3. UAE<br>4. USA</td>
+                </tr>
+            </table>
+
+            <h3>🗃 Foreign Investment: 100% Automatic Permitted</h3>
+            <ul>
+                <li>Agriculture, Animal Husbandry, Plantation Sector, Food Processing companies</li>
+                <li>Asset Reconstruction Companies (ARC), Credit Information Companies, Core Investment Company, White Label ATM Operation, Other Financial Services</li>
+                <li>Pharma & Biotechnology (Greenfield), Healthcare (Greenfield), Medical Devices</li>
+                <li>Broadcast of non-NEWS TV Channels, Printing of scientific and technical magazines; Wholesale Trading, Single Brand Retail, E-Commerce (market-place)</li>
+                <li>IT and Business process management (BPM); Township Construction, Housing, Infrastructure; Gems & Jewellery, Duty Free Shops, Tourism & Hospitality</li>
+                <li>Leather, Textiles & Garments, Manufacturing, Capital Goods, Industrial Parks</li>
+                <li>Mining and Exploration of metal and non-metal</li>
+                <li>Petroleum & Natural Gas, Chemicals, Coal & Lignite, Thermal & Renewable Energy</li>
+                <li>Civil Aviation (**Selected services), Airports (Greenfield & Brownfield)</li>
+                <li>Ports and Shipping, Railway Infrastructure, Roads & Highways</li>
+                <li>Direct to Home (DTH) TV/Cable services (e.g. Tatasky, DishTV)</li>
+                <li>2019: Insurance intermediaries (agents, brokers, surveyors, 3rd party admin etc)</li>
+                <li>2019: Coal mining, coal sale & associated activities; Contract manufacturing</li>
+                <li>2021: Public Sector Oil Gas Refineries (e.g. BPCL) - to facilitate disinvestment/privatization</li>
+                <li>2022: State owned/public sector Life insurance corporation (LIC): 20% FDI allowed</li>
+            </ul>
+
+            <h3>🗃 Foreign Investment: Limits in Other Sectors</h3>
+            <table>
+                <tr>
+                    <th>Sector</th>
+                    <th>Automatic Upto?</th>
+                    <th>With Govt Approval?</th>
+                </tr>
+                <tr>
+                    <td>Banking - Public Sector</td>
+                    <td>N/A</td>
+                    <td>20%</td>
+                </tr>
+                <tr>
+                    <td>State owned/public sector Life insurance (LIC)</td>
+                    <td>20%</td>
+                    <td>Not Required</td>
+                </tr>
+                <tr>
+                    <td>Printing/Publishing newspaper, current affairs magazines; News/Current Affairs through Digital Media</td>
+                    <td>N/A</td>
+                    <td>26%</td>
+                </tr>
+                <tr>
+                    <td>Broadcasting of News TV-channels, FM-Radio</td>
+                    <td>N/A</td>
+                    <td>49%</td>
+                </tr>
+                <tr>
+                    <td>Multi Brand Retail Trading</td>
+                    <td>N/A</td>
+                    <td>51%</td>
+                </tr>
+                <tr>
+                    <td>REITs/InvITs Infrastructure Companies</td>
+                    <td>N/A</td>
+                    <td>49%</td>
+                </tr>
+                <tr>
+                    <td>Banking (Private Sector)</td>
+                    <td>Upto 49%</td>
+                    <td>>49 upto 74%</td>
+                </tr>
+                <tr>
+                    <td>Telecom Services, Private Security Agencies, Air Transport Services</td>
+                    <td>Upto 49%</td>
+                    <td>ABOVE 49%</td>
+                </tr>
+                <tr>
+                    <td>Insurance Company (Budget-2021 ↑ from 49% to 74%)<br>[Pension sector % = Insurance sector so 74%]</td>
+                    <td>Upto 74%</td>
+                    <td>Not Required</td>
+                </tr>
+                <tr>
+                    <td>Defense (2020-Sept: ↑ from 49% to 74%)</td>
+                    <td>Upto 74%</td>
+                    <td>ABOVE 74%</td>
+                </tr>
+                <tr>
+                    <td>Brownfield projects in Pharma, Biotech, Healthcare</td>
+                    <td>Upto 74%</td>
+                    <td>ABOVE 74%</td>
+                </tr>
+            </table>
+
+            <h3>🚀 FDI in Space Sector (2024-Feb Reforms)</h3>
+            <p><strong>Previously:</strong> Space/Satellite FDI permitted ONLY after Govt approval. <strong>Now:</strong> Liberalized</p>
+            <table>
+                <tr>
+                    <th>Space Sector</th>
+                    <th>Automatic Upto?</th>
+                    <th>With Govt Approval?</th>
+                </tr>
+                <tr>
+                    <td>Space-ports, launch vehicles</td>
+                    <td>Upto 49%</td>
+                    <td>Beyond 49%</td>
+                </tr>
+                <tr>
+                    <td>Satellites-Manufacturing & Operation, Satellite Data Products and Ground Segment & User Segment</td>
+                    <td>Upto 74%</td>
+                    <td>Beyond 74%</td>
+                </tr>
+                <tr>
+                    <td>Manufacturing components/systems for satellites, ground segment and user segment</td>
+                    <td>Upto 100%</td>
+                    <td>No need</td>
+                </tr>
+            </table>
+
+            <h3>🖱 India's FDI Rules for E-Commerce</h3>
+            <p><strong>Definition:</strong> E-commerce means buying and selling of goods and services over digital & electronic network.</p>
+            <table>
+                <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                    <th>FDI Allowed?</th>
+                </tr>
+                <tr>
+                    <td><strong>Inventory-based Model</strong><br>(इन्वेंटरी आधारित)</td>
+                    <td>Company sells inventory of goods/services owned by them to consumers directly. E.g. primeabgb.com</td>
+                    <td>FDI NOT permitted</td>
+                </tr>
+                <tr>
+                    <td><strong>Marketplace-based Model</strong><br>(बाजार आधारित)</td>
+                    <td>Company provides webportal/app to act as facilitator between buyer and sellers. E.g. Amazon, Flipkart</td>
+                    <td>100% FDI allowed</td>
+                </tr>
+            </table>
+
+            <h3>🗃 Foreign Investment: Prohibited Sectors</h3>
+            <ul>
+                <li>Atomic energy</li>
+                <li>Railway operations (except Metro & infra dev.)</li>
+                <li>Tobacco Products</li>
+                <li>Real Estate Business, Farm Houses</li>
+                <li>Chit Funds, Nidhi Companies</li>
+                <li>Betting, Gambling, Casino & Lottery</li>
+            </ul>
+
+            <h3>🗃 Chinese FDI Need Govt Approval (2020-April)</h3>
+            <p><strong>Before:</strong> FDI from Pakistan and Bangladesh required approval</p>
+            <p><strong>From 2020-April:</strong> FDI from any country that shares border with India → Indian Govt approval required</p>
+            <p><strong>Countries:</strong> Pakistan, Afghanistan, China, Nepal, Bhutan, Bangladesh, Myanmar</p>
+            <p><strong>Reason:</strong> Corona-led slowdown = Indian companies suffering losses. China may misuse opportunity to takeover Indian companies @very low share price → harm strategic & economic interests</p>
+            <p><strong>Criticism:</strong> China says this violates WTO norms. Australia and Germany also announced similar restrictions on China</p>
+
+            <h3>🗃 Foreign Portfolio Investors (FPI: विदेशी पोर्टफोलियो निवेशक)</h3>
+            <ul>
+                <li><strong>Definition:</strong> Foreign entity registered @SEBI, buys upto 10% in equity/shares of Indian Company (For Corporate Bonds and G-Sec, % are different)</li>
+                <li><strong>Previously called:</strong> Foreign Institutional Investor (FII) and Qualified Foreign Investors (QFIs)</li>
+                <li><strong>2013:</strong> SEBI merged them all into single category - FPI (based on K.M. Chandrasekhar committee recommendations)</li>
+                <li><strong>Primary Objective:</strong> Make money from buying and selling shares through capital market/share market</li>
+                <li><strong>Participatory Notes (P-Notes):</strong> FPI helps SEBI-non-registered foreign investors by issuing P-Notes</li>
+                <li><strong>Not Involved:</strong> Actual operations/production/management/business policy making (unlike Walmart for Flipkart)</li>
+                <li><strong>Hot Money:</strong> If FPI investor hopeful to get better returns in other countries' share/bond market, he may quickly sell Indian securities and run away. Flight of such money called 'hot money' (चलायमान मुद्रा) → weakens Indian Rupee and falls Sensex</li>
+            </ul>
+
+            <h3>🔥 Hot Money Effect by FPIs</h3>
+            <table>
+                <tr>
+                    <th>Type</th>
+                    <th>2018-19 (Bn USD)</th>
+                    <th>NET Inflow</th>
+                </tr>
+                <tr>
+                    <td>FPI</td>
+                    <td>(+) Inflow: +256.9<br>(-) Outflow: -257.5</td>
+                    <td>-0.6 (=outflow)</td>
+                </tr>
+                <tr>
+                    <td>FDI</td>
+                    <td>(+) Inflow: +64<br>(-) Outflow: -34</td>
+                    <td>+30</td>
+                </tr>
+            </table>
+            <p><strong>Analysis:</strong> Large amount of money comes via FPI but because it is speculative and volatile (HOT MONEY), it doesn't stay long in Indian market. In "NET" terms, it's lower than FDI. 2018-19: net 'outflow' of FPIs shows Hot Money effect.</p>
+
+            <h3>📊 FDI vs FPI Comparison</h3>
+            <table>
+                <tr>
+                    <th>Aspect</th>
+                    <th>FDI</th>
+                    <th>FPI</th>
+                </tr>
+                <tr>
+                    <td><strong>Equity/Share</strong></td>
+                    <td>More than 10%</td>
+                    <td>Upto 10%</td>
+                </tr>
+                <tr>
+                    <td><strong>Control</strong></td>
+                    <td>Management control (involved in operations/production)</td>
+                    <td>No control (not involved in operations)</td>
+                </tr>
+                <tr>
+                    <td><strong>Stability</strong></td>
+                    <td>Long-term, stable</td>
+                    <td>Short-term, volatile (Hot Money)</td>
+                </tr>
+                <tr>
+                    <td><strong>Entry/Exit</strong></td>
+                    <td>Difficult</td>
+                    <td>Easy (can exit quickly)</td>
+                </tr>
+                <tr>
+                    <td><strong>Objective</strong></td>
+                    <td>Get involved in management/production</td>
+                    <td>Make money from buying/selling shares</td>
+                </tr>
+                <tr>
+                    <td><strong>Impact on Economy</strong></td>
+                    <td>Positive (brings technology, management skills, jobs)</td>
+                    <td>Can cause volatility (hot money effect)</td>
+                </tr>
+            </table>
+
+            <h3>🤲 Golden Visa (स्वर्ण वीजा)</h3>
+            <ul>
+                <li><strong>Definition:</strong> Special type of visa for investor/property-buyer/celebrity/sportsman/scientist/very bright student</li>
+                <li><strong>Prevalent in:</strong> Spain, UAE (Sanjay Dutt-2021) etc.</li>
+                <li><strong>Benefit:</strong> Helps nation attract investors and talented persons</li>
+            </ul>
+
+            <h3>📊 UNCTAD's World Investment Report</h3>
+            <ul>
+                <li><strong>Organization:</strong> United Nations Conference on Trade and Development (UNCTAD, HQ: Geneva Switzerland, 1964)</li>
+                <li><strong>Report:</strong> World Investment Report</li>
+                <li><strong>2020:</strong> Global FDI flows ↓ by 40% because of Corona</li>
+                <li><strong>2019-20:</strong> India was 9th largest recipient of FDI in the world</li>
+            </ul>
+        </div>
+
+        <!-- 4. Currency Exchange Rate -->
+        <div class="card">
+            <h2>4. Currency Exchange Rate (मुद्रा विनिमय दर)</h2>
+
+            <h3>💱 Exchange Rate Systems</h3>
+            <table>
+                <tr>
+                    <th>System</th>
+                    <th>Description</th>
+                    <th>Example</th>
+                </tr>
+                <tr>
+                    <td><strong>Fixed Exchange Rate</strong></td>
+                    <td>Pegged to another currency (rare now)</td>
+                    <td>Historical: Gold Standard, Bretton Woods</td>
+                </tr>
+                <tr>
+                    <td><strong>Floating Exchange Rate</strong></td>
+                    <td>Market determined (supply and demand)</td>
+                    <td>USA, most developed countries</td>
+                </tr>
+                <tr>
+                    <td><strong>Managed Floating</strong></td>
+                    <td>RBI intervenes to stabilize (India's system)</td>
+                    <td>India, many developing countries</td>
+                </tr>
+            </table>
+
+            <h3>📊 NEER & REER</h3>
+            <table>
+                <tr>
+                    <th>Type</th>
+                    <th>Full Form</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td><strong>NEER</strong></td>
+                    <td>Nominal Effective Exchange Rate</td>
+                    <td>Weighted average of bilateral exchange rates of Indian rupee with basket of currencies of major trading partners</td>
+                </tr>
+                <tr>
+                    <td><strong>REER</strong></td>
+                    <td>Real Effective Exchange Rate</td>
+                    <td>NEER adjusted for inflation differences between India and trading partners. REER = NEER × (Domestic Price Index / Foreign Price Index)</td>
+                </tr>
+            </table>
+            <ul>
+                <li><strong>REER > 100:</strong> Currency overvalued (exports expensive, imports cheap) - not good for exports</li>
+                <li><strong>REER < 100:</strong> Currency undervalued (exports cheap, imports expensive) - good for exports</li>
+                <li><strong>REER = 100:</strong> Currency at equilibrium</li>
+            </ul>
+
+            <h3>🐯 RBI's Role in Exchange Rate Management</h3>
+            <ul>
+                <li><strong>Intervention:</strong> Buy/sell foreign currency to stabilize exchange rate</li>
+                <li><strong>Sterilization:</strong> Offset impact of intervention on money supply (e.g. if RBI buys $, it sells bonds to absorb excess liquidity)</li>
+                <li><strong>Forex Reserves:</strong> Maintain adequate reserves for stability (currently ~$600+ billion)</li>
+                <li><strong>Policy Tools:</strong> Interest rates, capital controls, forward market intervention</li>
+            </ul>
+
+            <h3>💰 Foreign Exchange Reserves</h3>
+            <ul>
+                <li><strong>Components:</strong> Foreign Currency Assets (FCA), Gold, SDR (Special Drawing Rights), Reserve Tranche Position in IMF</li>
+                <li><strong>Purpose:</strong> Meet balance of payments needs, stabilize exchange rate, maintain confidence, provide buffer against external shocks</li>
+                <li><strong>Adequacy:</strong> Should cover 6-9 months of imports</li>
+            </ul>
+
+            <h3>📊 Factors Affecting Exchange Rate</h3>
+            <table>
+                <tr>
+                    <th>Factor</th>
+                    <th>Impact on Exchange Rate</th>
+                </tr>
+                <tr>
+                    <td><strong>Interest Rates</strong></td>
+                    <td>Higher interest rates → attracts foreign capital → demand for ₹ ↑ → ₹ appreciates</td>
+                </tr>
+                <tr>
+                    <td><strong>Inflation</strong></td>
+                    <td>Higher inflation → exports expensive → demand for ₹ ↓ → ₹ depreciates</td>
+                </tr>
+                <tr>
+                    <td><strong>Current Account Deficit</strong></td>
+                    <td>Higher CAD → more demand for $ → ₹ depreciates</td>
+                </tr>
+                <tr>
+                    <td><strong>Foreign Investment (FDI/FPI)</strong></td>
+                    <td>Higher FDI/FPI → demand for ₹ ↑ → ₹ appreciates</td>
+                </tr>
+                <tr>
+                    <td><strong>Political Stability</strong></td>
+                    <td>Political instability → capital flight → ₹ depreciates</td>
+                </tr>
+                <tr>
+                    <td><strong>Global Factors</strong></td>
+                    <td>US Fed policy, oil prices, global risk sentiment affect exchange rate</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- 5. Oil & Gold Imports -->
+        <div class="card">
+            <h2>5. Major Imports: Oil & Gold</h2>
+
+            <h3>⛽️ Import of Oil</h3>
+            <p><strong>Target:</strong> Govt's target to ↓ oil import by 10% by 2022 (compared to 2015). Boosting domestic oil exploration & production necessary.</p>
+
+            <h3>⛽️ Domestic Oil Exploration Policies</h3>
+            <ul>
+                <li><strong>Nodal:</strong> Directorate General of Hydrocarbons (DGH) - Ministry of Petroleum & Natural Gas</li>
+                <li><strong>Before 1991:</strong> Only ONGC and other Public sector companies allowed to explore oil, gas, hydrocarbon reserves</li>
+                <li><strong>1991 LPG Reforms:</strong> Sector opened for private sector players</li>
+                <li><strong>1997:</strong> New Exploration Licensing Policy (NELP) - award contract using bidding/auction system</li>
+            </ul>
+
+            <h3>⛽️ HELP Policy (2016)</h3>
+            <p><strong>Full Form:</strong> Hydrocarbon Exploration and Licensing Policy. Replaced NELP in 2016.</p>
+            <ul>
+                <li><strong>Single Uniform License:</strong> Sufficient to explore and produce all types of hydrocarbons (oil, gas, coal bed methane, shale gas, tight gas, gas hydrates)</li>
+                <li><strong>Revenue Sharing:</strong> Govt receives share from gross revenue from sale of oil/gas, irrespective of company's profit</li>
+                <li><strong>Marketing & Pricing:</strong> Govt not to interfere in marketing and pricing of oil and gas</li>
+                <li><strong>Offshore Areas:</strong> Relaxed norms for exploration (higher risk and cost)</li>
+                <li><strong>Open Acreage Licensing Policy (OLAP):</strong> Company can pick and choose blocks from designated area, even if no specific bids invited by Govt</li>
+            </ul>
+
+            <h3>⛽️ India's Strategic Oil Reserves</h3>
+            <ul>
+                <li><strong>Objective:</strong> When crude prices are low, India should buy and store crude oil for strategic-cum-buffer stock → use during war & other emergency</li>
+                <li><strong>Places:</strong> Visakhapatnam (Andhra), Chandikhol (Odisha), Padur & Mangalore (Karnataka)</li>
+                <li><strong>Storage:</strong> Underground rock cavern facilities (more secure/safe during airstrikes, more economical and environmental friendly than Above Ground Storage Tanks)</li>
+                <li><strong>Capacity:</strong> Over 5 million tonne storage capacity</li>
+                <li><strong>2024-Feb:</strong> Govt decided to rent/lease out 1 million tonne storage capacity to (deshi & foreign) private sector companies. India retains first right of use in emergency</li>
+            </ul>
+
+            <h3>⛽️ Crude Oil Prices & OPEC</h3>
+            <ul>
+                <li><strong>OPEC:</strong> Organization of the Petroleum Exporting Countries (1961). Group of oil producing countries: Saudi, UAE, Venezuela, Iran, Iraq etc. Total 14 members. HQ: Vienna, Austria</li>
+                <li><strong>Qatar:</strong> Withdrew from 1/1/19</li>
+                <li><strong>Russia:</strong> NOT a member (but part of OPEC+ for production cuts)</li>
+            </ul>
+
+            <h3>⛽️ Factors Affecting Crude Oil Prices</h3>
+            <table>
+                <tr>
+                    <th>Price Movement</th>
+                    <th>Supply Side Factors</th>
+                    <th>Demand Side Factors</th>
+                </tr>
+                <tr>
+                    <td><strong>Price ↑</strong></td>
+                    <td>
+                        <ul>
+                            <li>OPEC + Russia agreed to reduce oil production</li>
+                            <li>2019: Houthi rebels drone-attacked oil field of Saudi Arabia → production down</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Economic growth ↑ in USA, China, EU → ↑ demand for petroleum</li>
+                            <li>Post-Corona unlockdown → travel ↑ → Oil demand ↑</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Price ↓</strong></td>
+                    <td>
+                        <ul>
+                            <li>OPEC+Russia can't agree for production cuts</li>
+                            <li>Saudi Arabia ↑ supply to reduce global prices</li>
+                            <li>USA pressurizes Nigeria, Iraq etc to produce more oil</li>
+                            <li>USA increases domestic oil and Shale Gas production</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Economic slowdown → demand for petroleum ↓</li>
+                            <li>Corona: Travel Ban</li>
+                            <li>Chinese imposing more taxes on imported cars → ↓ car sales → ↓ oil demand</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+
+            <h3>⛽️ Crude Oil: Russia-Ukraine War (2022)</h3>
+            <ul>
+                <li><strong>2022-Feb:</strong> Oil prices skyrocketed due to Russia-Ukraine war</li>
+                <li><strong>2022-March:</strong> OPEC producers UAE and Iraq ↑ oil production → oil prices fell by 17%</li>
+                <li><strong>India's State-owned OMCs:</strong> Procure crude oil from Russia at discount (Russia wants money urgently due to conflict)</li>
+            </ul>
+
+            <h3>⛽️ Crude Oil: Theory/GK</h3>
+            <table>
+                <tr>
+                    <th>Term</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td><strong>Cartel</strong></td>
+                    <td>Association of manufacturers who collude to keep prices high, keep competitors away</td>
+                </tr>
+                <tr>
+                    <td><strong>Sweet Crude Oil</strong></td>
+                    <td>Low Sulphur content. Sour crude = High Sulphur content</td>
+                </tr>
+                <tr>
+                    <td><strong>BRENT Index</strong></td>
+                    <td>Index to measure crude oil price, mainly in North West Europe</td>
+                </tr>
+                <tr>
+                    <td><strong>1 Barrel</strong></td>
+                    <td>Contains approx. 159 liters of oil</td>
+                </tr>
+                <tr>
+                    <td><strong>West Texas Intermediate (WTI)</strong></td>
+                    <td>USA's crude oil prices monitored through WTI contracts</td>
+                </tr>
+            </table>
+
+            <h3>⛽️ Fall of Crude Oil Prices in Negative Figure (2020)</h3>
+            <ul>
+                <li><strong>2020-April:</strong> Oil demand ↓ due to Corona lockdown on vehicle/aviation traffic</li>
+                <li><strong>Problem:</strong> American oil drilling companies can't stop production (more expensive to restart after shutting)</li>
+                <li><strong>Result:</strong> Sellers were (temporarily) paying $$ to buyer to take stock of oil barrels. Hence negative minus $40 per barrel price</li>
+                <li><strong>India:</strong> Did not benefit much, since mostly imported from middle-east and not USA</li>
+            </ul>
+
+            <h3>⛽️ Price Cap Russian Oil (2022)</h3>
+            <ul>
+                <li><strong>2022:</strong> G7 group (Canada, France, Germany, Italy, Japan, UK, USA) agreed to cap price of Russian oil to reduce Russia's ability to finance war on Ukraine</li>
+                <li><strong>India:</strong> Rejected this proposal</li>
+                <li><strong>2023:</strong> India managed to save only $2 per barrel even after Russia's 'deep discounts', due to cost of transportation and cargo-insurance</li>
+            </ul>
+
+            <h3>🎖 Import of Gold</h3>
+            <p><strong>Problem:</strong> From 2010 onwards, Indian economy suffering from high inflation (8-12%)</p>
+            <ul>
+                <li>Households earned 'Negative Real Interest Rate' on bank deposits → started investing in gold</li>
+                <li>↑ gold consumption → ↑ trade deficit, current account deficit → Indian rupee gets weaker</li>
+                <li>Gold transactions help in storage of black money and tax evasion</li>
+                <li>India is second largest consumer of Gold after China</li>
+            </ul>
+
+            <h3>🎖 RBI's 80:20 Scheme (2013-14)</h3>
+            <ul>
+                <li><strong>Mandate:</strong> Minimum 20% of imported gold must be exported back</li>
+                <li><strong>Until then:</strong> Jeweller/bullion dealers will not get permission to convert rupees into dollars/foreign currency to import next consignment</li>
+                <li><strong>Power:</strong> RBI gets this power under Foreign Exchange Management Act (FEMA)</li>
+                <li><strong>2014:</strong> Scheme stopped as gold craze had declined</li>
+            </ul>
+
+            <h3>🎖 Gold Monetization Scheme (2015)</h3>
+            <ul>
+                <li><strong>Purpose:</strong> RBI allows commercial banks accept customers' idle gold/jewellery for 1 year to 15 years tenure</li>
+                <li><strong>2019:</strong> RBI also allowed Charitable Institutions and Central Govt to deposit their gold</li>
+                <li><strong>Interest:</strong> Commercial Banks pay depositor ~2% interest</li>
+                <li><strong>Amount:</strong> Min 30gm to maximum any amount</li>
+                <li><strong>Flow:</strong> Gold → Metals and Minerals Trading Corporation of India → sold to jewellers, electronic circuits companies, some used for Minting "Indian Gold Coin"</li>
+                <li><strong>Maturity:</strong> Redeem deposit in form of gold coin/bars or cash equivalent. Profit exempted from Capital Gains Tax</li>
+            </ul>
+
+            <h3>🎖 Indian (Sovereign) Gold Coins (2015)</h3>
+            <ul>
+                <li><strong>Issued by:</strong> Metals and Minerals Trading Corporation of India (Govt company)</li>
+                <li><strong>Denominations:</strong> 5, 10, 20 grams</li>
+                <li><strong>Not Fiat Money:</strong> Not issued under Coinage Act, don't bear rupee denominations. Markings only indicate gold grams. Not 'legal tenders'</li>
+                <li><strong>Benefits:</strong> Trusted Purity, Easily resold, Easy liquidity, Profit (if) gold price ↑</li>
+            </ul>
+
+            <h3>🏅 Gold Import: Customs Duty (2022)</h3>
+            <ul>
+                <li><strong>2022:</strong> Customs duty on gold hiked from 7.5% → 12.5% to discourage imports</li>
+                <li><strong>Note:</strong> Higher taxes may encourage smuggling, but govt increases surveillance to prevent it</li>
+            </ul>
+
+            <h3>🏅 Gold Related GK Data</h3>
+            <table>
+                <tr>
+                    <th>Domain</th>
+                    <th>Leading Names</th>
+                </tr>
+                <tr>
+                    <td><strong>Mines</strong></td>
+                    <td>Nevada Gold Mines (USA), Muruntau (Uzbekistan), Grasberg (Indonesia), Olimpiada (Russia), Pueblo Viejo (Dominican Republic)</td>
+                </tr>
+                <tr>
+                    <td><strong>Producers</strong></td>
+                    <td>China, Australia, Russia, Canada, United States</td>
+                </tr>
+                <tr>
+                    <td><strong>Exporters</strong></td>
+                    <td>Switzerland, United Kingdom, USA, South Africa, Australia</td>
+                </tr>
+                <tr>
+                    <td><strong>Gold as in Central Bank Reserve</strong></td>
+                    <td>USA, Germany, Italy, France, Russia</td>
+                </tr>
+            </table>
+
+            <h3>💎 Lab Grown Diamonds (LGD)</h3>
+            <table>
+                <tr>
+                    <th>Type</th>
+                    <th>Natural (प्राकृतिक)</th>
+                    <th>Lab Grown (प्रयोगशाला में बने)</th>
+                </tr>
+                <tr>
+                    <td><strong>Formation</strong></td>
+                    <td>Formed in Earth's mantle with high temperature and pressure</td>
+                    <td>Grown in laboratory using advanced technology</td>
+                </tr>
+                <tr>
+                    <td><strong>Production Time</strong></td>
+                    <td>Billions of years</td>
+                    <td>Weeks</td>
+                </tr>
+                <tr>
+                    <td><strong>Cost</strong></td>
+                    <td>Very Expensive</td>
+                    <td>Less expensive than Natural</td>
+                </tr>
+                <tr>
+                    <td><strong>Ethics and Environment</strong></td>
+                    <td>Deforestation, child labour in African mines</td>
+                    <td>More ethical and sustainable</td>
+                </tr>
+            </table>
+            <p><strong>Budget-2023:</strong> (1) Promote LGD, its seeds, machinery via tax cuts and subsidies. (2) Give grant to IIT for LGD research and development</p>
+
+            <h3>☕️ GI Tag (Geographical Indication)</h3>
+            <ul>
+                <li><strong>Definition:</strong> Sign used on products with specific geographical origin and unique qualities due to that origin</li>
+                <li><strong>Example:</strong> Darjeeling tea from W.Bengal - first to obtain GI tag from India</li>
+                <li><strong>Benefit:</strong> GI tag adds premium-ness, helps fetching higher prices in international market → better income for farmers and artisans</li>
+                <li><strong>Governed by:</strong> WTO's TRIPS Agreement and India's Geographical Indication of Goods Act, 1999</li>
+                <li><strong>Validity:</strong> 10 years (can be renewed)</li>
+                <li><strong>International Nodal:</strong> UN's specialized agency - World Intellectual Property Organization (WIPO), HQ @Geneva, Switzerland</li>
+                <li><strong>Indian Nodal:</strong> Commerce ministry → Controller General of Patents, Designs and Trademarks → Geographical Indications Registry in Chennai</li>
+            </ul>
+
+            <h3>🏬 Unity Malls (Budget-2023)</h3>
+            <ul>
+                <li><strong>Purpose:</strong> Union to give loans to States to set up Unity Mall in state capital/best tourist city/financial capital</li>
+                <li><strong>Products:</strong> Sell State's ODOPs (one district, one product), GI products, handicraft products. Even other states' products will be sold</li>
+            </ul>
+        </div>
+
+        <!-- 6. SEZ & Foreign Trade Policy -->
+        <div class="card">
+            <h2>6. SEZ & Foreign Trade Policy</h2>
+
+            <h3>🚫 Special Economic Zones (SEZ: विशेष आर्थिक क्षेत्र)</h3>
+            <p><strong>Definition:</strong> Specifically demarcated area of India deemed as foreign territory for purpose of Tax laws and Trade laws. Exempted from taxes (or) subjected to lower rate of taxes for specific time-period (Tax holiday).</p>
+
+            <h3>🚫 SEZ: Tax Benefits</h3>
+            <table>
+                <tr>
+                    <th>Tax</th>
+                    <th>Ordinary Area</th>
+                    <th>SEZ Area</th>
+                </tr>
+                <tr>
+                    <td>Manufacturing pe → Excise/GST</td>
+                    <td>Applicable</td>
+                    <td>N/A (not applicable)</td>
+                </tr>
+                <tr>
+                    <td>Import/Exports pe → Customs Duty</td>
+                    <td>Applicable</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>Profit pe → Corporation Tax/Income Tax</td>
+                    <td>Applicable</td>
+                    <td>N/A** (Tax holiday for specific period)</td>
+                </tr>
+            </table>
+            <p><strong>SEZ Sunset Clause:</strong> Income Tax Act (Section 10AA) provides tax-holiday for SEZ firms for period of "X" years only. Corona = Economists suggest deadline should be extended</p>
+
+            <h3>🤑 SEZ: Benefits</h3>
+            <ul>
+                <li>Single window clearance for various import/export licenses/permissions</li>
+                <li>Government bears cost of developing roads, sewage, affluent treatment, weighing-packaging-labelling etc infrastructure within SEZ</li>
+                <li>Regulated under SEZ policy (2000) and Special Economic Zone Act, 2005</li>
+                <li><strong>1965:</strong> Asia's first SEZ set up in Kandla, Gujarat (At that time called Export Processing Zone/EPZ)</li>
+                <li><strong>Currently:</strong> 220+ SEZ in India</li>
+                <li><strong>Benefits:</strong> More exports, employment, economic growth</li>
+            </ul>
+
+            <h3>😰 SEZ: Challenges</h3>
+            <ul>
+                <li>SEZ entrepreneurs use legal loopholes → Tax avoidance</li>
+                <li>Workers deprived of EPFO/ESIC/Maternity benefit</li>
+                <li>When entrepreneurs' Tax holiday over in one SEZ, they shutdown and move to another SEZ with new name/registration</li>
+                <li>Agricultural and forest lands diverted to build SEZs → future challenges in food security, pollution control and climate change</li>
+            </ul>
+            <p><strong>Solution:</strong> 2018: Commerce Ministry setup Baba Kalyani committee to look into SEZ issues</p>
+
+            <h3>🚫 SEZ → DESH Hubs</h3>
+            <p><strong>Budget-2022:</strong> Development Enterprise and Services Hub (DESH) Bill, 2022 to replace existing SEZ law of 2005</p>
+            <ul>
+                <li><strong>Focus:</strong> ↑ manufacturing & services for both domestic market and export market</li>
+                <li>Single window clearance (pollution, fire-safety etc.)</li>
+                <li>Easy norms for voluntary liquidation/exit</li>
+                <li>Promote research & development, infra facilities, Input tax credit for indirect taxes</li>
+            </ul>
+
+            <h3>📞 Foreign Trade Policy (FTP)</h3>
+            <p><strong>Nodal:</strong> Director General of Foreign Trade (DGFT) under Ministry of Commerce</p>
+            <table>
+                <tr>
+                    <th>Year</th>
+                    <th>Policy</th>
+                </tr>
+                <tr>
+                    <td><strong>2018</strong></td>
+                    <td>Agri export policy</td>
+                </tr>
+                <tr>
+                    <td><strong>2015-20</strong></td>
+                    <td>Foreign Trade Policy. Aimed to double exports from ~$465 billion (2013-14) to $900 billion by 2020. 2022: India crossed $400-billion exports in goods</td>
+                </tr>
+                <tr>
+                    <td><strong>2023</strong></td>
+                    <td>New Foreign Trade Policy (given below)</td>
+                </tr>
+            </table>
+
+            <h3>📞 4 Pillars of FTP-2023</h3>
+            <ol>
+                <li><strong>Incentive to Remission</strong> (e.g. RODTEP, EPCG, Advance Authorisation etc)</li>
+                <li><strong>Ease of doing business</strong>, reduction in transaction cost and e-initiatives</li>
+                <li><strong>Emerging Areas</strong> – E-Commerce, Developing Districts as Export Hubs, streamlining SCOMET policy</li>
+                <li><strong>Export promotion through collaboration</strong> - Exporters, States, Districts, Indian Embassies abroad</li>
+            </ol>
+
+            <h3>📞 FTP-2023 Pillar#1: Incentive to Remission (टैक्स माफ़ी)</h3>
+            <table>
+                <tr>
+                    <th>Remission Scheme</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td><strong>RODTEP</strong></td>
+                    <td>Remission of Duties and Taxes on Exported Products (RODTEP) to provide refunds to exporters for various taxes paid on inputs (Customs Duty, Transport fuel Excise/VAT, Agriculture raw material Mandi tax, Stamp duty, Electricity duty)</td>
+                </tr>
+                <tr>
+                    <td><strong>EPCG / Duty free import of capital goods</strong></td>
+                    <td>Export Promotion capital Goods Scheme: 0% Customs duty import of capital goods (machinery) for export production. Such machines also exempted from iGST and GST compensation cess. FTP2023: Extra benefits to Textile factories in PM MITRA Parks, Dairy, Green Hydrogen, Battery Electric Vehicles (BEV), Vertical Farming equipment, Wastewater Treatment, Rainwater harvesting system</td>
+                </tr>
+                <tr>
+                    <td><strong>Advance Authorisation Scheme (AAS)</strong></td>
+                    <td>0% customs on import of raw materials for manufacturing export items (oil, catalyst, etc.). DGFT has designed Standard Input-Output Norms (SION) list</td>
+                </tr>
+            </table>
+
+            <h3>📞 FTP-2023 Pillar#2: Ease of Doing Biz (व्यापार में सुगमता)</h3>
+            <ul>
+                <li><strong>One-time Amnesty Scheme:</strong> On Default on Export Obligations</li>
+                <li><strong>Trust & Partnership:</strong> Policy based on principles of 'trust' and 'partnership' with exporters</li>
+                <li><strong>Feedback:</strong> Take feedback from Industry to update FTP from time to time</li>
+                <li><strong>Process Re-Engineering:</strong> Automation, paperless, online environment, Reduction in fee structures, eliminating need for manual interface</li>
+            </ul>
+
+            <h3>📞 FTP-2023 Pillar#3: Emerging Areas (उभरते क्षेत्र)</h3>
+            <ul>
+                <li><strong>SCOMET & Dual Use Export:</strong> Special Chemicals, Organisms, Materials, Equipment and Technologies. Dual-use High end goods (e.g. night vision/thermal scanner, drones etc.)</li>
+                <li><strong>E-Commerce Exports:</strong> Integration of Courier and Postal exporters with ICEGATE portal. Outreach and training for rural artisans, weavers, garment manufacturers, gems-jewellery designers</li>
+                <li><strong>E-Governance:</strong> SWIFT (Single Window Interface for Facilitating Trade), India Trade webportal, Niryat Mitra App</li>
+                <li><strong>Merchanting Trade @Gift City:</strong> Company buys goods from one country and sells to buyer in another country without bringing goods into own country (middleman in international trade)</li>
+            </ul>
+
+            <h3>📞 FTP-2023 Pillar#4: Collaboration of Stakeholders (हितधारकों का सहयोग)</h3>
+            <table>
+                <tr>
+                    <th>Stakeholder</th>
+                    <th>How to use for export promotion?</th>
+                </tr>
+                <tr>
+                    <td><strong>District</strong><br>(ODOP: One District One Product)</td>
+                    <td>Select, brand, and promote products/services from each district for exports. District Export Promotion Committees (DEPCs) setup in 739 districts focusing on agriculture, GI-products, Toys, handicrafts</td>
+                </tr>
+                <tr>
+                    <td><strong>Town</strong><br>(TEE: Towns of Export Excellence)</td>
+                    <td>Four new towns: Faridabad, Mirzapur, Moradabad, Varanasi (in addition to existing 39 towns). Govt gives funding for export infrastructure (warehouses, transportation, packaging facilities)</td>
+                </tr>
+                <tr>
+                    <td><strong>Indian Mission/Embassy Abroad</strong></td>
+                    <td>Funding under Market Access Initiative (MAI) to do research/survey of Country specific customer likes/dislikes/product preferences</td>
+                </tr>
+                <tr>
+                    <td><strong>Exporters</strong><br>(Mentoring)</td>
+                    <td>Star rating/Status based on export performance. 2Star/higher exporters give training/mentoring to new/fresh exporters. Niryat Bandhu Scheme (2013): Govt mentors new and potential exporters through training, counselling, orientation programmes with help of IIFT & other orgs</td>
+                </tr>
+            </table>
+
+            <h3>🚢 Export Improvement - Misc. Schemes</h3>
+            <table>
+                <tr>
+                    <th>Scheme</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td><strong>Interest Equalisation Scheme for Exporters (2015)</strong></td>
+                    <td>5% for MSME manufacturing exporters, 3% For other (non-MSME) exporters. Started from 2015. Valid upto 2024-Sept, on bank loans taken in Rupee currency</td>
+                </tr>
+                <tr>
+                    <td><strong>MEIS/SEIS</strong></td>
+                    <td>Merchandise Exports from India Scheme (MEIS) and Services Exports from India Scheme (SEIS). Provide tax credit to exporters for paying Union's Customs Duty. AFTER RODTEP notified fully, MEIS scheme will be STOPPED</td>
+                </tr>
+                <tr>
+                    <td><strong>RoDTEP</strong></td>
+                    <td>Remission of Duties and Taxes on Exported Products. WTO allowed (unlike MEIS). Will replace MEIS scheme</td>
+                </tr>
+                <tr>
+                    <td><strong>Authorised Economic Operator (AEO)</strong></td>
+                    <td>Importer/exporter/cargo company can apply to CBIC to get this 'status'. Benefits: Faster clearance times, fewer physical examinations. Guided by World Customs Organization (WCO)'s "SAFE Framework"</td>
+                </tr>
+                <tr>
+                    <td><strong>Krishi Udan Scheme v 2.0 (2020)</strong></td>
+                    <td>Civil Aviation Ministry. Help farmers transport/export perishable food products. Version 2.0 focuses on hilly areas, North-Eastern states, tribal areas</td>
+                </tr>
+                <tr>
+                    <td><strong>Production Linked Incentive Scheme (PLI)</strong></td>
+                    <td>"Assemble in India" - Promote manufacturing</td>
+                </tr>
+            </table>
+
+            <h3>⚓️ Export Problems: Canals in Negative News</h3>
+            <table>
+                <tr>
+                    <th>Canal</th>
+                    <th>Problem</th>
+                    <th>Impact</th>
+                </tr>
+                <tr>
+                    <td><strong>Suez Canal</strong><br>(1869, Egypt)</td>
+                    <td>2023-Dec: Yemen-based Houthi rebels started attacking ships in Red Sea to protest Israel's military offensive in Gaza</td>
+                    <td>Indian ships may have to travel via Africa to reach Europe (instead of Red Sea/Suez Canal Route). Increases travel-time and shipping-cost, esp. agriculture/Basmati-rice</td>
+                </tr>
+                <tr>
+                    <td><strong>Panama Canal</strong><br>(1914)</td>
+                    <td>2023: Shipping via Panama Canal dropped by over 50% due to drought conditions/shortage of water</td>
+                    <td>Ships may have to travel via South America</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- 7. External Debt & IFSC -->
+        <div class="card">
+            <h2>7. External Debt & IFSC</h2>
+
+            <h3>🤲 External Debt: Composition (ES23)</h3>
+            <table>
+                <tr>
+                    <th>Type of External Debt</th>
+                    <th>Amount (Billions USD)</th>
+                    <th>% of Total</th>
+                </tr>
+                <tr>
+                    <td><strong>Public/Govt Sovereign External Debt</strong></td>
+                    <td>$124.5</td>
+                    <td>20.4%</td>
+                </tr>
+                <tr>
+                    <td><strong>Private sector Non-Sovereign External Debt</strong><br>(External Commercial Borrowing)</td>
+                    <td>$486.0</td>
+                    <td>79.6%</td>
+                </tr>
+            </table>
+
+            <h3>🤲 External Debt: Currency-wise (ES23)</h3>
+            <p><strong>Majority of India's external debt is in:</strong> US Dollar > Indian Rupee > IMF's SDR > (Yen, Euro, Pound Sterling, etc.)</p>
+
+            <h3>🤲 External Debt: Concepts</h3>
+            <table>
+                <tr>
+                    <th>Concept</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td><strong>NIIP</strong><br>(Net International Investment Position)</td>
+                    <td>Difference between a country's external financial assets and liabilities</td>
+                </tr>
+                <tr>
+                    <td><strong>Asset Liability Ratio</strong></td>
+                    <td>Ratio of external assets to external liabilities</td>
+                </tr>
+                <tr>
+                    <td><strong>External Debt Overhang Problem</strong></td>
+                    <td>When external debt becomes unsustainable burden on economy</td>
+                </tr>
+            </table>
+
+            <h3>🤲 BoP Capital Account: Misc. Concepts</h3>
+            <table>
+                <tr>
+                    <th>Term</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td><strong>VOSTRO</strong></td>
+                    <td>Account that Indian bank holds in foreign bank (in foreign currency)</td>
+                </tr>
+                <tr>
+                    <td><strong>NOSTRO</strong></td>
+                    <td>Account that foreign bank holds in Indian bank (in Indian rupee)</td>
+                </tr>
+                <tr>
+                    <td><strong>FCNR</strong><br>(Foreign Currency Non-Resident)</td>
+                    <td>Foreign currency deposit account for Non-Resident Indians</td>
+                </tr>
+                <tr>
+                    <td><strong>NRE</strong><br>(Non-Resident External)</td>
+                    <td>Rupee deposit account for Non-Resident Indians (repatriable)</td>
+                </tr>
+                <tr>
+                    <td><strong>NRO</strong><br>(Non-Resident Ordinary)</td>
+                    <td>Rupee deposit account for Non-Resident Indians (non-repatriable)</td>
+                </tr>
+            </table>
+
+            <h3>🐯 International Financial Services Centre (IFSC) / GIFT City</h3>
+            <p><strong>Definition:</strong> Place having high concentration of financial institutions (Banks, Stock Markets, Insurance firms, Fund Managers, FinTech firms, etc.)</p>
+            <p><strong>Features:</strong> Nation will not apply its local taxation and investment norms in IFSCs. E.g. UAE → Dubai's IFSC: 100% FDI allowed, 100% Capital Account Convertibility, 0% income tax for 50 years, DTAA with most countries, Independent judiciary, Quick Visa</p>
+            <p><strong>Result:</strong> Hub/base of operation for international financial companies and investment bankers. Creates trickle down benefits for local people</p>
+            <p><strong>Examples:</strong> London, New York, Hong Kong, Singapore</p>
+
+            <h3>🐯 GIFT City (Gujarat International Finance Tec City)</h3>
+            <ul>
+                <li><strong>2015:</strong> Set up near Ahmedabad, Gujarat</li>
+                <li><strong>Developed by:</strong> 50:50 Joint venture of IL&FS + Gujarat Urban Development Company Limited (GUDCL). Post IL&FS crisis, Govt of Gujarat bought IL&FS's 50% shareholding</li>
+                <li><strong>Budget-2019:</strong> Companies operating from GIFT-city-IFSC given 100% exemption from Corporation Tax for 10 years</li>
+                <li><strong>2024:</strong> While Gujarat has liquor prohibition, it is lifted in GIFT city</li>
+            </ul>
+
+            <h3>🐯 IFSC Authority Act, 2019</h3>
+            <ul>
+                <li><strong>Setup:</strong> IFSC (such as GIFT city) setup under SEZ Act</li>
+                <li><strong>Relief:</strong> IFSC get relief/exemption in Indian tax laws. RBI, SEBI, IRDAI norms apply in relaxed manner (e.g. Bank branches exempted from CRR-SLR-PSL norms)</li>
+                <li><strong>2019 Act:</strong> Setup statutory International Financial Services Centres Authority (IFSCA)</li>
+                <li><strong>Composition:</strong> One Chairperson + One member each from RBI, SEBI, IRDAI, PFRDA + few other members from Finance ministry</li>
+                <li><strong>Tenure:</strong> 3 years. Re-appointment possible</li>
+                <li><strong>Function:</strong> Regulate all financial services, products, institutions in IFSCs of India</li>
+                <li><strong>2020-April:</strong> HQ at Gandhinagar, Gujarat (controversy: Maharashtra political outfits demanding HQ should be in Mumbai)</li>
+            </ul>
+
+            <h3>👛 Budget-2023 on IFSCA Authority</h3>
+            <ul>
+                <li>Give more powers to IFSCA Authority (reducing problem of dual regulation between IFSCA vs other Authorities under SEZ Act)</li>
+                <li>Setup single window IT portal for Banks'/NBFCs' registration to IFSCA, SEZ authorities, GSTN, RBI, SEBI and IRDAI</li>
+            </ul>
+
+            <h3>🏫 Foreign University @ Gift City</h3>
+            <ul>
+                <li><strong>2023:</strong> Deakin University (Australia) became 1st foreign university to set up International Branch Campus (IBC) in GIFT City</li>
+                <li><strong>Regulation:</strong> Not regulated by UGC. Regulated by IFSC Authority</li>
+            </ul>
+
+            <h3>💾 Data Embassy @Gift City (Budget-2023)</h3>
+            <ul>
+                <li><strong>Definition:</strong> Place where country stores its important data in secure location in another country</li>
+                <li><strong>Benefit:</strong> Protect sensitive data from disasters or cyber-attacks (backup of important info in safe place outside home/office)</li>
+                <li><strong>Budget-2023:</strong> Encourage setting up Data Embassy @Gift city</li>
+            </ul>
+
+            <h3>🐯 Variable Capital Companies (VCC) @Gift City</h3>
+            <ul>
+                <li><strong>Definition:</strong> Special type of company dealing with several collective investment schemes (investing in shares/bonds/real estate/startups, Acting as FPI in other nations etc)</li>
+                <li><strong>Flexibility:</strong> Greater operational flexibility than traditional Mutual Fund, Hedge Funds, REITS, LLPs, Private limited companies</li>
+                <li><strong>Prevalent in:</strong> Singapore, UK, Luxembourg and other global financial centres</li>
+                <li><strong>2021:</strong> IFSCA constituted Committee under K.P. Krishnan to see feasibility. Krishnan Committee recommended allowing them in India</li>
+            </ul>
+        </div>
+
+        <!-- 8. International Organizations -->
+        <div class="card">
+            <h2>8. International Organizations</h2>
+
+            <h3>🌐 WTO (World Trade Organization)</h3>
+            <ul>
+                <li><strong>Established:</strong> 1995 (replaced GATT - General Agreement on Tariffs and Trade)</li>
+                <li><strong>HQ:</strong> Geneva, Switzerland</li>
+                <li><strong>Functions:</strong> Trade negotiations, dispute settlement, trade monitoring, technical assistance</li>
+                <li><strong>Principles:</strong> MFN (Most Favored Nation), National Treatment, Transparency, Non-discrimination</li>
+                <li><strong>Members:</strong> 164 members (as of 2024)</li>
+            </ul>
+
+            <h3>💼 IMF (International Monetary Fund)</h3>
+            <ul>
+                <li><strong>Established:</strong> 1944 (Bretton Woods Conference)</li>
+                <li><strong>HQ:</strong> Washington D.C., USA</li>
+                <li><strong>Functions:</strong> Financial assistance to countries in balance of payments crisis, policy advice, surveillance of global economy</li>
+                <li><strong>Special Drawing Rights (SDR):</strong> International reserve asset created by IMF. Basket of currencies: USD, EUR, CNY, JPY, GBP</li>
+                <li><strong>Quota System:</strong> Determines voting power and access to IMF resources</li>
+            </ul>
+
+            <h3>🏦 World Bank</h3>
+            <ul>
+                <li><strong>Group:</strong> IBRD (International Bank for Reconstruction and Development) + IDA (International Development Association)</li>
+                <li><strong>Established:</strong> 1944 (Bretton Woods)</li>
+                <li><strong>HQ:</strong> Washington D.C., USA</li>
+                <li><strong>Functions:</strong> Development loans, technical assistance, poverty reduction</li>
+                <li><strong>IBRD:</strong> Lends to middle-income countries</li>
+                <li><strong>IDA:</strong> Provides concessional loans and grants to poorest countries</li>
+            </ul>
+
+            <h3>🕵🏻 Ministry of Commerce and Industry</h3>
+            <p><strong>Functions:</strong> Internal and External Trade, WTO, Dumping, SEZ, FDI & Intellectual property rights (IPR) related issues</p>
+            <table>
+                <tr>
+                    <th>Department/Organization</th>
+                    <th>Function</th>
+                </tr>
+                <tr>
+                    <td><strong>Department of Commerce</strong></td>
+                    <td>Foreign trade promotion</td>
+                </tr>
+                <tr>
+                    <td><strong>DPIIT</strong><br>(Department for Promotion of Industry and Internal Trade)</td>
+                    <td>Promotion of internal trade, retail trade; welfare of traders; ease of doing business; startups</td>
+                </tr>
+                <tr>
+                    <td><strong>DGFT</strong><br>(Directorate General of Foreign Trade)</td>
+                    <td>Issues Importer Exporter Code (IEC), Implement WTO agreements, decides 'rules of origin', 'anti-dumping issues'. HQ: Delhi</td>
+                </tr>
+                <tr>
+                    <td><strong>DGTR</strong><br>(Directorate General of Trade Remedies)</td>
+                    <td>Impose anti-dumping duty on foreign products</td>
+                </tr>
+                <tr>
+                    <td><strong>EIC</strong><br>(Export Inspection Council)</td>
+                    <td>Statutory body under Export (Quality Control and Inspection) Act, 1963. Ensures quality and safety of products exported from India</td>
+                </tr>
+                <tr>
+                    <td><strong>ECGC</strong><br>(Export Credit Guarantee Corporation)</td>
+                    <td>NIRVIC scheme - Export credit guarantee/insurance</td>
+                </tr>
+                <tr>
+                    <td><strong>Invest India</strong></td>
+                    <td>National Investment Promotion and Facilitation Agency. 'Not for profit' company by commerce ministry + FICCI + NASSCOM</td>
+                </tr>
+            </table>
+
+            <h3>🕵🏻 FIPB Abolished (2017)</h3>
+            <ul>
+                <li><strong>FIPB:</strong> Foreign Investment Promotion Board - non-statutory body in Department of Economic Affairs, Finance Ministry</li>
+                <li><strong>Function:</strong> Process FDI applications where government approval required. If investment > ₹5,000 crore → forwarded to Cabinet Committee on Economic Affairs (CCEA)</li>
+                <li><strong>2017:</strong> Govt announced FIPB's abolition. Now, individual ministries/departments empowered to clear FDI proposals in consultation with Commerce Ministry</li>
+                <li><strong>Exception:</strong> Only Home Ministry clears FDI from Pakistan and Bangladesh; FDI related to private security agencies, small arms manufacturing</li>
+            </ul>
+        </div>
+
+        <!-- PYQ Snipers -->
+        <div class="pyq-box">
+            <h2>🎯 PYQ Sniper Shots</h2>
+
+            <div class="pyq-item">
+                <strong>Q: What is Balance of Payments?</strong><br>
+                A: Systematic record of all economic transactions between residents and non-residents of a country for specific time period (usually a year). Prepared as per IMF's BPM-6 manual. World's NET Balance of Payment is ZERO.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Difference between Current Account and Capital Account?</strong><br>
+                A: Current Account - Goods, services, primary income (wages, dividend, interest), secondary income (remittance, gift). Capital Account - FDI, FPI, loans (ECB), non-resident deposits, foreign exchange reserves.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is Current Account Deficit (CAD)?</strong><br>
+                A: When imports exceed exports. India's CAD averaged -2.2% of GDP (last 10 years). 2020-21: Surplus (+0.9% GDP) due to COVID-19 - first time after 17 years!
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Difference between Balance of Trade and Balance of Payments?</strong><br>
+                A: Balance of Trade (BoT) - difference between value of exports and imports (of goods, or goods & services). Balance of Payments (BoP) - includes BoT + income flows + capital flows + reserves.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is FDI?</strong><br>
+                A: Foreign Direct Investment - Investment of more than 10% equity with management control. More stable, long-term than FPI. Routes: Automatic (no approval) or Government (approval required).
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is FPI?</strong><br>
+                A: Foreign Portfolio Investment - Investment upto 10% equity without management control. Short-term, volatile (Hot Money). Can exit quickly causing currency volatility.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Difference between FDI and FPI?</strong><br>
+                A: FDI - >10% equity, management control, long-term, stable, difficult entry/exit. FPI - upto 10% equity, no control, short-term, volatile (Hot Money), easy entry/exit.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is REER?</strong><br>
+                A: Real Effective Exchange Rate - NEER adjusted for inflation differences. REER > 100 means currency overvalued (exports expensive). REER < 100 means currency undervalued (exports cheap).
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is NEER?</strong><br>
+                A: Nominal Effective Exchange Rate - Weighted average of bilateral exchange rates of Indian rupee with basket of currencies of major trading partners.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is WTO?</strong><br>
+                A: World Trade Organization - International body for trade negotiations and dispute settlement. Established 1995 (replaced GATT). HQ: Geneva, Switzerland. Principles: MFN, National Treatment, Transparency.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is SEZ?</strong><br>
+                A: Special Economic Zone - Specifically demarcated area deemed as foreign territory for tax/trade laws. Exempted from Excise/GST, Customs Duty, Corporation Tax/Income Tax (Tax holiday). 1965: Asia's first SEZ in Kandla, Gujarat.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is RoDTEP?</strong><br>
+                A: Remission of Duties and Taxes on Exported Products - provides refunds to exporters for various taxes paid on inputs (Customs, Transport fuel taxes, Mandi tax, Stamp duty, Electricity duty). WTO allowed (unlike MEIS).
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is OPEC?</strong><br>
+                A: Organization of the Petroleum Exporting Countries (1961). Group of 14 oil producing countries (Saudi, UAE, Venezuela, Iran, Iraq etc). HQ: Vienna, Austria. Qatar withdrew 2019. Russia NOT member (but part of OPEC+).
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is Gold Monetization Scheme?</strong><br>
+                A: RBI allows commercial banks accept customers' idle gold/jewellery for 1-15 years. Banks pay ~2% interest. Gold used for minting Indian Gold Coins or sold to jewellers. Profit exempted from Capital Gains Tax.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is GI Tag?</strong><br>
+                A: Geographical Indication - Sign used on products with specific geographical origin and unique qualities. Darjeeling tea was first GI tag from India. Valid for 10 years (renewable). Governed by WTO's TRIPS and India's GI Act, 1999.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is IFSC/GIFT City?</strong><br>
+                A: International Financial Services Centre - Place with high concentration of financial institutions. GIFT City near Ahmedabad (2015). Companies get 100% exemption from Corporation Tax for 10 years. Regulated by IFSC Authority (2019 Act).
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is External Debt?</strong><br>
+                A: Debt owed by country to foreign creditors. Composition: Public/Govt Sovereign (20.4%) + Private sector Non-Sovereign/ECB (79.6%). Majority in US Dollar. External Debt Overhang Problem when debt becomes unsustainable.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is Remittance?</strong><br>
+                A: Money sent by migrants to home country. Since 2008: India largest recipient. 2023: (1) India (2) Mexico (3) China. ES24: Remittance is 2nd largest contributor to current account income, after services export. Positive relationship with oil prices.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is Terms of Trade?</strong><br>
+                A: Net Terms of Trade (NTT) = Value of Export / Value of Import × 100. For India: < 100 usually (importing more value than exporting). Gross Terms of Trade (GTT) = Quantity of Import / Quantity of Export × 100. Income Terms of Trade (ITT) = NTT × Quantum Index of Exports.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is HELP Policy?</strong><br>
+                A: Hydrocarbon Exploration and Licensing Policy (2016) - replaced NELP. Single uniform license for all hydrocarbons. Revenue sharing (govt gets share from gross revenue, not profit). Open Acreage Licensing Policy (OLAP).
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; color: #64748b; font-size: 0.9em;">
+            Created by Antigravity • UPPCS Economics Pillar 3
+        </div>
+    </div>
+
+    <script src="../theme-toggle.js"></script>
+</body>
+
+</html>
+

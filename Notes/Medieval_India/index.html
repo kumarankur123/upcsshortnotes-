@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medieval India - UPPCS Notes</title>
+    <link rel="stylesheet" href="../dark-theme.css">
+    <style>
+        :root {
+            --primary-color: #4f46e5;
+            --bg-color: #f3f4f6;
+            --card-bg: #ffffff;
+            --text-color: #1f2937;
+            --border-color: #e5e7eb;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Helvetica, Arial, sans-serif;
+            background: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+        }
+
+        .theme-toggle {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: var(--card-bg);
+            border: 2px solid var(--border-color);
+            border-radius: 25px;
+            padding: 8px 16px;
+            cursor: pointer;
+            font-size: 1.2rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            text-decoration: none;
+            color: inherit;
+            border: 1px solid var(--border-color);
+            transition: transform .3s, box-shadow .3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            border-color: var(--primary-color);
+        }
+
+        .card-icon {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .card-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark Mode">🌓</button>
+            <h1>⚔️ Medieval India</h1>
+        </header>
+        <div class="grid">
+            <a href="00_Invasions_Tripartite.html" class="card">
+                <div class="card-icon">⚔️</div>
+                <div class="card-title">Invasions & Early Medieval</div>
+            </a>
+            <a href="09_Delhi_Sultanate_Vijayanagara.html" class="card">
+                <div class="card-icon">🕌</div>
+                <div class="card-title">Delhi Sultanate & Vijayanagara</div>
+            </a>
+            <a href="10_Provincial_Kingdoms.html" class="card">
+                <div class="card-icon">🏰</div>
+                <div class="card-title">Provincial Kingdoms</div>
+            </a>
+            <a href="11_Mughal_Empire.html" class="card">
+                <div class="card-icon">👑</div>
+                <div class="card-title">Mughal Empire</div>
+            </a>
+            <a href="12_Bhakti_Sufi_Movement.html" class="card">
+                <div class="card-icon">🕉️</div>
+                <div class="card-title">Bhakti & Sufi Movement</div>
+            </a>
+            <a href="13_Maratha_Shivaji.html" class="card">
+                <div class="card-icon">🚩</div>
+                <div class="card-title">Maratha & Shivaji</div>
+            </a>
+            <a href="14_Aurangzeb.html" class="card">
+                <div class="card-icon">⚔️</div>
+                <div class="card-title">Aurangzeb</div>
+            </a>
+            <a href="15_Sikh_History.html" class="card">
+                <div class="card-icon">☬</div>
+                <div class="card-title">Sikh History</div>
+            </a>
+        </div>
+    </div>
+    <script src="../theme-toggle.js"></script>
+</body>
+
+</html>

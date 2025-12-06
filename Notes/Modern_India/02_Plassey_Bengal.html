@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 2: Battle of Plassey & Bengal (1757-1765) - UPPCS Notes</title>
+    <link rel="stylesheet" href="../dark-theme.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        [data-theme="dark"] body {
+            background: linear-gradient(135deg, #7f1d1d 0%, #991b1b 100%);
+        }
+
+        header {
+            background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+            color: white;
+            padding: 50px 30px;
+            border-radius: 20px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 20px 60px rgba(220, 38, 38, 0.5);
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '⚔️';
+            position: absolute;
+            font-size: 15rem;
+            opacity: 0.1;
+            top: -30px;
+            right: -30px;
+            animation: rotate 10s linear infinite;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #dc2626;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(220, 38, 38, 0.2);
+        }
+
+        [data-theme="dark"] .card {
+            background: #1e293b;
+        }
+
+        h2 {
+            color: #dc2626;
+            border-bottom: 3px solid #fee2e2;
+            padding-bottom: 10px;
+            font-size: 1.8rem;
+        }
+
+        [data-theme="dark"] h2 {
+            color: #f87171;
+            border-bottom-color: #991b1b;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            border-left: 5px solid #f59e0b;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        [data-theme="dark"] .highlight-box {
+            background: linear-gradient(135deg, #78350f 0%, #92400e 100%);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        th,
+        td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #fee2e2;
+        }
+
+        th {
+            background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background: #fef2f2;
+        }
+
+        [data-theme="dark"] tr:hover {
+            background: #374151;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .tag-imp {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .tag-money {
+            background: #dcfce7;
+            color: #166534;
+        }
+
+        .pyq-box {
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 16px;
+            margin-top: 40px;
+        }
+
+        .pyq-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 10px;
+            border-left: 4px solid #dc2626;
+        }
+
+        .timeline-item {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 15px;
+            border-left: 3px solid #dc2626;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -8px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            background: #dc2626;
+            border-radius: 50%;
+            box-shadow: 0 0 0 3px white, 0 0 0 5px #dc2626;
+        }
+
+        [data-theme="dark"] .timeline-item::before {
+            box-shadow: 0 0 0 3px #1e293b, 0 0 0 5px #dc2626;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark Mode">🌓</button>
+            <h1>⚔️ Chapter 2: Battle of Plassey & Bengal</h1>
+            <div class="subtitle">From Siraj-ud-Daulah to British Control (1717-1765)</div>
+        </header>
+
+        <!-- Bengal as Regional Power -->
+        <div class="card">
+            <h2>🏛️ Bengal as Regional Power (1717-1770)</h2>
+
+            <h3>📜 Timeline of Rulers</h3>
+            <table>
+                <tr>
+                    <th>Nawab</th>
+                    <th>Period</th>
+                    <th>Key Points</th>
+                </tr>
+                <tr>
+                    <td><strong>Murshid Quli Khan</strong></td>
+                    <td>1717-1727</td>
+                    <td>Founder of Bengal's autonomy. Made Bengal wealthiest province</td>
+                </tr>
+                <tr>
+                    <td><strong>Shuja-ud-Din</strong></td>
+                    <td>1727-1739</td>
+                    <td>Son-in-law of Murshid Quli Khan</td>
+                </tr>
+                <tr>
+                    <td><strong>Sarfaraz Khan</strong></td>
+                    <td>1739-1740</td>
+                    <td>Son of Shuja-ud-Din. Overthrown by Alivardi Khan</td>
+                </tr>
+                <tr>
+                    <td><strong>Alivardi Khan</strong></td>
+                    <td>1740-1756</td>
+                    <td>Fought Marathas. Grandfather of Siraj</td>
+                </tr>
+                <tr>
+                    <td><strong>Siraj-ud-Daulah</strong></td>
+                    <td>1756-1757</td>
+                    <td>Last independent Nawab. Defeated at Plassey</td>
+                </tr>
+                <tr>
+                    <td><strong>Mir Jafar</strong></td>
+                    <td>1757-60, 1763-65</td>
+                    <td>British puppet. Traitor of Plassey</td>
+                </tr>
+                <tr>
+                    <td><strong>Mir Qasim</strong></td>
+                    <td>1760-1763</td>
+                    <td>Tried to resist British. Lost at Buxar</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Bengal's Economic Strength -->
+        <div class="card">
+            <h2>💰 Bengal's Economic Strength</h2>
+
+            <h3>🌾 Why Bengal Was Richest</h3>
+            <ul>
+                <li><strong>Murshid Quli Khan's Reforms:</strong> Revenue reforms ensured surplus income</li>
+                <li><strong>Political Stability:</strong> Stable governance unlike rest of India</li>
+                <li><strong>Agricultural Prosperity:</strong> Fertile land, good development policies</li>
+                <li><strong>Strategic Location:</strong> Control of trade routes</li>
+            </ul>
+
+            <h3>🏦 Power Structure</h3>
+            <ul>
+                <li><strong>15 Major Zamindars:</strong> Controlled 50%+ of Bengal's revenue by 1727</li>
+                <li><strong>Merchant Bankers:</strong> Unique financial power alongside zamindars</li>
+            </ul>
+
+            <div class="highlight-box">
+                <h3>💎 Jagat Seth - The Banker King <span class="tag tag-imp">Super PYQ</span></h3>
+                <p><strong>Most influential banker in Bengal - key player in Plassey conspiracy!</strong></p>
+
+                <h4>📊 Financial Power:</h4>
+                <ul>
+                    <li><strong>Annual Income:</strong> ₹14 lakh (one of richest men in world)</li>
+                    <li><strong>Darshani Hundi:</strong> Highest bill of exchange - ₹1 crore+ value <span
+                            class="tag tag-money">₹1 Cr</span></li>
+                    <li><strong>Control:</strong> Entire money circulation of Bengal</li>
+                    <li><strong>Clients:</strong> Provided affordable loans to Zamindars & Nawab</li>
+                </ul>
+
+                <h4>⚡ Political Influence:</h4>
+                <ul>
+                    <li><strong>Saying:</strong> "If Jagat Seth collapsed, entire Bengal trade would collapse"</li>
+                    <li><strong>Backed:</strong> Alivardi Khan's rise to power (1740)</li>
+                    <li><strong>Plassey Role:</strong> Conspired with British against Siraj-ud-Daulah</li>
+                    <li><strong>Why:</strong> Siraj refused to give British monopoly despite Jagat Seth's favor</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Alivardi Khan -->
+        <div class="card">
+            <h2>👴 Alivardi Khan (1740-1756)</h2>
+
+            <h3>📍 Rise to Power</h3>
+            <ul>
+                <li><strong>1740:</strong> Overthrew Sarfaraz Khan in coup</li>
+                <li><strong>Support:</strong> Jagat Seth backed him financially</li>
+            </ul>
+
+            <h3>⚔️ Maratha Problem</h3>
+            <ul>
+                <li><strong>Challenge:</strong> Constant Maratha raids on Bengal</li>
+                <li><strong>Target:</strong> Marathas even looted Jagat Seth's estates</li>
+                <li><strong>Treaty of 1751:</strong>
+                    <br>• Pay <strong>₹1.52 lakh annually</strong> as tribute to Marathas
+                    <br>• Hand over <strong>Odisha</strong> temporarily to Marathas
+                </li>
+            </ul>
+
+            <h3>💔 Succession Crisis (1756)</h3>
+            <ul>
+                <li><strong>Death:</strong> Alivardi Khan died in 1756</li>
+                <li><strong>Contenders:</strong>
+                    <br>• <strong>Siraj-ud-Daulah</strong> (grandson, chosen successor)
+                    <br>• <strong>Ghaseti Begum</strong> (daughter, opposed Siraj) <span class="tag tag-imp">PYQ</span>
+                </li>
+                <li><strong>Result:</strong> Bitter conflict, but Siraj emerged victorious</li>
+            </ul>
+        </div>
+
+        <!-- Siraj-ud-Daulah -->
+        <div class="card">
+            <h2>👑 Siraj-ud-Daulah (1756-1757)</h2>
+
+            <h3>🎯 Initial Challenges</h3>
+            <ul>
+                <li><strong>Internal Opposition:</strong> Ghaseti Begum's faction</li>
+                <li><strong>Economic Pressure:</strong> Powerful bankers (Jagat Seth) wanted British favors</li>
+                <li><strong>European Powers:</strong> British & French competing for monopoly</li>
+            </ul>
+
+            <h3>⚠️ The Monopoly Decision</h3>
+            <ul>
+                <li><strong>Issue:</strong> Should Siraj grant monopoly to British or French?</li>
+                <li><strong>Jagat Seth's Wish:</strong> Favored British</li>
+                <li><strong>Siraj's Decision:</strong> Refused exclusive rights to ANY European power <span
+                        class="tag tag-imp">PYQ</span></li>
+                <li><strong>British Reaction:</strong> Saw it as threat to their economic interests</li>
+                <li><strong>Result:</strong> This angered British, led to Plassey conspiracy</li>
+            </ul>
+
+            <h3>🔥 Rising Tensions with British</h3>
+
+            <div class="highlight-box">
+                <strong>British Violations (1756):</strong> <span class="tag tag-imp">Super PYQ</span>
+                <ol>
+                    <li><strong>Stopped Peshkash:</strong> Tribute payments stopped</li>
+                    <li><strong>Stopped Nazrana:</strong> Gift payments stopped</li>
+                    <li><strong>Krishna Das Shelter:</strong> Gave shelter to fugitive wanted by Nawab</li>
+                    <li><strong>Fort William Fortification:</strong> Installed cannons without permission</li>
+                </ol>
+            </div>
+
+            <ul>
+                <li><strong>Siraj's Order:</strong> Remove cannons from Fort William</li>
+                <li><strong>British Response:</strong> Refused to comply</li>
+                <li><strong>Result:</strong> Direct confrontation inevitable</li>
+            </ul>
+        </div>
+
+        <!-- Black Hole Tragedy -->
+        <div class="card">
+            <h2>⚫ Capture of Fort William & Black Hole of Calcutta</h2>
+
+            <h3>📅 20 June 1756</h3>
+            <ul>
+                <li><strong>Attack:</strong> Siraj attacked & captured Fort William in Calcutta</li>
+                <li><strong>British Prisoners:</strong> 146 British prisoners confined</li>
+                <li><strong>Confinement:</strong> Kept in small room overnight</li>
+                <li><strong>Deaths:</strong> Due to suffocation, only 23-26 survived</li>
+                <li><strong>Rest:</strong> Reportedly died <span class="tag tag-imp">PYQ</span></li>
+            </ul>
+
+            <div class="highlight-box">
+                <strong>⚠️ Historical Note:</strong> British historians exaggerated this incident to justify retaliation
+                and demonize Siraj-ud-Daulah. Modern historians question the exact numbers and circumstances.
+            </div>
+        </div>
+
+        <!-- British Retaliation -->
+        <div class="card">
+            <h2>🗡️ Robert Clive's Retaliation</h2>
+
+            <h3>🚢 British Response</h3>
+            <ul>
+                <li><strong>Help Sought:</strong> Fort William officers requested military help from Madras</li>
+                <li><strong>Robert Clive:</strong> Arrived with reinforcements</li>
+                <li><strong>Naval Support:</strong> Backed by British naval forces</li>
+            </ul>
+
+            <h3>📜 Treaty of Alinagar (February 1757)</h3>
+            <ul>
+                <li><strong>Context:</strong> Siraj saw growing British threat</li>
+                <li><strong>Terms:</strong>
+                    <br>• Restored British trading privileges
+                    <br>• Paid compensation for British losses
+                </li>
+                <li><strong>Reality:</strong> Siraj bought time, but conspiracy already underway</li>
+            </ul>
+        </div>
+
+        <!-- Battle of Plassey -->
+        <div class="card">
+            <h2>⚔️ Battle of Plassey (23 June 1757)</h2>
+
+            <h3>🕵️ The Conspiracy</h3>
+            <ul>
+                <li><strong>Robert Clive:</strong> Secretly conspired</li>
+                <li><strong>Co-Conspirators:</strong>
+                    <br>• <strong>Mir Jafar</strong> - Siraj's Commander-in-Chief <span class="tag tag-imp">Super
+                        PYQ</span>
+                    <br>• <strong>Jagat Seth</strong> - Influential banker
+                    <br>• Omi Chand, Rai Durlabh (other nobles)
+                </li>
+                <li><strong>Promise:</strong> Mir Jafar promised Nawabship after Siraj's defeat</li>
+            </ul>
+
+            <h3>⚔️ The Battle</h3>
+            <ul>
+                <li><strong>Date:</strong> 23 June 1757</li>
+                <li><strong>Location:</strong> Plassey (near Murshidabad)</li>
+                <li><strong>Duration:</strong> Short & one-sided</li>
+                <li><strong>Betrayal:</strong> Mir Jafar & his troops didn't fight</li>
+                <li><strong>Result:</strong> Siraj defeated & fled</li>
+                <li><strong>End:</strong> Siraj captured & executed <span class="tag tag-imp">Super PYQ</span></li>
+            </ul>
+
+            <div class="highlight-box">
+                <strong>🎯 Significance:</strong> Battle of Plassey (1757) marked beginning of British political
+                dominance in India. It was more a conspiracy than a battle!
+            </div>
+        </div>
+
+        <!-- Consequences of Plassey -->
+        <div class="card">
+            <h2>💸 Consequences of Battle of Plassey</h2>
+
+            <h3>1. British Economic Gains</h3>
+            <table>
+                <tr>
+                    <th>Payment</th>
+                    <th>Amount</th>
+                    <th>Purpose</th>
+                </tr>
+                <tr>
+                    <td>Immediate War Indemnity</td>
+                    <td>£275,000</td>
+                    <td>Compensation to British</td>
+                </tr>
+                <tr>
+                    <td>Mir Jafar Payments (1757-60)</td>
+                    <td><strong>Rs. 22.5 million</strong></td>
+                    <td>Various gifts & compensations <span class="tag tag-money">₹225 Lakh</span></td>
+                </tr>
+                <tr>
+                    <td>Zamindari Rights</td>
+                    <td>-</td>
+                    <td>Burdwan, Midnapore, Chittagong (24 Parganas)</td>
+                </tr>
+            </table>
+
+            <ul>
+                <li><strong>Military Use:</strong> British used this money to strengthen their army</li>
+            </ul>
+
+            <h3>2. Economic Shift in Bengal</h3>
+            <ul>
+                <li><strong>Before Plassey:</strong> Bengal trade financed by gold imports from Europe</li>
+                <li><strong>After Plassey:</strong> Bengal's wealth exported to Britain & China <span
+                        class="tag tag-imp">PYQ</span></li>
+                <li><strong>Result:</strong> Drain of wealth from Bengal began</li>
+            </ul>
+
+            <h3>3. Mir Jafar as Puppet Nawab (1757-1760)</h3>
+            <ul>
+                <li><strong>Reality:</strong> No real power, British controlled everything</li>
+                <li><strong>Resistance Attempt:</strong> Sought help from Dutch</li>
+                <li><strong>Dutch Intervention:</strong> British defeated Dutch at Battle of Bedara (1759)</li>
+                <li><strong>1760:</strong> British removed Mir Jafar, installed Mir Qasim as Nawab</li>
+            </ul>
+        </div>
+
+        <!-- Mir Qasim -->
+        <div class="card">
+            <h2>🔨 Mir Qasim (1760-1763)</h2>
+
+            <h3>💰 Price of Nawabship</h3>
+            <ul>
+                <li><strong>Zamindari Rights:</strong> Granted British rights over Burdwan, Midnapore, Chittagong</li>
+                <li><strong>Bribes:</strong> Paid <strong>Rs. 25 lakh</strong> to British officers to secure position
+                    <span class="tag tag-money">₹25L</span></li>
+            </ul>
+
+            <h3>🎯 Mir Qasim's Reforms</h3>
+            <ul>
+                <li><strong>Capital Shift:</strong> Moved capital from <strong>Murshidabad to Munger</strong> <span
+                        class="tag tag-imp">PYQ</span>
+                    <br>• Reason: Reduce British interference
+                </li>
+                <li><strong>Military Reforms:</strong> Modernized army with European officers</li>
+                <li><strong>Trade Reform:</strong> Abolished internal trade duties <span class="tag tag-imp">Super
+                        PYQ</span>
+                    <br>• Allowed Indian merchants to compete with British
+                    <br>• Challenged British monopoly
+                </li>
+                <li><strong>Revenue Reform:</strong> Improved tax collection system</li>
+            </ul>
+
+            <h3>⚔️ Conflict with British</h3>
+            <ul>
+                <li><strong>British Demand:</strong> Exclusive trade privileges</li>
+                <li><strong>Mir Qasim's Policy:</strong> Equal treatment for all merchants</li>
+                <li><strong>British Anger:</strong> Lost their economic advantages</li>
+                <li><strong>Result:</strong> War broke out</li>
+                <li><strong>Escape:</strong> Mir Qasim fled to Awadh</li>
+            </ul>
+
+            <h3>🤝 Triple Alliance</h3>
+            <ul>
+                <li><strong>Mir Qasim</strong> (ex-Nawab of Bengal)</li>
+                <li><strong>Shuja-ud-Daulah</strong> (Nawab of Awadh)</li>
+                <li><strong>Shah Alam II</strong> (Mughal Emperor)</li>
+            </ul>
+        </div>
+
+        <!-- Battle of Buxar -->
+        <div class="card">
+            <h2>⚔️ Battle of Buxar (22 October 1764)</h2>
+
+            <h3>📊 Forces</h3>
+            <table>
+                <tr>
+                    <th>Side</th>
+                    <th>Strength</th>
+                    <th>Leadership</th>
+                </tr>
+                <tr>
+                    <td><strong>Allied Forces</strong></td>
+                    <td>17,000 soldiers</td>
+                    <td>Mir Qasim, Shuja-ud-Daulah, Shah Alam II</td>
+                </tr>
+                <tr>
+                    <td><strong>British</strong></td>
+                    <td>Smaller but better trained</td>
+                    <td><strong>Major Hector Munro</strong> <span class="tag tag-imp">PYQ</span></td>
+                </tr>
+            </table>
+
+            <h3>⚔️ Battle Details</h3>
+            <ul>
+                <li><strong>Allied Army:</strong> 17,000 soldiers but poorly coordinated</li>
+                <li><strong>British Advantage:</strong> Superior tactics & technology</li>
+                <li><strong>British Commander:</strong> Major Hector Munro</li>
+                <li><strong>Result:</strong> Decisive British victory <span class="tag tag-imp">Super PYQ</span></li>
+            </ul>
+
+            <div class="highlight-box">
+                <strong>🎯 Significance:</strong> Battle of Buxar (1764) was MORE decisive than Plassey! It secured
+                complete British control over Bengal, Bihar & Odisha and made Mughal Emperor a British pensioner.
+            </div>
+        </div>
+
+        <!-- Treaty of Allahabad -->
+        <div class="card">
+            <h2>📜 Treaty of Allahabad (1765)</h2>
+
+            <h3>👑 Agreement with Shah Alam II</h3>
+            <ul>
+                <li><strong>Respect:</strong> Shah Alam II treated with respect & recognized as Mughal Emperor</li>
+                <li><strong>Pension:</strong> British granted <strong>Rs. 26 lakh per year</strong> pension <span
+                        class="tag tag-money">₹26L/year</span></li>
+                <li><strong>Territory:</strong> Allowed to retain Allahabad & Kora</li>
+                <li><strong>British Gain:</strong> <strong>Diwani of Bengal, Bihar, Odisha</strong> <span
+                        class="tag tag-imp">Super PYQ</span>
+                    <br>• Diwani = Tax collection rights
+                </li>
+            </ul>
+
+            <h3>🤝 Agreement with Shuja-ud-Daulah</h3>
+            <ul>
+                <li><strong>Restored:</strong> As Nawab of Awadh</li>
+                <li><strong>War Indemnity:</strong> Rs. 50 lakh to British</li>
+                <li><strong>Territory Lost:</strong> Allahabad & Kora given to Mughal Emperor</li>
+            </ul>
+
+            <h3>⚖️ Dual System of Administration (1765-1772)</h3>
+            <div class="highlight-box">
+                <strong>Two-Headed Monster:</strong> <span class="tag tag-imp">Super PYQ</span>
+                <ul>
+                    <li><strong>Diwani (Revenue):</strong> Controlled by British
+                        <br>• Collected taxes from Bengal, Bihar, Odisha
+                        <br>• Bengal wealth funded British expansion
+                    </li>
+                    <li><strong>Nizamat (Administration):</strong> Remained with Nawab
+                        <br>• Nawab: Responsible for law, order, justice
+                        <br>• Reality: Puppet with no real power
+                    </li>
+                    <li><strong>British Resident:</strong> Stationed in Murshidabad to control Nawab</li>
+                </ul>
+
+                <strong>💔 Result:</strong>
+                <ul>
+                    <li>✗ British collected revenue but took NO responsibility for administration</li>
+                    <li>✗ Nawab had administrative duties but NO money</li>
+                    <li>✗ People suffered - no one accountable</li>
+                    <li>✗ Led to Great Bengal Famine of 1770 (1/3 population died)</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Summary Timeline -->
+        <div class="card">
+            <h2>📅 Complete Timeline</h2>
+
+            <div class="timeline-item">
+                <strong>1717:</strong> Murshid Quli Khan declares Bengal's autonomy
+            </div>
+            <div class="timeline-item">
+                <strong>1740:</strong> Alivardi Khan becomes Nawab with Jagat Seth's support
+            </div>
+            <div class="timeline-item">
+                <strong>1751:</strong> Treaty with Marathas - ₹1.52 lakh annual tribute
+            </div>
+            <div class="timeline-item">
+                <strong>1756:</strong> Siraj-ud-Daulah becomes Nawab after defeating Ghaseti Begum
+            </div>
+            <div class="timeline-item">
+                <strong>20 June 1756:</strong> Black Hole of Calcutta tragedy
+            </div>
+            <div class="timeline-item">
+                <strong>Feb 1757:</strong> Treaty of Alinagar - British privileges restored
+            </div>
+            <div class="timeline-item">
+                <strong>23 June 1757:</strong> Battle of Plassey - Siraj defeated, Mir Jafar installed
+            </div>
+            <div class="timeline-item">
+                <strong>1757-60:</strong> Mir Jafar pays Rs. 22.5 million to British
+            </div>
+            <div class="timeline-item">
+                <strong>1759:</strong> Battle of Bedara - British defeat Dutch
+            </div>
+            <div class="timeline-item">
+                <strong>1760:</strong> Mir Qasim replaces Mir Jafar. Pays Rs. 25 lakh bribes
+            </div>
+            <div class="timeline-item">
+                <strong>1760-63:</strong> Mir Qasim's reforms: Capital to Munger, trade duties abolished
+            </div>
+            <div class="timeline-item">
+                <strong>22 Oct 1764:</strong> Battle of Buxar - British defeat triple alliance (17,000 soldiers)
+            </div>
+            <div class="timeline-item">
+                <strong>1765:</strong> Treaty of Allahabad - Diwani granted, Rs. 26 lakh pension to Shah Alam II
+            </div>
+            <div class="timeline-item">
+                <strong>1765-72:</strong> Dual Government - exploitation & Bengal Famine (1770)
+            </div>
+        </div>
+
+        <!-- PYQ Snipers -->
+        <div class="pyq-box">
+            <h2>🎯 PYQ Sniper Shots</h2>
+
+            <div class="pyq-item">
+                <strong>Q: Who was Jagat Seth?</strong><br>
+                A: <strong>Most powerful banker in Bengal. Annual income ₹14 lakh. Issued Darshani Hundis worth ₹1
+                    crore+. Conspired with British in Plassey.</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Who opposed Siraj-ud-Daulah in succession?</strong><br>
+                A: <strong>Ghaseti Begum</strong> (Alivardi Khan's daughter)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What did Siraj stop paying to British?</strong><br>
+                A: <strong>Peshkash (tribute) and Nazrana (gifts)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: When was the Black Hole of Calcutta incident?</strong><br>
+                A: <strong>20 June 1756</strong> (146 prisoners, only 23-26 survived)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: When was Battle of Plassey fought?</strong><br>
+                A: <strong>23 June 1757</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Who betrayed Siraj-ud-Daulah at Plassey?</strong><br>
+                A: <strong>Mir Jafar</strong> (his Commander-in-Chief) + Jagat Seth
+            </div>
+            <div class="pyq-item">
+                <strong>Q: How much did Mir Jafar pay British (1757-60)?</strong><br>
+                A: <strong>Rs. 22.5 million</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: How much did Mir Qasim pay as bribes?</strong><br>
+                A: <strong>Rs. 25 lakh</strong> to British officers
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Where did Mir Qasim shift capital?</strong><br>
+                A: From <strong>Murshidabad to Munger</strong> (to reduce British interference)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What was Mir Qasim's trade reform?</strong><br>
+                A: <strong>Abolished internal trade duties</strong> - allowed Indians to compete with British
+            </div>
+            <div class="pyq-item">
+                <strong>Q: When was Battle of Buxar fought?</strong><br>
+                A: <strong>22 October 1764</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Who commanded British at Buxar?</strong><br>
+                A: <strong>Major Hector Munro</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: How many soldiers in allied army at Buxar?</strong><br>
+                A: <strong>17,000 soldiers</strong> (Mir Qasim + Shuja-ud-Daulah + Shah Alam II)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What did British get in Treaty of Allahabad?</strong><br>
+                A: <strong>Diwani (tax collection rights) of Bengal, Bihar, Odisha</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Pension to Shah Alam II per Treaty of Allahabad?</strong><br>
+                A: <strong>Rs. 26 lakh per year</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What was Dual Government?</strong><br>
+                A: <strong>British: Diwani (revenue) | Nawab: Nizamat (administration)</strong> [1765-72]
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; color: #64748b; font-size: 0.9em;">
+            Created by Antigravity • UPPCS Modern India • From Your Class Notes
+        </div>
+    </div>
+
+    <script src="../theme-toggle.js"></script>
+</body>
+
+</html>

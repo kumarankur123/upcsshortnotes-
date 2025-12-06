@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Economics - UPPCS Notes</title>
+    <link rel="stylesheet" href="../dark-theme.css">
+    <style>
+        :root {
+            --primary-color: #f59e0b;
+            --bg-color: #f3f4f6;
+            --card-bg: #ffffff;
+            --text-color: #1f2937;
+            --border-color: #e5e7eb;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+        }
+
+        .theme-toggle {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: var(--card-bg);
+            border: 2px solid var(--border-color);
+            border-radius: 25px;
+            padding: 8px 16px;
+            cursor: pointer;
+            font-size: 1.2rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            text-decoration: none;
+            color: inherit;
+            border: 1px solid var(--border-color);
+            transition: transform .3s, box-shadow .3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            border-color: var(--primary-color);
+        }
+
+        .card-icon {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .card-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark Mode">🌓</button>
+            <h1>💰 Economics</h1>
+            <p>Comprehensive notes for UPPCS Economics - Concept-focused & PYQ-aligned</p>
+        </header>
+        <div class="grid">
+            <a href="01_Money_Banking.html" class="card">
+                <div class="card-icon">💰</div>
+                <div class="card-title">Pillar 1: Money, Banking & Finance</div>
+                <div style="font-size: 0.9em; color: #64748b; margin-top: 8px;">RBI • Monetary Policy • Digital Payments</div>
+            </a>
+            <a href="02_Budget_Taxation.html" class="card">
+                <div class="card-icon">💼</div>
+                <div class="card-title">Pillar 2: Budget, Taxation & Public Finance</div>
+                <div style="font-size: 0.9em; color: #64748b; margin-top: 8px;">Fiscal Policy • GST • FRBM</div>
+            </a>
+            <a href="03_Balance_Payments.html" class="card">
+                <div class="card-icon">💱</div>
+                <div class="card-title">Pillar 3: Balance of Payments & International Trade</div>
+                <div style="font-size: 0.9em; color: #64748b; margin-top: 8px;">BoP • FDI/FPI • Currency Exchange</div>
+            </a>
+            <a href="04_Sectors_GDP_Inflation.html" class="card">
+                <div class="card-icon">🌾</div>
+                <div class="card-title">Pillar 4: Sectors, GDP & Inflation</div>
+                <div style="font-size: 0.9em; color: #64748b; margin-top: 8px;">Agriculture • Industry • GDP • CPI/WPI</div>
+            </a>
+            <a href="05_Infrastructure.html" class="card">
+                <div class="card-icon">🏗️</div>
+                <div class="card-title">Pillar 5: Infrastructure</div>
+                <div style="font-size: 0.9em; color: #64748b; margin-top: 8px;">Energy • Transport • Urban • PPP</div>
+            </a>
+            <a href="06_Human_Resource_Development.html" class="card">
+                <div class="card-icon">👩‍🎓</div>
+                <div class="card-title">Pillar 6: Human Resource Development</div>
+                <div style="font-size: 0.9em; color: #64748b; margin-top: 8px;">Health • Education • Poverty • HDI</div>
+            </a>
+        </div>
+    </div>
+    <script src="../theme-toggle.js"></script>
+</body>
+
+</html>
+

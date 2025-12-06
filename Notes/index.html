@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPPCS Notes - Subjects</title>
+    <link rel="stylesheet" href="./dark-theme.css">
+    <style>
+        :root {
+            --primary-color: #4f46e5;
+            --bg-color: #f3f4f6;
+            --card-bg: #ffffff;
+            --text-color: #1f2937;
+            --border-color: #e5e7eb;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+        }
+
+        .theme-toggle {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: var(--card-bg);
+            border: 2px solid var(--border-color);
+            border-radius: 25px;
+            padding: 8px 16px;
+            cursor: pointer;
+            font-size: 1.2rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            text-decoration: none;
+            color: inherit;
+            border: 1px solid var(--border-color);
+            transition: transform .3s, box-shadow .3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            border-color: var(--primary-color);
+        }
+
+        .card-icon {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .card-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark Mode">🌓</button>
+            <h1>🚀 UPPCS Notes Dashboard</h1>
+            <p>Select a subject to explore its chapters</p>
+        </header>
+        <div class="grid">
+            <a href="Ancient_India/index.html" class="card">
+                <div class="card-icon">📜</div>
+                <div class="card-title">Ancient India</div>
+            </a>
+            <a href="Medieval_India/index.html" class="card">
+                <div class="card-icon">⚔️</div>
+                <div class="card-title">Medieval India</div>
+            </a>
+            <a href="Modern_India/index.html" class="card">
+                <div class="card-icon">🇬🇧</div>
+                <div class="card-title">Modern India</div>
+            </a>
+            <a href="Art_Culture/index.html" class="card">
+                <div class="card-icon">🎨</div>
+                <div class="card-title">Art & Culture</div>
+            </a>
+            <a href="Economics/index.html" class="card">
+                <div class="card-icon">💰</div>
+                <div class="card-title">Economics</div>
+            </a>
+        </div>
+    </div>
+    <script src="./theme-toggle.js"></script>
+</body>
+
+</html>

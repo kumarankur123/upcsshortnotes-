@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 4: Buddhism & Jainism - UPPCS Notes</title>
+    <style>
+        :root {
+            --buddhism-color: #ea580c;
+            /* Orange for Buddhism */
+            --jainism-color: #16a34a;
+            /* Green for Jainism (Ahimsa) */
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-color: #334155;
+            --heading-color: #1e293b;
+            --highlight-bg: #fff7ed;
+            --highlight-text: #9a3412;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 40px 0;
+            background: linear-gradient(135deg, var(--buddhism-color), var(--jainism-color));
+            color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.2rem;
+            font-weight: 800;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            margin-top: 10px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 1.8rem;
+            margin: 40px 0 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #e2e8f0;
+            color: var(--heading-color);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s;
+            border-left: 5px solid #cbd5e1;
+        }
+
+        .card.buddhism {
+            border-left-color: var(--buddhism-color);
+        }
+
+        .card.jainism {
+            border-left-color: var(--jainism-color);
+        }
+
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: var(--heading-color);
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 10px;
+            margin-top: 0;
+            font-size: 1.4rem;
+        }
+
+        h3 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        .buddhism h3 {
+            color: var(--buddhism-color);
+        }
+
+        .jainism h3 {
+            color: var(--jainism-color);
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .buddhism li::before {
+            content: "☸";
+            color: var(--buddhism-color);
+            position: absolute;
+            left: 0;
+        }
+
+        .jainism li::before {
+            content: "✋";
+            color: var(--jainism-color);
+            position: absolute;
+            left: 0;
+        }
+
+        .table-container {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            font-size: 0.9rem;
+        }
+
+        th,
+        td {
+            border: 1px solid #e2e8f0;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f1f5f9;
+            font-weight: 600;
+        }
+
+        .highlight-box {
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            font-weight: 500;
+        }
+
+        .highlight-box.up-special {
+            background-color: #fce7f3;
+            color: #be185d;
+            border: 1px solid #fbcfe8;
+        }
+
+        .pyq-box {
+            background-color: var(--heading-color);
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-top: 20px;
+        }
+
+        .pyq-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 6px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        @media (max-width: 600px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.75em;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-left: 5px;
+        }
+
+        .tag-imp {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+    </style>
+    <link rel="stylesheet" href="../dark-theme.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark Mode">🌓</button>
+
+            <h1>🕉️ Chapter 4: Buddhism & Jainism</h1>
+            <div class="subtitle">The Heterodox Movements • Surgical Strike Notes</div>
+        </header>
+
+        <!-- ================= BUDDHISM SECTION ================= -->
+        <div class="section-title" style="color: var(--buddhism-color); border-color: var(--buddhism-color);">
+            ☸ Part A: Buddhism
+        </div>
+
+        <!-- 1. Life of Buddha -->
+        <div class="card buddhism">
+            <h2>1. Life of Gautama Buddha (The Light of Asia)</h2>
+            <div class="grid-container">
+                <div>
+                    <strong>👶 Birth (Lotus/Bull):</strong>
+                    <br>• 563 BC @ <strong>Lumbini</strong> (Kapilvastu, Nepal).
+                    <br>• Clan: Shakya (Kshatriya).
+                    <br>• Father: Shuddhodana. Mother: Mahamaya (Koliyan).
+                </div>
+                <div>
+                    <strong>🏠 Departure (Horse):</strong>
+                    <br>• Age 29. Called <strong>Mahabhinishkramana</strong>.
+                    <br>• Horse: Kanthaka. Charioteer: Channa.
+                </div>
+                <div>
+                    <strong>💡 Enlightenment (Bodhi Tree):</strong>
+                    <br>• Age 35 @ <strong>Bodh Gaya</strong> (Bihar).
+                    <br>• River: Niranjana (Falgu).
+                    <br>• Attained "Nirvana".
+                </div>
+                <div>
+                    <strong>💀 Death (Stupa):</strong>
+                    <br>• 483 BC @ <strong>Kushinagar</strong> (UP).
+                    <br>• Called <strong>Mahaparinirvana</strong>.
+                    <br>• Republic: Mallas.
+                </div>
+            </div>
+
+            <h3>🗣️ The First Sermon (Dharma Chakra Pravartana)</h3>
+            <p>• Place: <strong>Sarnath</strong> (Rishipattana/Mrigadava).
+                <br>• Audience: 5 Brahmins.
+                <br>• Symbol: Wheel (Chakra).
+            </p>
+        </div>
+
+        <!-- 2. Philosophy -->
+        <div class="card buddhism">
+            <h2>2. Philosophy (No Soul, Yes Rebirth)</h2>
+            <ul>
+                <li><strong>Four Noble Truths (Arya Satya):</strong>
+                    1. World is full of Sorrow (Dukkha).
+                    2. Cause of Sorrow is Desire (Trishna).
+                    3. Sorrow can be stopped (Nirvana).
+                    4. Path to stop Sorrow (Eight Fold Path).
+                </li>
+                <li><strong>Eight Fold Path (Ashtangika Marg):</strong> Right View, Resolve, Speech, Action, Livelihood,
+                    Effort, Mindfulness, Concentration.</li>
+                <li><strong>Pratityasamutpada:</strong> Theory of Dependent Origination (Cause & Effect).</li>
+                <li><strong>Anatmavada:</strong> No Soul (Self).</li>
+                <li><strong>Kshanikavada:</strong> Momentariness (Everything is temporary).</li>
+            </ul>
+        </div>
+
+        <!-- 3. Buddhist Councils (High Yield) -->
+        <div class="card buddhism">
+            <h2>3. The 4 Buddhist Councils (Memorize Table)</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Year</th>
+                            <th>Place</th>
+                            <th>King</th>
+                            <th>President</th>
+                            <th>Outcome</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1st</td>
+                            <td>483 BC</td>
+                            <td><strong>Rajgriha</strong></td>
+                            <td>Ajatashatru</td>
+                            <td>Mahakassapa</td>
+                            <td>Sutta & Vinaya Pitaka compiled.</td>
+                        </tr>
+                        <tr>
+                            <td>2nd</td>
+                            <td>383 BC</td>
+                            <td><strong>Vaishali</strong></td>
+                            <td>Kalasoka</td>
+                            <td>Sabakami</td>
+                            <td>Split: Sthaviravadins vs Mahasanghikas.</td>
+                        </tr>
+                        <tr>
+                            <td>3rd</td>
+                            <td>250 BC</td>
+                            <td><strong>Pataliputra</strong></td>
+                            <td>Ashoka</td>
+                            <td>Moggaliputta Tissa</td>
+                            <td>Abhidhamma Pitaka added.</td>
+                        </tr>
+                        <tr>
+                            <td>4th</td>
+                            <td>72 AD</td>
+                            <td><strong>Kashmir</strong></td>
+                            <td>Kanishka</td>
+                            <td>Vasumitra / Ashvaghosha</td>
+                            <td><strong>Split: Hinayana vs Mahayana.</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- 4. Sects & Literature -->
+        <div class="card buddhism">
+            <h2>4. Sects & Literature</h2>
+            <div class="grid-container">
+                <div>
+                    <h3>📚 Tripitakas (Pali)</h3>
+                    <ul>
+                        <li><strong>Vinaya Pitaka:</strong> Rules for Monks (Upali).</li>
+                        <li><strong>Sutta Pitaka:</strong> Teachings/Sermons (Ananda). Largest.</li>
+                        <li><strong>Abhidhamma Pitaka:</strong> Philosophy.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>🛤️ Hinayana vs Mahayana</h3>
+                    <ul>
+                        <li><strong>Hinayana:</strong> Lesser Vehicle. Buddha = Great Man. No Idol Worship. Pali.</li>
+                        <li><strong>Mahayana:</strong> Great Vehicle. Buddha = God. <strong>Idol Worship</strong>.
+                            Sanskrit. Bodhisattva concept.</li>
+                    </ul>
+                </div>
+            </div>
+            <p><strong>Vajrayana:</strong> Tantric Buddhism (Magic/Spells). 8th Century. Led to decline.</p>
+        </div>
+
+        <!-- 5. UP Special (Buddhism) -->
+        <div class="card highlight-box up-special">
+            <h2>🦁 UP Special: Buddhism</h2>
+            <p><em>UP is the "Cradle of Buddhism".</em></p>
+            <ul>
+                <li><strong>Sarnath (Varanasi):</strong> First Sermon. Dhamek Stupa.</li>
+                <li><strong>Kushinagar (Deoria):</strong> Mahaparinirvana (Death). Parinirvana Stupa.</li>
+                <li><strong>Shravasti:</strong> <strong>Maximum Sermons</strong> given here. Spent 25 rainy seasons.
+                    Jetavana Vihara.</li>
+                <li><strong>Kaushambi:</strong> Visited by Buddha. Ghoshitaram Vihara.</li>
+                <li><strong>Sankisa (Farrukhabad):</strong> Buddha descended from heaven here (Legend).</li>
+            </ul>
+        </div>
+
+        <!-- ================= JAINISM SECTION ================= -->
+        <div class="section-title" style="color: var(--jainism-color); border-color: var(--jainism-color);">
+            ✋ Part B: Jainism
+        </div>
+
+        <!-- 1. Tirthankaras -->
+        <div class="card jainism">
+            <h2>1. The Tirthankaras (Ford Makers)</h2>
+            <p>Total 24 Tirthankaras. "Jina" means Conqueror.</p>
+            <ul>
+                <li><strong>1st: Rishabhdev (Adinath):</strong> Symbol = Bull. Mentioned in Rigveda.</li>
+                <li><strong>23rd: Parshvanath:</strong> Prince of <strong>Banaras (UP)</strong>.
+                    <br>• Symbol = Snake.
+                    <br>• Gave 4 Vows: Satya, Ahimsa, Asteya, Aparigraha.
+                </li>
+                <li><strong>24th: Mahavira Swami:</strong> The Real Founder.
+                    <br>• Symbol = Lion.
+                    <br>• Added 5th Vow: <strong>Brahmacharya</strong> (Celibacy).
+                </li>
+            </ul>
+        </div>
+
+        <!-- 2. Life of Mahavira -->
+        <div class="card jainism">
+            <h2>2. Life of Mahavira (540 BC - 468 BC)</h2>
+            <div class="grid-container">
+                <div>
+                    <strong>👶 Birth:</strong>
+                    <br>• <strong>Kundagram</strong> (Vaishali).
+                    <br>• Father: Siddhartha (Jnatrika Clan).
+                    <br>• Mother: Trishala (Lichchhavi Princess).
+                </div>
+                <div>
+                    <strong>💡 Kevalya (Omniscience):</strong>
+                    <br>• Age 42 @ Jrimbhikagram.
+                    <br>• River: Rijupalika. Tree: Sal.
+                </div>
+                <div>
+                    <strong>💀 Nirvana (Death):</strong>
+                    <br>• Age 72 @ <strong>Pavapuri</strong> (Rajgir).
+                    <br>• In the palace of King Hastipal (Malla).
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. Philosophy & Sects -->
+        <div class="card jainism">
+            <h2>3. Philosophy: Syadvada & Anekantavada</h2>
+            <ul>
+                <li><strong>Triratna (Three Jewels):</strong> Right Faith, Right Knowledge, Right Conduct.</li>
+                <li><strong>Anekantavada:</strong> Plurality of Reality (Many-sidedness).</li>
+                <li><strong>Syadvada:</strong> "Maybe" theory (Relativity of truth).</li>
+                <li><strong>Sallekhana/Santhara:</strong> Fasting to death (Chandragupta Maurya did this).</li>
+            </ul>
+
+            <h3>👔 Sects: Shvetambara vs Digambara</h3>
+            <ul>
+                <li><strong>Shvetambara:</strong> White-clad. Led by Sthulabhadra. (North India).</li>
+                <li><strong>Digambara:</strong> Sky-clad (Naked). Led by Bhadrabahu. (South India).</li>
+            </ul>
+        </div>
+
+        <!-- 4. UP Special (Jainism) -->
+        <div class="card highlight-box up-special">
+            <h2>🦁 UP Special: Jainism</h2>
+            <ul>
+                <li><strong>Ayodhya:</strong> Birthplace of 5 Tirthankaras (including Rishabhdev).</li>
+                <li><strong>Varanasi:</strong> Birthplace of Parshvanath (23rd) & Suparshvanath (7th).</li>
+                <li><strong>Kaushambi:</strong> Famous for both Buddhism & Jainism (Prabhasgiri).</li>
+                <li><strong>Mathura:</strong> Center of Jain art (Kushana Period). Kankali Tila.</li>
+                <li><strong>Deogarh (Lalitpur):</strong> Jain temples.</li>
+            </ul>
+        </div>
+
+        <!-- ================= PYQ SNIPERS ================= -->
+        <div class="pyq-box">
+            <h2>🎯 PYQ "Sniper" Shots (Combined)</h2>
+            <div class="pyq-item">
+                <strong>Q: Where did Buddha give his first sermon?</strong><br>
+                A: <strong>Sarnath</strong> (Dharmachakrapravartana).
+            </div>
+            <div class="pyq-item">
+                <strong>Q: "Light of Asia" refers to?</strong><br>
+                A: <strong>Gautama Buddha</strong> (Book by Edwin Arnold).
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Syadvada is a doctrine of?</strong><br>
+                A: <strong>Jainism</strong>.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: First Tirthankara?</strong><br>
+                A: <strong>Rishabhdev</strong>.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Which Council divided Buddhism into Hinayana/Mahayana?</strong><br>
+                A: <strong>4th Council</strong> (Kashmir, Kanishka).
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Mahavira attained Nirvana at?</strong><br>
+                A: <strong>Pavapuri</strong>.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Place famous for BOTH Buddhism & Jainism?</strong><br>
+                A: <strong>Kaushambi</strong> (UP). <span class="tag tag-imp">Super Hit Question</span>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; color: #64748b; font-size: 0.9em;">
+            Created by Antigravity • UPPCS Preparation
+        </div>
+
+    </div>
+
+    <script src="../theme-toggle.js"></script>
+</body>
+
+</html>

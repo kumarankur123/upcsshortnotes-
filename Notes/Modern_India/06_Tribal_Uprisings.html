@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 6: Tribal & Peasant Uprisings (1765-1900) - UPPCS Notes</title>
+    <link rel="stylesheet" href="../dark-theme.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        [data-theme="dark"] body {
+            background: linear-gradient(135deg, #7f1d1d 0%, #991b1b 100%);
+        }
+
+        header {
+            background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+            color: white;
+            padding: 50px 30px;
+            border-radius: 20px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 20px 60px rgba(220, 38, 38, 0.5);
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '✊';
+            position: absolute;
+            font-size: 15rem;
+            opacity: 0.1;
+            top: -30px;
+            right: -30px;
+            animation: shake 2s ease-in-out infinite;
+        }
+
+        @keyframes shake {
+
+            0%,
+            100% {
+                transform: rotate(-5deg);
+            }
+
+            50% {
+                transform: rotate(5deg);
+            }
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #dc2626;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(220, 38, 38, 0.2);
+        }
+
+        [data-theme="dark"] .card {
+            background: #1e293b;
+        }
+
+        h2 {
+            color: #dc2626;
+            border-bottom: 3px solid #fee2e2;
+            padding-bottom: 10px;
+            font-size: 1.8rem;
+        }
+
+        [data-theme="dark"] h2 {
+            color: #f87171;
+            border-bottom-color: #991b1b;
+        }
+
+        .revolt-box {
+            background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+            padding: 25px;
+            border-radius: 12px;
+            margin: 20px 0;
+            border-left: 5px solid #dc2626;
+        }
+
+        [data-theme="dark"] .revolt-box {
+            background: linear-gradient(135deg, #7f1d1d 0%, #991b1b 100%);
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            border-left: 5px solid #f59e0b;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        [data-theme="dark"] .highlight-box {
+            background: linear-gradient(135deg, #78350f 0%, #92400e 100%);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        th,
+        td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #fee2e2;
+        }
+
+        th {
+            background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background: #fef2f2;
+        }
+
+        [data-theme="dark"] tr:hover {
+            background: #374151;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .tag-imp {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .tag-region {
+            background: #e0e7ff;
+            color: #3730a3;
+        }
+
+        .tag-leader {
+            background: #dcfce7;
+            color: #166534;
+        }
+
+        .pyq-box {
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 16px;
+            margin-top: 40px;
+        }
+
+        .pyq-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 10px;
+            border-left: 4px solid #dc2626;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark Mode">🌓</button>
+            <h1>✊ Chapter 6: Tribal & Peasant Uprisings</h1>
+            <div class="subtitle">Early Resistance Against British Rule (1765-1900)</div>
+        </header>
+
+        <!-- Introduction -->
+        <div class="card">
+            <h2>📜 Introduction: Nature of Uprisings</h2>
+
+            <h3>🎯 Characteristics</h3>
+            <ul>
+                <li><strong>Localized:</strong> Confined to specific regions, not pan-India</li>
+                <li><strong>Restoration Goal:</strong> Aimed to restore traditional systems disrupted by British</li>
+                <li><strong>Primitive Weapons:</strong> Bows, arrows, spears vs British guns</li>
+                <li><strong>Lack of Coordination:</strong> No unified leadership or ideology</li>
+                <li><strong>Suppressed Brutally:</strong> British used overwhelming force</li>
+            </ul>
+
+            <h3>🔥 Causes of Uprisings</h3>
+            <ul>
+                <li>✗ Land alienation & displacement</li>
+                <li>✗ High taxation & revenue policies</li>
+                <li>✗ Exploitation by moneylenders & landlords</li>
+                <li>✗ Forest laws restricting traditional rights</li>
+                <li>✗ Religious & cultural interference</li>
+                <li>✗ Economic hardships & famines</li>
+            </ul>
+
+            <div class="highlight-box">
+                <strong>Significance:</strong> Though failed, these uprisings laid foundation for later nationalist
+                movements and Revolt of 1857.
+            </div>
+        </div>
+
+        <!-- Bengal Uprisings -->
+        <div class="card">
+            <h2>🔥 Early Uprisings in Bengal</h2>
+
+            <div class="revolt-box">
+                <h3>1. Sanyasi Rebellion (1770s-1820s)</h3>
+                <p><strong>Region:</strong> Bengal <span class="tag tag-region">Bengal</span></p>
+
+                <h4>📌 Key Points</h4>
+                <ul>
+                    <li><strong>Who:</strong> Sanyasis (Hindu ascetics) - Naga Sanyasis, Giri Sanyasis</li>
+                    <li><strong>Cause:</strong> British restricted movement to pilgrimage sites (1770)</li>
+                    <li><strong>Action:</strong> Raided British factories & treasury offices</li>
+                    <li><strong>Duration:</strong> Several decades</li>
+                    <li><strong>British View:</strong> Called them "bandits"</li>
+                    <li><strong>Local View:</strong> Freedom fighters</li>
+                </ul>
+            </div>
+
+            <div class="revolt-box">
+                <h3>2. Fakir Rebellion (1776-1810s)</h3>
+                <p><strong>Region:</strong> Bengal <span class="tag tag-region">Bengal</span></p>
+
+                <h4>📌 Key Points</h4>
+                <ul>
+                    <li><strong>Who:</strong> Fakirs (Muslim ascetics)</li>
+                    <li><strong>Leader:</strong> Majnu Shah <span class="tag tag-leader">Leader</span></li>
+                    <li><strong>Other Leaders:</strong> Chirag Ali, Bhawani Pathak, Debi Choudhurani</li>
+                    <li><strong>Unity:</strong> Joined forces with Hindu Sanyasis</li>
+                    <li><strong>Cause:</strong> British restrictions on Fakirs</li>
+                </ul>
+            </div>
+
+            <div class="revolt-box">
+                <h3>3. Pagal Panthis Movement (1830s)</h3>
+                <p><strong>Region:</strong> North Bengal <span class="tag tag-region">Bengal</span></p>
+
+                <h4>📌 Key Points</h4>
+                <ul>
+                    <li><strong>Nature:</strong> Semi-religious peasant movement</li>
+                    <li><strong>Leaders:</strong> Karam Shah, Tipu Shah</li>
+                    <li><strong>Cause:</strong> Excessive taxation & Zamindar exploitation</li>
+                    <li><strong>Action:</strong> Urged peasants to refuse tax payments</li>
+                </ul>
+            </div>
+
+            <div class="revolt-box">
+                <h3>4. Chuar Rebellion (1766-1799)</h3>
+                <p><strong>Region:</strong> Bengal & Bihar <span class="tag tag-region">Bengal-Bihar</span></p>
+
+                <h4>📌 Key Points</h4>
+                <ul>
+                    <li><strong>Who:</strong> Chuar tribes</li>
+                    <li><strong>Cause:</strong> Heavy taxation & famine</li>
+                    <li><strong>Trigger:</strong> British land revenue policies</li>
+                    <li><strong>Result:</strong> Brutally suppressed</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Major Tribal Uprisings -->
+        <div class="card">
+            <h2>🏔️ Major Tribal Uprisings</h2>
+
+            <div class="revolt-box">
+                <h3>5. Kol Revolt (1831-1832)</h3>
+                <p><strong>Region:</strong> Ranchi, Singhbhum, Hazaribagh, Palamu <span
+                        class="tag tag-region">Jharkhand</span> <span class="tag tag-imp">Super PYQ</span></p>
+
+                <h4>📌 Key Points</h4>
+                <ul>
+                    <li><strong>Who:</strong> Kol tribes</li>
+                    <li><strong>Leader:</strong> Budhu Bhagat <span class="tag tag-leader">Leader</span></li>
+                    <li><strong>Cause:</strong> British transferred Kol land to Sikh & Muslim landlords</li>
+                    <li><strong>Result:</strong> Mass displacement</li>
+                    <li><strong>Suppression:</strong> British burned ~1,000 homes</li>
+                </ul>
+            </div>
+
+            <div class="revolt-box">
+                <h3>6. Santhal Rebellion (1855-1856)</h3>
+                <p><strong>Region:</strong> Bhagalpur, Rajmahal, Damini-Koh <span
+                        class="tag tag-region">Bihar-Jharkhand</span> <span class="tag tag-imp">Super PYQ</span></p>
+
+                <h4>📌 Key Points</h4>
+                <ul>
+                    <li><strong>Who:</strong> Santhal tribes</li>
+                    <li><strong>Leaders:</strong> Sidhu & Kanhu Murmu <span class="tag tag-leader">Leaders</span></li>
+                    <li><strong>Causes:</strong>
+                        <br>• British oppression & high taxes
+                        <br>• Exploitation by moneylenders & landlords
+                        <br>• Land alienation
+                    </li>
+                    <li><strong>Significance:</strong> One of the largest tribal uprisings</li>
+                    <li><strong>Result:</strong> Brutally suppressed by British</li>
+                    <li><strong>Impact:</strong> Inspired later tribal movements</li>
+                </ul>
+            </div>
+
+            <div class="revolt-box">
+                <h3>7. Munda Rebellion (1899-1900)</h3>
+                <p><strong>Region:</strong> Ranchi <span class="tag tag-region">Jharkhand</span> <span
+                        class="tag tag-imp">Super PYQ</span></p>
+
+                <h4>📌 Key Points</h4>
+                <ul>
+                    <li><strong>Also called:</strong> "Ulgulan" (The Great Tumult)</li>
+                    <li><strong>Leader:</strong> Birsa Munda <span class="tag tag-leader">Leader</span></li>
+                    <li><strong>Causes:</strong>
+                        <br>• Exploitation by British, moneylenders, zamindars
+                        <br>• Land & resource alienation
+                        <br>• Forced labor (Beth Begari)
+                    </li>
+                    <li><strong>Vision:</strong> Society free from oppression & exploitation</li>
+                    <li><strong>End:</strong> Birsa captured, died in custody (1900)</li>
+                    <li><strong>Achievement:</strong> Led to Chotanagpur Tenancy Act (1908) protecting tribal land
+                        rights</li>
+                </ul>
+            </div>
+
+            <div class="revolt-box">
+                <h3>8. Khond Uprising (1837-1856)</h3>
+                <p><strong>Region:</strong> Niyamgiri Hills, Odisha <span class="tag tag-region">Odisha</span></p>
+
+                <h4>📌 Key Points</h4>
+                <ul>
+                    <li><strong>Who:</strong> Khond tribes</li>
+                    <li><strong>Leader:</strong> Chakra Bisoi</li>
+                    <li><strong>Cause:</strong> British tried to ban Meriah system (human sacrifice)</li>
+                    <li><strong>Nature:</strong> Resistance to cultural interference</li>
+                    <li><strong>Duration:</strong> Prolonged conflict</li>
+                </ul>
+            </div>
+
+            <div class="revolt-box">
+                <h3>9. Khasi Uprising (1833-1835)</h3>
+                <p><strong>Region:</strong> Brahmaputra Valley-Sylhet <span
+                        class="tag tag-region">Assam-Meghalaya</span></p>
+
+                <h4>📌 Key Points</h4>
+                <ul>
+                    <li><strong>Cause:</strong> British road construction project</li>
+                    <li><strong>Issue:</strong> Brought outsiders (Bengalis, English) to tribal areas</li>
+                    <li><strong>Leaders:</strong> Tirot Singh, Khasi, Garo, Singhpo, Sindh Khamu Pandits</li>
+                    <li><strong>Nature:</strong> Resistance to British encroachment</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Odisha & South India -->
+        <div class="card">
+            <h2>🌊 Odisha & South India Uprisings</h2>
+
+            <div class="revolt-box">
+                <h3>10. Paika Rebellion (1817)</h3>
+                <p><strong>Region:</strong> Odisha <span class="tag tag-region">Odisha</span> <span
+                        class="tag tag-imp">PYQ</span></p>
+
+                <h4>📌 Key Points</h4>
+                <ul>
+                    <li><strong>Who:</strong> Paikas (warrior community of Odisha)</li>
+                    <li><strong>Leader:</strong> Bakshi Jagabandhu <span class="tag tag-leader">Leader</span></li>
+                    <li><strong>Cause:</strong> British interference in revenue system</li>
+                    <li><strong>Significance:</strong> Early resistance movement</li>
+                    <li><strong>Result:</strong> Eventually crushed</li>
+                </ul>
+            </div>
+
+            <div class="revolt-box">
+                <h3>11. Rampa Revolt (1879)</h3>
+                <p><strong>Region:</strong> Andhra Pradesh <span class="tag tag-region">AP</span></p>
+
+                <h4>📌 Key Points</h4>
+                <ul>
+                    <li><strong>Who:</strong> Rampa tribes</li>
+                    <li><strong>Cause:</strong> British forest laws</li>
+                    <li><strong>Issue:</strong> Curtailed traditional shifting cultivation</li>
+                    <li><strong>Impact:</strong> Severely affected livelihood</li>
+                </ul>
+            </div>
+
+            <div class="revolt-box">
+                <h3>12. Velu Thampi Revolt (1805)</h3>
+                <p><strong>Region:</strong> Travancore (Kerala) <span class="tag tag-region">Kerala</span></p>
+
+                <h4>📌 Key Points</h4>
+                <ul>
+                    <li><strong>Leader:</strong> Velu Thampi (Prime Minister of Travancore)</li>
+                    <li><strong>Cause:</strong> Forced treaty with British</li>
+                    <li><strong>Support:</strong> Nair warriors of Kerala</li>
+                    <li><strong>End:</strong> Captured & publicly executed by British</li>
+                </ul>
+            </div>
+
+            <div class="revolt-box">
+                <h3>13. Revolt of Raja of Vijayanagaram (1794)</h3>
+                <p><strong>Region:</strong> Northern Andhra Pradesh <span class="tag tag-region">AP</span></p>
+
+                <h4>📌 Key Points</h4>
+                <ul>
+                    <li><strong>Cause:</strong> British revenue demands</li>
+                    <li><strong>Result:</strong> Raja killed in battle</li>
+                    <li><strong>End:</strong> Son surrendered to British</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Western India -->
+        <div class="card">
+            <h2>⛰️ Western India Uprisings</h2>
+
+            <div class="revolt-box">
+                <h3>14. Koli Uprisings (1818-1896, 1829-1844)</h3>
+                <p><strong>Region:</strong> Western India <span class="tag tag-region">Gujarat-Maharashtra</span></p>
+
+                <h4>📌 Key Points</h4>
+                <ul>
+                    <li><strong>Who:</strong> Koli tribal community</li>
+                    <li><strong>First Uprising (1818-96):</strong> Led by Swaraj Singh. Against British land policies
+                    </li>
+                    <li><strong>Second Uprising (1829-44):</strong> British disrupted Koli fishermen's livelihood</li>
+                    <li><strong>Nature:</strong> Multiple revolts over decades</li>
+                </ul>
+            </div>
+
+            <div class="revolt-box">
+                <h3>15. Ramosi Uprisings (1822, 1825, 1839)</h3>
+                <p><strong>Region:</strong> Western Ghats <span class="tag tag-region">Maharashtra</span></p>
+
+                <h4>📌 Key Points</h4>
+                <ul>
+                    <li><strong>Who:</strong> Ramosi warrior tribe</li>
+                    <li><strong>First Revolts (1822, 1825):</strong> Led by Chittur Singh. Against British expansion
+                    </li>
+                    <li><strong>Second Revolt (1839):</strong> After British deposed Pratap Singh of Satara</li>
+                </ul>
+            </div>
+
+            <div class="revolt-box">
+                <h3>16. Gadar Revolt (1830s-1850s)</h3>
+                <p><strong>Region:</strong> Puranpur, Satadro <span class="tag tag-region">Maharashtra</span></p>
+
+                <h4>📌 Key Points</h4>
+                <ul>
+                    <li><strong>Who:</strong> Gadaris (military class under Marathas)</li>
+                    <li><strong>Cause:</strong> Lost status & employment under British</li>
+                    <li><strong>Trigger:</strong> Economic hardship & unemployment</li>
+                    <li><strong>Result:</strong> Not widely successful but added to anti-British sentiment</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Religious Movements -->
+        <div class="card">
+            <h2>🕌 Religious-Political Movements</h2>
+
+            <div class="revolt-box">
+                <h3>17. Faraizi/Khairaji Movement (1838-1857)</h3>
+                <p><strong>Region:</strong> Bengal <span class="tag tag-region">Bengal</span> <span
+                        class="tag tag-imp">PYQ</span></p>
+
+                <h4>📌 Key Points</h4>
+                <ul>
+                    <li><strong>Founder:</strong> Haji Shariatullah (Muslim reformer)</li>
+                    <li><strong>Leader:</strong> Dudu Miyan (his son)</li>
+                    <li><strong>Nature:</strong> Islamic revival + anti-British</li>
+                    <li><strong>Action:</strong> Mobilized peasants against British & Zamindars</li>
+                    <li><strong>Achievement:</strong> Expelled English traders from parts of Bengal</li>
+                    <li><strong>Significance:</strong> One of earliest peasant revolts against colonial rule</li>
+                </ul>
+            </div>
+
+            <div class="revolt-box">
+                <h3>18. Wahhabi Movement (1820s-1860s)</h3>
+                <p><strong>Region:</strong> Pan-India, especially Punjab <span class="tag tag-region">Pan-India</span>
+                    <span class="tag tag-imp">PYQ</span></p>
+
+                <h4>📌 Key Points</h4>
+                <ul>
+                    <li><strong>Inspired by:</strong> Syed Ahmad Barelvi</li>
+                    <li><strong>Influence:</strong> Abdul Wahhab of Saudi Arabia</li>
+                    <li><strong>Goal:</strong> Return to pure Islamic teachings</li>
+                    <li><strong>Anti-British:</strong> Opposed Western influence on Islam</li>
+                    <li><strong>Intensified:</strong> After British annexed Punjab (1849)</li>
+                    <li><strong>Nature:</strong> Armed conflicts against British</li>
+                </ul>
+            </div>
+
+            <div class="revolt-box">
+                <h3>19. Kuka Movement (1840s)</h3>
+                <p><strong>Region:</strong> Punjab <span class="tag tag-region">Punjab</span></p>
+
+                <h4>📌 Key Points</h4>
+                <ul>
+                    <li><strong>Founder:</strong> Bhagat Jawahar Mal</li>
+                    <li><strong>Initial Goal:</strong> Religious purification (Sikh)</li>
+                    <li><strong>Later:</strong> Turned against British rule in Punjab</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Assam -->
+        <div class="card">
+            <h2>🌄 Assam Uprisings</h2>
+
+            <div class="revolt-box">
+                <h3>20. Revolt in Assam (1824-1826)</h3>
+                <p><strong>Region:</strong> Assam <span class="tag tag-region">Assam</span></p>
+
+                <h4>📌 Key Points</h4>
+                <ul>
+                    <li><strong>Context:</strong> After First Anglo-Burmese War</li>
+                    <li><strong>Issue:</strong> British pledged to withdraw but tried to retain control</li>
+                    <li><strong>Leader:</strong> Gondwan Konwar</li>
+                    <li><strong>Result:</strong> British handed Upper Assam to Purandar Singh Narendra</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Summary Table -->
+        <div class="card">
+            <h2>📊 Quick Reference Table</h2>
+
+            <table>
+                <tr>
+                    <th>Uprising</th>
+                    <th>Year</th>
+                    <th>Region</th>
+                    <th>Leader</th>
+                </tr>
+                <tr>
+                    <td>Sanyasi Rebellion</td>
+                    <td>1770s-1820s</td>
+                    <td>Bengal</td>
+                    <td>Sanyasis (collective)</td>
+                </tr>
+                <tr>
+                    <td>Fakir Rebellion</td>
+                    <td>1776-1810s</td>
+                    <td>Bengal</td>
+                    <td>Majnu Shah</td>
+                </tr>
+                <tr>
+                    <td>Velu Thampi</td>
+                    <td>1805</td>
+                    <td>Travancore</td>
+                    <td>Velu Thampi</td>
+                </tr>
+                <tr>
+                    <td>Paika Rebellion</td>
+                    <td>1817</td>
+                    <td>Odisha</td>
+                    <td>Bakshi Jagabandhu</td>
+                </tr>
+                <tr>
+                    <td>Kol Revolt</td>
+                    <td>1831-32</td>
+                    <td>Jharkhand</td>
+                    <td>Budhu Bhagat</td>
+                </tr>
+                <tr>
+                    <td>Khasi Uprising</td>
+                    <td>1833-35</td>
+                    <td>Assam-Meghalaya</td>
+                    <td>Tirot Singh</td>
+                </tr>
+                <tr>
+                    <td>Khond Uprising</td>
+                    <td>1837-56</td>
+                    <td>Odisha</td>
+                    <td>Chakra Bisoi</td>
+                </tr>
+                <tr>
+                    <td>Faraizi Movement</td>
+                    <td>1838-57</td>
+                    <td>Bengal</td>
+                    <td>Dudu Miyan</td>
+                </tr>
+                <tr>
+                    <td>Santhal Rebellion</td>
+                    <td>1855-56</td>
+                    <td>Bihar-Jharkhand</td>
+                    <td>Sidhu & Kanhu</td>
+                </tr>
+                <tr>
+                    <td>Munda Rebellion</td>
+                    <td>1899-1900</td>
+                    <td>Jharkhand</td>
+                    <td>Birsa Munda</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- PYQ Snipers -->
+        <div class="pyq-box">
+            <h2>🎯 PYQ Sniper Shots</h2>
+
+            <div class="pyq-item">
+                <strong>Q: Who led the Santhal Rebellion?</strong><br>
+                A: <strong>Sidhu and Kanhu Murmu (1855-56)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Birsa Munda's rebellion is also known as?</strong><br>
+                A: <strong>Ulgulan (The Great Tumult)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Chotanagpur Tenancy Act was passed in which year?</strong><br>
+                A: <strong>1908</strong> (after Munda Rebellion)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Who led the Paika Rebellion in Odisha?</strong><br>
+                A: <strong>Bakshi Jagabandhu (1817)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Faraizi Movement was founded by?</strong><br>
+                A: <strong>Haji Shariatullah</strong> (led by Dudu Miyan)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Wahhabi Movement was inspired by?</strong><br>
+                A: <strong>Syed Ahmad Barelvi</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Who led the Kol Revolt?</strong><br>
+                A: <strong>Budhu Bhagat (1831-32)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Where did the Santhal Rebellion take place?</strong><br>
+                A: <strong>Bhagalpur, Rajmahal, Damini-Koh (Bihar-Jharkhand)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What was the cause of Khond Uprising?</strong><br>
+                A: <strong>British ban on Meriah system (human sacrifice)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Birsa Munda died in which year?</strong><br>
+                A: <strong>1900</strong> (in British custody)
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; color: #64748b; font-size: 0.9em;">
+            Created by Antigravity • UPPCS Modern India
+        </div>
+    </div>
+
+    <script src="../theme-toggle.js"></script>
+</body>
+
+</html>

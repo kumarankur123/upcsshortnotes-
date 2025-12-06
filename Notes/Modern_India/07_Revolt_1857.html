@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 7: Revolt of 1857 - UPPCS Notes</title>
+    <link rel="stylesheet" href="../dark-theme.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #fef2f2 0%, #fecaca 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        [data-theme="dark"] body {
+            background: linear-gradient(135deg, #7f1d1d 0%, #991b1b 100%);
+        }
+
+        header {
+            background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+            color: white;
+            padding: 50px 30px;
+            border-radius: 20px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 20px 60px rgba(239, 68, 68, 0.5);
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '🔥';
+            position: absolute;
+            font-size: 15rem;
+            opacity: 0.1;
+            top: -30px;
+            right: -30px;
+            animation: pulse 3s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                transform: scale(1);
+                opacity: 0.1;
+            }
+
+            50% {
+                transform: scale(1.1);
+                opacity: 0.15;
+            }
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #ef4444;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(239, 68, 68, 0.2);
+        }
+
+        [data-theme="dark"] .card {
+            background: #1e293b;
+        }
+
+        h2 {
+            color: #ef4444;
+            border-bottom: 3px solid #fecaca;
+            padding-bottom: 10px;
+            font-size: 1.8rem;
+        }
+
+        [data-theme="dark"] h2 {
+            color: #fca5a5;
+            border-bottom-color: #991b1b;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            border-left: 5px solid #f59e0b;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        [data-theme="dark"] .highlight-box {
+            background: linear-gradient(135deg, #78350f 0%, #92400e 100%);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        th,
+        td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #fecaca;
+        }
+
+        th {
+            background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background: #fef2f2;
+        }
+
+        [data-theme="dark"] tr:hover {
+            background: #374151;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .tag-imp {
+            background: #fecaca;
+            color: #991b1b;
+        }
+
+        .tag-leader {
+            background: #dcfce7;
+            color: #166534;
+        }
+
+        .tag-date {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+
+        .pyq-box {
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 16px;
+            margin-top: 40px;
+        }
+
+        .pyq-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 10px;
+            border-left: 4px solid #ef4444;
+        }
+
+        .timeline-item {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 15px;
+            border-left: 3px solid #ef4444;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -8px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            background: #ef4444;
+            border-radius: 50%;
+            box-shadow: 0 0 0 3px white, 0 0 0 5px #ef4444;
+        }
+
+        [data-theme="dark"] .timeline-item::before {
+            box-shadow: 0 0 0 3px #1e293b, 0 0 0 5px #ef4444;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark Mode">🌓</button>
+            <h1>🔥 Chapter 7: The Revolt of 1857</h1>
+            <div class="subtitle">The First War of Independence</div>
+        </header>
+
+        <!-- Introduction -->
+        <div class="card">
+            <h2>📜 Introduction</h2>
+
+            <div class="highlight-box">
+                <strong>🎯 Significance:</strong> <span class="tag tag-imp">Super PYQ</span>
+                <ul>
+                    <li>First large-scale challenge to British authority in India</li>
+                    <li>United sepoys, peasants, landlords, and tribal communities</li>
+                    <li>Though failed, it inspired future freedom movements</li>
+                    <li>Marked the end of Mughal Empire and East India Company rule</li>
+                    <li>Beginning of direct British Crown rule in India</li>
+                </ul>
+            </div>
+
+            <h3>📊 Nature of the Revolt</h3>
+            <ul>
+                <li><strong>Earlier Uprisings:</strong> Local and fragmented</li>
+                <li><strong>1857 Revolt:</strong> Large-scale, involved multiple groups</li>
+                <li><strong>Not just military:</strong> Civilian participation was significant</li>
+                <li><strong>Road to freedom:</strong> Laid foundation for nationalist movement</li>
+            </ul>
+        </div>
+
+        <!-- Causes: Military -->
+        <div class="card">
+            <h2>⚔️ Causes of the Revolt: Military</h2>
+
+            <h3>1. Enfield Rifle Cartridges <span class="tag tag-imp">Super PYQ</span></h3>
+            <ul>
+                <li><strong>Old Rifle:</strong> Brown Bess rifle used earlier</li>
+                <li><strong>New Rifle:</strong> Enfield rifle (greater range & accuracy)</li>
+                <li><strong>The Problem:</strong> Cartridges rumored to be greased with <strong>cow and pig fat</strong>
+                </li>
+                <li><strong>Offense:</strong>
+                    <br>• <strong>Hindus:</strong> Cow is sacred
+                    <br>• <strong>Muslims:</strong> Pig is haram (forbidden)
+                </li>
+                <li><strong>Loading Method:</strong> Soldiers had to <strong>bite</strong> the cartridge to load rifle
+                </li>
+                <li><strong>Resentment:</strong> Seen as attack on religious beliefs</li>
+            </ul>
+
+            <h3>2. General Service Enlistment Act (1856) <span class="tag tag-imp">PYQ</span></h3>
+            <ul>
+                <li><strong>Provision:</strong> Indian soldiers forced to serve anywhere in British Empire</li>
+                <li><strong>Overseas Service:</strong> Even across seas (chhote pani paar)</li>
+                <li><strong>High-Caste Fear:</strong> Crossing seas would make them lose caste status</li>
+                <li><strong>Religious Concern:</strong> Against Hindu beliefs</li>
+            </ul>
+
+            <h3>3. Racial Discrimination in Army</h3>
+            <table>
+                <tr>
+                    <th>Issue</th>
+                    <th>Details</th>
+                </tr>
+                <tr>
+                    <td><strong>Pay Disparity</strong></td>
+                    <td>Indian sepoys paid <strong>1/3rd</strong> of British soldiers <span
+                            class="tag tag-imp">PYQ</span></td>
+                </tr>
+                <tr>
+                    <td><strong>Promotion Limit</strong></td>
+                    <td>Indians could never rise above rank of <strong>Subedar</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Post Office Act (1854)</strong></td>
+                    <td>Took away sepoys' <strong>free postal privileges</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Humiliation</strong></td>
+                    <td>British officers treated Indian soldiers poorly</td>
+                </tr>
+            </table>
+
+            <h3>4. Recruitment Base</h3>
+            <ul>
+                <li><strong>Regions:</strong> Awadh, Bengal, North-West Frontier</li>
+                <li><strong>Castes:</strong> Brahmins, Rajputs, Pathans</li>
+                <li><strong>Issue:</strong> High-caste soldiers felt humiliated by British</li>
+            </ul>
+
+            <h3>5. Withdrawal of "Bhatta" Allowance</h3>
+            <ul>
+                <li><strong>Bhatta:</strong> Extra allowance when serving outside home regions</li>
+                <li><strong>By 1850:</strong> These allowances were withdrawn</li>
+                <li><strong>Impact:</strong> Further resentment among sepoys</li>
+            </ul>
+        </div>
+
+        <!-- Causes: Economic -->
+        <div class="card">
+            <h2>💰 Causes of the Revolt: Economic</h2>
+
+            <h3>1. High Land Taxes & Loss of Land</h3>
+            <ul>
+                <li><strong>New Revenue Systems:</strong>
+                    <br>• Permanent Settlement (1793)
+                    <br>• Mahalwari Settlement (1822)
+                    <br>• Ryotwari System (1820s)
+                </li>
+                <li><strong>Impact:</strong> High taxes on cultivators</li>
+                <li><strong>Confiscation:</strong> Land seized from many landlords</li>
+                <li><strong>Debt Cycle:</strong> Peasants fell into massive debt</li>
+                <li><strong>Land as Commodity:</strong> Forced many farmers to sell land</li>
+            </ul>
+
+            <h3>2. Destruction of Indigenous Industries</h3>
+            <ul>
+                <li><strong>Indian Handicrafts:</strong> Declined due to British free trade policies</li>
+                <li><strong>British Textiles:</strong> Cheaper due to industrialization</li>
+                <li><strong>Artisans:</strong> Lost their livelihoods</li>
+                <li><strong>Heavy Taxation:</strong> On Indian goods further crippled industries</li>
+            </ul>
+
+            <h3>3. Confiscation of Estates <span class="tag tag-imp">PYQ</span></h3>
+            <ul>
+                <li><strong>1856:</strong> British established special courts to seize "free states"</li>
+                <li><strong>1852-1857:</strong> Around <strong>21,000 cases</strong> filed <span
+                        class="tag tag-imp">Important Number</span></li>
+                <li><strong>Mass Confiscation:</strong> Land seized from traditional rulers</li>
+                <li><strong>Alienated Groups:</strong> Nawabs, zamindars, religious leaders</li>
+                <li><strong>Result:</strong> Many joined the revolt</li>
+            </ul>
+        </div>
+
+        <!-- Course of Revolt -->
+        <div class="card">
+            <h2>📅 Course of the Revolt</h2>
+
+            <h3>🔥 Beginning of the Revolt</h3>
+
+            <div class="timeline-item">
+                <strong>March 1857:</strong> Berhampur (Bengal) <span class="tag tag-date">Start</span>
+                <br>First signs of rebellion. Sepoys refused Enfield cartridges. Later disbanded.
+            </div>
+
+            <div class="timeline-item">
+                <strong>April 24, 1857:</strong> Meerut Mutiny <span class="tag tag-imp">Super PYQ</span>
+                <br>Sepoys refused cartridges. Sentenced to long-term imprisonment. Turning point!
+            </div>
+
+            <div class="timeline-item">
+                <strong>May 10, 1857:</strong> Meerut Revolt
+                <br>Sepoys revolted, freed fellow soldiers from jail, marched toward Delhi
+            </div>
+
+            <div class="timeline-item">
+                <strong>May 11, 1857:</strong> Delhi Captured <span class="tag tag-imp">Super PYQ</span>
+                <br>Sepoys captured Delhi. Proclaimed <strong>Bahadur Shah II</strong> as Emperor of Hindustan!
+                <br>European officers killed or fled by nightfall.
+            </div>
+        </div>
+
+        <!-- Leaders & Centers -->
+        <div class="card">
+            <h2>👑 Leaders & Centers of Revolt</h2>
+
+            <table>
+                <tr>
+                    <th>Center</th>
+                    <th>Leader</th>
+                    <th>Key Details</th>
+                </tr>
+                <tr>
+                    <td><strong>Delhi</strong></td>
+                    <td><strong>Bahadur Shah II</strong> <span class="tag tag-leader">Emperor</span></td>
+                    <td>Proclaimed Emperor of Hindustan. Later led by Bakht Khan</td>
+                </tr>
+                <tr>
+                    <td><strong>Kanpur</strong></td>
+                    <td><strong>Nana Sahib</strong> <span class="tag tag-leader">Peshwa</span></td>
+                    <td>Adopted son of last Peshwa. Fled to Nepal after defeat (June 1858)</td>
+                </tr>
+                <tr>
+                    <td><strong>Lucknow</strong></td>
+                    <td><strong>Begum Hazrat Mahal</strong> <span class="tag tag-leader">Queen</span></td>
+                    <td>Declared her son as ruler of Awadh</td>
+                </tr>
+                <tr>
+                    <td><strong>Jhansi</strong></td>
+                    <td><strong>Rani Lakshmibai</strong> <span class="tag tag-leader">Queen</span></td>
+                    <td>British refused to recognize her right to rule. Died in battle (April 1858)</td>
+                </tr>
+                <tr>
+                    <td><strong>Bihar (Jagdishpur)</strong></td>
+                    <td><strong>Kunwar Singh</strong> <span class="tag tag-leader">Zamindar</span></td>
+                    <td>Major zamindar role despite being in his 70s!</td>
+                </tr>
+                <tr>
+                    <td><strong>Faizabad</strong></td>
+                    <td><strong>Maulvi Ahmadullah Shah</strong> <span class="tag tag-leader">Religious</span></td>
+                    <td>Key leader. Killed in June 18 58</td>
+                </tr>
+            </table>
+
+            <div class="highlight-box">
+                <strong>⚡ Notable Leader: Bakht Khan</strong>
+                <ul>
+                    <li>Took military leadership in Delhi after initial chaos</li>
+                    <li>Organized rebel forces</li>
+                    <li>Military strategist for Bahadur Shah II</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Suppression -->
+        <div class="card">
+            <h2>🗡️ Suppression of the Revolt</h2>
+
+            <h3>⚔️ British Response</h3>
+            <ul>
+                <li><strong>Strategy:</strong> Brutal military force</li>
+                <li><strong>Method:</strong> Systematically recaptured lost territories</li>
+                <li><strong>Reinforcements:</strong> Fresh troops from England</li>
+            </ul>
+
+            <h3>📅 Key Suppression Events</h3>
+
+            <div class="timeline-item">
+                <strong>June 1857:</strong> Delhi Surrounded
+                <br>British forces besieged Delhi
+            </div>
+
+            <div class="timeline-item">
+                <strong>September 1857:</strong> Delhi Recaptured <span class="tag tag-imp">Super PYQ</span>
+                <br>British recaptured Delhi. <strong>Bahadur Shah II exiled to Rangoon (Burma)</strong>
+            </div>
+
+            <div class="timeline-item">
+                <strong>April 1858:</strong> Jhansi Falls
+                <br>Rani Lakshmibai & Tantia Tope fought bravely. Rani died in battle.
+            </div>
+
+            <div class="timeline-item">
+                <strong>June 1858:</strong> Kanpur & Faizabad
+                <br>• Nana Sahib fled to Nepal
+                <br>• Maulvi Ahmadullah Shah killed
+            </div>
+
+            <div class="timeline-item">
+                <strong>March 1859:</strong> Tantia Tope Executed <span class="tag tag-imp">PYQ</span>
+                <br>Captured and hanged by British. One of last major leaders.
+            </div>
+        </div>
+
+        <!-- Reasons for Failure -->
+        <div class="card">
+            <h2>❌ Reasons for Failure of the Revolt</h2>
+
+            <h3>1. Lack of Unity</h3>
+            <ul>
+                <li>Different groups fought for <strong>local interests</strong>, not common national cause</li>
+                <li>No pan-India coordination</li>
+                <li>Regional goals conflicted</li>
+            </ul>
+
+            <h3>2. Limited Support</h3>
+            <ul>
+                <li>Many rulers stayed <strong>loyal to British</strong>:
+                    <br>• Sikhs (Punjab)
+                    <br>• Scindias (Gwalior)
+                    <br>• Holkars (Indore)
+                    <br>• Nizam of Hyderabad
+                </li>
+                <li>Educated Indians often supported British</li>
+                <li>Landlords in some areas didn't join</li>
+            </ul>
+
+            <h3>3. Poor Leadership</h3>
+            <ul>
+                <li>Rebels lacked <strong>coordination</strong></li>
+                <li>No clear strategy or planning</li>
+                <li>Bahadur Shah II was old and reluctant leader</li>
+                <li>No unified command structure</li>
+            </ul>
+
+            <h3>4. British Military Superiority</h3>
+            <ul>
+                <li><strong>Better weapons:</strong> Modern firearms vs outdated weapons</li>
+                <li><strong>Disciplined troops:</strong> Professional army</li>
+                <li><strong>Reinforcements:</strong> Fresh troops from England</li>
+                <li><strong>Telegraph & Railways:</strong> Better communication & mobility</li>
+            </ul>
+
+            <h3>5. No Clear Ideology</h3>
+            <ul>
+                <li>Driven by <strong>anger and local grievances</strong></li>
+                <li>Not driven by nationalism (concept didn't exist yet)</li>
+                <li>Different groups had different goals</li>
+            </ul>
+        </div>
+
+        <!-- Impact -->
+        <div class="card">
+            <h2>💥 Impact of the Revolt</h2>
+
+            <h3>1. End of Mughal Empire <span class="tag tag-imp">Super PYQ</span></h3>
+            <ul>
+                <li><strong>Bahadur Shah II:</strong> Exiled to Rangoon (Burma)</li>
+                <li><strong>Died:</strong> 1862 in Rangoon</li>
+                <li><strong>Significance:</strong> Official end of Mughal rule in India</li>
+                <li><strong>Symbolism:</strong> End of 300+ year dynasty</li>
+            </ul>
+
+            <h3>2. End of Company Rule <span class="tag tag-imp">Super PYQ</span></h3>
+            <ul>
+                <li><strong>1858:</strong> East India Company abolished</li>
+                <li><strong>Direct Rule:</strong> India came under British Crown</li>
+                <li><strong>Queen Victoria:</strong> Became Empress of India (1858)</li>
+                <li><strong>Government of India Act 1858:</strong> Formalized Crown rule</li>
+            </ul>
+
+            <h3>3. Policy Changes</h3>
+            <ul>
+                <li><strong>Doctrine of Lapse:</strong> Stopped (no more annexations)</li>
+                <li><strong>Princely States:</strong> British stopped annexing them</li>
+                <li><strong>Divide and Rule:</strong> Adopted to prevent future unity</li>
+                <li><strong>Army Reorganization:</strong> Reduced Indian soldiers, increased British</li>
+                <li><strong>Religious Neutrality:</strong> British claimed not to interfere in religion</li>
+            </ul>
+
+            <h3>4. Rise of Indian Nationalism</h3>
+            <ul>
+                <li>Though revolt failed, it <strong>inspired future movements</strong></li>
+                <li>Showed that British could be challenged</li>
+                <li>United different communities (briefly)</li>
+                <li>Sparked ideas of independence</li>
+                <li>Foundation for Indian National Congress (1885)</li>
+            </ul>
+
+            <div class="highlight-box">
+                <strong>🎯 Long-term Significance:</strong>
+                <p>The Revolt of 1857 was a watershed moment. Though it failed militarily, it awakened Indian masses to
+                    British exploitation and planted seeds of nationalism that ultimately led to independence in 1947.
+                </p>
+            </div>
+        </div>
+
+        <!-- PYQ Snipers -->
+        <div class="pyq-box">
+            <h2>🎯 PYQ Sniper Shots</h2>
+
+            <div class="pyq-item">
+                <strong>Q: What was the immediate cause of 1857 Revolt?</strong><br>
+                A: <strong>Enfield rifle cartridges</strong> greased with cow & pig fat
+            </div>
+            <div class="pyq-item">
+                <strong>Q: General Service Enlistment Act was passed in?</strong><br>
+                A: <strong>1856</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Indian sepoys were paid how much of British soldiers' salary?</strong><br>
+                A: <strong>1/3rd (one-third)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Post Office Act that removed sepoys' free postal privileges?</strong><br>
+                A: <strong>1854</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: How many land confiscation cases filed (1852-57)?</strong><br>
+                A: <strong>21,000 cases</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Where did the revolt start in March 1857?</strong><br>
+                A: <strong>Berhampur (Bengal)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Meerut mutiny started on?</strong><br>
+                A: <strong>April 24, 1857</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Sepoys captured Delhi on?</strong><br>
+                A: <strong>May 11, 1857</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Who was proclaimed Emperor of Hindustan?</strong><br>
+                A: <strong>Bahadur Shah II</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Leader of revolt in Kanpur?</strong><br>
+                A: <strong>Nana Sahib</strong> (adopted son of last Peshwa)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Leader in Lucknow?</strong><br>
+                A: <strong>Begum Hazrat Mahal</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Leader in Jhansi?</strong><br>
+                A: <strong>Rani Lakshmibai</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Leader in Bihar (Jagdishpur)?</strong><br>
+                A: <strong>Kunwar Singh</strong> (in his 70s!)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Leader in Faizabad?</strong><br>
+                A: <strong>Maulvi Ahmadullah Shah</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: When was Delhi recaptured by British?</strong><br>
+                A: <strong>September 1857</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Where was Bahadur Shah II exiled?</strong><br>
+                A: <strong>Rangoon (Burma)</strong> - died 1862
+            </div>
+            <div class="pyq-item">
+                <strong>Q: When did Rani Lakshmibai die?</strong><br>
+                A: <strong>April 1858</strong> (in battle at Jhansi)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: When was Tantia Tope executed?</strong><br>
+                A: <strong>March 1859</strong> (captured & hanged)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What ended in 1858 after the revolt?</strong><br>
+                A: <strong>East India Company rule</strong> - replaced by British Crown rule
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What policy did British stop after 1857?</strong><br>
+                A: <strong>Doctrine of Lapse</strong> (annexation of princely states)
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; color: #64748b; font-size: 0.9em;">
+            Created by Antigravity • UPPCS Modern India • From Your Class Notes
+        </div>
+    </div>
+
+    <script src="../theme-toggle.js"></script>
+</body>
+
+</html>

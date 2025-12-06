@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 1: European Companies in India - UPPCS Notes</title>
+    <link rel="stylesheet" href="../dark-theme.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        [data-theme="dark"] body {
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+        }
+
+        header {
+            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+            color: white;
+            padding: 50px 30px;
+            border-radius: 20px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 20px 60px rgba(37, 99, 235, 0.4);
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '🚢';
+            position: absolute;
+            font-size: 15rem;
+            opacity: 0.1;
+            top: -30px;
+            left: -30px;
+            animation: sail 10s ease-in-out infinite;
+        }
+
+        @keyframes sail {
+
+            0%,
+            100% {
+                transform: translateX(0px);
+            }
+
+            50% {
+                transform: translateX(30px);
+            }
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #2563eb;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(37, 99, 235, 0.2);
+        }
+
+        [data-theme="dark"] .card {
+            background: #1e293b;
+        }
+
+        h2 {
+            color: #2563eb;
+            border-bottom: 3px solid #dbeafe;
+            padding-bottom: 10px;
+            font-size: 1.8rem;
+        }
+
+        [data-theme="dark"] h2 {
+            color: #60a5fa;
+            border-bottom-color: #1e40af;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .grid-container>div {
+            background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+            padding: 20px;
+            border-radius: 12px;
+            border: 2px solid #bfdbfe;
+        }
+
+        [data-theme="dark"] .grid-container>div {
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+            border-color: #2563eb;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            border-left: 5px solid #f59e0b;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        [data-theme="dark"] .highlight-box {
+            background: linear-gradient(135deg, #78350f 0%, #92400e 100%);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        th,
+        td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #dbeafe;
+        }
+
+        th {
+            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background: #eff6ff;
+        }
+
+        [data-theme="dark"] tr:hover {
+            background: #374151;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .tag-imp {
+            background: #fecaca;
+            color: #991b1b;
+        }
+
+        .tag-date {
+            background: #e0e7ff;
+            color: #3730a3;
+        }
+
+        .pyq-box {
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 16px;
+            margin-top: 40px;
+        }
+
+        .pyq-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 10px;
+            border-left: 4px solid #2563eb;
+        }
+
+        .timeline-item {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 15px;
+            border-left: 3px solid #2563eb;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -8px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            background: #2563eb;
+            border-radius: 50%;
+            box-shadow: 0 0 0 3px white, 0 0 0 5px #2563eb;
+        }
+
+        [data-theme="dark"] .timeline-item::before {
+            box-shadow: 0 0 0 3px #1e293b, 0 0 0 5px #2563eb;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark Mode">🌓</button>
+            <h1>🚢 Chapter 1: European Companies in India</h1>
+            <div class="subtitle">The Age of Trade & Conquest (1498-1757)</div>
+        </header>
+
+        <!-- 1. Portuguese -->
+        <div class="card">
+            <h2>1. The Portuguese (1498-1961)</h2>
+            <div class="highlight-box">
+                <strong>First Europeans to arrive in India</strong> - Vasco da Gama landed at Calicut (1498)
+            </div>
+
+            <h3>🗓️ Key Events Timeline</h3>
+            <div class="timeline-item">
+                <strong>1498:</strong> Vasco da Gama arrived at Calicut (Kerala). Ruler: Zamorin (Samuthiri) <span
+                    class="tag tag-imp">PYQ</span>
+            </div>
+            <div class="timeline-item">
+                <strong>1510:</strong> Alfonso de Albuquerque captured <strong>Goa</strong> from Bijapur Sultan
+            </div>
+            <div class="timeline-item">
+                <strong>1530:</strong> Established settlements at Diu & Daman
+            </div>
+
+            <h3>🏰 Portuguese Possessions</h3>
+            <ul>
+                <li><strong>Goa:</strong> Capital (1510-1961). "Rome of the East"</li>
+                <li><strong>Diu & Daman:</strong> Gujarat coast</li>
+                <li><strong>Bombay (Mumbai):</strong> Given to British as dowry (1661) when Catherine of Braganza
+                    married Charles II</li>
+                <li><strong>Hooghly:</strong> Bengal (1579)</li>
+            </ul>
+
+            <h3>📌 Key Facts</h3>
+            <ul>
+                <li><strong>Governor:</strong> Francisco de Almeida (First Portuguese Governor in India)</li>
+                <li><strong>Policy:</strong> "Blue Water Policy" - Control sea routes, not land</li>
+                <li><strong>Religion:</strong> Introduced Christianity. St. Francis Xavier came to Goa (1542)</li>
+                <li><strong>Decline:</strong> Defeated by Dutch & English. Lost monopoly</li>
+                <li><strong>End:</strong> Goa liberated by India in <strong>1961</strong> <span
+                        class="tag tag-imp">PYQ</span></li>
+            </ul>
+        </div>
+
+        <!-- 2. Dutch -->
+        <div class="card">
+            <h2>2. The Dutch (1602-1825)</h2>
+
+            <h3>🗓️ Key Events</h3>
+            <div class="timeline-item">
+                <strong>1602:</strong> Dutch East India Company (VOC) formed
+            </div>
+            <div class="timeline-item">
+                <strong>1605:</strong> First factory at Masulipatnam (Andhra Pradesh)
+            </div>
+            <div class="timeline-item">
+                <strong>1759:</strong> Battle of Bedara - Defeated by British. Left India
+            </div>
+
+            <h3>🏭 Dutch Settlements</h3>
+            <ul>
+                <li><strong>Pulicat (Tamil Nadu):</strong> First factory (1610)</li>
+                <li><strong>Chinsura (Bengal):</strong> Main settlement</li>
+                <li><strong>Nagapattinam (Tamil Nadu):</strong> Important port</li>
+                <li><strong>Cochin (Kerala):</strong> Captured from Portuguese (1663)</li>
+            </ul>
+
+            <h3>📌 Key Facts</h3>
+            <ul>
+                <li><strong>Focus:</strong> Spice trade (Pepper, Cinnamon, Cloves)</li>
+                <li><strong>Strength:</strong> Strong naval power. Defeated Portuguese</li>
+                <li><strong>Decline:</strong> Focused more on Indonesia (Batavia). Lost to British in India</li>
+                <li><strong>End:</strong> Anglo-Dutch Treaty (1824) - Dutch left India for Indonesia</li>
+            </ul>
+        </div>
+
+        <!-- 3. British -->
+        <div class="card">
+            <h2>3. The British East India Company (1600-1858)</h2>
+
+            <h3>🗓️ Formation & Early Years</h3>
+            <div class="timeline-item">
+                <strong>1600:</strong> British East India Company formed. Charter by Queen Elizabeth I <span
+                    class="tag tag-imp">PYQ</span>
+            </div>
+            <div class="timeline-item">
+                <strong>1608:</strong> Captain Hawkins arrived at Jahangir's court (Agra)
+            </div>
+            <div class="timeline-item">
+                <strong>1613:</strong> First factory at Surat (Gujarat) - Permission from Jahangir
+            </div>
+            <div class="timeline-item">
+                <strong>1615:</strong> Sir Thomas Roe came as ambassador to Jahangir's court
+            </div>
+
+            <h3>🏭 Major Settlements (The 3 Presidencies)</h3>
+            <div class="grid-container">
+                <div>
+                    <h4>🏛️ Madras (Chennai)</h4>
+                    <ul>
+                        <li><strong>Founded:</strong> 1639</li>
+                        <li><strong>By:</strong> Francis Day</li>
+                        <li><strong>Fort:</strong> Fort St. George</li>
+                        <li><strong>From:</strong> Chandragiri ruler</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>🏛️ Bombay (Mumbai)</h4>
+                    <ul>
+                        <li><strong>Acquired:</strong> 1661 (Dowry)</li>
+                        <li><strong>From:</strong> Portuguese</li>
+                        <li><strong>Given to EIC:</strong> 1668 (by Charles II)</li>
+                        <li><strong>Rent:</strong> £10 per year!</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>🏛️ Calcutta (Kolkata)</h4>
+                    <ul>
+                        <li><strong>Founded:</strong> 1690</li>
+                        <li><strong>By:</strong> Job Charnock</li>
+                        <li><strong>Fort:</strong> Fort William (1700)</li>
+                        <li><strong>Became:</strong> Capital of British India</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3>⚔️ Anglo-Mughal Relations</h3>
+            <ul>
+                <li><strong>Jahangir:</strong> Granted permission for Surat factory (1613)</li>
+                <li><strong>Shah Jahan:</strong> Allowed trade expansion</li>
+                <li><strong>Aurangzeb:</strong> Conflict over customs. War (1686-90). British defeated</li>
+                <li><strong>Farrukhsiyar:</strong> Granted <strong>Farman (1717)</strong> - Duty-free trade in Bengal
+                    <span class="tag tag-imp">Super PYQ</span></li>
+            </ul>
+        </div>
+
+        <!-- 4. French -->
+        <div class="card">
+            <h2>4. The French (1664-1761)</h2>
+
+            <h3>🗓️ Key Events</h3>
+            <div class="timeline-item">
+                <strong>1664:</strong> French East India Company formed by Colbert (Minister of Louis XIV)
+            </div>
+            <div class="timeline-item">
+                <strong>1668:</strong> First factory at Surat
+            </div>
+            <div class="timeline-item">
+                <strong>1673:</strong> Pondicherry founded by François Martin <span class="tag tag-imp">PYQ</span>
+            </div>
+
+            <h3>🏭 French Settlements</h3>
+            <ul>
+                <li><strong>Pondicherry (Puducherry):</strong> Capital. "Paris of the East"</li>
+                <li><strong>Chandannagar (Bengal):</strong> Important trading post</li>
+                <li><strong>Mahe (Kerala):</strong> Spice trade</li>
+                <li><strong>Karaikal (Tamil Nadu):</strong> Coastal settlement</li>
+                <li><strong>Yanam (Andhra Pradesh):</strong> East coast</li>
+            </ul>
+
+            <h3>⚔️ Anglo-French Wars (Carnatic Wars)</h3>
+            <table>
+                <tr>
+                    <th>War</th>
+                    <th>Period</th>
+                    <th>Key Events</th>
+                    <th>Result</th>
+                </tr>
+                <tr>
+                    <td><strong>First Carnatic War</strong></td>
+                    <td>1746-48</td>
+                    <td>French captured Madras. Treaty of Aix-la-Chapelle</td>
+                    <td>Madras returned to British</td>
+                </tr>
+                <tr>
+                    <td><strong>Second Carnatic War</strong></td>
+                    <td>1749-54</td>
+                    <td>Succession dispute. Dupleix vs British</td>
+                    <td>Dupleix recalled. British gained upper hand</td>
+                </tr>
+                <tr>
+                    <td><strong>Third Carnatic War</strong></td>
+                    <td>1758-63</td>
+                    <td>Battle of Wandiwash (1760). Eyre Coote defeated French</td>
+                    <td>French power destroyed <span class="tag tag-imp">PYQ</span></td>
+                </tr>
+            </table>
+
+            <h3>📌 Key Personalities</h3>
+            <ul>
+                <li><strong>Dupleix:</strong> French Governor (1742-54). Master strategist. Introduced "Subsidiary
+                    Alliance" concept</li>
+                <li><strong>Count de Lally:</strong> French commander in Third Carnatic War. Defeated at Wandiwash</li>
+            </ul>
+
+            <div class="highlight-box">
+                <strong>Battle of Wandiwash (1760):</strong> Decisive British victory. Eyre Coote defeated Count de
+                Lally. Ended French ambitions in India. <span class="tag tag-imp">Super PYQ</span>
+            </div>
+        </div>
+
+        <!-- 5. Comparison -->
+        <div class="card">
+            <h2>5. Comparison of European Powers</h2>
+
+            <table>
+                <tr>
+                    <th>Company</th>
+                    <th>Arrival</th>
+                    <th>Main Focus</th>
+                    <th>Decline Reason</th>
+                </tr>
+                <tr>
+                    <td><strong>Portuguese</strong></td>
+                    <td>1498 (First)</td>
+                    <td>Goa, Coastal trade</td>
+                    <td>Weak navy, Dutch/British competition</td>
+                </tr>
+                <tr>
+                    <td><strong>Dutch</strong></td>
+                    <td>1602</td>
+                    <td>Spice trade</td>
+                    <td>Focused on Indonesia</td>
+                </tr>
+                <tr>
+                    <td><strong>British</strong></td>
+                    <td>1600</td>
+                    <td>Trade → Political power</td>
+                    <td>Ruled till 1947</td>
+                </tr>
+                <tr>
+                    <td><strong>French</strong></td>
+                    <td>1664 (Last)</td>
+                    <td>Pondicherry, Carnatic</td>
+                    <td>Defeated in Carnatic Wars</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- PYQ Snipers -->
+        <div class="pyq-box">
+            <h2>🎯 PYQ Sniper Shots</h2>
+
+            <div class="pyq-item">
+                <strong>Q: First European to reach India by sea route?</strong><br>
+                A: <strong>Vasco da Gama (1498)</strong> at Calicut
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Who founded Pondicherry?</strong><br>
+                A: <strong>François Martin (1673)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Battle that ended French power in India?</strong><br>
+                A: <strong>Battle of Wandiwash (1760)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Who granted Farman of 1717 to British?</strong><br>
+                A: <strong>Farrukhsiyar</strong> (Duty-free trade in Bengal)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: When was British East India Company formed?</strong><br>
+                A: <strong>1600</strong> (Charter by Queen Elizabeth I)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Who founded Calcutta?</strong><br>
+                A: <strong>Job Charnock (1690)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: When was Goa liberated?</strong><br>
+                A: <strong>1961</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Bombay was given to British as dowry by?</strong><br>
+                A: <strong>Portuguese (1661)</strong> - Catherine of Braganza's marriage
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; color: #64748b; font-size: 0.9em;">
+            Created by Antigravity • UPPCS Modern India
+        </div>
+    </div>
+
+    <script src="../theme-toggle.js"></script>
+</body>
+
+</html>

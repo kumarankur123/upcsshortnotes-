@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 3: British Expansion & Wars (1767-1849) - UPPCS Notes</title>
+    <link rel="stylesheet" href="../dark-theme.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        [data-theme="dark"] body {
+            background: linear-gradient(135deg, #78350f 0%, #92400e 100%);
+        }
+
+        header {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            color: white;
+            padding: 50px 30px;
+            border-radius: 20px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 20px 60px rgba(245, 158, 11, 0.5);
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '🗡️';
+            position: absolute;
+            font-size: 15rem;
+            opacity: 0.1;
+            top: -30px;
+            left: -30px;
+            animation: pulse 3s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.1);
+            }
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #f59e0b;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(245, 158, 11, 0.2);
+        }
+
+        [data-theme="dark"] .card {
+            background: #1e293b;
+        }
+
+        h2 {
+            color: #f59e0b;
+            border-bottom: 3px solid #fef3c7;
+            padding-bottom: 10px;
+            font-size: 1.8rem;
+        }
+
+        [data-theme="dark"] h2 {
+            color: #fbbf24;
+            border-bottom-color: #78350f;
+        }
+
+        .war-section {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            padding: 25px;
+            border-radius: 12px;
+            margin: 20px 0;
+            border-left: 5px solid #f59e0b;
+        }
+
+        [data-theme="dark"] .war-section {
+            background: linear-gradient(135deg, #78350f 0%, #92400e 100%);
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .grid-container>div {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            padding: 20px;
+            border-radius: 12px;
+            border: 2px solid #fcd34d;
+        }
+
+        [data-theme="dark"] .grid-container>div {
+            background: linear-gradient(135deg, #78350f 0%, #92400e 100%);
+            border-color: #f59e0b;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+            border-left: 5px solid #3b82f6;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        [data-theme="dark"] .highlight-box {
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        th,
+        td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #fef3c7;
+        }
+
+        th {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background: #fef3c7;
+        }
+
+        [data-theme="dark"] tr:hover {
+            background: #374151;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .tag-imp {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .tag-date {
+            background: #e0e7ff;
+            color: #3730a3;
+        }
+
+        .tag-leader {
+            background: #dcfce7;
+            color: #166534;
+        }
+
+        .pyq-box {
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 16px;
+            margin-top: 40px;
+        }
+
+        .pyq-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 10px;
+            border-left: 4px solid #f59e0b;
+        }
+
+        .timeline-item {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 15px;
+            border-left: 3px solid #f59e0b;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -8px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            background: #f59e0b;
+            border-radius: 50%;
+            box-shadow: 0 0 0 3px white, 0 0 0 5px #f59e0b;
+        }
+
+        [data-theme="dark"] .timeline-item::before {
+            box-shadow: 0 0 0 3px #1e293b, 0 0 0 5px #f59e0b;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark Mode">🌓</button>
+            <h1>🗡️ Chapter 3: British Expansion & Wars</h1>
+            <div class="subtitle">Anglo-Mysore, Anglo-Maratha, Anglo-Sikh Wars (1767-1849)</div>
+        </header>
+
+        <!-- PART 1: ANGLO-MYSORE WARS -->
+        <div class="card">
+            <h2>Part 1: Anglo-Mysore Wars (1767-1799)</h2>
+
+            <h3>🏰 Background: Rise of Mysore</h3>
+            <ul>
+                <li><strong>Battle of Talikota (1565):</strong> Vijayanagara Empire defeated. Wodeyar Dynasty
+                    established</li>
+                <li><strong>Hyder Ali (1761-1782):</strong> Usurped power from Wodeyars. Built strong army with French
+                    help</li>
+                <li><strong>Tipu Sultan (1782-1799):</strong> "Tiger of Mysore". Continued father's anti-British
+                    policies</li>
+            </ul>
+
+            <h3>⚡ Reasons for Conflict</h3>
+            <div class="grid-container">
+                <div>
+                    <h4>1. Territorial Expansion</h4>
+                    <p>Mysore expanded to Malabar Coast & Krishna River, threatening British, Marathas, and Nizam</p>
+                </div>
+                <div>
+                    <h4>2. Trade Control</h4>
+                    <p>Mysore controlled spice trade (black pepper, cardamom). Tipu banned exports in 1785</p>
+                </div>
+                <div>
+                    <h4>3. French Alliance</h4>
+                    <p>Hyder Ali built arsenal at Dindigul with French help, alarming British</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- First Anglo-Mysore War -->
+        <div class="card">
+            <div class="war-section">
+                <h2>⚔️ First Anglo-Mysore War (1767-1769)</h2>
+
+                <h3>📌 Key Events</h3>
+                <ul>
+                    <li><strong>British Strategy:</strong> Allied with Marathas & Nizam of Hyderabad to attack Mysore
+                    </li>
+                    <li><strong>Hyder Ali's Diplomacy:</strong> Made peace with Marathas & Nizam, isolating British
+                        <span class="tag tag-imp">PYQ</span></li>
+                    <li><strong>Attack on Madras:</strong> Hyder Ali attacked Madras, forcing British to surrender</li>
+                    <li><strong>British Defeat:</strong> First major defeat of British in South India</li>
+                </ul>
+
+                <div class="highlight-box">
+                    <strong>Treaty of Madras (1769):</strong><br>
+                    • Both sides restored captured territories<br>
+                    • Mutual defense pact: Help each other if attacked by third party<br>
+                    • <strong>Result:</strong> Status quo maintained <span class="tag tag-imp">PYQ</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Anglo-Mysore War -->
+        <div class="card">
+            <div class="war-section">
+                <h2>⚔️ Second Anglo-Mysore War (1780-1784)</h2>
+
+                <h3>🔥 Causes</h3>
+                <ul>
+                    <li><strong>British Betrayal:</strong> British broke Treaty of Madras. Didn't help Mysore when
+                        Marathas attacked (1770)</li>
+                    <li><strong>Mahe Port Incident:</strong> Hyder Ali allowed French to use Mahe port during American
+                        War of Independence (1782)</li>
+                    <li><strong>British Retaliation:</strong> British captured Mahe, angering Hyder Ali</li>
+                </ul>
+
+                <h3>⚔️ Course of War</h3>
+                <ul>
+                    <li><strong>1780:</strong> Hyder Ali defeated British at Battle of Pollilur. Captured Colonel
+                        Baillie</li>
+                    <li><strong>1781:</strong> British reinforcements arrived under Sir Eyre Coote</li>
+                    <li><strong>1782:</strong> Hyder Ali died. Tipu Sultan took command <span class="tag tag-leader">Key
+                            Transition</span></li>
+                    <li><strong>1784:</strong> War ended in stalemate</li>
+                </ul>
+
+                <div class="highlight-box">
+                    <strong>Treaty of Mangalore (1784):</strong><br>
+                    • Both sides returned captured territories<br>
+                    • <strong>Significance:</strong> Last treaty signed by British on equal terms in India! <span
+                        class="tag tag-imp">Super PYQ</span><br>
+                    • Tensions remained unresolved
+                </div>
+            </div>
+        </div>
+
+        <!-- Third Anglo-Mysore War -->
+        <div class="card">
+            <div class="war-section">
+                <h2>⚔️ Third Anglo-Mysore War (1790-1792)</h2>
+
+                <h3>🔥 Trigger</h3>
+                <ul>
+                    <li><strong>Tipu's Foreign Alliances:</strong> Sought help from Turkey, Afghanistan, France</li>
+                    <li><strong>Attack on Travancore (1789):</strong> Travancore was British ally. Tipu attacked it
+                        <span class="tag tag-imp">PYQ</span></li>
+                    <li><strong>British Response:</strong> Declared war on Mysore</li>
+                </ul>
+
+                <h3>⚔️ Course of War</h3>
+                <ul>
+                    <li><strong>Triple Alliance:</strong> British + Marathas + Nizam vs Tipu Sultan</li>
+                    <li><strong>Lord Cornwallis:</strong> Led British forces personally</li>
+                    <li><strong>Siege of Seringapatnam:</strong> Tipu's capital surrounded</li>
+                    <li><strong>Result:</strong> Crushing defeat for Tipu Sultan</li>
+                </ul>
+
+                <div class="highlight-box">
+                    <strong>Treaty of Seringapatnam (1792):</strong> <span class="tag tag-imp">Super PYQ</span><br>
+                    • Tipu surrendered <strong>half of Mysore's territory</strong> to British & allies<br>
+                    • Paid <strong>₹33 crores</strong> as war indemnity<br>
+                    • Gave <strong>two sons as hostages</strong> to British<br>
+                    • Lost Malabar, Dindigul, Baramahal, and Coorg<br>
+                    • <strong>Impact:</strong> Mysore's power severely weakened
+                </div>
+            </div>
+        </div>
+
+        <!-- Fourth Anglo-Mysore War -->
+        <div class="card">
+            <div class="war-section">
+                <h2>⚔️ Fourth Anglo-Mysore War (1799)</h2>
+
+                <h3>🔥 Background</h3>
+                <ul>
+                    <li><strong>Lord Wellesley (1798):</strong> Became Governor-General. Aggressive expansionist policy
+                    </li>
+                    <li><strong>Subsidiary Alliance:</strong> Wellesley wanted Tipu to accept British control</li>
+                    <li><strong>Tipu's Refusal:</strong> Refused to become British puppet</li>
+                    <li><strong>French Alliance:</strong> Tipu sent envoys to France (Napoleon's Egypt campaign)</li>
+                </ul>
+
+                <h3>⚔️ The Final Battle</h3>
+                <ul>
+                    <li><strong>British Alliance:</strong> British + Marathas + Nizam (40,000 troops)</li>
+                    <li><strong>Siege of Seringapatnam (May 1799):</strong> Final assault on Tipu's capital</li>
+                    <li><strong>Tipu's Death (4 May 1799):</strong> Died fighting at the gates <span
+                            class="tag tag-imp">Super PYQ</span></li>
+                    <li><strong>Famous Quote:</strong> "Better to live one day as a tiger than a thousand years as a
+                        sheep"</li>
+                </ul>
+
+                <div class="highlight-box">
+                    <strong>Aftermath of Fourth War:</strong><br>
+                    • <strong>Mysore Partitioned:</strong> British took major portions. Rest to Marathas & Nizam<br>
+                    • <strong>Wodeyar Restored:</strong> British installed puppet Wodeyar ruler (5-year-old boy)<br>
+                    • <strong>British Dominance:</strong> South India completely under British control<br>
+                    • <strong>Tipu's Legacy:</strong> First Indian ruler to die fighting British <span
+                        class="tag tag-imp">PYQ</span>
+                </div>
+
+                <h3>🎯 Tipu Sultan: Key Facts</h3>
+                <ul>
+                    <li><strong>Titles:</strong> "Tiger of Mysore", "Sher-e-Mysore"</li>
+                    <li><strong>Innovations:</strong> Introduced rocket artillery (Mysorean rockets)</li>
+                    <li><strong>Administration:</strong> Modernized army, promoted sericulture</li>
+                    <li><strong>Secular:</strong> Donated to Hindu temples despite being Muslim</li>
+                    <li><strong>Symbol:</strong> Tiger stripes on soldiers' uniforms</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- PART 2: ANGLO-MARATHA WARS -->
+        <div class="card">
+            <h2>Part 2: Anglo-Maratha Wars (1775-1818)</h2>
+
+            <h3>🚩 Background: Maratha Empire</h3>
+            <ul>
+                <li><strong>Founded by:</strong> Chhatrapati Shivaji Maharaj (1674)</li>
+                <li><strong>After Shivaji:</strong>
+                    <br>• Sambhaji (1681-89): Executed by Aurangzeb
+                    <br>• Rajaram (1689-1700): Continued resistance
+                    <br>• Tarabai (1700-07): Widow, ruled as regent
+                    <br>• Shahu (1707-49): Released from Mughal captivity
+                </li>
+            </ul>
+
+            <h3>👑 Rise of Peshwas (Prime Ministers)</h3>
+            <div class="timeline-item">
+                <strong>Balaji Vishwanath (1713-1720):</strong> First Peshwa. Secured Mughal recognition for Chauth &
+                Sardeshmukhi
+            </div>
+            <div class="timeline-item">
+                <strong>Bajirao I (1720-1740):</strong> "Fighting Peshwa". Expanded beyond Narmada. Defeated Nizam at
+                Bhopal (1729)
+            </div>
+            <div class="timeline-item">
+                <strong>Balaji Bajirao (1740-1761):</strong> Expanded to Bengal, Bihar, Orissa. Defeated at Third Battle
+                of Panipat (1761)
+            </div>
+
+            <div class="highlight-box">
+                <strong>Third Battle of Panipat (14 Jan 1761):</strong> <span class="tag tag-imp">Super PYQ</span><br>
+                • <strong>Combatants:</strong> Marathas vs Ahmad Shah Abdali (Afghanistan)<br>
+                • <strong>Maratha Leaders:</strong> Sadashiv Rao Bhau, Vishwas Rao<br>
+                • <strong>Result:</strong> Catastrophic Maratha defeat. 50,000 casualties<br>
+                • <strong>Impact:</strong> Maratha power declined. Paved way for British rise<br>
+                • <strong>Note:</strong> Rajputs, Rohillas, Awadh supported Abdali against Marathas
+            </div>
+        </div>
+
+        <!-- First Anglo-Maratha War -->
+        <div class="card">
+            <div class="war-section">
+                <h2>⚔️ First Anglo-Maratha War (1775-1782)</h2>
+
+                <h3>🔥 Cause: Succession Dispute</h3>
+                <ul>
+                    <li><strong>Madhav Rao I died (1772):</strong> Succession crisis in Pune</li>
+                    <li><strong>Raghunath Rao (Raghoba):</strong> Uncle, wanted to become Peshwa</li>
+                    <li><strong>Narayan Rao:</strong> Younger brother, became Peshwa but was murdered</li>
+                    <li><strong>Madhav Rao II:</strong> Infant son of Narayan Rao. Nana Phadnavis became regent</li>
+                    <li><strong>British Support:</strong> Raghoba sought British help</li>
+                </ul>
+
+                <h3>📜 Key Treaties</h3>
+                <table>
+                    <tr>
+                        <th>Treaty</th>
+                        <th>Year</th>
+                        <th>Details</th>
+                    </tr>
+                    <tr>
+                        <td><strong>Treaty of Surat</strong></td>
+                        <td>1775</td>
+                        <td>British supported Raghoba. He ceded Salsette & Bassein</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Treaty of Purandhar</strong></td>
+                        <td>1776</td>
+                        <td>Calcutta Council rejected Surat Treaty. Made peace with Pune</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Treaty of Salbai</strong></td>
+                        <td>1782</td>
+                        <td>War ended. Status quo restored. 20 years of peace <span class="tag tag-imp">PYQ</span></td>
+                    </tr>
+                </table>
+
+                <div class="highlight-box">
+                    <strong>Treaty of Salbai (1782) - Key Terms:</strong><br>
+                    • British kept Salsette but returned other territories<br>
+                    • Raghoba given pension, no political role<br>
+                    • British recognized Madhav Rao II as Peshwa<br>
+                    • 20 years of peace between British & Marathas<br>
+                    • <strong>Significance:</strong> British gained time to consolidate in South India
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Anglo-Maratha War -->
+        <div class="card">
+            <div class="war-section">
+                <h2>⚔️ Second Anglo-Maratha War (1803-1805)</h2>
+
+                <h3>🔥 Background</h3>
+                <ul>
+                    <li><strong>Maratha Confederacy:</strong> 5 major powers - Peshwa (Pune), Scindia (Gwalior), Holkar
+                        (Indore), Gaekwad (Baroda), Bhonsle (Nagpur)</li>
+                    <li><strong>Internal Conflicts:</strong> Constant fighting among Maratha chiefs</li>
+                    <li><strong>Bajirao II (1796-1818):</strong> Weak Peshwa, dominated by Scindia & Holkar</li>
+                    <li><strong>Battle of Poona (1802):</strong> Holkar defeated Peshwa & Scindia</li>
+                </ul>
+
+                <div class="highlight-box">
+                    <strong>Treaty of Bassein (31 Dec 1802):</strong> <span class="tag tag-imp">Super PYQ</span><br>
+                    • <strong>Signed by:</strong> Bajirao II & British (Lord Wellesley)<br>
+                    • <strong>Terms:</strong> Peshwa accepted Subsidiary Alliance<br>
+                    &nbsp;&nbsp;- British troops stationed in Pune<br>
+                    &nbsp;&nbsp;- Peshwa to pay for their maintenance<br>
+                    &nbsp;&nbsp;- Peshwa couldn't enter alliances without British permission<br>
+                    &nbsp;&nbsp;- Ceded territories to British<br>
+                    • <strong>Impact:</strong> Peshwa became British puppet. Other Maratha chiefs opposed it
+                </div>
+
+                <h3>⚔️ Course of War</h3>
+                <ul>
+                    <li><strong>Scindia & Bhonsle:</strong> Opposed Treaty of Bassein. Declared war on British</li>
+                    <li><strong>Battle of Assaye (23 Sep 1803):</strong> Arthur Wellesley defeated Scindia <span
+                            class="tag tag-imp">PYQ</span></li>
+                    <li><strong>Battle of Argaon (29 Nov 1803):</strong> Wellesley defeated Bhonsle</li>
+                    <li><strong>Battle of Delhi (11 Sep 1803):</strong> British captured Delhi from Scindia</li>
+                    <li><strong>Battle of Laswari (1 Nov 1803):</strong> British defeated Scindia's forces</li>
+                </ul>
+
+                <h3>📜 Peace Treaties</h3>
+                <ul>
+                    <li><strong>Treaty of Deogaon (1803):</strong> Bhonsle ceded Cuttack, Balasore to British</li>
+                    <li><strong>Treaty of Surji-Anjangaon (1803):</strong> Scindia ceded territories between Ganga &
+                        Yamuna</li>
+                    <li><strong>Holkar's Resistance:</strong> Yashwant Rao Holkar continued fighting till 1805</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Third Anglo-Maratha War -->
+        <div class="card">
+            <div class="war-section">
+                <h2>⚔️ Third Anglo-Maratha War (1817-1818)</h2>
+
+                <h3>🔥 Causes</h3>
+                <ul>
+                    <li><strong>Peshwa's Discontent:</strong> Bajirao II resented British control</li>
+                    <li><strong>Pindari Raids:</strong> British used Pindari suppression as excuse to interfere</li>
+                    <li><strong>British Residents:</strong> Imposed on all Maratha states</li>
+                    <li><strong>Final Trigger:</strong> Peshwa attacked British Residency in Pune (1817)</li>
+                </ul>
+
+                <h3>⚔️ Course of War</h3>
+                <ul>
+                    <li><strong>Battle of Kirkee (5 Nov 1817):</strong> British defeated Peshwa near Pune</li>
+                    <li><strong>Battle of Koregaon (1 Jan 1818):</strong> 500 British troops defeated 28,000 Peshwa
+                        forces <span class="tag tag-imp">PYQ</span></li>
+                    <li><strong>Bhonsle & Holkar:</strong> Also defeated by British</li>
+                    <li><strong>Peshwa's Surrender (June 1818):</strong> Bajirao II surrendered</li>
+                </ul>
+
+                <div class="highlight-box">
+                    <strong>End of Maratha Empire (1818):</strong><br>
+                    • <strong>Peshwa Abolished:</strong> Bajirao II exiled to Bithur (near Kanpur) with pension<br>
+                    • <strong>Pune Annexed:</strong> Became part of Bombay Presidency<br>
+                    • <strong>Maratha Chiefs:</strong> Became princely states under British suzerainty<br>
+                    • <strong>British Supremacy:</strong> Established over entire India except Punjab & Sindh<br>
+                    • <strong>Note:</strong> Nana Sahib (leader of 1857 Revolt) was adopted son of Bajirao II
+                </div>
+            </div>
+        </div>
+
+        <!-- PART 3: ANGLO-SIKH WARS -->
+        <div class="card">
+            <h2>Part 3: Anglo-Sikh Wars (1845-1849)</h2>
+
+            <h3>🦁 Background: Sikh Empire</h3>
+            <ul>
+                <li><strong>Maharaja Ranjit Singh (1799-1839):</strong> "Lion of Punjab"
+                    <br>• Established independent Sikh Empire
+                    <br>• Modernized army with European officers (French generals)
+                    <br>• Controlled Punjab, Kashmir, Peshawar
+                    <br>• Maintained friendly relations with British
+                </li>
+                <li><strong>Treaty of Amritsar (1809):</strong> Ranjit Singh & British agreed on Sutlej River as
+                    boundary</li>
+            </ul>
+
+            <h3>💔 Decline After Ranjit Singh (1839)</h3>
+            <ul>
+                <li><strong>Rapid Succession:</strong> 5 rulers in 6 years
+                    <br>• Kharak Singh (1839-40)
+                    <br>• Nau Nihal Singh (1840) - Died in accident
+                    <br>• Sher Singh (1841-43) - Assassinated
+                    <br>• Dalip Singh (1843-49) - Minor, age 5
+                </li>
+                <li><strong>Rani Jindan:</strong> Mother of Dalip Singh. Real power behind throne</li>
+                <li><strong>Khalsa Army:</strong> Became powerful, uncontrollable force</li>
+            </ul>
+        </div>
+
+        <!-- First Anglo-Sikh War -->
+        <div class="card">
+            <div class="war-section">
+                <h2>⚔️ First Anglo-Sikh War (1845-1846)</h2>
+
+                <h3>🔥 Causes</h3>
+                <ul>
+                    <li><strong>British Provocation:</strong> Built fortifications near Sutlej River</li>
+                    <li><strong>Khalsa Army:</strong> Crossed Sutlej, triggering war</li>
+                    <li><strong>British Goal:</strong> Annex Punjab</li>
+                </ul>
+
+                <h3>⚔️ Major Battles</h3>
+                <table>
+                    <tr>
+                        <th>Battle</th>
+                        <th>Date</th>
+                        <th>Result</th>
+                    </tr>
+                    <tr>
+                        <td><strong>Mudki</strong></td>
+                        <td>18 Dec 1845</td>
+                        <td>British victory but heavy casualties</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Ferozeshah</strong></td>
+                        <td>21-22 Dec 1845</td>
+                        <td>British victory. Fierce battle</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Aliwal</strong></td>
+                        <td>28 Jan 1846</td>
+                        <td>British victory</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Sobraon</strong></td>
+                        <td>10 Feb 1846</td>
+                        <td>Decisive British victory <span class="tag tag-imp">PYQ</span></td>
+                    </tr>
+                </table>
+
+                <div class="highlight-box">
+                    <strong>Treaty of Lahore (9 March 1846):</strong> <span class="tag tag-imp">Super PYQ</span><br>
+                    • <strong>War Indemnity:</strong> ₹1.5 crores to British<br>
+                    • <strong>Jalandhar Doab:</strong> Ceded to British (between Beas & Sutlej)<br>
+                    • <strong>Kashmir Sold:</strong> To Gulab Singh for ₹75 lakhs (Treaty of Amritsar, 1846)<br>
+                    • <strong>Khalsa Army:</strong> Reduced to 20,000 infantry & 12,000 cavalry<br>
+                    • <strong>British Resident:</strong> Stationed in Lahore<br>
+                    • <strong>Regency Council:</strong> Controlled by British
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Anglo-Sikh War -->
+        <div class="card">
+            <div class="war-section">
+                <h2>⚔️ Second Anglo-Sikh War (1848-1849)</h2>
+
+                <h3>🔥 Causes</h3>
+                <ul>
+                    <li><strong>Multan Incident (April 1848):</strong> Revolt by Mulraj, Governor of Multan</li>
+                    <li><strong>British Officers Killed:</strong> Two British officers murdered in Multan</li>
+                    <li><strong>Sikh Support:</strong> Khalsa Army supported Mulraj</li>
+                    <li><strong>British Response:</strong> Declared war to annex Punjab completely</li>
+                </ul>
+
+                <h3>⚔️ Major Battles</h3>
+                <ul>
+                    <li><strong>Battle of Ramnagar (Nov 1848):</strong> Inconclusive</li>
+                    <li><strong>Battle of Chillianwala (13 Jan 1849):</strong> Bloodiest battle. Heavy British
+                        casualties <span class="tag tag-imp">PYQ</span></li>
+                    <li><strong>Battle of Gujarat (21 Feb 1849):</strong> Decisive British victory. Sikhs completely
+                        defeated</li>
+                </ul>
+
+                <div class="highlight-box">
+                    <strong>Annexation of Punjab (29 March 1849):</strong> <span class="tag tag-imp">Super
+                        PYQ</span><br>
+                    • <strong>Complete Annexation:</strong> Punjab became part of British India<br>
+                    • <strong>Maharaja Dalip Singh:</strong> Exiled to England. Converted to Christianity<br>
+                    • <strong>Koh-i-Noor Diamond:</strong> Taken to England (now in British Crown Jewels)<br>
+                    • <strong>Board of Administration:</strong> Henry Lawrence, John Lawrence, Charles Mansel<br>
+                    • <strong>Impact:</strong> Last independent Indian kingdom fell to British
+                </div>
+
+                <h3>🎯 Key Personalities</h3>
+                <ul>
+                    <li><strong>Maharaja Ranjit Singh:</strong> Builder of Sikh Empire. Secular ruler</li>
+                    <li><strong>Rani Jindan:</strong> Brave queen. Exiled by British</li>
+                    <li><strong>Maharaja Dalip Singh:</strong> Last Sikh ruler. Died in exile in England</li>
+                    <li><strong>Sher Singh Attariwala:</strong> Sikh general. Fought bravely</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Comparison Table -->
+        <div class="card">
+            <h2>📊 Comparison of All Wars</h2>
+
+            <table>
+                <tr>
+                    <th>War Series</th>
+                    <th>Period</th>
+                    <th>Number of Wars</th>
+                    <th>Final Result</th>
+                </tr>
+                <tr>
+                    <td><strong>Anglo-Mysore</strong></td>
+                    <td>1767-1799</td>
+                    <td>4 Wars</td>
+                    <td>Mysore defeated. Tipu killed. South India under British</td>
+                </tr>
+                <tr>
+                    <td><strong>Anglo-Maratha</strong></td>
+                    <td>1775-1818</td>
+                    <td>3 Wars</td>
+                    <td>Peshwa abolished. Maratha Empire ended</td>
+                </tr>
+                <tr>
+                    <td><strong>Anglo-Sikh</strong></td>
+                    <td>1845-1849</td>
+                    <td>2 Wars</td>
+                    <td>Punjab annexed. Last independent kingdom fell</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- PYQ Snipers -->
+        <div class="pyq-box">
+            <h2>🎯 PYQ Sniper Shots</h2>
+
+            <div class="pyq-item">
+                <strong>Q: Which was the last treaty signed by British on equal terms?</strong><br>
+                A: <strong>Treaty of Mangalore (1784)</strong> with Tipu Sultan
+            </div>
+            <div class="pyq-item">
+                <strong>Q: When did Tipu Sultan die?</strong><br>
+                A: <strong>4 May 1799</strong> at Seringapatnam
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Which battle is called the "Waterloo of Marathas"?</strong><br>
+                A: <strong>Third Battle of Panipat (1761)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Treaty of Bassein was signed in which year?</strong><br>
+                A: <strong>1802</strong> (31 December)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Battle of Koregaon significance?</strong><br>
+                A: <strong>500 British defeated 28,000 Peshwa forces (1818)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Who was the last Peshwa?</strong><br>
+                A: <strong>Bajirao II</strong> (exiled to Bithur in 1818)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Treaty of Lahore was signed after which war?</strong><br>
+                A: <strong>First Anglo-Sikh War (1846)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: When was Punjab annexed?</strong><br>
+                A: <strong>29 March 1849</strong> after Second Anglo-Sikh War
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Who was called "Lion of Punjab"?</strong><br>
+                A: <strong>Maharaja Ranjit Singh</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Koh-i-Noor diamond was taken from which ruler?</strong><br>
+                A: <strong>Maharaja Dalip Singh (1849)</strong>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; color: #64748b; font-size: 0.9em;">
+            Created by Antigravity • UPPCS Modern India
+        </div>
+    </div>
+
+    <script src="../theme-toggle.js"></script>
+</body>
+
+</html>

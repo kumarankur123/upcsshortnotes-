@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ancient India - UPPCS Notes</title>
+    <link rel="stylesheet" href="../dark-theme.css">
+    <style>
+        :root {
+            --primary-color: #4f46e5;
+            --bg-color: #f3f4f6;
+            --card-bg: #ffffff;
+            --text-color: #1f2937;
+            --border-color: #e5e7eb;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Helvetica, Arial, sans-serif;
+            background: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+        }
+
+        .theme-toggle {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: var(--card-bg);
+            border: 2px solid var(--border-color);
+            border-radius: 25px;
+            padding: 8px 16px;
+            cursor: pointer;
+            font-size: 1.2rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            text-decoration: none;
+            color: inherit;
+            border: 1px solid var(--border-color);
+            transition: transform .3s, box-shadow .3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            border-color: var(--primary-color);
+        }
+
+        .card-icon {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .card-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark Mode">🌓</button>
+            <h1>📜 Ancient India</h1>
+        </header>
+        <div class="grid">
+            <a href="01_Stone_Age.html" class="card">
+                <div class="card-icon">🗿</div>
+                <div class="card-title">Stone Age</div>
+            </a>
+            <a href="02_Indus_Valley_Civilization.html" class="card">
+                <div class="card-icon">🧱</div>
+                <div class="card-title">Indus Valley</div>
+            </a>
+            <a href="03_Vedic_Age.html" class="card">
+                <div class="card-icon">🕉️</div>
+                <div class="card-title">Vedic Age</div>
+            </a>
+            <a href="04_Buddhism_Jainism.html" class="card">
+                <div class="card-icon">☸️</div>
+                <div class="card-title">Buddhism & Jainism</div>
+            </a>
+            <a href="05_Mahajanapadas_Magadha.html" class="card">
+                <div class="card-icon">🏰</div>
+                <div class="card-title">Mahajanapadas</div>
+            </a>
+            <a href="06_Mauryan_Empire.html" class="card">
+                <div class="card-icon">👑</div>
+                <div class="card-title">Mauryan Empire</div>
+            </a>
+            <a href="07_Gupta_Empire.html" class="card">
+                <div class="card-icon">✨</div>
+                <div class="card-title">Gupta Empire</div>
+            </a>
+            <a href="08_South_India_Literature.html" class="card">
+                <div class="card-icon">🏛️</div>
+                <div class="card-title">South India & Literature</div>
+            </a>
+            <a href="10_Post_Mauryan_Harsha.html" class="card">
+                <div class="card-icon">🏺</div>
+                <div class="card-title">Post-Mauryan & Harsha</div>
+            </a>
+        </div>
+    </div>
+    <script src="../theme-toggle.js"></script>
+</body>
+
+</html>

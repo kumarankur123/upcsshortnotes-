@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 1: Stone Age - UPPCS Notes</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            /* Blue for Stone/Ice Age */
+            --secondary-color: #1e40af;
+            --accent-color: #f59e0b;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-color: #334155;
+            --heading-color: #1e293b;
+            --success-bg: #dcfce7;
+            --success-text: #166534;
+            --warning-bg: #fff7ed;
+            --warning-text: #9a3412;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 40px 0;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: 800;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            margin-top: 10px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            border-left: 5px solid var(--primary-color);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: var(--heading-color);
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 10px;
+            margin-top: 0;
+            font-size: 1.5rem;
+        }
+
+        h3 {
+            color: var(--secondary-color);
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin-bottom: 12px;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        li::before {
+            content: "•";
+            color: var(--primary-color);
+            font-weight: bold;
+            font-size: 1.2em;
+            position: absolute;
+            left: 0;
+            top: -2px;
+        }
+
+        .highlight-box {
+            background-color: var(--warning-bg);
+            color: var(--warning-text);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            border-left: 4px solid var(--accent-color);
+        }
+
+        .mnemonic-box {
+            background-color: #eff6ff;
+            color: #1e40af;
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-weight: 500;
+            margin-top: 5px;
+            display: inline-block;
+            border: 1px solid #bfdbfe;
+        }
+
+        .pyq-box {
+            background-color: var(--heading-color);
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-top: 40px;
+        }
+
+        .pyq-box h2 {
+            color: white;
+            border-bottom-color: #475569;
+        }
+
+        .pyq-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 6px;
+        }
+
+        strong {
+            color: var(--secondary-color);
+            font-weight: 700;
+        }
+
+        .timeline {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .timeline-item {
+            flex: 1;
+            position: relative;
+        }
+
+        .timeline-item:not(:last-child)::after {
+            content: "→";
+            position: absolute;
+            right: -10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #cbd5e1;
+            font-weight: bold;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .tag-up {
+            background: #fce7f3;
+            color: #be185d;
+        }
+
+        .tag-imp {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        @media (max-width: 600px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="../dark-theme.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark Mode">🌓</button>
+
+            <h1>🗿 Chapter 1: Stone Age</h1>
+            <div class="subtitle">The Beginning • Surgical Strike Notes</div>
+        </header>
+
+        <!-- 1. The Basics -->
+        <div class="card">
+            <h2>1. The Basics: Timeline & Classification</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <strong>Pre-Historic</strong><br>
+                    <span style="font-size: 0.9em; color: #64748b;">Stone Age<br>(No Writing)</span>
+                </div>
+                <div class="timeline-item">
+                    <strong>Proto-Historic</strong><br>
+                    <span style="font-size: 0.9em; color: #64748b;">Indus Valley<br>(Script Undeciphered)</span>
+                </div>
+                <div class="timeline-item">
+                    <strong>Historic</strong><br>
+                    <span style="font-size: 0.9em; color: #64748b;">Vedic Age<br>(Written Records)</span>
+                </div>
+            </div>
+
+            <p><strong>Father of Indian Pre-History:</strong> <strong>Robert Bruce Foote</strong> (British Geologist).
+                <br>• Discovered first Paleolithic tool (Handaxe) at <strong>Pallavaram (Madras)</strong> in 1863.
+            </p>
+            <p><strong>Three Age System:</strong> (Stone-Bronze-Iron) coined by <strong>Thomsen</strong> (Copenhagen
+                Museum).</p>
+        </div>
+
+        <!-- 2. Paleolithic -->
+        <div class="card">
+            <h2>2. Paleolithic Age (Hunters & Gatherers)</h2>
+            <p><em>Life was completely natural. No Fire (ate raw meat). No Agriculture.</em></p>
+
+            <h3>🛠️ Tool Evolution</h3>
+            <ul>
+                <li><strong>Lower:</strong> Handaxe, Cleaver, Chopper. (Sohan Valley).</li>
+                <li><strong>Middle:</strong> Points, Borer, Scrapper.</li>
+                <li><strong>Upper:</strong> Burins.</li>
+            </ul>
+
+            <h3>📍 Key Sites</h3>
+            <ul>
+                <li><strong>Bhimbetka (MP):</strong> Discovered by <strong>V.S. Wakankar</strong> (1957).
+                    <br>• Famous for <strong>Rock Paintings</strong> (Elephant, Deer, Sambhar).
+                    <br>• 133 pictures in 700 shelters. UNESCO Site.
+                </li>
+                <li><strong>Sohan Valley (Pakistan):</strong> Chopper-chopping tools.</li>
+            </ul>
+        </div>
+
+        <!-- 3. Mesolithic -->
+        <div class="card">
+            <h2>3. Mesolithic Age (Hunters -> Herders)</h2>
+            <p><em>The transition period. Tools became smaller (Microliths).</em></p>
+
+            <h3>🐾 Domestication of Animals</h3>
+            <div class="mnemonic-box">💡 Mnemonic: "DAM" (Domestication at Adamgarh & M... Bagor)</div>
+            <ul>
+                <li><strong>Adamgarh (MP)</strong> & <strong>Bagor (Rajasthan)</strong>: Earliest evidence of
+                    domestication.</li>
+            </ul>
+
+            <h3>💀 Burials & War</h3>
+            <ul>
+                <li><strong>Sarai Nahar Rai (UP):</strong> Earliest evidence of <strong>War/Attack</strong> (Skeleton
+                    with stone embedded).</li>
+                <li><strong>Lekhahiya (Vindhya):</strong> 17 (or 27) Human skeletons found.</li>
+            </ul>
+        </div>
+
+        <!-- 4. Neolithic -->
+        <div class="card">
+            <h2>4. Neolithic Age (Food Producers)</h2>
+            <p><em>Man becomes a Farmer. Inventions: Agriculture, Wheel, Fire, Pottery.</em></p>
+
+            <h3>🌾 The Agriculture Debate (High Yield)</h3>
+            <div class="grid-container">
+                <div style="background: #f0fdf4; padding: 10px; border-radius: 8px;">
+                    <strong>1. Lahuradewa (UP)</strong><br>
+                    <span class="tag tag-up">UP Special</span><br>
+                    • <strong>Rice</strong> (9000 BC - 7000 BC).<br>
+                    • <strong>Oldest Evidence</strong> in Indian Subcontinent.<br>
+                    • <em>Priority #1 in Exam.</em>
+                </div>
+                <div style="background: #fff7ed; padding: 10px; border-radius: 8px;">
+                    <strong>2. Mehrgarh (Pak)</strong><br>
+                    • <strong>Wheat</strong> (7000 BC).<br>
+                    • Earliest <strong>Buffalo</strong> domestication.<br>
+                    • <em>Priority #2 (If Lahuradewa not in options).</em>
+                </div>
+            </div>
+            <br>
+            <ul>
+                <li><strong>Koldihwa (UP):</strong> Evidence of Rice (6500 BC).</li>
+                <li><strong>Burzahom (Kashmir):</strong>
+                    <br>• <strong>Pit Dwelling</strong> (Living in pits).
+                    <br>• <strong>Dog Burial</strong> (Master + Dog).
+                </li>
+                <li><strong>Sangana Kallu (Karnataka):</strong> <strong>Ash Mounds</strong> (Burnt cow dung camps).</li>
+            </ul>
+        </div>
+
+        <!-- 5. Chalcolithic -->
+        <div class="card">
+            <h2>5. Chalcolithic (Copper Age)</h2>
+            <p><em>First Metal: Copper. Rural Culture.</em></p>
+            <ul>
+                <li><strong>Navdatoli (MP):</strong> Largest rural settlement. Excavated by H.D. Sankalia.</li>
+                <li><strong>Jorwe Culture (Maharashtra):</strong>
+                    <br>• Buried dead under house floor in <strong>North-to-South</strong> orientation.
+                    <br>• Sites: Daimabad, Inamgaon.
+                </li>
+                <li><strong>OCP (Ochre Coloured Pottery):</strong> Found at Hastinapur/Atranjikhera.</li>
+            </ul>
+        </div>
+
+        <!-- 6. UP Special -->
+        <div class="card highlight-box" style="background-color: #fff1f2; border-left-color: #be185d; color: #881337;">
+            <h2 style="color: #be185d; border-bottom-color: #fbcfe8;">🦁 UP Special Sites (Memorize This!)</h2>
+            <div class="grid-container">
+                <div>
+                    <strong>1. Belan Valley (Allahabad)</strong><br>
+                    • Research by G.R. Sharma.<br>
+                    • <strong>Bone Mother Goddess</strong> (Lohanda Nala).
+                </div>
+                <div>
+                    <strong>2. Damdama (Pratapgarh)</strong><br>
+                    • <strong>41 Human Graves</strong>.<br>
+                    • 5 Double Burials, 1 Triple Burial.
+                </div>
+                <div>
+                    <strong>3. Mahadaha (Pratapgarh)</strong><br>
+                    • <strong>Bone Ornaments</strong> & Arrowheads.
+                </div>
+                <div>
+                    <strong>4. Sarai Nahar Rai</strong><br>
+                    • Grave with <strong>4 Skeletons</strong>.<br>
+                    • Evidence of War.
+                </div>
+                <div>
+                    <strong>5. Mandi (Muzaffarnagar)</strong><br>
+                    • Harappan site.<br>
+                    • Huge hoard of <strong>Jewellery</strong>.
+                </div>
+            </div>
+        </div>
+
+        <!-- 7. PYQ Snipers -->
+        <div class="pyq-box">
+            <h2>🎯 PYQ "Sniper" Shots</h2>
+            <p>Direct hits from Ghatna Chakra</p>
+
+            <div class="pyq-item">
+                <strong>Q: Who discovered the first Paleolithic tool?</strong><br>
+                A: <strong>Robert Bruce Foote</strong> (1863).
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Where is the National Human Museum?</strong><br>
+                A: <strong>Bhopal</strong> (Indira Gandhi National Human Museum).
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Earliest evidence of Agriculture?</strong><br>
+                A: <strong>Lahuradewa</strong> (Rice) > Mehrgarh (Wheat).
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Dog buried with Human?</strong><br>
+                A: <strong>Burzahom</strong> (Kashmir).
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Ash Mounds are associated with?</strong><br>
+                A: <strong>Neolithic</strong> (Sangana Kallu).
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; color: #64748b; font-size: 0.9em;">
+            Created by Antigravity • UPPCS Preparation
+        </div>
+
+    </div>
+
+    <script src="../theme-toggle.js"></script>
+</body>
+
+</html>

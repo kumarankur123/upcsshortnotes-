@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 8: Socio-Religious Reform Movements - UPPCS Notes</title>
+    <link rel="stylesheet" href="../dark-theme.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #fef9c3 0%, #fef3c7 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        [data-theme="dark"] body {
+            background: linear-gradient(135deg, #78350f 0%, #92400e 100%);
+        }
+
+        header {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            color: white;
+            padding: 50px 30px;
+            border-radius: 20px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 20px 60px rgba(245, 158, 11, 0.5);
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '🕉️';
+            position: absolute;
+            font-size: 15rem;
+            opacity: 0.1;
+            top: -30px;
+            right: -30px;
+            animation: glow 4s ease-in-out infinite;
+        }
+
+        @keyframes glow {
+
+            0%,
+            100% {
+                opacity: 0.1;
+                transform: scale(1);
+            }
+
+            50% {
+                opacity: 0.2;
+                transform: scale(1.05);
+            }
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #f59e0b;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(245, 158, 11, 0.2);
+        }
+
+        [data-theme="dark"] .card {
+            background: #1e293b;
+        }
+
+        h2 {
+            color: #f59e0b;
+            border-bottom: 3px solid #fef3c7;
+            padding-bottom: 10px;
+            font-size: 1.8rem;
+        }
+
+        [data-theme="dark"] h2 {
+            color: #fbbf24;
+            border-bottom-color: #92400e;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+            border-left: 5px solid #3b82f6;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        [data-theme="dark"] .highlight-box {
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        th,
+        td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #fef3c7;
+        }
+
+        th {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background: #fef9c3;
+        }
+
+        [data-theme="dark"] tr:hover {
+            background: #374151;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .tag-imp {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        .tag-reform {
+            background: #dcfce7;
+            color: #166534;
+        }
+
+        .tag-year {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+
+        .pyq-box {
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 16px;
+            margin-top: 40px;
+        }
+
+        .pyq-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 10px;
+            border-left: 4px solid #f59e0b;
+        }
+
+        .reformer-box {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 12px;
+            border-left: 5px solid #f59e0b;
+        }
+
+        [data-theme="dark"] .reformer-box {
+            background: linear-gradient(135deg, #78350f 0%, #92400e 100%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark Mode">🌓</button>
+            <h1>🕉️ Chapter 8: Socio-Religious Reform Movements</h1>
+            <div class="subtitle">19th & 20th Century Social Renaissance</div>
+        </header>
+
+        <!--Introduction -->
+        <div class="card">
+            <h2>📜 Introduction</h2>
+
+            <h3>🎯 Context (19th Century)</h3>
+            <ul>
+                <li><strong>Social Evils:</strong> Superstitions, caste discrimination, untouchability</li>
+                <li><strong>Oppressive Practices:</strong> Sati, child marriage, polygamy, purdah system</li>
+                <li><strong>Need:</strong> Eliminate social evils & revive rationalism and equality</li>
+                <li><strong>Western Influence:</strong> Enlightenment ideas (reason, liberty, justice)</li>
+            </ul>
+
+            <h3>📊 Two Types of Movements</h3>
+
+            <table>
+                <tr>
+                    <th>Reformist Movements</th>
+                    <th>Revivalist Movements</th>
+                </tr>
+                <tr>
+                    <td><strong>Focus:</strong> Rationality, human dignity, equality, social justice</td>
+                    <td><strong>Focus:</strong> Revive ancient Indian traditions & Hindu values</td>
+                </tr>
+                <tr>
+                    <td><strong>Approach:</strong> Rejected superstitions, caste system, Sati, child marriage</td>
+                    <td><strong>Approach:</strong> Believed Indian culture was superior, undermined by British</td>
+                </tr>
+                <tr>
+                    <td><strong>Inspiration:</strong> Western education & Enlightenment values</td>
+                    <td><strong>Inspiration:</strong> Vedas, Upanishads, Sanskrit texts</td>
+                </tr>
+                <tr>
+                    <td><strong>Examples:</strong> Brahmo Samaj, Prarthana Samaj</td>
+                    <td><strong>Examples:</strong> Arya Samaj, Ramakrishna Mission</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Raja Ram Mohan Roy & Brahmo Samaj -->
+        <div class="card">
+            <h2>👑 Raja Ram Mohan Roy & Brahmo Samaj</h2>
+
+            <div class="reformer-box">
+                <h3>Raja Ram Mohan Roy (1772-1833) <span class="tag tag-imp">Father of Indian Renaissance</span></h3>
+
+                <h4>🎯 Major Contributions:</h4>
+                <ul>
+                    <li><strong>Abolished Sati (1829):</strong> His efforts led Lord William Bentinck to pass Sati
+                        Prohibition Act <span class="tag tag-imp">Super PYQ</span></li>
+                    <li><strong>Opposed:</strong> Polygamy, child marriage, caste discrimination</li>
+                    <li><strong>Supported:</strong> Widow remarriage & women's education</li>
+                    <li><strong>Advocated:</strong> Monotheism (one God), rejected idol worship</li>
+                    <li><strong>Translated:</strong> Vedas & Upanishads to show they supported rationality</li>
+                </ul>
+
+                <h4>📚 Key Works:</h4>
+                <ul>
+                    <li><strong>Atmiya Sabha (1825):</strong> First step towards religious & social reform</li>
+                    <li><strong>Tuhfat-ul-Muwahhidin:</strong> Book analyzing religions, supporting monotheism</li>
+                    <li><strong>Sambad Kaumudi:</strong> Weekly Bengali newspaper advocating reforms</li>
+                </ul>
+            </div>
+
+            <h3>🏛️ Brahmo Samaj (Founded 1828)</h3>
+            <ul>
+                <li><strong>Founder:</strong> Raja Ram Mohan Roy <span class="tag tag-year">1828</span></li>
+                <li><strong>Nature:</strong> Monotheistic reformist movement</li>
+                <li><strong>Rejected:</strong> Idol worship, caste system, meaningless rituals</li>
+                <li><strong>Focused on:</strong> Reason, morality, monotheism</li>
+                <li><strong>Encouraged:</strong> Widow remarriage, education, inter-caste marriage</li>
+            </ul>
+
+            <h3>👥 Later Leaders of Brahmo Samaj</h3>
+
+            <div class="highlight-box">
+                <strong>1. Debendranath Tagore (1839) <span class="tag tag-imp">PYQ</span></strong>
+                <ul>
+                    <li>Father of Rabindranath Tagore</li>
+                    <li>Strengthened Brahmo Samaj after Raja Ram Mohan Roy's death</li>
+                    <li>Founded <strong>Tattwabodhini Sabha (1839)</strong> to promote Indian traditions + Western
+                        thought</li>
+                    <li>Formally joined Brahmo Samaj in 1843, became leader in 1852</li>
+                    <li>Rejected radical ideas, kept movement within Hindu reform traditions</li>
+                </ul>
+            </div>
+
+            <div class="highlight-box">
+                <strong>2. Keshab Chandra Sen (1858) <span class="tag tag-imp">PYQ</span></strong>
+                <ul>
+                    <li>Joined Brahmo Samaj in 1858</li>
+                    <li>Introduced progressive reforms: women's education, inter-caste marriages, widow remarriage</li>
+                    <li><strong>1866:</strong> Founded separate <strong>"Brahmo Samaj of India"</strong> (more radical)
+                    </li>
+                    <li><strong>Controversy:</strong> Married his minor daughter to prince using Hindu rituals</li>
+                    <li><strong>1878:</strong> Another split → <strong>Sadharan Brahmo Samaj</strong> formed</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Arya Samaj -->
+        <div class="card">
+            <h2>📿 Arya Samaj & Swami Dayanand Saraswati</h2>
+
+            <div class="reformer-box">
+                <h3>Swami Dayanand Saraswati <span class="tag tag-reform">Vedic Reformer</span></h3>
+
+                <h4>🏛️ Arya Samaj (Founded 1875 in Bombay) <span class="tag tag-year">1875</span></h4>
+                <ul>
+                    <li><strong>Goal:</strong> Restore Vedic Hinduism</li>
+                    <li><strong>Famous Slogan:</strong> <strong>"Go Back to the Vedas"</strong> <span
+                            class="tag tag-imp">Super PYQ</span></li>
+                    <li><strong>Rejected:</strong> Idol worship, caste discrimination, meaningless rituals</li>
+                    <li><strong>Book:</strong> <strong>Satyarth Prakash</strong> - emphasizing Vedic supremacy & social
+                        reform</li>
+                </ul>
+
+                <h4>🎯 Contributions:</h4>
+                <ul>
+                    <li><strong>Promoted:</strong> Women's education & widow remarriage</li>
+                    <li><strong>Opposed:</strong> Child marriage & untouchability</li>
+                    <li><strong>Shuddhi Movement:</strong> Reconvert Hindus who converted to Islam/Christianity <span
+                            class="tag tag-imp">PYQ</span></li>
+                    <li><strong>DAV Schools:</strong> Established Dayanand Anglo-Vedic Schools
+                        <br>• First DAV school in <strong>Lahore (1886)</strong>
+                    </li>
+                    <li><strong>Gurukul Kangri (1901):</strong> Founded in Haridwar for Vedic education</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Ramakrishna Mission -->
+        <div class="card">
+            <h2>🙏 Ramakrishna Mission & Swami Vivekananda</h2>
+
+            <div class="reformer-box">
+                <h3>Ramakrishna Paramahamsa (1836-1886)</h3>
+                <ul>
+                    <li><strong>Priest at:</strong> Dakshineswar Kali Temple (near Kolkata)</li>
+                    <li><strong>Believed in:</strong> Universalism, religious harmony, practical spirituality</li>
+                    <li><strong>Motto:</strong> <strong>"Yatra Jiva, Tatra Shiva"</strong> (Serving humanity = serving
+                        God)</li>
+                    <li><strong>Disciple:</strong> Inspired Swami Vivekananda</li>
+                </ul>
+            </div>
+
+            <div class="reformer-box">
+                <h3>Swami Vivekananda (1863-1902) <span class="tag tag-imp">Super PYQ</span></h3>
+
+                <h4>📍 Background:</h4>
+                <ul>
+                    <li><strong>Original Name:</strong> Narendranath Datta</li>
+                    <li><strong>Master:</strong> Ramakrishna Paramahamsa's disciple</li>
+                    <li><strong>Education:</strong> Studied Indian & Western philosophy</li>
+                </ul>
+
+                <h4>🌍 International Fame:</h4>
+                <ul>
+                    <li><strong>1893:</strong> Parliament of World Religions, Chicago <span class="tag tag-imp">Super
+                            PYQ</span></li>
+                    <li><strong>Famous Speech:</strong> Began with <strong>"Sisters and Brothers of America"</strong>
+                    </li>
+                    <li><strong>Message:</strong> Universal brotherhood, religious harmony</li>
+                </ul>
+
+                <h4>🏛️ Ramakrishna Mission (Founded 1897) <span class="tag tag-year">1897</span></h4>
+                <ul>
+                    <li><strong>Purpose:</strong> Spiritual awakening & social service</li>
+                    <li><strong>Headquarters:</strong> Belur Math (West Bengal)</li>
+                    <li><strong>Philosophy:</strong> "All living beings are divine; serve mankind = serve God"</li>
+                </ul>
+
+                <h4>🎯 Contributions:</h4>
+                <ul>
+                    <li><strong>Education:</strong> Opened schools & colleges across India</li>
+                    <li><strong>Healthcare:</strong> Established hospitals & dispensaries</li>
+                    <li><strong>Relief Work:</strong> Helped during famines, floods, epidemics</li>
+                    <li><strong>Interfaith Harmony:</strong> Promoted unity among religions</li>
+                    <li><strong>Global Impact:</strong> Spread Vedanta & Yoga to the West</li>
+                </ul>
+
+                <h4>💬 Famous Quotes:</h4>
+                <ul>
+                    <li>"Condemn none; if you can't help, bless them and let them go their way."</li>
+                    <li>"No one can make you spiritual but your own soul."</li>
+                    <li>"We are what our thoughts have made us."</li>
+                </ul>
+
+                <h4>🔥 Beliefs:</h4>
+                <ul>
+                    <li>Denounced caste discrimination, rituals, superstitions</li>
+                    <li>Did NOT give direct political message</li>
+                    <li>Instilled <strong>national pride</strong> in Indian youth</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Other Major Movements -->
+        <div class="card">
+            <h2>🌟 Other Major Reform Movements</h2>
+
+            <div class="reformer-box">
+                <h3>1. Young Bengal Movement (1826-1831) <span class="tag tag-imp">PYQ</span></h3>
+                <ul>
+                    <li><strong>Leader:</strong> Henry Louis Vivian Derozio (Anglo-Indian teacher at Hindu College,
+                        Calcutta)</li>
+                    <li><strong>Inspired by:</strong> French Revolution</li>
+                    <li><strong>Followers:</strong> Known as "Derozians"</li>
+                    <li><strong>Goals:</strong> Question traditional beliefs, fight for freedom & equality</li>
+                    <li><strong>Supported:</strong> Women's rights, widow remarriage, rational thinking</li>
+                    <li><strong>Decline:</strong> Due to extreme views & lack of grassroots support</li>
+                </ul>
+            </div>
+
+            <div class="reformer-box">
+                <h3>2. Prarthana Samaj (Founded 1867 in Bombay) <span class="tag tag-year">1867</span></h3>
+                <ul>
+                    <li><strong>Founder:</strong> Atmaram Pandurang</li>
+                    <li><strong>Influenced by:</strong> Brahmo Samaj</li>
+                    <li><strong>Focus:</strong> Religious & social reforms</li>
+                    <li><strong>Emphasized:</strong> Monotheism (worship of one God)</li>
+                    <li><strong>Key Leader:</strong> <strong>Mahadev Govind Ranade (1842-1901)</strong> <span
+                            class="tag tag-imp">PYQ</span>
+                        <br>• Advocated widow remarriage, women's education
+                        <br>• Wrote "A Theist's Confession"
+                        <br>• Founded Poona Sarvajanik Sabha
+                        <br>• Co-founder of Indian National Congress (1885)
+                    </li>
+                </ul>
+            </div>
+
+            <div class="reformer-box">
+                <h3>3. Theosophical Society (Founded 1875 in USA) <span class="tag tag-year">1875</span></h3>
+                <ul>
+                    <li><strong>Founders:</strong> Madame Blavatsky & Colonel Henry Olcott</li>
+                    <li><strong>Moved to India:</strong> 1882 (headquarters in Adyar, Chennai)</li>
+                    <li><strong>Goal:</strong> Spiritual wisdom through Hindu Upanishads, Karma, Moksha</li>
+                    <li><strong>Key Leader:</strong> <strong>Annie Besant (1847-1933)</strong> <span
+                            class="tag tag-imp">PYQ</span>
+                        <br>• Advocated Indian self-rule & education
+                        <br>• Founded Central Hindu College (1898) → later BHU
+                        <br>• Launched <strong>Home Rule Movement (1916)</strong>
+                        <br>• Edited newspaper "New India"
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Women's Rights Reformers -->
+        <div class="card">
+            <h2>👩 Women's Rights Reformers</h2>
+
+            <div class="reformer-box">
+                <h3>Ishwar Chandra Vidyasagar <span class="tag tag-imp">Super PYQ</span></h3>
+                <ul>
+                    <li><strong>Pioneer:</strong> Widow remarriage movement</li>
+                    <li><strong>Achievement:</strong> <strong>Hindu Widow Remarriage Act (1856)</strong></li>
+                    <li><strong>Advocated:</strong> Women's education, opened schools for girls</li>
+                    <li><strong>Opposed:</strong> Child marriage & polygamy</li>
+                    <li><strong>Language Reform:</strong> Simplified Bengali script to improve literacy</li>
+                </ul>
+            </div>
+
+            <div class="reformer-box">
+                <h3>Jyotirao Phule & Savitri Bai Phule <span class="tag tag-imp">PYQ</span></h3>
+
+                <h4>Satya Shodhak Samaj (1873)</h4>
+                <ul>
+                    <li><strong>Founder:</strong> Jyotirao Phule (1827-1890)</li>
+                    <li><strong>From:</strong> Mali (gardener) caste - lower caste in Maharashtra</li>
+                    <li><strong>Aim:</strong> Fight caste discrimination, Brahminical dominance, gender inequality</li>
+                    <li><strong>Focus:</strong> Women's education, rights of Shudras & Dalits</li>
+                </ul>
+
+                <h4>Jyotirao Phule:</h4>
+                <ul>
+                    <li>Criticized Brahminical oppression</li>
+                    <li>Pioneered women's education with wife <strong>Savitri Bai Phule</strong></li>
+                    <li><strong>1848:</strong> Opened first girls' school in Pune <span class="tag tag-imp">PYQ</span>
+                    </li>
+                    <li>Advocated widow remarriage & abolition of child marriage</li>
+                </ul>
+
+                <h4>Savitri Bai Phule (1831-1897):</h4>
+                <ul>
+                    <li><strong>India's first female teacher</strong> from lower-caste background <span
+                            class="tag tag-imp">Super PYQ</span></li>
+                    <li>Established schools for Dalit & lower-caste girls</li>
+                    <li>Fought against child marriage</li>
+                    <li>Opened care home for widows & abandoned women</li>
+                </ul>
+            </div>
+
+            <div class="reformer-box">
+                <h3>Pandita Ramabai (1859-1922)</h3>
+                <ul>
+                    <li><strong>Fought:</strong> Child marriage & gender inequality</li>
+                    <li><strong>Founded:</strong> Arya Mahila Samaj (1882) in Pune for women's education</li>
+                    <li><strong>Established:</strong> Mukti Mission (1889)
+                        <br>• Shelter for widows & orphaned girls
+                        <br>• Vocational training for widows
+                        <br>• Education for visually challenged women
+                    </li>
+                    <li><strong>Achievement:</strong> Led to <strong>Age of Consent Act (1891)</strong> - raised
+                        marriage age to 12 years</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Regional Reformers -->
+        <div class="card">
+            <h2>🗺️ Regional Reformers</h2>
+
+            <div class="reformer-box">
+                <h3>Balshastri Jambhekar (1812-1846) <span class="tag tag-reform">Maharashtra</span></h3>
+                <ul>
+                    <li><strong>Title:</strong> Father of Marathi Journalism</li>
+                    <li><strong>Founded:</strong> "Darpan" (1832) - first Marathi newspaper</li>
+                    <li><strong>Used journalism:</strong> To raise awareness about social issues</li>
+                    <li><strong>Criticized:</strong> Caste discrimination & gender inequality</li>
+                </ul>
+            </div>
+
+            <div class="reformer-box">
+                <h3>Kandukuri Veeresalingam (1848-1919) <span class="tag tag-reform">Andhra Pradesh</span></h3>
+                <ul>
+                    <li><strong>Title:</strong> Father of Telugu Renaissance</li>
+                    <li><strong>Inspired by:</strong> Keshab Chandra Sen of Brahmo Samaj</li>
+                    <li><strong>Founded:</strong> Hitakarini Samaj (1874) for women's education</li>
+                    <li><strong>Opened:</strong> First school for girls in Andhra Pradesh</li>
+                    <li><strong>Advocated:</strong> Widow remarriage & abolition of child marriage</li>
+                </ul>
+            </div>
+
+            <div class="reformer-box">
+                <h3>Sri Narayana Guru (1856-1928) <span class="tag tag-reform">Kerala</span></h3>
+                <ul>
+                    <li><strong>Founded:</strong> SNDP Yogam (1903) for Ezhavas (lower castes in Kerala)</li>
+                    <li><strong>Fought for:</strong>
+                        <br>• Right to education for Dalits
+                        <br>• Temple entry rights for lower castes
+                        <br>• Political representation & government jobs for Ezhavas
+                    </li>
+                    <li><strong>Famous Quote:</strong> <strong>"One Caste, One Religion, One God for Mankind"</strong>
+                        <span class="tag tag-imp">PYQ</span></li>
+                </ul>
+            </div>
+
+            <div class="reformer-box">
+                <h3>Justice Party (1916) <span class="tag tag-reform">South India</span></h3>
+                <ul>
+                    <li><strong>Founders:</strong> C. Natesa Mudaliar, Dr. T. M. Nair, P. Theagaraya Chetty</li>
+                    <li><strong>Aim:</strong> Challenge Brahmin dominance in government jobs & education</li>
+                    <li><strong>Achievement:</strong> First party to advocate <strong>reservation for lower
+                            castes</strong> in government jobs</li>
+                    <li><strong>Rule:</strong> Madras Presidency (1920-1937)</li>
+                    <li><strong>Later:</strong> Influenced by Periyar E. V. Ramasamy, became part of Dravidian movement
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Impact -->
+        <div class="card">
+            <h2>💥 Impact of Reform Movements</h2>
+
+            <h3>✅ Social Laws Passed:</h3>
+            <ul>
+                <li><strong>Abolition of Sati (1829)</strong> - Lord William Bentinck <span class="tag tag-imp">Super
+                        PYQ</span></li>
+                <li><strong>Hindu Widow Remarriage Act (1856)</strong></li>
+                <li><strong>Age of Consent Act (1891)</strong> - Marriage age raised to 12 years</li>
+                <li><strong>Child Marriage Restraint Act (1929)</strong> - Sarda Act</li>
+            </ul>
+
+            <h3>✅ Social Changes:</h3>
+            <ul>
+                <li>Boosted <strong>women's education</strong> & literacy rates</li>
+                <li>Weakened <strong>caste discrimination</strong> (though not completely removed)</li>
+                <li>Promoted <strong>modern education</strong> & scientific thinking</li>
+                <li>Established schools, colleges,religious institutions still functioning today</li>
+            </ul>
+
+            <h3>✅ National Impact:</h3>
+            <ul>
+                <li>Inspired <strong>Indian nationalism</strong> & independence movements</li>
+                <li>Created awareness about rights & equality</li>
+                <li>Laid foundation for later social justice movements</li>
+                <li>Helped shape modern Indian society</li>
+            </ul>
+        </div>
+
+        <!-- PYQ Snipers -->
+        <div class="pyq-box">
+            <h2>🎯 PYQ Sniper Shots</h2>
+
+            <div class="pyq-item">
+                <strong>Q: Who is called "Father of Indian Renaissance"?</strong><br>
+                A: <strong>Raja Ram Mohan Roy</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Sati Prohibition Act was passed in which year?</strong><br>
+                A: <strong>1829</strong> (by Lord William Bentinck)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Brahmo Samaj was founded in?</strong><br>
+                A: <strong>1828</strong> by Raja Ram Mohan Roy
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Who founded Tattwabodhini Sabha?</strong><br>
+                A: <strong>Debendranath Tagore (1839)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Arya Samaj was founded by?</strong><br>
+                A: <strong>Swami Dayanand Saraswati (1875 in Bombay)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: "Go Back to the Vedas" slogan was given by?</strong><br>
+                A: <strong>Swami Dayanand Saraswati</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Book written by Dayanand Saraswati?</strong><br>
+                A: <strong>Satyarth Prakash</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: First DAV school was established where?</strong><br>
+                A: <strong>Lahore (1886)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Ramakrishna Mission was founded in?</strong><br>
+                A: <strong>1897</strong> by Swami Vivekananda
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Swami Vivekananda's original name?</strong><br>
+                A: <strong>Narendranath Datta</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Vivekananda's speech at Chicago was in?</strong><br>
+                A: <strong>1893</strong> (Parliament of World Religions)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Who was pioneer of widow remarriage movement?</strong><br>
+                A: <strong>Ishwar Chandra Vidyasagar</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Hindu Widow Remarriage Act was passed in?</strong><br>
+                A: <strong>1856</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: India's first female teacher from lower caste?</strong><br>
+                A: <strong>Savitri Bai Phule</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: First girls' school in Pune was opened in?</strong><br>
+                A: <strong>1848</strong> by Jyotirao & Savitri Bai Phule
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Satya Shodhak Samaj was founded by?</strong><br>
+                A: <strong>Jyotirao Phule (1873)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Young Bengal Movement was led by?</strong><br>
+                A: <strong>Henry Louis Vivian Derozio (1826-1831)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Prarthana Samaj was founded in?</strong><br>
+                A: <strong>1867 in Bombay</strong> by Atmaram Pandurang
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Who founded Theosophical Society?</strong><br>
+                A: <strong>Madame Blavatsky & Colonel Olcott (1875 in USA)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Home Rule Movement was launched by?</strong><br>
+                A: <strong>Annie Besant (1916)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: SriNarayana Guru's famous quote?</strong><br>
+                A: <strong>"One Caste, One Religion, One God for Mankind"</strong>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; color: #64748b; font-size: 0.9em;">
+            Created by Antigravity • UPPCS Modern India • From Your Class Notes
+        </div>
+    </div>
+
+    <script src="../theme-toggle.js"></script>
+</body>
+
+</html>

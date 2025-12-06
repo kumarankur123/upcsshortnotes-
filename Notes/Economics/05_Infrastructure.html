@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pillar 5: Infrastructure - UPPCS Notes</title>
+    <link rel="stylesheet" href="../dark-theme.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        [data-theme="dark"] body {
+            background: linear-gradient(135deg, #312e81 0%, #3730a3 100%);
+        }
+
+        header {
+            background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+            color: white;
+            padding: 50px 30px;
+            border-radius: 20px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 20px 60px rgba(99, 102, 241, 0.4);
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '🏗️';
+            position: absolute;
+            font-size: 15rem;
+            opacity: 0.1;
+            top: -30px;
+            left: -30px;
+            animation: float 10s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(30px); }
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #6366f1;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(99, 102, 241, 0.2);
+        }
+
+        [data-theme="dark"] .card {
+            background: #1e293b;
+        }
+
+        h2 {
+            color: #6366f1;
+            border-bottom: 3px solid #e0e7ff;
+            padding-bottom: 10px;
+            font-size: 1.8rem;
+        }
+
+        [data-theme="dark"] h2 {
+            color: #818cf8;
+            border-bottom-color: #3730a3;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%);
+            border-left: 5px solid #6366f1;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        [data-theme="dark"] .highlight-box {
+            background: linear-gradient(135deg, #312e81 0%, #3730a3 100%);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #c7d2fe;
+        }
+
+        th {
+            background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background: #e0e7ff;
+        }
+
+        [data-theme="dark"] tr:hover {
+            background: #374151;
+        }
+
+        .pyq-box {
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 16px;
+            margin-top: 40px;
+        }
+
+        .pyq-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 10px;
+            border-left: 4px solid #6366f1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" style="max-width: 1000px; margin: auto; padding: 40px 20px;">
+        <header>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark Mode">🌓</button>
+            <h1>🏗️ Pillar 5: Infrastructure</h1>
+            <div class="subtitle">Energy • Transport • Urban • Rural • PPP</div>
+        </header>
+
+        <!-- 1. Infrastructure Basics -->
+        <div class="card">
+            <h2>1. Infrastructure: Meaning & Characteristics (अवसंरचना)</h2>
+            
+            <h3>🧱 Definition</h3>
+            <p><strong>Infrastructure:</strong> Set of basic facilities that help an economy to function & grow such as Energy, Irrigation, Roads, Railway & Telecommunication.</p>
+            <p>Infrastructure provides essential services and facilities necessary for economic activity and social development.</p>
+
+            <h3>📊 Characteristics of Infrastructure</h3>
+            <table>
+                <tr>
+                    <th>Characteristic</th>
+                    <th>Description</th>
+                    <th>Example</th>
+                </tr>
+                <tr>
+                    <td><strong>Natural Monopoly</strong></td>
+                    <td>High fixed costs, economies of scale. Single firm can serve market more efficiently than multiple firms</td>
+                    <td>Railways, Electricity transmission, Water supply</td>
+                </tr>
+                <tr>
+                    <td><strong>Sunk Costs</strong></td>
+                    <td>Investment that cannot be recovered even when firm goes out of business</td>
+                    <td>If airport closed down, airstrip's asphalt has little/no resale value (very bulky to dig-off and transport)</td>
+                </tr>
+                <tr>
+                    <td><strong>Non-Tradable Output</strong></td>
+                    <td>Output cannot be 'transferred' to another place</td>
+                    <td>Road/bridge/airport constructed at one place cannot be transferred (unlike box of carrots)</td>
+                </tr>
+                <tr>
+                    <td><strong>Intangible Nature</strong></td>
+                    <td>Sometimes intangible - can't touch</td>
+                    <td>Spectrum, electricity</td>
+                </tr>
+                <tr>
+                    <td><strong>Non-Rival Consumption</strong></td>
+                    <td>One person using doesn't make product 'unavailable' for others</td>
+                    <td>Road, street light (unlike privately owned iPhone)</td>
+                </tr>
+                <tr>
+                    <td><strong>Price Exclusion Difficult</strong></td>
+                    <td>Cannot be 'denied' even if person not paying taxes/user-fees</td>
+                    <td>Rural road/street light (whereas if person cannot afford iPhone, he is excluded)</td>
+                </tr>
+                <tr>
+                    <td><strong>Positive Externality</strong></td>
+                    <td>Creates benefits for others not directly involved</td>
+                    <td>New railway station/airport → more business for taxi-walla & hotel owners in surrounding area</td>
+                </tr>
+                <tr>
+                    <td><strong>Long Gestation Period</strong></td>
+                    <td>Takes long time to build, returns come after many years</td>
+                    <td>Highways, power plants, dams</td>
+                </tr>
+            </table>
+
+            <h3>📊 Sectors Granted 'Infrastructure' Status by Finance Ministry</h3>
+            <p><strong>Benefits of Infrastructure Status:</strong></p>
+            <ol>
+                <li><strong>Tax Benefits:</strong> Govt could give tax benefits, lease public land at token price, faster environment clearance, faster FDI approval</li>
+                <li><strong>RBI Benefits:</strong> Relaxing External Commercial Borrowing (ECB) norms, Debt restructuring (e.g. RBI's 5/25 rule), Changing PSL norms</li>
+                <li><strong>SEBI Benefits:</strong> Relax norms for REITS/InvITs etc. funds to mobilize capital easily. IRDAI & PFRDA could oblige insurance and pension cos. to invest minimum X% in infrastructure companies</li>
+                <li><strong>Multilateral Funding:</strong> Easier funding from World Bank & other multilateral banks</li>
+            </ol>
+
+            <h3>📊 Infrastructure Categories</h3>
+            <table>
+                <tr>
+                    <th>Category</th>
+                    <th>Sectors</th>
+                </tr>
+                <tr>
+                    <td><strong>Transport & Logistics</strong></td>
+                    <td>Roads and bridges, Ports, Shipyard, Inland Waterways, Airport, Railway, tunnels, bridges, Transport, Logistics Infrastructure</td>
+                </tr>
+                <tr>
+                    <td><strong>Energy</strong></td>
+                    <td>Electricity, Oil, Gas (बिजली, तेल, गैस)</td>
+                </tr>
+                <tr>
+                    <td><strong>Water & Sanitation</strong></td>
+                    <td>Water supply & treatment, Sewage/Solid Waste Management, Irrigation (जल आपूर्ति, ठोस अपशिष्ट प्रबंधन, सिंचाई)</td>
+                </tr>
+                <tr>
+                    <td><strong>Communication</strong></td>
+                    <td>Telecommunication (दूरसंचार)</td>
+                </tr>
+                <tr>
+                    <td><strong>Social & Commercial Infrastructure</strong></td>
+                    <td>
+                        Hospitals, Education Institutions, Sports Infrastructure, Tourism infrastructure (hotels, ropeways, cable cars)<br>
+                        Industrial Parks, food parks, textile parks, SEZ<br>
+                        Cold storage, Soil-testing laboratories<br>
+                        Affordable Housing
+                    </td>
+                </tr>
+            </table>
+
+            <div class="highlight-box">
+                <strong>Budget-2022:</strong> "Infrastructure" status given to Data Centres, Energy Storage Systems, grid-scale battery systems, EV charging infra → so they can benefit from tax/subsidies/schemes benefits meant for other infrastructure sectors.
+            </div>
+        </div>
+
+        <!-- 2. Energy Infrastructure -->
+        <div class="card">
+            <h2>2. Energy Infrastructure (ऊर्जा अवसंरचना)</h2>
+
+            <h3>⚡ Electricity (बिजली)</h3>
+            <p><strong>Origin:</strong> 1897: Electricity supply starts in Darjeeling, 1902: Hydro powerstation at Shivasamudram in Karnataka. Pre-Independence era: power supply mainly in private sector, restricted to urban areas.</p>
+            <p><strong>Significance:</strong> Greater access to energy improves both economic growth & human development. If India wants to improve Human Development → must ↑ per capita energy consumption by 4x times.</p>
+            
+            <h3>📊 Electricity: Key Data</h3>
+            <ul>
+                <li><strong>Per-capita Energy Consumption:</strong> India's only ~1/3rd of global average</li>
+                <li><strong>Population vs Energy:</strong> India accounts for ~18% world's population, uses only around 6% of world's energy</li>
+                <li><strong>Energy Consumer:</strong> India is 3rd largest consumer of energy resources (after USA and China)</li>
+                <li><strong>Imports:</strong> 3rd largest importer of crude oil, 4th largest importer of LNG</li>
+            </ul>
+
+            <h3>📊 Electricity Generation: Company Ownership</h3>
+            <table>
+                <tr>
+                    <th>Ownership</th>
+                    <th>Share</th>
+                </tr>
+                <tr>
+                    <td>Owned by Union</td>
+                    <td>25%</td>
+                </tr>
+                <tr>
+                    <td>Owned by State</td>
+                    <td>26%</td>
+                </tr>
+                <tr>
+                    <td>Owned by Private Sector</td>
+                    <td>49%</td>
+                </tr>
+            </table>
+
+            <h3>🕵️ Ministry of Power (बिजली-ऊर्जा मंत्रालय)</h3>
+            <p><strong>Statutory Bodies:</strong></p>
+            <ul>
+                <li><strong>Joint Electricity Regulatory Commission (JERC):</strong> For UT of J&K & Ladakh, GOA & UTs, Manipur and Mizoram</li>
+                <li><strong>Central Electricity Authority (CEA):</strong> Prescribes standards for construction of electrical plants, electric lines</li>
+                <li><strong>Central & State Electricity Regulatory Commissions:</strong> For fixing electricity tariff (prices)</li>
+                <li><strong>Appellate Tribunal for Electricity (APTEL)</strong></li>
+                <li><strong>Bureau of Energy Efficiency (BEE)</strong></li>
+                <li><strong>Damodar Valley Corporation (DVC)</strong></li>
+                <li><strong>Bhakra Beas Management Board</strong></li>
+            </ul>
+            <p><strong>CPSEs:</strong> NTPC, NHPC, SJVN Ltd, Power Finance Corp (PFC), Power Grid Corporation, POSOCO, EESL, THDC India Limited, REC, NEEPCO</p>
+
+            <h3>🔌 One Nation-One Grid</h3>
+            <ul>
+                <li><strong>Initially:</strong> Individual states' electricity grids interconnected to form 5 regional grids (Northern, Eastern, Western, North Eastern & Southern)</li>
+                <li><strong>Problem:</strong> If state had surplus electricity, could sell ONLY to other states in that region</li>
+                <li><strong>Solution:</strong> One Nation-One Grid connects all 5 regional grids into one national grid</li>
+                <li><strong>Benefit:</strong> Electricity can be transferred from surplus region to deficient region</li>
+                <li><strong>Power Exchanges:</strong> Power Exchange of India (PXIL) and India Energy Exchange (IEX)</li>
+                <li><strong>Implementation:</strong> Power Grid Corporation of India Limited</li>
+            </ul>
+
+            <h3>🔌 Green Energy Corridor Project</h3>
+            <ul>
+                <li><strong>Objective:</strong> Enable flow of renewable energy into National Grid Network</li>
+                <li><strong>Benefit:</strong> Renewable energy rich States (Rajasthan-solar, Tamil Nadu-wind) can sell electricity to other states</li>
+                <li><strong>2022:</strong> Phase-II started. Union govt gives 33% subsidy on project cost</li>
+            </ul>
+
+            <h3>🔌 GREEN Grids / OSOWOG</h3>
+            <ul>
+                <li><strong>2018:</strong> India first proposed connecting solar energy supply across borders at International Solar Alliance (HQ: Gurugram, India)</li>
+                <li><strong>2021:</strong> PM Modi and UK PM Boris Johnson launched 'green grids' initiative - One Sun One World One Grid (OSOWOG) at COP26 Glasgow</li>
+                <li><strong>Objective:</strong> Connect renewable energy grids across borders</li>
+                <li><strong>Benefit:</strong> Countries in different time zones connected → can continue to work on solar energy even after sun sets in their own country</li>
+            </ul>
+
+            <h3>🔌 UDAY (Ujwal DISCOM Assurance Yojana, 2015)</h3>
+            <p><strong>Problem:</strong> DISCOMs suffering losses due to:</p>
+            <ol>
+                <li>Coal became expensive → Thermal electricity production expensive</li>
+                <li>20% electricity lost during transmission and distribution. Companies don't have money to upgrade network</li>
+                <li>State Govts not releasing subsidies on time to electricity companies</li>
+                <li>Electricity thefts rampant but State Govts ignore for vote bank politics</li>
+            </ol>
+            <p><strong>Solution - UDAY:</strong></p>
+            <ul>
+                <li><strong>Target:</strong> Financial revival of DISCOMs</li>
+                <li><strong>Method:</strong> State Govt takes over 75% of DISCOM debt (as on 30/9/15) in phased manner (optional for States)</li>
+                <li><strong>Funding:</strong> State govt mobilizes ₹ by issuing bonds in market (non-SLR bonds)</li>
+                <li><strong>Incentive:</strong> If States do above → Union gives extra ₹₹ for DDUGJY, IPDS, and other schemes</li>
+                <li><strong>Status:</strong> By 2019-20, first phase completed. Scheme failed to completely solve problem. UDAY 2.0 announced but no development yet</li>
+            </ul>
+
+            <h3>🔌 Electricity (Rights of Consumers) Rules, 2020</h3>
+            <ul>
+                <li><strong>Under:</strong> Electricity Act 2003</li>
+                <li><strong>Requires:</strong> Electricity distribution companies to provide 24/7 Electricity, Grievance redressal and penalty/compensation mechanism</li>
+                <li><strong>Exception:</strong> Electricity Commission may specify less hours for agriculture (to prevent over-exploitation of groundwater)</li>
+                <li><strong>Benefit:</strong> Provides rights to customers as electricity distribution companies are monopolies</li>
+            </ul>
+
+            <h3>🌤️ Time-of-Day (ToD) Tariff</h3>
+            <ul>
+                <li><strong>By:</strong> Power ministry using Electricity (Rights of Consumers) Amendment Rules, 2023</li>
+                <li><strong>Concept:</strong> Different electricity price based on time of day</li>
+                <li><strong>Normal sunny day:</strong> Price 20% less than normal price</li>
+                <li><strong>Peak hours (evening):</strong> Price cannot be more than 1.10 to 1.20x times than normal price</li>
+            </ul>
+
+            <h3>🔌 Deen Dayal Gram Jyoti Yojana (DDUGJY, 2015)</h3>
+            <ul>
+                <li><strong>Boss:</strong> Ministry of Power → Rural Electrification Corporation-REC</li>
+                <li><strong>Type:</strong> Central Sector Scheme = 100% funded by Union</li>
+                <li><strong>Target:</strong> 24×7 uninterrupted 'metered' electricity supply to each rural household by 2022</li>
+                <li><strong>Features:</strong> (1) Separate feeder lines for rural households vs agricultural use (2) Strengthen sub-transmission and distribution network (3) Install electricity meters</li>
+            </ul>
+
+            <h3>🔌 PM Sahaj Bijli Har Ghar Yojana (SAUBHAGYA, 2017)</h3>
+            <ul>
+                <li><strong>Boss:</strong> Ministry of Power → Rural Electrification Corporation-REC</li>
+                <li><strong>Target:</strong> Give electricity connections to all remaining un-electrified households in rural and urban areas. Provide 24x7 power supply</li>
+                <li><strong>Method:</strong> Based on SECC-2011, identify beneficiaries, give free electricity connection with meter</li>
+                <li><strong>Remote Areas:</strong> If not possible to join with grid → solar cell, DC battery pack, LED lights given</li>
+            </ul>
+
+            <h3>⚡ Revamped Distribution Sector Scheme (RDSS, 2021-June)</h3>
+            <p><strong>Umbrella Scheme:</strong> Subsumes previous schemes:</p>
+            <ul>
+                <li>Deen Dayal Upadhyaya Gram Jyoti Yojana (DDUGJY) / SAUBHAGYA - for rural area</li>
+                <li>Integrated Power Development Scheme (IPDS) - for urban area</li>
+                <li>Prime Minister's Development Program (PMDP) - for J&K and Ladakh</li>
+            </ul>
+            <p><strong>Features:</strong></p>
+            <ul>
+                <li>Separation of Agriculture feeder lines</li>
+                <li>Solarization of electricity feeder lines under KUSUM</li>
+                <li>Smart electricity meters for all users (other than agriculture)</li>
+                <li>Modernisation of state-level electricity distribution infra</li>
+                <li>Special focus/extra funding for special category states</li>
+                <li>Performance review: DISCOMs scoring minimum 60% marks get government funding</li>
+            </ul>
+            <p><strong>Data:</strong> ES22: Thanks to all initiatives, 96% Indian families have electricity connection</p>
+
+            <h3>💡 Energy Efficiency</h3>
+            <p><strong>Definition:</strong> Using lesser amount of energy to produce given amount of output. E.g., LED light bulb requires ↓ energy than incandescent light</p>
+
+            <h3>💡 PAT Mechanism (Perform Achieve and Trade)</h3>
+            <ul>
+                <li><strong>2008:</strong> Environment Ministry's National Action Plan on Climate Change (NAPCC) → National Mission for Enhanced Energy Efficiency (NMEEE) → PAT</li>
+                <li><strong>Boss:</strong> Power Ministry → Bureau of Energy Efficiency (BEE)</li>
+                <li><strong>Mechanism:</strong> 8 energy intensive industries given 'quotas': Thermal Power, Aluminium, Cement, Fertilizer, Iron-steel, Pulp-paper, Textiles, Chlor-alkali</li>
+                <li><strong>Requirement:</strong> Cut energy consumption according to quotas, else face penalties</li>
+                <li><strong>Overachieving firms:</strong> Obtain Energy Saving Certificates (ESCerts) from BEE's PATNET portal and sell to underachieving firms</li>
+                <li><strong>Regulator:</strong> Central Electricity Regulatory Commission regulates prices</li>
+            </ul>
+
+            <h3>♻️ Trading: RPO, PAT, CCTS, GCP</h3>
+            <table>
+                <tr>
+                    <th>Year</th>
+                    <th>Scheme</th>
+                    <th>Objective</th>
+                    <th>Compulsory?</th>
+                    <th>Ministry</th>
+                </tr>
+                <tr>
+                    <td><strong>2014</strong></td>
+                    <td>Renewable Purchase Obligation (RPO)</td>
+                    <td>Requires electricity companies to buy some electricity from renewable sources</td>
+                    <td>Yes, under Electricity Act, 2003</td>
+                    <td>MNRE</td>
+                </tr>
+                <tr>
+                    <td><strong>2012</strong></td>
+                    <td>Perform, Achieve and Trade (PAT)</td>
+                    <td>Reducing energy use in large industries</td>
+                    <td>Yes, under Energy Conservation Act, 2001</td>
+                    <td>Power Ministry</td>
+                </tr>
+                <tr>
+                    <td><strong>2023-June</strong></td>
+                    <td>Carbon Credit and Trading Scheme (CCTS)</td>
+                    <td>(1) To replace PAT scheme (2) To reduce GHG emission</td>
+                    <td>Yes, under Energy Conservation Act 2001 (2022 Amendment)</td>
+                    <td>Power Ministry</td>
+                </tr>
+                <tr>
+                    <td><strong>2023-Oct</strong></td>
+                    <td>Green Credit Program (GCP)</td>
+                    <td>For activities that help environment (water saving, waste management)</td>
+                    <td>Voluntary, under PM Modi's Mission-LIFE</td>
+                    <td>Environment Ministry</td>
+                </tr>
+            </table>
+
+            <h3>💡 National LED Programme</h3>
+            <ul>
+                <li><strong>UJALA:</strong> Unnat Jeevan by Affordable LEDs and Appliances for All - subsidized home LED bulbs</li>
+                <li><strong>Street Lighting National Program:</strong> EESL replaces conventional Halogen Street Bulbs with LED street bulbs, free of cost</li>
+            </ul>
+
+            <h3>💡 Gram Ujala Programme</h3>
+            <ul>
+                <li><strong>Boss:</strong> Ministry of Power → EESL → Convergence Energy Services Limited (CESL)</li>
+                <li><strong>What:</strong> Exchange villagers' yellow bulbs with LED bulbs. Villager submits working incandescent bulbs + pays ₹10 = gets LED bulb with 3 years warranty. Maximum quota = 5 LED bulbs per villager</li>
+                <li><strong>Benefit:</strong> 12 Watt LED bulb = light of 100 watt incandescent bulb → ↓ Energy bill, ↓ CO2 Emission, ↓ Waste generation</li>
+            </ul>
+        </div>
+
+        <!-- 3. Transport Infrastructure -->
+        <div class="card">
+            <h2>3. Transport Infrastructure</h2>
+
+            <h3>🚗 Roads</h3>
+            <ul>
+                <li><strong>Bharat Mala:</strong> Highway development program</li>
+                <li><strong>FASTag:</strong> Electronic toll collection</li>
+                <li><strong>NHAI:</strong> National Highways Authority of India</li>
+            </ul>
+
+            <h3>🚂 Railways</h3>
+            <ul>
+                <li><strong>Dedicated Freight Corridors:</strong> Eastern & Western DFC</li>
+                <li><strong>High-Speed Rail:</strong> Mumbai-Ahmedabad Bullet Train</li>
+                <li><strong>Metro Rail:</strong> Urban mass transit systems</li>
+            </ul>
+
+            <h3>✈️ Aviation</h3>
+            <ul>
+                <li><strong>UDAN:</strong> Ude Desh ka Aam Naagrik (Regional connectivity)</li>
+                <li><strong>Greenfield Airports:</strong> New airports (e.g., Mopa, Jewar)</li>
+            </ul>
+
+            <h3>⚓ Ports</h3>
+            <ul>
+                <li><strong>Major Ports:</strong> 12 major ports (under Centre)</li>
+                <li><strong>Minor Ports:</strong> 200+ minor ports (under States)</li>
+                <li><strong>Sagarmala:</strong> Port-led development</li>
+            </ul>
+        </div>
+
+        <!-- 4. Urban & Rural Infrastructure -->
+        <div class="card">
+            <h2>4. Urban & Rural Infrastructure</h2>
+
+            <h3>🏙️ Urban</h3>
+            <ul>
+                <li><strong>Smart Cities Mission:</strong> 100 smart cities</li>
+                <li><strong>AMRUT:</strong> Atal Mission for Rejuvenation and Urban Transformation</li>
+                <li><strong>Swachh Bharat Mission:</strong> Urban sanitation</li>
+                <li><strong>Metro Rail:</strong> Urban mass transit</li>
+            </ul>
+
+            <h3>🏘️ Rural</h3>
+            <ul>
+                <li><strong>PMGSY:</strong> Pradhan Mantri Gram Sadak Yojana (Rural roads)</li>
+                <li><strong>Jal Jeevan Mission:</strong> Tap water to all households</li>
+                <li><strong>Swachh Bharat Mission (Gramin):</strong> Rural sanitation</li>
+            </ul>
+        </div>
+
+        <!-- 5. PPP & Financing -->
+        <div class="card">
+            <h2>5. Public-Private Partnership (PPP)</h2>
+
+            <h3>🤝 PPP Models</h3>
+            <table>
+                <tr>
+                    <th>Model</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td><strong>BOT</strong></td>
+                    <td>Build-Operate-Transfer (Private builds, operates, transfers to govt)</td>
+                </tr>
+                <tr>
+                    <td><strong>BOOT</strong></td>
+                    <td>Build-Own-Operate-Transfer</td>
+                </tr>
+                <tr>
+                    <td><strong>DBFOT</strong></td>
+                    <td>Design-Build-Finance-Operate-Transfer</td>
+                </tr>
+            </table>
+
+            <h3>💰 Financing</h3>
+            <ul>
+                <li><strong>NABFID:</strong> National Bank for Financing Infrastructure and Development</li>
+                <li><strong>IIFCL:</strong> India Infrastructure Finance Company Limited</li>
+                <li><strong>VGF:</strong> Viability Gap Funding (Govt support for unviable projects)</li>
+            </ul>
+        </div>
+
+        <!-- PYQ Snipers -->
+        <div class="pyq-box">
+            <h2>🎯 PYQ Sniper Shots</h2>
+
+            <div class="pyq-item">
+                <strong>Q: What is Infrastructure?</strong><br>
+                A: Basic facilities for economy: Energy, Transport, Communication, Water, Sanitation. Characteristics: Natural monopoly, sunk costs.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is PPP?</strong><br>
+                A: Public-Private Partnership - Collaboration between government and private sector for infrastructure development.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is UDAY?</strong><br>
+                A: Ujwal DISCOM Assurance Yojana - Scheme for financial turnaround of power distribution companies.
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; color: #64748b; font-size: 0.9em;">
+            Created by Antigravity • UPPCS Economics Pillar 5
+        </div>
+    </div>
+
+    <script src="../theme-toggle.js"></script>
+</body>
+
+</html>
+

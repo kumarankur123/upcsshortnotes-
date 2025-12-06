@@ -1,0 +1,1363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pillar 2: Budget, Taxation & Public Finance - UPPCS Notes</title>
+    <link rel="stylesheet" href="../dark-theme.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        [data-theme="dark"] body {
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+        }
+
+        header {
+            background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+            color: white;
+            padding: 50px 30px;
+            border-radius: 20px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 20px 60px rgba(59, 130, 246, 0.4);
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '💼';
+            position: absolute;
+            font-size: 15rem;
+            opacity: 0.1;
+            top: -30px;
+            left: -30px;
+            animation: float 10s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(30px); }
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #3b82f6;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(59, 130, 246, 0.2);
+        }
+
+        [data-theme="dark"] .card {
+            background: #1e293b;
+        }
+
+        h2 {
+            color: #3b82f6;
+            border-bottom: 3px solid #dbeafe;
+            padding-bottom: 10px;
+            font-size: 1.8rem;
+        }
+
+        [data-theme="dark"] h2 {
+            color: #60a5fa;
+            border-bottom-color: #1e40af;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+            border-left: 5px solid #3b82f6;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        [data-theme="dark"] .highlight-box {
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #bfdbfe;
+        }
+
+        th {
+            background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background: #dbeafe;
+        }
+
+        [data-theme="dark"] tr:hover {
+            background: #374151;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-left: 8px;
+        }
+
+        .tag-imp {
+            background: #fecaca;
+            color: #991b1b;
+        }
+
+        .pyq-box {
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 16px;
+            margin-top: 40px;
+        }
+
+        .pyq-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 10px;
+            border-left: 4px solid #3b82f6;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" style="max-width: 1000px; margin: auto; padding: 40px 20px;">
+        <header>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark Mode">🌓</button>
+            <h1>💼 Pillar 2: Budget, Taxation & Public Finance</h1>
+            <div class="subtitle">Fiscal Policy • GST • Direct & Indirect Taxes • FRBM</div>
+        </header>
+
+        <!-- 1. Fiscal Policy & Budget -->
+        <div class="card">
+            <h2>1. Fiscal Policy & Budget</h2>
+            
+            <h3>💼 Fiscal Policy (राजकोषीय नीति)</h3>
+            <p><strong>Definition:</strong> Derived from Greek word 'basket' symbolizing public purse. Government's decisions regarding taxation, expenditure, subsidies and other financial operations to influence economy.</p>
+            
+            <div class="highlight-box">
+                <strong>Objectives of Fiscal Policy:</strong>
+                <ul>
+                    <li><strong>Employment:</strong> Through welfare schemes, rural employment programs like MGNREGA</li>
+                    <li><strong>Fight Inflation:</strong> Higher income tax → ↓ disposable income → demand curbed. To fight deflation: ↓ direct and indirect taxes to boost demand</li>
+                    <li><strong>Boost Economic Growth:</strong> Income tax benefits on household savings in LIC/Mutual Fund → industries get capital investment → factory expansion, jobs, GDP growth</li>
+                    <li><strong>Inclusive Growth:</strong> Higher taxes on rich → use money for health, education, women, poverty removal programs</li>
+                    <li><strong>Regionally Balanced Growth:</strong> Tax benefits to industrialists for setting up factories in North East, LWE areas, backward regions</li>
+                    <li><strong>Exchange Rate Stability:</strong> Tax benefits to exporters; higher taxes on imports → CAD controlled → ₹:$ exchange rate volatility controlled</li>
+                </ul>
+            </div>
+
+            <h3>📊 Budget (बजट)</h3>
+            <p><strong>Meaning:</strong> Annual financial statement containing estimated revenues and expenditures for the next financial year. Primary tool to implement fiscal policy.</p>
+            <p><strong>Origin:</strong> French word 'bougette' meaning leather bag/suitcase. Finance Minister kept documents in it → present in parliament. 2019: FM Nirmala Sitharaman ended colonial practice, presented budget in traditional four-fold red cloth "Bahi-Khata".</p>
+
+            <h3>🔐 Three Funds Related to Budget</h3>
+            <table>
+                <tr>
+                    <th>Fund</th>
+                    <th>Article</th>
+                    <th>Contents</th>
+                    <th>Withdrawal</th>
+                </tr>
+                <tr>
+                    <td><strong>Consolidated Fund of India (CFI)</strong></td>
+                    <td>266</td>
+                    <td>All revenues, loans raised, loans recovered</td>
+                    <td>Needs Parliament permission (except Charged Expenditure like Judges' salaries)</td>
+                </tr>
+                <tr>
+                    <td><strong>Public Account of India</strong></td>
+                    <td>266</td>
+                    <td>Provident funds, small savings, postal deposits, etc. Govt acts as banker</td>
+                    <td>Parliament permission NOT necessary for transfers. But if separate fund created for first time, needs Parliament permission</td>
+                </tr>
+                <tr>
+                    <td><strong>Contingency Fund of India</strong></td>
+                    <td>267</td>
+                    <td>Unforeseen events. Held by Finance Secretary (IAS) in Dept of Economic Affairs, on behalf of President</td>
+                    <td>Parliament approval obtained "subsequently" after expenditure. Money refilled from CFI. Budget-2021: Amount ↑ from ₹500 crore to ₹30,000 crore</td>
+                </tr>
+            </table>
+
+            <h3>📃 Three Documents Related to Budget</h3>
+            <table>
+                <tr>
+                    <th>Document</th>
+                    <th>Article</th>
+                    <th>Purpose</th>
+                </tr>
+                <tr>
+                    <td><strong>Annual Financial Statement (AFS)</strong></td>
+                    <td>112</td>
+                    <td>Receipt and expenditure of last year (and projections for next year). Revenue expenditure shown separately from capital expenditure</td>
+                </tr>
+                <tr>
+                    <td><strong>Finance Bill</strong></td>
+                    <td>117</td>
+                    <td>Obtain Parliament's permission to collect taxes (Art. 265). Parliament can reduce/abolish tax but CANNOT increase beyond what Govt proposed</td>
+                </tr>
+                <tr>
+                    <td><strong>Appropriation Bill</strong></td>
+                    <td>114</td>
+                    <td>Obtain Parliament's permission to spend money from CFI. Two types: (1) Charged Expenditure (non-votable, e.g. Judges' salaries) (2) Made Expenditure (votable, e.g. scheme funds)</td>
+                </tr>
+            </table>
+
+            <div class="highlight-box">
+                <strong>Money Bill (Art. 110):</strong> Finance Bill and Appropriation Bill are Money Bills. Rajya Sabha can only discuss (max 14 days), cannot reject/amend. Lok Sabha Speaker's decision is final [Art. 110(3)]. Speaker's decision cannot be enquired by any Court [Art. 122]. Sometimes ruling party packs ordinary bills' proposals inside Finance Bill to bypass Rajya Sabha obstruction.
+            </div>
+
+            <h3>👍🏻 Six Stages of Passing Budget in Parliament</h3>
+            <ol>
+                <li><strong>Presentation of Budget</strong> (बजट के प्रस्तुतीकरण)</li>
+                <li><strong>General Discussion</strong> (आम बहस)</li>
+                <li><strong>Scrutiny by Departmental Committees</strong> (विभागीय समितियों द्वारा जांच)</li>
+                <li><strong>Voting on Demands for Grants</strong> (अनुदान के मांग पर मतदान) - Cut motions, guillotine</li>
+                <li><strong>Passing of Appropriation Bill</strong> (विनियोग विधेयक के पारित होना)</li>
+                <li><strong>Passing of Finance Bill</strong> (वित्त विधेयक के पारित होना)</li>
+            </ol>
+
+            <h3>📆 Financial Year (FY: वित्तीय वर्ष)</h3>
+            <ul>
+                <li><strong>Period:</strong> 1st April to 31st March (British legacy from 1867)</li>
+                <li><strong>2016-17:</strong> Shankar Acharya Committee set up to examine whether to change FY (like Jan-Dec or Rabi-Kharif cropping seasons) for better estimation</li>
+                <li><strong>2017:</strong> All states not in favor (accounting practices/softwares need change). Challenges outweighed benefits. Not implemented</li>
+            </ul>
+
+            <h3>📃 Vote on Account (लेखा अनुदान)</h3>
+            <ul>
+                <li><strong>Purpose:</strong> Allow govt to spend money from CFI till Appropriation Act for next financial year is passed</li>
+                <li><strong>Amount:</strong> Generally granted for two months, equivalent to one-sixth of total budget estimation</li>
+                <li><strong>2017 onwards:</strong> Budget tabled on first working day of February. All six stages completed by last week of March. Appropriation bill passed before 31st March. Vote on Account no longer necessary</li>
+                <li><strong>Exception:</strong> 2019 and 2024 Interim Budgets demanded Vote on Account (planned to place full budget after general elections)</li>
+            </ul>
+
+            <h3>🤴 Interim Budget (अंतरिम बजट)</h3>
+            <ul>
+                <li><strong>When:</strong> During election year or extreme situation (coalition may collapse)</li>
+                <li><strong>Purpose:</strong> Avoid unethical drastic/populist changes before elections</li>
+                <li><strong>Presented:</strong> 2004 (Yashwant S.), 2009 (Pranab M.), 2014 (Chidambaram P.), 2019 (Piyush G.), 2024 (Nirmala S.)</li>
+                <li><strong>Validity:</strong> Valid for whole financial year. If new government formed, they may present another budget to change provisions</li>
+            </ul>
+
+            <h3>📘 Economic Survey (आर्थिक सर्वेक्षण)</h3>
+            <ul>
+                <li><strong>Prepared by:</strong> Chief Economic Adviser (CEA) in FinMin</li>
+                <li><strong>Constitutional Status:</strong> No constitutional obligation, but usually tabled in parliament a day before Union Budget</li>
+                <li><strong>Labelling:</strong> Budget labelled after next financial year (e.g. 2019-20). Economic Survey labelled after previous financial year (e.g. Survey tabled in July-2019 labelled "Economic Survey 2018-19")</li>
+                <li><strong>Format:</strong> Till 2013-14: Single Volume. 2014-15 onwards: Two Volumes (Vol1= future suggestions, Vol2= Past data). 2021-22: Shifted back to ONE Volume</li>
+                <li><strong>Theme Examples:</strong> 2014-15: "Creating opportunity and reducing vulnerability" (JAM trinity). 2021-22: "Art and science of policy-making under conditions of extreme uncertainty using Agile approach"</li>
+            </ul>
+
+            <h3>📙 Chief Economic Advisor (CEA: मुख्य आर्थिक सलाहकार)</h3>
+            <ul>
+                <li><strong>Works under:</strong> Finance Ministry's Department of Economic Affairs</li>
+                <li><strong>Tenure:</strong> Usually 3 years, reappointment possible. Not constitutional or statutory body</li>
+                <li><strong>Notable CEAs:</strong> Manmohan Singh, Raghuram Rajan, Arvind Subramanian (2014-18), Krishnamurthy Subramanian (2018-2021), Dr V. Anantha Nageswaran (2022-Jan onwards)</li>
+            </ul>
+
+            <h3>🕵🏻 Finance Ministry Departments</h3>
+            <table>
+                <tr>
+                    <th>Department</th>
+                    <th>Key Functions</th>
+                </tr>
+                <tr>
+                    <td><strong>Department of Economic Affairs (DEA)</strong></td>
+                    <td>Fiscal policy, Union budget preparation, Interest rates of small saving schemes, PPP website (pppinindia.gov.in), Liaisons with Finance Commission, CEA, FSDC</td>
+                </tr>
+                <tr>
+                    <td><strong>Department of Expenditure</strong></td>
+                    <td>Controller General of Accounts (CGA) prepares estimates, Implements FC reports, Pay Commission reports, Pension, PFMS, Bharatkosh, PARAS portals</td>
+                </tr>
+                <tr>
+                    <td><strong>Department of Revenue</strong></td>
+                    <td>Taxation matters: CBDT, CBIC, Enforcement Directorate, CEIB, GSTN, Opium matters</td>
+                </tr>
+                <tr>
+                    <td><strong>Department of Financial Services (DFS)</strong></td>
+                    <td>Financial Inclusion schemes, PSB supervision, recapitalization, FSIB (Bank Board Bureau), NCGTC, NABFID, E-Bikray Portal</td>
+                </tr>
+                <tr>
+                    <td><strong>DIPAM</strong></td>
+                    <td>Disinvestment/privatization of CPSEs</td>
+                </tr>
+                <tr>
+                    <td><strong>Department of Public Enterprises (DPE)</strong></td>
+                    <td>CPSEs administration, expenditure, financial health, Ratna status, VRS, training. Shifted from Heavy Industries Ministry to Finance Ministry in 2021-July</td>
+                </tr>
+            </table>
+
+            <h3>🤧 Donation Funds: PMNRF vs PM CARES</h3>
+            <table>
+                <tr>
+                    <th>Feature</th>
+                    <th>PMNRF (1948 by Nehru)</th>
+                    <th>PM CARES (2020 by Modi)</th>
+                </tr>
+                <tr>
+                    <td><strong>Purpose</strong></td>
+                    <td>Floods, cyclones, earthquakes, accidents, transplants, cancer, acid attack, riots</td>
+                    <td>Any kind of emergency/distress (e.g. COVID-19)</td>
+                </tr>
+                <tr>
+                    <td><strong>Setup</strong></td>
+                    <td>Not by Parliament. No budget support. Only donations</td>
+                    <td>Same</td>
+                </tr>
+                <tr>
+                    <td><strong>Tax Exemption</strong></td>
+                    <td>Donors get Income tax exemption. Company donations counted in CSR</td>
+                    <td>Same</td>
+                </tr>
+                <tr>
+                    <td><strong>Operated by</strong></td>
+                    <td>PMO</td>
+                    <td>PMO</td>
+                </tr>
+                <tr>
+                    <td><strong>Chairman</strong></td>
+                    <td>PM (ex-officio). Ex-officio Trustees: Defence, Home, Finance Ministers. 3 Nominated Trustees</td>
+                    <td>PM (ex-officio)</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- 2. Direct Taxes -->
+        <div class="card">
+            <h2>2. Direct Taxes (प्रत्यक्ष कर)</h2>
+
+            <h3>🍋 Types of Taxes: Direct vs Indirect</h3>
+            <table>
+                <tr>
+                    <th>Parameter</th>
+                    <th>Direct Tax (e.g. 5% Tax on income)</th>
+                    <th>Indirect Tax (e.g. 18% GST on Biscuit)</th>
+                </tr>
+                <tr>
+                    <td><strong>Impact of Tax</strong><br>(Point from where govt collects tax)</td>
+                    <td>Income Tax Assessee (प्रत्यक्ष करदाता खाता)</td>
+                    <td>Shopkeeper/seller (विक्रेता)</td>
+                </tr>
+                <tr>
+                    <td><strong>Incidence of Tax</strong><br>(Point where burden is ultimately felt)</td>
+                    <td>Income Tax Assessee (same person)</td>
+                    <td>Customer/buyer (ग्राहक) - different person</td>
+                </tr>
+            </table>
+
+            <h3>📐 Types of Taxes: Progressive vs Regressive</h3>
+            <table>
+                <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                    <th>Example</th>
+                </tr>
+                <tr>
+                    <td><strong>Progressive</strong></td>
+                    <td>Higher income → Higher tax rate. Richer person pays bigger proportion of income as tax</td>
+                    <td>5%-20%-30% income tax slabs. Direct taxes are progressive</td>
+                </tr>
+                <tr>
+                    <td><strong>Regressive</strong></td>
+                    <td>Lower income → Higher tax burden (as % of income). Poor person pays greater proportion of income</td>
+                    <td>18% GST on ₹100 biscuit = ₹18. Both Mukesh Ambani and poor man pay same ₹18, but poor man's income % higher. Indirect taxes are regressive</td>
+                </tr>
+                <tr>
+                    <td><strong>Proportional</strong></td>
+                    <td>Same rate for all income levels</td>
+                    <td>If single 10% flat rate direct tax irrespective of income</td>
+                </tr>
+                <tr>
+                    <td><strong>Degressive</strong></td>
+                    <td>Blend of progressive and proportional. Tax increases upto a point, then uniform rate</td>
+                    <td>5-5-10-10-...10 pattern</td>
+                </tr>
+            </table>
+
+            <h3>💣 Adam Smith's 4 Canons of Taxation</h3>
+            <ol>
+                <li><strong>Canon of Equality (सामानता का सिद्धांत):</strong> Tax should be equal/proportionate to income. Rich pay more than poor</li>
+                <li><strong>Canon of Certainty (निश्चितता का सिद्धांत):</strong> Dates, slabs, % should be definite & told in advance</li>
+                <li><strong>Canon of Convenience (सुविधा का सिद्धांत):</strong> Tax payer shouldn't wait in long queue or fill 50 pages forms</li>
+                <li><strong>Canon of Economy (मितव्ययता का सिद्धांत):</strong> To collect ₹100 crore tax, govt shouldn't spend ₹99 crores in salaries</li>
+            </ol>
+
+            <h3>🍋 Union Tax, Cess and Surcharge</h3>
+            <table>
+                <tr>
+                    <th>Type</th>
+                    <th>Computed On</th>
+                    <th>Shared with States?</th>
+                    <th>Purpose</th>
+                </tr>
+                <tr>
+                    <td><strong>Union Tax</strong></td>
+                    <td>Taxable income, profit, transaction</td>
+                    <td>Yes, via Finance Commission formula</td>
+                    <td>Goes to Consolidated Fund of India</td>
+                </tr>
+                <tr>
+                    <td><strong>Surcharge</strong></td>
+                    <td>Tax amount (tax on tax)</td>
+                    <td>No, not shared with States</td>
+                    <td>Usually no clear objective. Exception: 10% Social Welfare Surcharge on customs duty</td>
+                </tr>
+                <tr>
+                    <td><strong>Cess</strong></td>
+                    <td>[(Tax) + (Surcharge, if any)]</td>
+                    <td>No, Finance Commission can't prescribe formula</td>
+                    <td>Clear objective mentioned (Road & infrastructure cess, Health & Education cess, GST compensation cess)</td>
+                </tr>
+            </table>
+
+            <h3>🏦 Corporation Tax (निगम कर)</h3>
+            <p><strong>Also known as:</strong> Corporate Income Tax (CIT). Levied on company's profit under Income-tax Act, 1961.</p>
+            <table>
+                <tr>
+                    <th>Type of Company</th>
+                    <th>Corporation Tax Rate</th>
+                </tr>
+                <tr>
+                    <td>New INDIAN MFG company registered from 1/10/2019 onwards</td>
+                    <td>15% + 10% surcharge + 4% health edu cess = 17.01%</td>
+                </tr>
+                <tr>
+                    <td>Other Indian companies</td>
+                    <td>22% + 10% surcharge + 4% health edu cess = 25.17%</td>
+                </tr>
+                <tr>
+                    <td>Foreign Company's profit from India</td>
+                    <td>Budget-2024-July: 40% → 35% ↓</td>
+                </tr>
+                <tr>
+                    <td>Zero Profit companies</td>
+                    <td>15% MAT (Minimum Alternate Tax)</td>
+                </tr>
+            </table>
+
+            <h3>🐷 Minimum Alternate Tax (MAT) & AMT</h3>
+            <ul>
+                <li><strong>Problem:</strong> Some companies make profit but use tax-deduction, exemptions, depreciations to show ₹0 taxable income</li>
+                <li><strong>Solution:</strong> Budget-1996 introduced 18.5% MAT on book profit of 'ZERO TAX Companies'</li>
+                <li><strong>Current Rate:</strong> Modi govt reduced MAT from 18.5% → 15%</li>
+                <li><strong>AMT:</strong> Alternative Minimum Tax (15%) on Cooperative societies (e.g. Amul, IFFCO)</li>
+            </ul>
+
+            <h3>🌱 Corporation Tax on Startups</h3>
+            <ul>
+                <li><strong>Startup Definition:</strong> Company not older than 10 years, turnover not more than ₹100 cr, doing innovation in goods/services</li>
+                <li><strong>Tax Holiday:</strong> 100% deduction on profits for 3 years out of first 10 years of registration (no need to pay tax)</li>
+                <li><strong>Angel Tax:</strong> 2012: UPA ordered suspicious startups to pay 30% Tax + Penalty on investment from Angel investor. Budget-2024-July: Abolished 👛</li>
+            </ul>
+
+            <h3>🏠 Capital Gains Tax (CGT: पूंजीगत लाभ कर)</h3>
+            <p><strong>When Applicable:</strong> Owner makes profit by selling capital assets (non-agro-land, property, jewellery, paintings, vehicles, machinery, patents, shares, bonds, securities)</p>
+            <table>
+                <tr>
+                    <th>Asset Type</th>
+                    <th>Short-term (SCGT)</th>
+                    <th>Long-term (LCGT)</th>
+                </tr>
+                <tr>
+                    <td>Shares, Mutual funds, financial assets</td>
+                    <td>Sold during first 12 months</td>
+                    <td>After 12 months</td>
+                </tr>
+                <tr>
+                    <td>Other assets (home, building)</td>
+                    <td>Sold during first 24 months</td>
+                    <td>After 24 months</td>
+                </tr>
+            </table>
+
+            <h3>📈 CGT on Sharemarket Profit (Budget-2024-July)</h3>
+            <table>
+                <tr>
+                    <th>Type</th>
+                    <th>Current Rate</th>
+                    <th>New Tax Rate</th>
+                </tr>
+                <tr>
+                    <td>Short-Term Capital Gains (sold within 12 months)</td>
+                    <td>15%</td>
+                    <td>20%</td>
+                </tr>
+                <tr>
+                    <td>Long-Term Capital Gains (sold after 12 months)</td>
+                    <td>10%</td>
+                    <td>12.50%</td>
+                </tr>
+            </table>
+            <p><strong>Reasons:</strong> Sharemarket going up, investors making huge profits. Prevents over-financialization. Encourages longer holding period (reduces volatility and speculation)</p>
+
+            <h3>🧅 Indexation Benefit / Cost Inflation Index (CII)</h3>
+            <p><strong>Purpose:</strong> Adjust profit as per inflation changes. Reduces Long-term Capital Gains tax liability. Not available in short-term capital gains.</p>
+            <table>
+                <tr>
+                    <th>Asset</th>
+                    <th>Indexation Benefit?</th>
+                </tr>
+                <tr>
+                    <td>Debt mutual funds</td>
+                    <td>Stopped from 1/Apr/23 (was Yes before)</td>
+                </tr>
+                <tr>
+                    <td>Normal shares/bonds</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Sovereign gold bonds</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>Bitcoin/cryptocurrency</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Real estate (building/property)</td>
+                    <td>Yes (some changes in 2024)</td>
+                </tr>
+            </table>
+
+            <h3>🔗 Bitcoin/Cryptocurrency Tax (Budget-2022)</h3>
+            <ul>
+                <li><strong>Profit:</strong> 30% Capital Gains Tax</li>
+                <li><strong>Trade/Transfer:</strong> 1% TDS</li>
+                <li><strong>No Indexation:</strong> Benefit not given</li>
+            </ul>
+
+            <h3>👪 Income Tax on Individuals</h3>
+            <p><strong>History:</strong> Introduced by James Wilson (founder of Economist magazine) on 24 July 1860 to compensate British losses during 1857 Sepoy mutiny. 24th July celebrated as Income Tax Day (Aaykar Diwas).</p>
+
+            <h3>📊 Old Tax Regime (OTR) vs New Tax Regime (NTR)</h3>
+            <table>
+                <tr>
+                    <th>Matter</th>
+                    <th>OTR</th>
+                    <th>NTR</th>
+                </tr>
+                <tr>
+                    <td>Gross Income (salaried, age <60)</td>
+                    <td>₹7,50,000</td>
+                    <td>₹7,75,000</td>
+                </tr>
+                <tr>
+                    <td>Standard deduction</td>
+                    <td>-₹50,000</td>
+                    <td>-₹75,000</td>
+                </tr>
+                <tr>
+                    <td>NPS deduction</td>
+                    <td>-₹50,000</td>
+                    <td>N/A (not applicable)</td>
+                </tr>
+                <tr>
+                    <td>LIC, Home Loan etc deduction</td>
+                    <td>-₹1,50,000</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>Taxable Income</td>
+                    <td>₹5,00,000</td>
+                    <td>₹7,00,000</td>
+                </tr>
+                <tr>
+                    <td>Tax Rebate</td>
+                    <td>If taxable income upto ₹5 lakh</td>
+                    <td>If taxable income upto ₹7 lakh</td>
+                </tr>
+            </table>
+            <p><strong>Switching:</strong> Can use any ONE system (OTR or NTR). NTR started from 2020. Can switch between them.</p>
+
+            <h3>💰 Surcharge on Income Tax</h3>
+            <table>
+                <tr>
+                    <th>Taxable Income</th>
+                    <th>OTR Surcharge</th>
+                    <th>NTR Surcharge</th>
+                </tr>
+                <tr>
+                    <td>More than ₹50 lakh upto 1 cr</td>
+                    <td>10%</td>
+                    <td>10%</td>
+                </tr>
+                <tr>
+                    <td>More than ₹1 cr upto 2 cr</td>
+                    <td>15%</td>
+                    <td>15%</td>
+                </tr>
+                <tr>
+                    <td>More than ₹2 cr upto 5 cr</td>
+                    <td>25%</td>
+                    <td>25%</td>
+                </tr>
+                <tr>
+                    <td>More than ₹5 cr</td>
+                    <td>37%</td>
+                    <td>25%</td>
+                </tr>
+            </table>
+            <p><strong>Effective Income Tax on super-rich (>5 cr):</strong> OTR: 42.74% | NTR: 39%</p>
+
+            <h3>👴 Senior Citizens Income Tax Slabs (OTR only)</h3>
+            <table>
+                <tr>
+                    <th>Age</th>
+                    <th>0%</th>
+                    <th>5%</th>
+                    <th>20%</th>
+                    <th>30%</th>
+                </tr>
+                <tr>
+                    <td>Less than 60</td>
+                    <td>Upto ₹2.50 lakh</td>
+                    <td>₹2.50-5 lakh</td>
+                    <td>₹5-10 lakh</td>
+                    <td>>₹10 lakh</td>
+                </tr>
+                <tr>
+                    <td>60 or more but <80</td>
+                    <td>Upto ₹3 lakh</td>
+                    <td>₹3-5 lakh</td>
+                    <td>Same as above</td>
+                    <td>Same as above</td>
+                </tr>
+                <tr>
+                    <td>>80</td>
+                    <td>Upto ₹5 lakh = 0%</td>
+                    <td>N/A</td>
+                    <td>Same as above</td>
+                    <td>Same as above</td>
+                </tr>
+            </table>
+
+            <h3>👪 Hindu Undivided Family (HUF)</h3>
+            <ul>
+                <li>Hindu, Buddhists, Jains, or Sikhs family members can pool assets and form HUF under Income Tax Act</li>
+                <li>HUF taxed separately from members, helps saving taxes due to certain provisions/loopholes</li>
+            </ul>
+
+            <h3>👨‍⚕️ Presumptive Taxation</h3>
+            <ul>
+                <li><strong>For:</strong> Self-employed freelance consultants/professionals (lawyers, doctors, fashion designers, DJs) who face difficulty keeping account books</li>
+                <li><strong>Not a separate tax:</strong> It's a method/formula to calculate income tax</li>
+            </ul>
+
+            <h3>⏰ Advance Tax</h3>
+            <ul>
+                <li><strong>Purpose:</strong> Avoid money-shortage for whole year if everyone paid taxes at 11:59PM on 31st March</li>
+                <li><strong>Requirement:</strong> Pay Income tax and Corporation tax in advance-instalments quarterly (every 3 months), if annual tax liability is ₹10,000 or more</li>
+            </ul>
+
+            <h3>👨‍🏫 TDS & TCS</h3>
+            <table>
+                <tr>
+                    <th>Type</th>
+                    <th>Who Collects/Cuts?</th>
+                    <th>From Whose Payment?</th>
+                    <th>Examples</th>
+                </tr>
+                <tr>
+                    <td><strong>TDS (Tax Deducted at Source)</strong></td>
+                    <td>Buyer of goods/services/investment</td>
+                    <td>Before making payment to seller/investor</td>
+                    <td>University paying salary to employee, Book Publisher paying royalty, Bank paying Interest, Company paying dividend</td>
+                </tr>
+                <tr>
+                    <td><strong>TCS (Tax Collected at Source)</strong></td>
+                    <td>Seller of Goods/Service</td>
+                    <td>Customer buying specified types of goods/services/foreign currency</td>
+                    <td>Luxury Car Showroom Owner, Foreign Currency Seller</td>
+                </tr>
+            </table>
+            <p><strong>Note:</strong> TDS/TCS are not separate taxes. They are administrative mechanisms to discourage black money. TDS cut from salary/dividend/bank interest goes into income tax computation.</p>
+
+            <h3>📋 TDS Examples</h3>
+            <ul>
+                <li><strong>Budget-2019:</strong> 2% TDS on cash withdrawal if total cash withdrawn during FY exceed ₹1 crore from single user-account (encourages digital payments)</li>
+                <li><strong>Budget-2022:</strong> 1% TDS on Bitcoin and other Virtual Digital Assets (VDA)'s transfer/trade</li>
+                <li><strong>Budget-2024-July:</strong> Reduced TDS on some transactions 👛</li>
+            </ul>
+
+            <h3>🗃 Financial Transaction Taxes</h3>
+            <table>
+                <tr>
+                    <th>Tax</th>
+                    <th>Description</th>
+                    <th>Rate</th>
+                </tr>
+                <tr>
+                    <td><strong>Securities Transaction Tax (STT)</strong></td>
+                    <td>On sale and purchase of shares, ETF-units, derivatives, securities at stock-exchanges</td>
+                    <td>0.001%-2% (varies as per nature)</td>
+                </tr>
+                <tr>
+                    <td><strong>Commodities Transaction Tax (CTT)</strong></td>
+                    <td>On non-agricultural commodities traded at Commodities-Exchanges</td>
+                    <td>~0.01%</td>
+                </tr>
+            </table>
+            <p><strong>Budget-2024-July:</strong> STT ↑ on future-options market 👛</p>
+
+            <h3>💱 Tobin Tax / Robinhood Tax (Concept)</h3>
+            <ul>
+                <li><strong>Proposed by:</strong> Nobel recipient American economist James Tobin (1970s)</li>
+                <li><strong>Purpose:</strong> Small tax everytime currency converted into another currency (e.g. $ to ₹)</li>
+                <li><strong>Benefits:</strong> Discourages short-term speculative investment, flight of capital, stabilizes global economy and currency exchange rates</li>
+                <li><strong>In India:</strong> Foreign currency conversions subjected to GST (indirect tax)</li>
+            </ul>
+
+            <h3>🗃 Dividend Distribution Tax (DDT)</h3>
+            <ul>
+                <li><strong>Started:</strong> 1997 by FM Chidambaram</li>
+                <li><strong>Rate:</strong> 15% + cess + surcharge = 20.56% on dividend paid</li>
+                <li><strong>Budget-2020:</strong> Abolished DDT. Now dividend taxable in hands of shareholder (he'll pay income tax on it)</li>
+                <li><strong>Benefits:</strong> Lower middle-class shareholder may pay barely 0-5% income tax instead of ~20% DDT. More ₹₹ for spending → demand, production, economic growth</li>
+            </ul>
+
+            <h3>🛒 Buyback Tax</h3>
+            <p>Tax on share buyback transactions by companies.</p>
+
+            <h3>🍋 Direct Taxes: Merits and Demerits</h3>
+            <table>
+                <tr>
+                    <th>😀 Merits</th>
+                    <th>😓 Demerits</th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Progressive: income inequality ⬇</li>
+                            <li>Promotes civic consciousness</li>
+                            <li>To ⬆ savings & investment: deductions on NPS/LIC</li>
+                            <li>Elasticity: As income ⬆ then tax revenue ⬆</li>
+                            <li>Certainty (when and how to pay)</li>
+                            <li>Can ⬇ volatility in currency exchange rates (Tobin Tax)</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Externality not counted: Academic Books Author vs Film star [both 30%]</li>
+                            <li>Hardship not counted: Working Carpenter vs sleeping landlord [both 5%]</li>
+                            <li>High level = laziness, less foreign investment</li>
+                            <li>Narrow base: poor people not covered</li>
+                            <li>Prone to litigation & loopholes, tax evasion, avoidance</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+
+            <h3>⚰️ Abolished Direct Taxes</h3>
+            <table>
+                <tr>
+                    <th>Tax</th>
+                    <th>What?</th>
+                    <th>Abolished When?</th>
+                    <th>Reason</th>
+                </tr>
+                <tr>
+                    <td><strong>Estate Duty / Inheritance Tax</strong></td>
+                    <td>When property owner dies, legal heirs pay tax (5%-40%)</td>
+                    <td>Budget-1985 (FM VP Singh)</td>
+                    <td>Low revenue, high admin cost, scope of evasion</td>
+                </tr>
+                <tr>
+                    <td><strong>Wealth Tax</strong></td>
+                    <td>1% on assets of ₹30 lakh and above (when owner alive)</td>
+                    <td>Budget-2015 (FM Arun Jaitley)</td>
+                    <td>Low revenue, high admin cost, scope of evasion</td>
+                </tr>
+                <tr>
+                    <td><strong>Gift Tax</strong></td>
+                    <td>When person received gift valued more than Rs."X"</td>
+                    <td>Budget-1998 (FM Yashwant Sinha)</td>
+                    <td>Low revenue, high admin cost, scope of evasion</td>
+                </tr>
+            </table>
+            <p><strong>Note:</strong> NCERT calls these "Paper Taxes" - Govt never earned large amount from them.</p>
+        </div>
+
+        <!-- 3. Indirect Taxes & GST -->
+        <div class="card">
+            <h2>3. Indirect Taxes & GST (अप्रत्यक्ष कर)</h2>
+
+            <h3>🍋 Indirect Taxes: Types</h3>
+            <table>
+                <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                    <th>Example</th>
+                </tr>
+                <tr>
+                    <td><strong>Ad-Valorem Tax</strong><br>(यथा-मूल्य कर)</td>
+                    <td>Taxes based on value of something. Easier to administer</td>
+                    <td>35% Customs Duty on import of orange juice. If juice priced at ₹1000 imported, then ₹350 as tax</td>
+                </tr>
+                <tr>
+                    <td><strong>Specific Tax per unit</strong><br>(विशिष्ट कर प्रति यूनिट)</td>
+                    <td>Tax based on quantity of items. Difficult to administer, leads to inspector-raj. But helps reducing harmful consumption</td>
+                    <td>₹260 Excise duty on production of every 1000 cigarettes of 65-70mm length</td>
+                </tr>
+            </table>
+
+            <h3>📐 Burden of Indirect Tax: Forward vs Backward Shifting</h3>
+            <p><strong>Example:</strong> Govt increases GST on ice cream from 18% to 28%</p>
+            <ul>
+                <li><strong>Forward Shifting:</strong> Vadilal increases prices of ice cream to keep profit margin same (shifts burden to consumer)</li>
+                <li><strong>Backward Shifting:</strong> Vadilal doesn't change price (to prevent buyers from shifting), but reduces salaries paid to workers to keep profit margin same (shifts burden to suppliers/workers)</li>
+            </ul>
+            <p><strong>Depends on:</strong> Supply vs demand of commodity. For essential medicines, forward shifting more likely.</p>
+
+            <h3>😀 Indirect Taxes: Merits and Demerits</h3>
+            <table>
+                <tr>
+                    <th>😀 Merits</th>
+                    <th>😥 Demerits</th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Convenient to collect (traders act as honorary tax collectors)</li>
+                            <li>Wider base (everyone covered, e.g. 18% GST on Biscuit)</li>
+                            <li>Elastic: small ⬆ brings large revenue</li>
+                            <li>Can ⬇ harmful consumption (higher taxes on cigar, alcohol, soft drinks, fast food)</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Regressive: poor and rich taxed equally, poor pay more % of income</li>
+                            <li>Hidden in price: less civic consciousness than direct taxes</li>
+                            <li>Uncertainty: taxes ⬆ → product expensive → demand ⬇ → uncertain revenue</li>
+                            <li>High corruption, evasion, cascading effect if input credit not given</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+
+            <h3>🥂 Pigouvian Tax (Concept)</h3>
+            <ul>
+                <li><strong>Externality:</strong> Positive or negative consequence of economic activity experienced by unrelated third parties</li>
+                <li><strong>Example:</strong> Cement company (related: labourers & consumers benefit; unrelated: local community, flora/fauna harmed by air-pollution)</li>
+                <li><strong>Proposed by:</strong> English economist Arthur C. Pigou - tax companies creating negative externalities (polluting industries, cigarettes, alcohol)</li>
+                <li><strong>In India:</strong> High indirect taxes on petroleum, tobacco, alcoholic products. Had "Clean environment cess" on ₹400 per tonne of coal (abolished in GST)</li>
+                <li><strong>Sin Tax:</strong> Similar concept - tax on immoral things (alcohol, tobacco)</li>
+            </ul>
+
+            <h3>⛽️ Petrol & Diesel: Why Prices High?</h3>
+            <p><strong>Reason:</strong> High taxes (135% on petrol, 116% on diesel base price)</p>
+            <table>
+                <tr>
+                    <th>Component</th>
+                    <th>Petrol (per litre)</th>
+                    <th>Diesel (per litre)</th>
+                </tr>
+                <tr>
+                    <td><strong>Union Tax:</strong></td>
+                    <td>Basic excise ₹1.40 + Special additional excise ₹11 + ₹18 Road Infrastructure cess + ₹2.50 AIDC</td>
+                    <td>Basic excise ₹1.80 + Special additional excise ₹18 + ₹18 Road Infra cess + ₹4 AIDC</td>
+                </tr>
+                <tr>
+                    <td><strong>State Tax:</strong></td>
+                    <td>State VAT ₹20 per litre</td>
+                    <td>State VAT ₹15 per litre</td>
+                </tr>
+                <tr>
+                    <td><strong>Total Taxes:</strong></td>
+                    <td>135% on base price</td>
+                    <td>116% on base price</td>
+                </tr>
+            </table>
+            <p><strong>Comparison:</strong> EU (45-60%), Canada (15-30%), USA (15%)</p>
+            <p><strong>Note:</strong> If replaced with 28% GST → loss of over ₹4 lakh cr. Cheap petrol-diesel not possible unless Union and State govts take deep revenue cuts.</p>
+
+            <h3>⛽️ Dynamic Fuel Pricing System</h3>
+            <ul>
+                <li><strong>1970s-2002:</strong> Administered Price Mechanism (APM) - Govt fixed prices, paid subsidy via Oil Bonds</li>
+                <li><strong>2002-2014:</strong> Gradual decontrolling fuel prices</li>
+                <li><strong>Present:</strong> Dynamic Fuel Pricing - OMCs decide prices on DAILY basis based on international prices (Trade parity price - TPP)</li>
+                <li><strong>Benefit:</strong> If oil prices lower internationally, petrol/diesel should become cheaper (but govts keep ⬆ taxes)</li>
+            </ul>
+
+            <h3>⛽️ Windfall Tax (2022)</h3>
+            <ul>
+                <li><strong>What:</strong> Tax on unforeseen/unexpectedly large profit</li>
+                <li><strong>2022:</strong> Fuel prices increased sharply globally. Indian refineries exporting petrol/diesel made huge profits</li>
+                <li><strong>Action:</strong> 2022-Jul: Govt imposed Special Additional Excise Duty (SAED) on export: Petrol (₹6/litre), Diesel (₹12/litre), ATF (₹6/litre)</li>
+                <li><strong>Nickname:</strong> Newspapers called it "windfall tax"</li>
+                <li><strong>2022-Aug onwards:</strong> Fuel prices fell globally, govt gradually reducing/deleting this tax</li>
+            </ul>
+
+            <h3>🏋🏻‍♀️ Cascading Effect of Indirect Taxes</h3>
+            <p><strong>Problem:</strong> If govt levies 10% indirect tax every time item sold, but doesn't provide Input Tax Credit (ITC) for taxes paid in previous stage → final customer pays tax on tax</p>
+            <p><strong>Solution:</strong> GST provides ITC - eliminates cascading effect</p>
+
+            <h3>💊 Indirect Taxes: Timeline of Reforms</h3>
+            <table>
+                <tr>
+                    <th>System</th>
+                    <th>Period</th>
+                    <th>ITC on Union Taxes?</th>
+                    <th>ITC on State Taxes?</th>
+                </tr>
+                <tr>
+                    <td>MODVAT</td>
+                    <td>1986-2004</td>
+                    <td>Yes (excise)</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>CENVAT</td>
+                    <td>2004-2017</td>
+                    <td>Yes (excise & services tax)</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>State VAT</td>
+                    <td>2005-2017</td>
+                    <td>No</td>
+                    <td>Yes (VAT)</td>
+                </tr>
+                <tr>
+                    <td>GST</td>
+                    <td>2017 onwards</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                </tr>
+            </table>
+
+            <h3>📆 GST Timeline</h3>
+            <ul>
+                <li><strong>2004:</strong> Vijay Kelkar Task Force on FRBM recommends GST</li>
+                <li><strong>2006:</strong> P. Chidambaram announces GST launch from 2010</li>
+                <li><strong>2011:</strong> UPA introduces 115th Amendment Bill - lapsed with dissolution of 15th Lok Sabha</li>
+                <li><strong>2014-16:</strong> Modi govt introduces 122nd Constitutional Amendment Bill in 16th Lok Sabha</li>
+                <li><strong>2016:</strong> Passed & became 101st Constitutional Amendment Act, 2016</li>
+                <li><strong>1st July 2017:</strong> GST implemented</li>
+            </ul>
+
+            <h3>📙 GST: 101st Constitutional Amendment Act, 2016</h3>
+            <p><strong>Key Amendments:</strong></p>
+            <ul>
+                <li><strong>Art. 246-A:</strong> States given power to tax goods and services (previously couldn't tax services)</li>
+                <li><strong>Art. 246-A:</strong> Only UNION has power to tax inter-state supply (IGST)</li>
+                <li><strong>Art. 268-A:</strong> Deleted (previously empowered Union to levy Service Tax)</li>
+                <li><strong>Art. 269-A:</strong> IGST distributed between Union and states as per GST Council formula</li>
+                <li><strong>Art. 270:</strong> CGST distributed between Union and states as per Finance Commission formula</li>
+                <li><strong>Art. 279-A:</strong> GST Council (constitutional body) headed by Finance Minister</li>
+                <li><strong>Art. 366:</strong> Alcoholic liquor for human consumption kept out of GST (State Excise & State VAT continue)</li>
+            </ul>
+
+            <h3>🧔 GST Council: Composition</h3>
+            <table>
+                <tr>
+                    <th>Representatives</th>
+                    <th>Members</th>
+                    <th>Voting Power</th>
+                </tr>
+                <tr>
+                    <td><strong>Union (2)</strong></td>
+                    <td>1. Finance Minister (Chairman)<br>2. Union Minister of State for finance/revenue</td>
+                    <td>1/3rd</td>
+                </tr>
+                <tr>
+                    <td><strong>States (31)</strong></td>
+                    <td>Each state (including UT with legislature: J&K, Delhi, Puducherry) nominates 1 minister. One selected as Vice-Chairman</td>
+                    <td>2/3rd</td>
+                </tr>
+            </table>
+            <p><strong>Voting:</strong> If no unanimous agreement → minimum 3/4th votes required. Quorum: 50% of total membership</p>
+
+            <h3>🧔 GST Council: Functions</h3>
+            <ol>
+                <li>List of indirect taxes, cess, surcharge to be subsumed under GST</li>
+                <li>Decide date for Crude oil, Petrol, Diesel, ATF, Natural Gas to be put under GST</li>
+                <li>Decide Standard rates for GST (CGST, SGST, UTGST). IGST = {CGST + (SGST or UTGST)}</li>
+                <li>Decide Special rates during natural disaster/calamity (e.g. Kerala 1% calamity cess 2019)</li>
+                <li>IGST system during inter-state commerce and tax-sharing</li>
+                <li>Norms for GST registration (turnover limits: ₹40 lakh ordinary states, ₹20 lakh special category states)</li>
+                <li>Protect interests of special category states (8 NE states + Himachal, Uttarakhand)</li>
+                <li>Compensation to states for revenue loss (through Cess mechanism)</li>
+                <li>Dispute settlement between Union vs state(s), state(s) vs state(s)</li>
+            </ol>
+
+            <h3>🔨 GST Council Decision: Not Binding on States</h3>
+            <p>GST Council recommendations are not binding. States can choose to implement or not. However, in practice, states generally follow Council decisions.</p>
+
+            <h3>🤑 GST Input Tax Credit (ITC)</h3>
+            <p><strong>Purpose:</strong> Eliminate cascading effect. Supplier gets credit for indirect taxes (CGST, SGST) paid in previous stage.</p>
+            <p><strong>Example:</strong> Manufacturer pays GST on raw materials → gets ITC → uses it to pay GST on finished goods</p>
+
+            <h3>↩️ Inverted Duty Structure Problem</h3>
+            <p><strong>Problem:</strong> Input GST rate higher than output GST rate → excess ITC accumulates (can't be fully utilized)</p>
+            <p><strong>Example:</strong> Textile sector - raw material GST higher than finished product GST</p>
+            <p><strong>Solution:</strong> Refund mechanism for accumulated ITC</p>
+
+            <h3>💿 GST: Exempt vs Zero Rated</h3>
+            <table>
+                <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                    <th>ITC Available?</th>
+                </tr>
+                <tr>
+                    <td><strong>Exempt</strong></td>
+                    <td>No GST charged. Goods/services in exempt list</td>
+                    <td>No ITC available</td>
+                </tr>
+                <tr>
+                    <td><strong>Zero Rated</strong></td>
+                    <td>0% GST charged. Mainly exports</td>
+                    <td>Yes, ITC available (can claim refund)</td>
+                </tr>
+            </table>
+
+            <h3>📦 GST Structure</h3>
+            <table>
+                <tr>
+                    <th>Type</th>
+                    <th>Full Form</th>
+                    <th>Purpose</th>
+                </tr>
+                <tr>
+                    <td><strong>CGST</strong></td>
+                    <td>Central Goods & Services Tax</td>
+                    <td>Central government (replaces Excise Duty & Service Tax)</td>
+                </tr>
+                <tr>
+                    <td><strong>SGST</strong></td>
+                    <td>State Goods & Services Tax</td>
+                    <td>State government (replaces State VAT, Entry Tax, etc.)</td>
+                </tr>
+                <tr>
+                    <td><strong>IGST</strong></td>
+                    <td>Integrated Goods & Services Tax</td>
+                    <td>Inter-state transactions. IGST = CGST + SGST</td>
+                </tr>
+                <tr>
+                    <td><strong>UTGST</strong></td>
+                    <td>Union Territory Goods & Services Tax</td>
+                    <td>Union Territories</td>
+                </tr>
+            </table>
+
+            <h3>💰 GST Rates on Goods</h3>
+            <ul>
+                <li><strong>0%:</strong> Essential items (food grains, fresh vegetables, milk, etc.)</li>
+                <li><strong>5%:</strong> Common use items (spices, tea, coffee, etc.)</li>
+                <li><strong>12%:</strong> Standard rate (processed foods, medicines, etc.)</li>
+                <li><strong>18%:</strong> Standard rate (most goods and services)</li>
+                <li><strong>28%:</strong> Luxury items, sin goods (cars, tobacco products, etc.)</li>
+            </ul>
+
+            <h3>👨‍🏫 GST Rates on Services</h3>
+            <ul>
+                <li><strong>0%:</strong> Essential services (healthcare, education, etc.)</li>
+                <li><strong>5%:</strong> Transport services, restaurants (non-AC)</li>
+                <li><strong>12%:</strong> Some services</li>
+                <li><strong>18%:</strong> Most services (default rate)</li>
+                <li><strong>28%:</strong> Luxury services (5-star hotels, race club membership, etc.)</li>
+            </ul>
+
+            <h3>🎲 GST on Lottery / Online Gaming</h3>
+            <ul>
+                <li><strong>Actionable Claims:</strong> GST applicable on actionable claims (lottery, betting, gambling)</li>
+                <li><strong>Online Gaming:</strong> GST on full bet value (gross value) for online gaming</li>
+                <li><strong>Tax on:</strong> Entry bets, not on winnings</li>
+            </ul>
+
+            <h3>⏰ GST Composition Scheme</h3>
+            <ul>
+                <li><strong>Purpose:</strong> Simplified tax payment for small businesses</li>
+                <li><strong>Eligibility:</strong> Turnover upto ₹1.5 crore (₹75 lakh for special category states)</li>
+                <li><strong>Rate:</strong> Lower rate (1-5% depending on business type)</li>
+                <li><strong>Limitation:</strong> Cannot claim ITC, cannot make inter-state supplies</li>
+            </ul>
+
+            <h3>↩️ Reverse Charge Mechanism (RCM)</h3>
+            <p><strong>Normal:</strong> Supplier collects GST from recipient and deposits to govt</p>
+            <p><strong>RCM:</strong> Recipient pays GST directly to govt (instead of supplier)</p>
+            <p><strong>When:</strong> Unregistered supplier, specified goods/services (e.g. goods transport agency, legal services)</p>
+
+            <h3>🚛 E-way Bill System (2018 onwards)</h3>
+            <ul>
+                <li><strong>Purpose:</strong> Track movement of goods worth more than ₹50,000</li>
+                <li><strong>Generated:</strong> Online before movement of goods</li>
+                <li><strong>Contains:</strong> Details of consignor, consignee, goods, vehicle</li>
+            </ul>
+
+            <h3>🧾 E-Invoice (2022 onwards)</h3>
+            <ul>
+                <li><strong>Purpose:</strong> Digital invoice generation and authentication</li>
+                <li><strong>Eligibility:</strong> Businesses with turnover above specified limit</li>
+                <li><strong>Benefits:</strong> Reduces fake invoices, improves compliance, auto-populates returns</li>
+            </ul>
+
+            <h3>🤧 GST Compensation to States: WHY?</h3>
+            <p><strong>Reason:</strong> States lost revenue by switching from VAT to GST. GST rates lower than combined VAT+Excise rates → revenue loss</p>
+            <p><strong>Promise:</strong> States guaranteed 14% annual growth in GST revenue for 5 years (2017-22)</p>
+
+            <h3>🤧 GST Compensation to States: HOW?</h3>
+            <ul>
+                <li><strong>Mechanism:</strong> GST Compensation Cess on specified goods (luxury items, sin goods)</li>
+                <li><strong>Fund:</strong> GST Compensation Fund (in Public Account)</li>
+                <li><strong>Calculation:</strong> If actual GST revenue < projected (14% growth), difference paid as compensation</li>
+                <li><strong>Period:</strong> Originally 5 years (2017-22). Extended till 2026</li>
+            </ul>
+
+            <h3>🤧 GST Compensation & Back-to-Back Loans</h3>
+            <p><strong>2020-21:</strong> Due to COVID-19, GST compensation cess collection insufficient</p>
+            <p><strong>Solution:</strong> Union borrowed from market, gave to states as "back-to-back loans" (states repay when cess collected)</p>
+            <p><strong>Benefit:</strong> States got compensation without waiting for cess collection</p>
+
+            <h3>🕵️ GST Related Organizations</h3>
+            <ul>
+                <li><strong>GST Council:</strong> Constitutional body (Art. 279-A) - decides GST rates, policies</li>
+                <li><strong>Group of Ministers (GoM):</strong> Sub-committee of GST Council for specific issues</li>
+                <li><strong>National Anti-Profiteering Authority (NAA/NAPA):</strong> Ensures businesses pass GST rate reduction benefits to consumers</li>
+                <li><strong>Authority for Advance Ruling (AAR):</strong> Provides advance rulings on GST matters</li>
+                <li><strong>GST Tribunal (GSTAT):</strong> 2023 - Appellate tribunal for GST disputes</li>
+                <li><strong>CESTAT:</strong> Customs, Excise and Service Tax Appellate Tribunal</li>
+                <li><strong>GST Fitment Committee:</strong> Recommends GST rates for goods/services</li>
+                <li><strong>GSTN:</strong> Goods & Services Tax Network - Not-for-profit company providing IT infrastructure</li>
+            </ul>
+
+            <h3>💻 Project Saksham: Digital Integration (2016)</h3>
+            <p>Digital integration project for GST implementation, connecting various stakeholders</p>
+
+            <h3>🔢 HSN and SAC Codes</h3>
+            <ul>
+                <li><strong>HSN:</strong> Harmonized System of Nomenclature - 8-digit code for goods</li>
+                <li><strong>SAC:</strong> Service Accounting Code - 6-digit code for services</li>
+                <li><strong>Purpose:</strong> Uniform classification of goods and services for GST</li>
+            </ul>
+
+            <h3>💳 PAN vs GSTIN vs Aadhar</h3>
+            <table>
+                <tr>
+                    <th>Document</th>
+                    <th>Full Form</th>
+                    <th>Purpose</th>
+                </tr>
+                <tr>
+                    <td><strong>PAN</strong></td>
+                    <td>Permanent Account Number</td>
+                    <td>Income tax identification (10-digit alphanumeric)</td>
+                </tr>
+                <tr>
+                    <td><strong>GSTIN</strong></td>
+                    <td>GST Identification Number</td>
+                    <td>GST registration (15-digit, based on PAN)</td>
+                </tr>
+                <tr>
+                    <td><strong>Aadhar</strong></td>
+                    <td>UID (Unique Identification)</td>
+                    <td>Identity proof (12-digit number)</td>
+                </tr>
+            </table>
+
+            <h3>🥰 GST: Benefits</h3>
+            <ul>
+                <li>Eliminates cascading effect (ITC mechanism)</li>
+                <li>One nation, one tax (unified tax structure)</li>
+                <li>Reduces tax evasion (digital tracking, E-way bill, E-invoice)</li>
+                <li>Simplifies compliance (single return, online process)</li>
+                <li>Boosts exports (zero-rated exports with ITC refund)</li>
+                <li>Increases tax base (wider coverage)</li>
+                <li>Reduces logistics cost (removes check-posts, inter-state barriers)</li>
+            </ul>
+
+            <h3>⚓️ Zero Rated Exports</h3>
+            <ul>
+                <li><strong>Rate:</strong> 0% GST on exports</li>
+                <li><strong>ITC:</strong> Available (can claim refund)</li>
+                <li><strong>Benefit:</strong> Exports become competitive (no tax burden)</li>
+            </ul>
+
+            <h3>🚨 GST: Ease of Doing Business (EoD) - Decriminalisation</h3>
+            <ul>
+                <li><strong>Criminal Prosecution Threshold:</strong> Increased from ₹5 crore to ₹20 crore (except fake ITC cases)</li>
+                <li><strong>Obstructing Officers:</strong> Reduced penalties, simplified procedures</li>
+                <li><strong>Purpose:</strong> Reduce harassment, improve business environment</li>
+            </ul>
+
+            <h3>😢 GST: Challenges</h3>
+            <ul>
+                <li>Multiple tax rates (complexity)</li>
+                <li>Technical glitches in GSTN portal</li>
+                <li>Compliance burden for small businesses</li>
+                <li>Inverted duty structure in some sectors</li>
+                <li>Revenue uncertainty for states</li>
+                <li>Petrol, Diesel, Electricity still outside GST</li>
+            </ul>
+        </div>
+
+        <!-- 4. Finance Commission -->
+        <div class="card">
+            <h2>4. Finance Commission</h2>
+
+            <h3>📋 Constitutional Body (Art. 280)</h3>
+            <ul>
+                <li><strong>Appointment:</strong> President (every 5 years)</li>
+                <li><strong>Function:</strong> Recommend distribution of taxes between Centre & States</li>
+                <li><strong>15th FC (2020-25):</strong> Chairperson - N.K. Singh</li>
+            </ul>
+
+            <h3>📊 FC Recommendations</h3>
+            <ul>
+                <li><strong>Vertical Devolution:</strong> Centre to States (41% in 15th FC)</li>
+                <li><strong>Horizontal Devolution:</strong> Among states (based on population, area, income distance, etc.)</li>
+                <li><strong>Grants:</strong> Sector-specific, performance-based</li>
+            </ul>
+        </div>
+
+        <!-- 5. Fiscal Deficit & FRBM -->
+        <div class="card">
+            <h2>5. Fiscal Deficit & FRBM</h2>
+
+            <h3>📉 Types of Deficits</h3>
+            <table>
+                <tr>
+                    <th>Deficit</th>
+                    <th>Formula</th>
+                </tr>
+                <tr>
+                    <td><strong>Revenue Deficit</strong></td>
+                    <td>Revenue Expenditure - Revenue Receipts</td>
+                </tr>
+                <tr>
+                    <td><strong>Fiscal Deficit</strong></td>
+                    <td>Total Expenditure - (Revenue Receipts + Non-debt Capital Receipts)</td>
+                </tr>
+                <tr>
+                    <td><strong>Primary Deficit</strong></td>
+                    <td>Fiscal Deficit - Interest Payments</td>
+                </tr>
+            </table>
+
+            <h3>📜 FRBM Act (Fiscal Responsibility & Budget Management)</h3>
+            <ul>
+                <li><strong>Enacted:</strong> 2003</li>
+                <li><strong>Objectives:</strong> Fiscal discipline, debt management</li>
+                <li><strong>Targets:</strong>
+                    <ul>
+                        <li>Fiscal Deficit: 3% of GDP</li>
+                        <li>Revenue Deficit: Eliminate</li>
+                        <li>Debt: 60% of GDP (Centre + States)</li>
+                    </ul>
+                </li>
+                <li><strong>Escape Clause:</strong> Allows deviation in exceptional circumstances</li>
+            </ul>
+        </div>
+
+        <!-- 6. Subsidies -->
+        <div class="card">
+            <h2>6. Subsidies</h2>
+
+            <h3>💰 Major Subsidies</h3>
+            <ul>
+                <li><strong>Food Subsidy:</strong> PDS, NFSA</li>
+                <li><strong>Fertilizer Subsidy:</strong> Urea, DAP, etc.</li>
+                <li><strong>Petroleum Subsidy:</strong> LPG (PAHAL), Kerosene (discontinued)</li>
+                <li><strong>Interest Subsidy:</strong> Education loans, export credit</li>
+            </ul>
+
+            <h3>📊 Direct Benefit Transfer (DBT)</h3>
+            <ul>
+                <li><strong>Purpose:</strong> Transfer subsidies directly to beneficiaries' bank accounts</li>
+                <li><strong>Benefits:</strong> Reduces leakages, better targeting</li>
+                <li><strong>Examples:</strong> PAHAL (LPG), MGNREGA wages, Scholarships</li>
+            </ul>
+        </div>
+
+        <!-- 7. Disinvestment -->
+        <div class="card">
+            <h2>7. Disinvestment</h2>
+
+            <h3>🏭 Types</h3>
+            <ul>
+                <li><strong>Strategic Disinvestment:</strong> Transfer of management control</li>
+                <li><strong>Minority Disinvestment:</strong> Sale of <50% shares (govt retains control)</li>
+                <li><strong>CPSE to CPSE:</strong> Transfer between public sector companies</li>
+            </ul>
+
+            <h3>📊 DIPAM</h3>
+            <ul>
+                <li><strong>Full Form:</strong> Department of Investment and Public Asset Management</li>
+                <li><strong>Function:</strong> Manages disinvestment process</li>
+            </ul>
+        </div>
+
+        <!-- PYQ Snipers -->
+        <div class="pyq-box">
+            <h2>🎯 PYQ Sniper Shots</h2>
+
+            <div class="pyq-item">
+                <strong>Q: What is Fiscal Policy?</strong><br>
+                A: Government's use of taxation and expenditure to influence economy (employment, inflation, growth).
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is Money Bill?</strong><br>
+                A: Bill dealing with taxation, borrowing, expenditure. Rajya Sabha can only discuss (14 days), cannot reject/amend.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is GST Council?</strong><br>
+                A: Constitutional body (Art. 279A) with FM as Chairman, State FMs as members. Decides GST rates and policies.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is Finance Commission?</strong><br>
+                A: Constitutional body (Art. 280) appointed every 5 years to recommend tax distribution between Centre & States.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is Fiscal Deficit?</strong><br>
+                A: Total Expenditure minus (Revenue Receipts + Non-debt Capital Receipts). Target: 3% of GDP (FRBM).
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Difference between Direct and Indirect Tax?</strong><br>
+                A: Direct - paid by person on whom it's levied (Income Tax). Indirect - shifted to consumer (GST, Customs).
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; color: #64748b; font-size: 0.9em;">
+            Created by Antigravity • UPPCS Economics Pillar 2
+        </div>
+    </div>
+
+    <script src="../theme-toggle.js"></script>
+</body>
+
+</html>
+

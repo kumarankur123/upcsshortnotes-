@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 7: Temple Architecture - UPPCS Notes</title>
+    <link rel="stylesheet" href="../dark-theme.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        [data-theme="dark"] body {
+            background: linear-gradient(135deg, #0c4a6e 0%, #075985 100%);
+        }
+
+        header {
+            background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%);
+            color: white;
+            padding: 50px 30px;
+            border-radius: 20px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 20px 60px rgba(14, 165, 233, 0.5);
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '🛕';
+            position: absolute;
+            font-size: 15rem;
+            opacity: 0.1;
+            top: -30px;
+            right: -30px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #0ea5e9;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(14, 165, 233, 0.2);
+        }
+
+        [data-theme="dark"] .card {
+            background: #1e293b;
+        }
+
+        h2 {
+            color: #0ea5e9;
+            border-bottom: 3px solid #e0f2fe;
+            padding-bottom: 10px;
+            font-size: 1.8rem;
+        }
+
+        [data-theme="dark"] h2 {
+            color: #7dd3fc;
+            border-bottom-color: #0c4a6e;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            border-left: 5px solid #f59e0b;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        [data-theme="dark"] .highlight-box {
+            background: linear-gradient(135deg, #78350f 0%, #92400e 100%);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        th,
+        td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #e0f2fe;
+        }
+
+        th {
+            background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%);
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background: #e0f2fe;
+        }
+
+        [data-theme="dark"] tr:hover {
+            background: #374151;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .tag-imp {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .tag-style {
+            background: #e0e7ff;
+            color: #3730a3;
+        }
+
+        .pyq-box {
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 16px;
+            margin-top: 40px;
+        }
+
+        .pyq-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 10px;
+            border-left: 4px solid #0ea5e9;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark Mode">🌓</button>
+            <h1>🛕 Chapter 7: Hindu Temple Architecture</h1>
+            <div class="subtitle">Nagara, Dravida & Vesara Styles</div>
+        </header>
+
+        <!-- Introduction -->
+        <div class="card">
+            <h2>📖 Introduction</h2>
+            <p>Hindu <strong>temple architecture</strong> evolved during the Gupta period and reached its peak in
+                medieval India.</p>
+            <ul>
+                <li>Temple = <strong>House of God</strong> (Devalaya/Mandir)</li>
+                <li>Three major styles: <strong>Nagara, Dravida, Vesara</strong></li>
+                <li>Temple served as <strong>religious, social & cultural center</strong></li>
+            </ul>
+
+            <div class="highlight-box">
+                <strong>💡 Temple Components:</strong> Garbhagriha (sanctum), Shikhara (tower), Mandapa (hall),
+                Pradakshina Patha (circumambulatory path), Gopuram (gateway tower - Dravida style)
+            </div>
+        </div>
+
+        <!-- Three Styles Comparison -->
+        <div class="card">
+            <h2>⚖️ Three Styles: Quick Comparison <span class="tag tag-imp">Super PYQ</span></h2>
+
+            <table>
+                <tr>
+                    <th>Feature</th>
+                    <th>Nagara (North)</th>
+                    <th>Dravida (South)</th>
+                    <th>Vesara (Hybrid)</th>
+                </tr>
+                <tr>
+                    <td><strong>Region</strong></td>
+                    <td>North India (Himalayas to Vindhyas)</td>
+                    <td>South India (Krishna River to Kanyakumari)</td>
+                    <td>Deccan (between North & South)</td>
+                </tr>
+                <tr>
+                    <td><strong>Shikhara Shape</strong></td>
+                    <td><strong>Curvilinear/Beehive</strong> (Latina)</td>
+                    <td><strong>Pyramidal</strong> (stepped tiers)</td>
+                    <td><strong>Hybrid</strong> (mix of both)</td>
+                </tr>
+                <tr>
+                    <td><strong>Gopuram</strong></td>
+                    <td><strong>Absent</strong></td>
+                    <td><strong>Present</strong> (tall gateway tower)</td>
+                    <td>Sometimes present</td>
+                </tr>
+                <tr>
+                    <td><strong>Enclosure Wall</strong></td>
+                    <td>Usually absent</td>
+                    <td><strong>Prakara</strong> (high walls)</td>
+                    <td>Varies</td>
+                </tr>
+                <tr>
+                    <td><strong>Water Tank</strong></td>
+                    <td>Rare</td>
+                    <td><strong>Pushkarini</strong> (sacred tank)</td>
+                    <td>Sometimes</td>
+                </tr>
+                <tr>
+                    <td><strong>Plan</strong></td>
+                    <td>Simple, less elaborate</td>
+                    <td>Grand, complex, multiple enclosures</td>
+                    <td>Mix</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Nagara Style -->
+        <div class="card">
+            <h2>🏔️ Nagara Style (North Indian) <span class="tag tag-style">Most PYQ</span></h2>
+
+            <h3>Characteristics:</h3>
+            <ul>
+                <li><strong>Shikhara:</strong> Curvilinear tower (looks like beehive)</li>
+                <li><strong>No Gopuram:</strong> No monumental gateway tower</li>
+                <li><strong>Deity:</strong> Usually dedicated to a single deity in Garbhagriha</li>
+                <li><strong>Plan:</strong> Square base</li>
+            </ul>
+
+            <h3>🛕 Famous Nagara Temples: <span class="tag tag-imp">Super PYQ</span></h3>
+            <table>
+                <tr>
+                    <th>Temple</th>
+                    <th>Location</th>
+                    <th>Deity</th>
+                    <th>Special Features</th>
+                </tr>
+                <tr>
+                    <td><strong>Kandariya Mahadeva</strong></td>
+                    <td>Khajuraho (MP)</td>
+                    <td>Shiva</td>
+                    <td>Tallest Shikhara in Khajuraho, erotic sculptures</td>
+                </tr>
+                <tr>
+                    <td><strong>Lakshmana Temple</strong></td>
+                    <td>Khajuraho (MP)</td>
+                    <td>Vishnu</td>
+                    <td>Panchayatana style (5 shrines)</td>
+                </tr>
+                <tr>
+                    <td><strong>Lingaraja Temple</strong></td>
+                    <td>Bhubaneswar (Odisha)</td>
+                    <td>Shiva</td>
+                    <td>Kalinga architecture, 55m high</td>
+                </tr>
+                <tr>
+                    <td><strong>Jagannath Temple</strong></td>
+                    <td>Puri (Odisha)</td>
+                    <td>Vishnu (Jagannath)</td>
+                    <td>Rath Yatra festival, non-Hindus not allowed</td>
+                </tr>
+                <tr>
+                    <td><strong>Sun Temple (Konark)</strong></td>
+                    <td>Konark (Odisha)</td>
+                    <td>Surya (Sun God)</td>
+                    <td>Chariot shape with 24 wheels, UNESCO site</td>
+                </tr>
+                <tr>
+                    <td><strong>Vishvanatha Temple</strong></td>
+                    <td>Khajuraho (MP)</td>
+                    <td>Shiva</td>
+                    <td>Fine sculptures</td>
+                </tr>
+            </table>
+
+            <div class="highlight-box">
+                <strong>🔑 Remember:</strong> Nagara = <strong>North India + Curvilinear Shikhara + No Gopuram</strong>
+            </div>
+        </div>
+
+        <!-- Dravida Style -->
+        <div class="card">
+            <h2>🌴 Dravida Style (South Indian) <span class="tag tag-style">Super PYQ</span></h2>
+
+            <h3>Characteristics:</h3>
+            <ul>
+                <li><strong>Vimana:</strong> Pyramidal tower (stepped tiers) over Garbhagriha</li>
+                <li><strong>Gopuram:</strong> Monumental gateway towers (usually taller than Vimana)</li>
+                <li><strong>Prakara:</strong> High enclosure walls (multiple concentric)</li>
+                <li><strong>Pushkarini:</strong> Sacred water tank</li>
+                <li><strong>Plan:</strong> Grand, complex, multiple courtyards</li>
+            </ul>
+
+            <h3>🛕 Famous Dravida Temples: <span class="tag tag-imp">Super PYQ</span></h3>
+            <table>
+                <tr>
+                    <th>Temple</th>
+                    <th>Location</th>
+                    <th>Dynasty</th>
+                    <th>Special Features</th>
+                </tr>
+                <tr>
+                    <td><strong>Brihadeeswarar (Rajarajeshwara)</strong></td>
+                    <td>Thanjavur (TN)</td>
+                    <td>Chola (Rajaraja I, 1010 AD)</td>
+                    <td>UNESCO, tallest Vimana (66m), monolithic Nandi</td>
+                </tr>
+                <tr>
+                    <td><strong>Shore Temple</strong></td>
+                    <td>Mahabalipuram (TN)</td>
+                    <td>Pallava (Narasimhavarman II)</td>
+                    <td>UNESCO, granite, on seashore</td>
+                </tr>
+                <tr>
+                    <td><strong>Kailashnath Temple</strong></td>
+                    <td>Kanchipuram (TN)</td>
+                    <td>Pallava (Narasimhavarman II)</td>
+                    <td>Sandstone, fine sculptures</td>
+                </tr>
+                <tr>
+                    <td><strong>Meenakshi Temple</strong></td>
+                    <td>Madurai (TN)</td>
+                    <td>Nayaka</td>
+                    <td>14 Gopurams, tallest is 52m</td>
+                </tr>
+                <tr>
+                    <td><strong>Gangaikonda Cholapuram</strong></td>
+                    <td>Tamil Nadu</td>
+                    <td>Chola (Rajendra I)</td>
+                    <td>Similar to Thanjavur</td>
+                </tr>
+            </table>
+
+            <div class="highlight-box">
+                <strong>🔑 Remember:</strong> Dravida = <strong>South India + Pyramidal Vimana + Gopuram + Prakara +
+                    Pushkarini</strong>
+            </div>
+        </div>
+
+        <!-- Vesara Style -->
+        <div class="card">
+            <h2>🔄 Vesara Style (Hybrid/Deccan) <span class="tag tag-style">PYQ</span></h2>
+
+            <h3>Characteristics:</h3>
+            <ul>
+                <li><strong>Hybrid:</strong> Mix of Nagara & Dravida features</li>
+                <li><strong>Shikhara:</strong> Neither purely curvilinear nor pyramidal</li>
+                <li><strong>Dominant in:</strong> Deccan region (Chalukyas, Hoysalas, Rashtrakutas)</li>
+            </ul>
+
+            <h3>🛕 Famous Vesara Temples:</h3>
+            <table>
+                <tr>
+                    <th>Temple</th>
+                    <th>Location</th>
+                    <th>Dynasty</th>
+                    <th>Special Features</th>
+                </tr>
+                <tr>
+                    <td><strong>Kailashnath Temple (Ellora)</strong></td>
+                    <td>Ellora (Maharashtra)</td>
+                    <td>Rashtrakuta (Krishna I)</td>
+                    <td>Monolithic, carved from single rock, UNESCO</td>
+                </tr>
+                <tr>
+                    <td><strong>Chennakeshava Temple</strong></td>
+                    <td>Belur (Karnataka)</td>
+                    <td>Hoysala</td>
+                    <td>Star-shaped plan, intricate carvings</td>
+                </tr>
+                <tr>
+                    <td><strong>Hoysaleswara Temple</strong></td>
+                    <td>Halebidu (Karnataka)</td>
+                    <td>Hoysala</td>
+                    <td>Star plan, soapstone sculptures</td>
+                </tr>
+                <tr>
+                    <td><strong>Virupaksha Temple</strong></td>
+                    <td>Pattadakal (Karnataka)</td>
+                    <td>Chalukya</td>
+                    <td>UNESCO, mix of styles</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Rock-Cut vs Structural -->
+        <div class="card">
+            <h2>🏔️ Rock-Cut vs Structural Temples</h2>
+
+            <table>
+                <tr>
+                    <th>Feature</th>
+                    <th>Rock-Cut Temples</th>
+                    <th>Structural Temples</th>
+                </tr>
+                <tr>
+                    <td><strong>Construction</strong></td>
+                    <td>Carved from solid rock</td>
+                    <td>Built with cut stones/bricks</td>
+                </tr>
+                <tr>
+                    <td><strong>Period</strong></td>
+                    <td>Earlier (Pallava, Rashtrakuta)</td>
+                    <td>Later (Chola, Hoysala)</td>
+                </tr>
+                <tr>
+                    <td><strong>Examples</strong></td>
+                    <td>Kailashnath (Ellora), Mahabalipuram Rathas</td>
+                    <td>Brihadeeswarar, Kandariya Mahadeva</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- PYQ Section -->
+        <div class="pyq-box">
+            <h2>🎯 PYQ Sniper Shots</h2>
+
+            <div class="pyq-item">
+                <strong>Q: What are the three major styles of Hindu temple architecture?</strong><br>
+                A: <strong>Nagara (North), Dravida (South), Vesara (Hybrid/Deccan)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Which style has a curvilinear Shikhara?</strong><br>
+                A: <strong>Nagara style</strong> (North Indian)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Which style has Gopuram?</strong><br>
+                A: <strong>Dravida style</strong> (South Indian)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: UPPCS 2019: Brihadees wara Temple is an example of which style?</strong><br>
+                A: <strong>Dravida style</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Which temple is built in the shape of a chariot?</strong><br>
+                A: <strong>Sun Temple, Konark</strong> (24 wheels)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Kailashnath Temple at Ellora was built by which dynasty?</strong><br>
+                A: <strong>Rashtrakuta</strong> (King Krishna I)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Which is the tallest Vimana in India?</strong><br>
+                A: <strong>Brihadeeswarar Temple, Thanjavur</strong> (66 meters)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Khajuraho temples were built by which dynasty?</strong><br>
+                A: <strong>Chandela dynasty</strong> (Nagara style)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is Garbhagriha?</strong><br>
+                A: <strong>Sanctum sanctorum</strong> (inner chamber where deity resides)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is Pushkarini in Dravida temples?</strong><br>
+                A: <strong>Sacred water tank</strong>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; color: #64748b; font-size: 0.9em;">
+            Created by Antigravity • UPPCS Art & Culture • From Your Class Notes
+        </div>
+    </div>
+
+    <script src="../theme-toggle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 3: Vedic Age - UPPCS Notes</title>
+    <style>
+        :root {
+            --primary-color: #7c3aed;
+            /* Violet for Spiritual/Vedic */
+            --secondary-color: #6d28d9;
+            --accent-color: #f59e0b;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-color: #334155;
+            --heading-color: #1e293b;
+            --success-bg: #ede9fe;
+            --success-text: #5b21b6;
+            --warning-bg: #fff7ed;
+            --warning-text: #9a3412;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 40px 0;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.2rem;
+            font-weight: 800;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            margin-top: 10px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            border-left: 5px solid var(--primary-color);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: var(--heading-color);
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 10px;
+            margin-top: 0;
+            font-size: 1.5rem;
+        }
+
+        h3 {
+            color: var(--secondary-color);
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin-bottom: 12px;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        li::before {
+            content: "•";
+            color: var(--primary-color);
+            font-weight: bold;
+            font-size: 1.2em;
+            position: absolute;
+            left: 0;
+            top: -2px;
+        }
+
+        .highlight-box {
+            background-color: var(--warning-bg);
+            color: var(--warning-text);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            border-left: 4px solid var(--accent-color);
+        }
+
+        .pyq-box {
+            background-color: var(--heading-color);
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-top: 40px;
+        }
+
+        .pyq-box h2 {
+            color: white;
+            border-bottom-color: #475569;
+        }
+
+        .pyq-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 6px;
+        }
+
+        strong {
+            color: var(--secondary-color);
+            font-weight: 700;
+        }
+
+        .timeline {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .timeline-item {
+            flex: 1;
+            position: relative;
+        }
+
+        .timeline-item:not(:last-child)::after {
+            content: "→";
+            position: absolute;
+            right: -10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #cbd5e1;
+            font-weight: bold;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .tag-imp {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        @media (max-width: 600px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="../dark-theme.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark Mode">🌓</button>
+
+            <h1>🕉️ Chapter 3: Vedic Age</h1>
+            <div class="subtitle">The Age of Knowledge • Surgical Strike Notes</div>
+        </header>
+
+        <!-- 1. The Basics -->
+        <div class="card">
+            <h2>1. The Basics: Origins & Timeline</h2>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <strong>Rigvedic</strong><br>
+                    <span style="font-size: 0.9em; color: #64748b;">1500 BC - 1000 BC<br>(Early Vedic)</span>
+                </div>
+                <div class="timeline-item">
+                    <strong>Iron Age</strong><br>
+                    <span style="font-size: 0.9em; color: #64748b;">~1000 BC<br>(Discovery of Iron)</span>
+                </div>
+                <div class="timeline-item">
+                    <strong>Later Vedic</strong><br>
+                    <span style="font-size: 0.9em; color: #64748b;">1000 BC - 600 BC<br>(Expansion)</span>
+                </div>
+            </div>
+
+            <h3>🤔 Homeland Theories (Where did they come from?)</h3>
+            <ul>
+                <li><strong>Central Asia (Bactria):</strong> Max Muller (Most Accepted).</li>
+                <li><strong>North Pole (Arctic):</strong> Bal Gangadhar Tilak.</li>
+                <li><strong>Tibet:</strong> Swami Dayanand Saraswati.</li>
+                <li><strong>Sapta Sindhu:</strong> A.C. Das.</li>
+            </ul>
+
+            <div class="highlight-box">
+                <strong>📜 Boghaz-Koi Inscription (Turkey, 1400 BC):</strong>
+                <br>Mentions 4 Vedic Gods: <strong>Indra, Mitra, Varuna, Nasatyas</strong>.
+                <br><em>Proof of Central Asian theory.</em>
+            </div>
+        </div>
+
+        <!-- 2. The Library (Literature) -->
+        <div class="card">
+            <h2>2. The Vedic Library (High Yield)</h2>
+            <p><em>"Veda" means Knowledge. "Arya" means Noble.</em></p>
+
+            <h3>📚 The Four Vedas</h3>
+            <ul>
+                <li><strong>1. Rigveda (Oldest):</strong> Collection of Hymns (Suktas).
+                    <ul>
+                        <li><strong>3rd Mandal:</strong> <strong>Gayatri Mantra</strong> (Vishwamitra) - Dedicated to
+                            Savitri (Sun).</li>
+                        <li><strong>7th Mandal:</strong> <strong>Dasharajnya War</strong> (Battle of 10 Kings) on river
+                            Parushni (Ravi). Sudas won.</li>
+                        <li><strong>9th Mandal:</strong> Dedicated to <strong>Soma</strong> (God of Plants).</li>
+                        <li><strong>10th Mandal:</strong> <strong>Purusha Sukta</strong> (Origin of 4 Varnas: Brahmin,
+                            Kshatriya, Vaishya, Shudra).</li>
+                    </ul>
+                </li>
+                <li><strong>2. Samaveda:</strong> Book of <strong>Music</strong>/Chants (Origins of Indian Music).</li>
+                <li><strong>3. Yajurveda:</strong> Book of <strong>Rituals/Sacrifices</strong>.
+                    <br>• Only Veda in both Prose & Poetry.
+                    <br>• Split into Shukla (White) & Krishna (Black).
+                </li>
+                <li><strong>4. Atharvaveda:</strong> Book of <strong>Magic/Medicine</strong>.
+                    <br>• Charms, Spells, Ayurveda.
+                    <br>• Mentions Sabha & Samiti as "Daughters of Prajapati".
+                </li>
+            </ul>
+
+            <h3>🧘 Upanishads (Philosophy)</h3>
+            <ul>
+                <li><strong>Mundaka Upanishad:</strong> Source of <strong>"Satyameva Jayate"</strong>.</li>
+                <li><strong>Katha Upanishad:</strong> Dialogue between <strong>Yama & Nachiketa</strong>.</li>
+                <li><strong>Brihadaranyaka Upanishad:</strong> "Tamso Ma Jyotirgamaya".</li>
+                <li><strong>Jabala Upanishad:</strong> First mention of 4 Ashramas.</li>
+            </ul>
+        </div>
+
+        <!-- 3. Geography (Rivers) -->
+        <div class="card">
+            <h2>3. Geography: The Rivers (Match List)</h2>
+            <p><em>Rigveda mentions "Sapta Sindhu" (Land of 7 Rivers).</em></p>
+
+            <div class="grid-container">
+                <div>
+                    <strong>Ancient Name</strong><br>
+                    1. Asakini<br>
+                    2. Parushni<br>
+                    3. Vipasa<br>
+                    4. Shutudri<br>
+                    5. Vitasta<br>
+                    6. Drishdvati
+                </div>
+                <div>
+                    <strong>Modern Name</strong><br>
+                    → Chenab<br>
+                    → Ravi (Battle of 10 Kings)<br>
+                    → Beas<br>
+                    → Sutlej<br>
+                    → Jhelum<br>
+                    → Ghaggar
+                </div>
+            </div>
+            <br>
+            <ul>
+                <li><strong>Indus (Sindhu):</strong> Most mentioned river.</li>
+                <li><strong>Saraswati (Matetama):</strong> Most sacred river.</li>
+                <li><strong>Ganga:</strong> Mentioned only <strong>1 time</strong>.</li>
+                <li><strong>Yamuna:</strong> Mentioned <strong>3 times</strong>.</li>
+            </ul>
+        </div>
+
+        <!-- 4. Society & Polity -->
+        <div class="card">
+            <h2>4. Society, Polity & Gods</h2>
+
+            <h3>🏛️ Polity (Governance)</h3>
+            <ul>
+                <li><strong>Kula (Family)</strong> -> Gram (Village) -> Vis (Clan) -> Jana (Tribe) -> Rashtra.</li>
+                <li><strong>Assemblies:</strong>
+                    <ul>
+                        <li><strong>Sabha:</strong> Council of Elders/Elite (Judicial functions).</li>
+                        <li><strong>Samiti:</strong> General Assembly of People (Chose the King).</li>
+                        <li><strong>Vidatha:</strong> Oldest assembly (Women attended).</li>
+                    </ul>
+                </li>
+                <li><strong>Bali:</strong> Voluntary offering (Tax).</li>
+            </ul>
+
+            <h3>🐄 Economy (The Cow)</h3>
+            <ul>
+                <li><strong>Aghanya:</strong> "Not to be killed" (Cow).</li>
+                <li><strong>Gavisthi:</strong> Search for cows (War).</li>
+                <li><strong>Godhuli:</strong> Measure of time.</li>
+                <li><strong>Wealth:</strong> Measured in cows.</li>
+            </ul>
+
+            <h3>🙏 Gods (Rigvedic)</h3>
+            <ul>
+                <li><strong>Indra (Purandara):</strong> Rain/War God. <strong>250 Hymns</strong> (Max).</li>
+                <li><strong>Agni:</strong> Fire God (Intermediary). 200 Hymns.</li>
+                <li><strong>Varuna:</strong> Upholder of <strong>Rita</strong> (Cosmic Order).</li>
+            </ul>
+        </div>
+
+        <!-- 5. The Transition (Rigvedic vs Later Vedic) -->
+        <div class="card highlight-box" style="background-color: #fff1f2; border-left-color: #be185d; color: #881337;">
+            <h2 style="color: #be185d; border-bottom-color: #fbcfe8;">⚠️ The Great Shift (Rigvedic vs Later Vedic)</h2>
+            <div class="grid-container">
+                <div>
+                    <strong>Rigvedic (Early)</strong><br>
+                    • Pastoral (Cattle rearing).<br>
+                    • <strong>No Iron</strong>.<br>
+                    • Women had high status (Lopamudra).<br>
+                    • Varna based on <strong>Occupation</strong> (Flexible).<br>
+                    • Indra/Agni supreme.
+                </div>
+                <div>
+                    <strong>Later Vedic</strong><br>
+                    • Agricultural (Settled).<br>
+                    • <strong>Iron Discovered</strong> (~1000 BC, Atranjikhera).<br>
+                    • Status of women declined.<br>
+                    • Varna based on <strong>Birth</strong> (Rigid).<br>
+                    • Prajapati (Creator) became supreme.
+                </div>
+            </div>
+        </div>
+
+        <!-- PYQ Section -->
+        <div class="pyq-box">
+            <h2>🎯 PYQ "Sniper" Shots</h2>
+            <p>Direct hits from Ghatna Chakra</p>
+
+            <div class="pyq-item">
+                <strong>Q: "Satyameva Jayate" is taken from?</strong><br>
+                A: <strong>Mundaka Upanishad</strong>.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Which river is "Matetama" (Best Mother)?</strong><br>
+                A: <strong>Saraswati</strong>.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Boghaz-Koi inscription mentions which gods?</strong><br>
+                A: Indra, Mitra, Varuna, Nasatyas.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: "Aghanya" refers to?</strong><br>
+                A: <strong>Cow</strong>.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Who composed Gayatri Mantra?</strong><br>
+                A: <strong>Vishwamitra</strong> (Rigveda 3rd Mandal).
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Iron was first found at?</strong><br>
+                A: <strong>Atranjikhera</strong> (UP) ~1000 BC.
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; color: #64748b; font-size: 0.9em;">
+            Created by Antigravity • UPPCS Preparation
+        </div>
+
+    </div>
+
+    <script src="../theme-toggle.js"></script>
+</body>
+
+</html>

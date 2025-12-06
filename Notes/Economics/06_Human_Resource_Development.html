@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pillar 6: Human Resource Development - UPPCS Notes</title>
+    <link rel="stylesheet" href="../dark-theme.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        [data-theme="dark"] body {
+            background: linear-gradient(135deg, #78350f 0%, #92400e 100%);
+        }
+
+        header {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            color: white;
+            padding: 50px 30px;
+            border-radius: 20px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 20px 60px rgba(245, 158, 11, 0.4);
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '👩‍🎓';
+            position: absolute;
+            font-size: 15rem;
+            opacity: 0.1;
+            top: -30px;
+            left: -30px;
+            animation: float 10s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(30px); }
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #f59e0b;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(245, 158, 11, 0.2);
+        }
+
+        [data-theme="dark"] .card {
+            background: #1e293b;
+        }
+
+        h2 {
+            color: #f59e0b;
+            border-bottom: 3px solid #fef3c7;
+            padding-bottom: 10px;
+            font-size: 1.8rem;
+        }
+
+        [data-theme="dark"] h2 {
+            color: #fbbf24;
+            border-bottom-color: #92400e;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            border-left: 5px solid #f59e0b;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        [data-theme="dark"] .highlight-box {
+            background: linear-gradient(135deg, #78350f 0%, #92400e 100%);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #fde68a;
+        }
+
+        th {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background: #fef3c7;
+        }
+
+        [data-theme="dark"] tr:hover {
+            background: #374151;
+        }
+
+        .pyq-box {
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 16px;
+            margin-top: 40px;
+        }
+
+        .pyq-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 10px;
+            border-left: 4px solid #f59e0b;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" style="max-width: 1000px; margin: auto; padding: 40px 20px;">
+        <header>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark Mode">🌓</button>
+            <h1>👩‍🎓 Pillar 6: Human Resource Development</h1>
+            <div class="subtitle">Health • Education • Poverty • HDI • SDG</div>
+        </header>
+
+        <!-- 1. Demography & Population -->
+        <div class="card">
+            <h2>1. Demography & Population (जनसांख्यिकी)</h2>
+            
+            <h3>👫 Census (जनगणना)</h3>
+            <ul>
+                <li><strong>1872:</strong> Mayo conducted Census for first time in India (not first time in World)</li>
+                <li><strong>1881:</strong> Ripon started census every decade</li>
+                <li><strong>Constitution:</strong> Union List Entry 69 → Census Act 1948</li>
+                <li><strong>Conducted By:</strong> Home Ministry → Registrar General and Census Commissioner → At district level under respective DM (IAS)</li>
+                <li><strong>Post Independence:</strong> Census conducted every 10 years. 2011 = 7th Census of Free India</li>
+                <li><strong>Frequency:</strong> Every 10 years</li>
+                <li><strong>Last Census:</strong> 2011 (2021 postponed due to COVID-19)</li>
+            </ul>
+
+            <h3>🕵️ Census-2021 Postponed by Corona</h3>
+            <ul>
+                <li><strong>2019-Dec:</strong> Union Cabinet allotted Rs. ~8700+ crores for conducting Census of India 2021</li>
+                <li><strong>Details Captured:</strong> Housing Condition; Amenities & Assets, Demography, Religion, SC & ST, Language, Literacy, Economic Activity, Migration & Fertility</li>
+                <li><strong>First Time:</strong> Mobile app will be used for data collection</li>
+                <li><strong>Two Phases:</strong>
+                    <ol>
+                        <li><strong>House listing and Housing Census:</strong> April to September 2020 (parallely, National Population Register (NPR) also updated for entire India except Assam)</li>
+                        <li><strong>Population Enumeration:</strong> 9th February to 28th February 2021</li>
+                    </ol>
+                </li>
+                <li><strong>Status:</strong> Census exercise postponed till 2024-25 due to Corona</li>
+            </ul>
+
+            <h3>🕵️ Demand for OBC Caste Census</h3>
+            <table>
+                <tr>
+                    <th>Group</th>
+                    <th>Until 1931 Census</th>
+                    <th>1941 Census</th>
+                    <th>1951-2011</th>
+                </tr>
+                <tr>
+                    <td><strong>SC & ST</strong></td>
+                    <td>Collected & Published</td>
+                    <td>Collected & Published</td>
+                    <td>Collected & Published</td>
+                </tr>
+                <tr>
+                    <td><strong>OBC</strong></td>
+                    <td>Collected & Published</td>
+                    <td>YES Collected but NOT Published</td>
+                    <td>NOT Collected, NOT Published</td>
+                </tr>
+            </table>
+            <ul>
+                <li><strong>Mandal Commission (1979):</strong> Estimated OBC population at 52%</li>
+                <li><strong>Socio Economic Caste Census (SECC)-2011:</strong> Has CASTE related data, BUT NOT released in public yet</li>
+                <li><strong>Problem:</strong> In absence of OBC population/education/income data → Difficult to make better quality government schemes and policies</li>
+                <li><strong>2021:</strong> Modi Govt replied in Lok Sabha: "Government of India has decided not to enumerate caste-wise population other than SCs and STs in Census"</li>
+                <li><strong>2023:</strong> Bihar State govt begun conducting caste census</li>
+            </ul>
+
+            <h3>👫📊 Demographic Transition: Census Perspective</h3>
+            <table>
+                <tr>
+                    <th>Census Period</th>
+                    <th>जनसांख्यिकीय परिवर्तन</th>
+                    <th>Birth Rate</th>
+                    <th>Death Rate</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td><strong>1) Stagnant Population<br>(1901-1921)</strong></td>
+                    <td>गतिहीन</td>
+                    <td>High</td>
+                    <td>High</td>
+                    <td>In Census 1921 population declined (-0.31%) compared to 1911, due to WW1, Drought, Epidemics, Spanish flu. 1921 called "Year of Great Demographic Divide"</td>
+                </tr>
+                <tr>
+                    <td><strong>2) Steady Growth<br>(1921-51)</strong></td>
+                    <td>अतिवृद्धि</td>
+                    <td>High</td>
+                    <td>Medium</td>
+                    <td>Called 'Mortality induced growth' because death rate declined → population rising</td>
+                </tr>
+                <tr>
+                    <td><strong>3) Rapid High Growth<br>(1951-1981)</strong></td>
+                    <td>तेजी से उच्च वृद्धि</td>
+                    <td>High</td>
+                    <td>Low</td>
+                    <td>Agri revolution, Medical research, Life expectancy increased. But people yet to change breeding behavior → Population explosion / 'Fertility induced growth'</td>
+                </tr>
+                <tr>
+                    <td><strong>4) High Growth with Signs of Slowing Down<br>(1981-2011)</strong></td>
+                    <td>उच्च वृद्धि लेकिन धीमी</td>
+                    <td>Medium → Low</td>
+                    <td>Lower</td>
+                    <td>Birth rate gradually ↓ due to family planning, nuclear family, high cost of living</td>
+                </tr>
+            </table>
+
+            <h3>👫📊 Demographic Transition: Theoretical Perspective</h3>
+            <table>
+                <tr>
+                    <th>Stage</th>
+                    <th>Birth Rate</th>
+                    <th>Death Rate</th>
+                    <th>India in this period</th>
+                </tr>
+                <tr>
+                    <td><strong>1: High Stationary</strong></td>
+                    <td>HIGH</td>
+                    <td>HIGH</td>
+                    <td>Upto 1920</td>
+                </tr>
+                <tr>
+                    <td><strong>2: Early Expanding</strong></td>
+                    <td>HIGH</td>
+                    <td>MED.</td>
+                    <td>1921-51</td>
+                </tr>
+                <tr>
+                    <td><strong>3: Late Expanding</strong></td>
+                    <td>MED.</td>
+                    <td>LOW</td>
+                    <td>1971 onwards (India is here)</td>
+                </tr>
+                <tr>
+                    <td><strong>4: Low Stationary</strong></td>
+                    <td>LOWER</td>
+                    <td>LOWER</td>
+                    <td>Most developed countries. India to enter here ~2026</td>
+                </tr>
+                <tr>
+                    <td><strong>5: Declining Stage</strong></td>
+                    <td>LOWEST & lower than Death Rate</td>
+                    <td>LOWEST</td>
+                    <td>Population shrinks. E.g. Japan</td>
+                </tr>
+            </table>
+
+            <h3>👴🏻 Population Ageing / Inverted Population Pyramid</h3>
+            <ul>
+                <li><strong>Definition:</strong> Process by which proportion of elderly individuals in population increases over time</li>
+                <li><strong>Reasons:</strong> (1) Declining birth rates (2) Increasing life expectancy</li>
+                <li><strong>Example:</strong> Japan</li>
+            </ul>
+
+            <h3>🤰🏻 Pro-natalist Policy</h3>
+            <ul>
+                <li><strong>Definition:</strong> When govt encourages birth rate/fertility rate of an area</li>
+                <li><strong>2024:</strong> Andhra CM Chandrababu Naidu & Tamil Nadu CM M.K. Stalin urged people of their States to have more children</li>
+                <li><strong>Primary Reasons:</strong> States with larger population (1) get more seats in Parliament (2) more % funding under tax devolution formula of finance commission</li>
+            </ul>
+
+            <h3>👫🌩💀 Malthusian Theory of Population Growth</h3>
+            <p><strong>British scholar Thomas Robert Malthus (1798):</strong></p>
+            <ul>
+                <li><strong>Observation:</strong> Food production increases in arithmetic progression while population increases in geometric progression</li>
+                <li><strong>Equilibrium:</strong> Nature tries to establish equilibrium between population vs food supply using 'Positive Checks' (सकारात्मक अवरोध) such as famine, epidemics, earthquake</li>
+                <li><strong>Preventative Checks:</strong> Humans should initiate to control population growth e.g. family planning (परिवार नियोजन), celibacy (ब्रह्मचर्य), late marriages</li>
+            </ul>
+
+            <h3>👨‍👩‍👧 Family Planning (परिवार नियोजन)</h3>
+            <ul>
+                <li><strong>Definition:</strong> Spacing or preventing birth of children</li>
+                <li><strong>Benefits:</strong> Helps limiting population growth and improving women's health</li>
+                <li><strong>Tools:</strong> (1) Awareness/Propaganda (2) Free availability of contraceptives (3) Tax disincentives for large families</li>
+            </ul>
+
+            <h3>📊 Demographic Indicators (जनसांख्यिकीय संकेतक)</h3>
+            <table>
+                <tr>
+                    <th>Indicator</th>
+                    <th>Definition</th>
+                    <th>Data (Approx)</th>
+                </tr>
+                <tr>
+                    <td><strong>Population Density<br>(जनसंख्या घनत्व)</strong></td>
+                    <td>Number of people per square kilometer</td>
+                    <td>382 in 2011</td>
+                </tr>
+                <tr>
+                    <td><strong>Natural Growth vs Actual Growth</strong></td>
+                    <td>
+                        <strong>Natural Growth:</strong> Births – Deaths<br>
+                        <strong>Actual Growth:</strong> Births – Deaths + In Migration – Out Migration
+                    </td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td><strong>Decadal Population Growth Rate<br>(दशकीय जनसंख्या वृद्धि दर)</strong></td>
+                    <td>(Latest Census - Last Census) / Last Census × 100</td>
+                    <td>17.7% in 2011</td>
+                </tr>
+                <tr>
+                    <td><strong>Birth Rate<br>(जन्म दर)</strong></td>
+                    <td>Number of live births per 1000 population</td>
+                    <td>~20 in 2018 (SRS)</td>
+                </tr>
+                <tr>
+                    <td><strong>Death Rate<br>(मृत्यु दर)</strong></td>
+                    <td>Number of deaths per 1000 population</td>
+                    <td>~6 in 2018 (SRS)</td>
+                </tr>
+                <tr>
+                    <td><strong>Crude Birth Rate (CBR)</strong></td>
+                    <td>(Live births during year) × 1000 / Estimated mid-year population</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td><strong>Crude Death Rate (CDR)</strong></td>
+                    <td>(Number of deaths) × 1000 / Estimated mid-year population</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td><strong>Population Growth Rate<br>(जनसंख्या वृद्धि दर)</strong></td>
+                    <td>Difference between birth rate and death rate</td>
+                    <td>Positive = natural increase. Close to zero = stabilized/replacement level</td>
+                </tr>
+                <tr>
+                    <td><strong>Fertility Rate<br>(प्रजनन दर)</strong></td>
+                    <td>Number of live births per 1000 women in childbearing age group (15 to 49 years)</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td><strong>Total Fertility Rate (TFR)<br>(कुल प्रजनन दर)</strong></td>
+                    <td>If woman lived through childbearing age group, how many babies would she have produced hypothetically?</td>
+                    <td>India's target: 2.1 (Replacement level). ES22: TFR declined from 2.2 (2015) to 2 (2019)</td>
+                </tr>
+                <tr>
+                    <td><strong>Infant Mortality Rate (IMR)<br>(शिशु मृत्यु दर)</strong></td>
+                    <td>Number of infant deaths under age of 1 year per 1000 live births</td>
+                    <td>~34/1000 in 2016, 32 in 2018 (SRS)</td>
+                </tr>
+                <tr>
+                    <td><strong>Child Mortality Rate (CMR)<br>(बाल मृत्यु दर)</strong></td>
+                    <td>Number of child deaths under age of 5 years per 1000 live births</td>
+                    <td>~50 in 2016. SDG-2030 Target: 11</td>
+                </tr>
+                <tr>
+                    <td><strong>Maternal Mortality Ratio (MMR)<br>(मातृ मृत्यु अनुपात)</strong></td>
+                    <td>Number of women who die in childbirth per 1 lakh live births</td>
+                    <td>~130 in 2016. SDG-2030 Target: 70</td>
+                </tr>
+                <tr>
+                    <td><strong>Life Expectancy<br>(जीवन प्रत्याशा)</strong></td>
+                    <td>Estimated number of years that average person is expected to survive</td>
+                    <td>Indian Females (70), Males (67). ES22: Urban (72.6) > Rural (68.0). Highest: Kerala & Delhi (75-75). Lowest: Chhattisgarh (65)</td>
+                </tr>
+                <tr>
+                    <td><strong>Sex Ratio<br>(लिंगानुपात)</strong></td>
+                    <td>Number of females per 1000 males</td>
+                    <td>2011: 943. Child Sex Ratio (0-6 years): Declined from 927 (2001) → 919 (2011)</td>
+                </tr>
+                <tr>
+                    <td><strong>Doctor: Patient Ratio</strong></td>
+                    <td>WHO requires 1 doctor for every 1000 people</td>
+                    <td>India: 1 doctor for every 834 people (ES23) - Both Allopathic and Ayush</td>
+                </tr>
+                <tr>
+                    <td><strong>Dependency Ratio<br>(निर्भरता अनुपात)</strong></td>
+                    <td>(Population below 15 & above 64) ÷ (Population in 15-64 age group)</td>
+                    <td>-</td>
+                </tr>
+            </table>
+
+            <h3>👷🏻‍♂️ Demographic Dividend (जनसांख्यिकीय लाभांश)</h3>
+            <ul>
+                <li><strong>Definition:</strong> Phenomenon when dependency ratio of country declines, and larger proportion of people in working age compared to dependency age</li>
+                <li><strong>Nature:</strong> Temporary because larger pool of working age people will eventually turn into non-working old people</li>
+                <li><strong>Benefit:</strong> Economic growth potential from favorable age structure (large working-age population relative to dependents)</li>
+            </ul>
+
+            <h3>👴🏻 Silver Dividend (चांदी लाभांश)</h3>
+            <ul>
+                <li><strong>Definition:</strong> Potential economic and social benefits when senior citizens remain active in economic, social and familial roles</li>
+                <li><strong>Benefit:</strong> Experienced workforce, knowledge transfer, continued economic contribution</li>
+            </ul>
+
+            <h3>📊 Census-2011: Migration & Occupation (स्थानांतरण)</h3>
+            <p><strong>Migration:</strong> Person settled in place different from previous residence</p>
+            <ul>
+                <li><strong>Types:</strong> Permanent, temporary or seasonal</li>
+                <li><strong>Directions:</strong> (1) Rural to rural (2) Rural to urban (3) Urban to urban (4) Urban to rural (= reverse migration during corona factory-lockdown)</li>
+                <li><strong>Immigration:</strong> Migrants who move into new place</li>
+                <li><strong>Emigration:</strong> Migrants who move out of place</li>
+            </ul>
+
+            <h3>📊 Push vs Pull Factors</h3>
+            <table>
+                <tr>
+                    <th>Push Factors<br>(धक्का देने वाले कारक)</th>
+                    <th>Pull Factors<br>(आकर्षित करने वाले कारक)</th>
+                </tr>
+                <tr>
+                    <td>Lack of jobs/good salary/Biz Opportunity</td>
+                    <td>Presence of jobs/good salary/Biz Opportunity</td>
+                </tr>
+                <tr>
+                    <td>Lack of Basic amenities: water, shelter, hospital</td>
+                    <td>Presence of Basic amenities</td>
+                </tr>
+                <tr>
+                    <td>Disasters, floods, famines</td>
+                    <td>Absence of disasters</td>
+                </tr>
+                <tr>
+                    <td>Crime, War, lack of safety</td>
+                    <td>Safe, peaceful society</td>
+                </tr>
+            </table>
+            <p><strong>Census-2011 Data:</strong></p>
+            <ul>
+                <li><strong>37% of Indians</strong> are internal migrants. Among them, majority are female (70%)</li>
+                <li><strong>Main reason for migration:</strong> Female: marriage (70%). Male: work & employment (28%) > moved with household > moved after birth</li>
+                <li><strong>Occupation:</strong> Census divided working population into four major categories: (1) Cultivators (2) Agricultural Labourers (3) Household Industry Workers (4) Other Workers</li>
+            </ul>
+        </div>
+
+        <!-- 2. Health (स्वास्थ्य) -->
+        <div class="card">
+            <h2>2. Health (स्वास्थ्य)</h2>
+
+            <h3>🕵️ Ministry of Health and Family Welfare</h3>
+            <p><strong>Departments:</strong></p>
+            <ul>
+                <li><strong>Department of Health & Family Welfare:</strong> Health services, medical education, research</li>
+                <li><strong>Department of Health Research:</strong> Medical research, ICMR</li>
+            </ul>
+            <p><strong>Key Organizations:</strong></p>
+            <ul>
+                <li><strong>Indian Council of Medical Research (ICMR):</strong> Medical research</li>
+                <li><strong>National Health Systems Resource Centre (NHSRC):</strong> Technical support</li>
+                <li><strong>Central Drugs Standard Control Organisation (CDSCO):</strong> Drug regulation</li>
+                <li><strong>National Pharmaceutical Pricing Authority (NPPA):</strong> Price control of drugs</li>
+            </ul>
+
+            <h3>🌱 AYUSH Ministry</h3>
+            <p><strong>Full Form:</strong> Ayurveda, Yoga & Naturopathy, Unani, Siddha and Homoeopathy</p>
+            <p><strong>Systems:</strong></p>
+            <ul>
+                <li><strong>Ayurveda:</strong> Traditional Indian system</li>
+                <li><strong>Yoga:</strong> Physical, mental, spiritual practice</li>
+                <li><strong>Unani:</strong> Greek-Arab system</li>
+                <li><strong>Siddha:</strong> Tamil traditional medicine</li>
+                <li><strong>Homoeopathy:</strong> Alternative medicine system</li>
+                <li><strong>Sowa-Rigpa:</strong> Tibetan system</li>
+            </ul>
+
+            <h3>💊 National Health Policy 2017</h3>
+            <ul>
+                <li><strong>Targets:</strong>
+                    <ul>
+                        <li>Increase Health Expenditure to 2.5% of GDP by 2025</li>
+                        <li>Reduce IMR to 28 by 2019</li>
+                        <li>Reduce MMR to 100 by 2020</li>
+                        <li>Reduce Total Fertility Rate to 2.1 by 2025</li>
+                        <li>Reduce Under-5 Mortality to 23 by 2025</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>💊 National Policy for Rare Diseases-2021</h3>
+            <ul>
+                <li><strong>Objective:</strong> Prevention, diagnosis, treatment of rare diseases</li>
+                <li><strong>Rare Disease:</strong> Health condition affecting small number of people</li>
+                <li><strong>Components:</strong> Financial support, research, awareness</li>
+            </ul>
+
+            <h3>💊 Cheap Medicine: NPPA Price Control</h3>
+            <ul>
+                <li><strong>National Pharmaceutical Pricing Authority (NPPA):</strong> Under Ministry of Chemicals & Fertilizers</li>
+                <li><strong>Function:</strong> Fixes/revises prices of controlled bulk drugs and formulations</li>
+                <li><strong>Legal Basis:</strong> Drugs (Prices Control) Order (DPCO)</li>
+            </ul>
+
+            <h3>💊 PM Bhartiya Janaushadhi Pariyojana</h3>
+            <ul>
+                <li><strong>Objective:</strong> Provide quality generic medicines at affordable prices</li>
+                <li><strong>Implementation:</strong> Bureau of Pharma PSUs of India (BPPI)</li>
+                <li><strong>Outlets:</strong> PM Jan Aushadhi Kendras</li>
+                <li><strong>Benefit:</strong> Medicines available at 50-90% lower prices than branded medicines</li>
+            </ul>
+
+            <h3>💊 National Health Mission (2005)</h3>
+            <p><strong>Umbrella Scheme:</strong> Combines Rural and Urban health programs</p>
+            <ul>
+                <li><strong>National Rural Health Mission (NRHM):</strong> Launched 2005</li>
+                <li><strong>National Urban Health Mission (NUHM):</strong> Launched 2013</li>
+                <li><strong>Objectives:</strong>
+                    <ul>
+                        <li>Reduce IMR and MMR</li>
+                        <li>Universal access to public health services</li>
+                        <li>Prevent and control communicable and non-communicable diseases</li>
+                        <li>Mainstream AYUSH</li>
+                        <li>Population stabilization</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>🤰👼 Mother & Child Healthcare</h3>
+
+            <h3>🤰👼 Integrated Child Development Services (ICDS, 1975)</h3>
+            <ul>
+                <li><strong>Boss:</strong> Ministry of Women and Child Development</li>
+                <li><strong>Services:</strong>
+                    <ul>
+                        <li>Supplementary nutrition</li>
+                        <li>Immunization</li>
+                        <li>Health check-up</li>
+                        <li>Referral services</li>
+                        <li>Pre-school non-formal education</li>
+                        <li>Nutrition and health education</li>
+                    </ul>
+                </li>
+                <li><strong>Anganwadi Centres:</strong> Village-level centers providing ICDS services</li>
+            </ul>
+
+            <h3>🤰👼 Janani Suraksha Yojana (JSY)</h3>
+            <ul>
+                <li><strong>Objective:</strong> Reduce maternal and neonatal mortality by promoting institutional delivery</li>
+                <li><strong>Beneficiaries:</strong> Pregnant women from BPL families, SC/ST families</li>
+                <li><strong>Cash Assistance:</strong> Provided for institutional delivery</li>
+                <li><strong>Components:</strong> Ante-natal care, delivery, post-natal care</li>
+            </ul>
+
+            <h3>🤰👼 Janani Shishu Suraksha Karyakram (JSSK)</h3>
+            <ul>
+                <li><strong>Objective:</strong> Eliminate out-of-pocket expenses for pregnant women and sick infants</li>
+                <li><strong>Free Services:</strong>
+                    <ul>
+                        <li>Free delivery (normal and caesarean)</li>
+                        <li>Free drugs and consumables</li>
+                        <li>Free diagnostics</li>
+                        <li>Free diet during stay</li>
+                        <li>Free transport from home to health facility</li>
+                        <li>Free transport between facilities in case of referral</li>
+                        <li>Free drop back from facility to home</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>🤰👼 PM Matru Vandana Yojana (PMVY)</h3>
+            <ul>
+                <li><strong>Objective:</strong> Provide partial compensation for wage loss and support health seeking behavior</li>
+                <li><strong>Benefit:</strong> ₹5,000 for first child</li>
+                <li><strong>Conditions:</strong> Pregnant women and lactating mothers (19 years and above) for first living child</li>
+                <li><strong>Installments:</strong> Paid in three installments</li>
+            </ul>
+
+            <h3>💉 Vaccination (टीकाकरण)</h3>
+
+            <h3>💉 Mission Indradhanush (2014)</h3>
+            <ul>
+                <li><strong>Objective:</strong> Achieve full immunization coverage for all children and pregnant women</li>
+                <li><strong>Target:</strong> Cover all children who are partially vaccinated or unvaccinated</li>
+                <li><strong>Phases:</strong> Conducted in multiple phases across country</li>
+                <li><strong>Vaccines:</strong> BCG, OPV, DPT, Hepatitis B, Measles, TT (for pregnant women)</li>
+            </ul>
+
+            <h3>💉 Intensified Mission Indradhanush (IMI)</h3>
+            <ul>
+                <li><strong>IMI 3.0 (2021):</strong> Focus on districts and urban areas with low routine immunization coverage</li>
+                <li><strong>IMI 4.0 (2022-23):</strong> Continued focus on improving immunization coverage</li>
+                <li><strong>Strategy:</strong> Intensified efforts in identified districts</li>
+            </ul>
+
+            <h3>💊 Ayushman Bharat & PMJAY</h3>
+            <p><strong>Ayushman Bharat:</strong> Two components:</p>
+            <ol>
+                <li><strong>Health & Wellness Centres (HWCs):</strong> Upgradation of Sub-Centres and Primary Health Centres</li>
+                <li><strong>Pradhan Mantri Jan Arogya Yojana (PMJAY):</strong> Health insurance scheme</li>
+            </ol>
+
+            <h3>💊 Ayushman Bharat: Health & Wellness Centres</h3>
+            <ul>
+                <li><strong>Objective:</strong> Provide comprehensive primary health care</li>
+                <li><strong>Services:</strong> Preventive, promotive, curative, rehabilitative, palliative care</li>
+                <li><strong>Upgradation:</strong> Sub-Centres and Primary Health Centres upgraded to HWCs</li>
+            </ul>
+
+            <h3>💊 Ayushman Bharat: PMJAY (₹5 Lakh Health Insurance)</h3>
+            <ul>
+                <li><strong>Coverage:</strong> ₹5 lakh per family per year for secondary and tertiary care hospitalization</li>
+                <li><strong>Beneficiaries:</strong> Based on SECC-2011 data. Covers ~10.74 crore poor and vulnerable families (~50 crore beneficiaries)</li>
+                <li><strong>Cashless Treatment:</strong> At empaneled public and private hospitals</li>
+                <li><strong>Portability:</strong> Can avail treatment anywhere in India</li>
+                <li><strong>Implementation:</strong> State Health Agencies (SHAs) at state level</li>
+            </ul>
+
+            <h3>💊 Ayushman Bhav Campaign (2023)</h3>
+            <ul>
+                <li><strong>Objective:</strong> Comprehensive healthcare coverage across India</li>
+                <li><strong>Components:</strong> Ayushman Apke Dwar 3.0, Ayushman Melas, Community Health Centre activities</li>
+            </ul>
+
+            <h3>💊 Health Cess (2020)</h3>
+            <ul>
+                <li><strong>Health Cess:</strong> Additional cess on certain goods to build hospitals</li>
+                <li><strong>Purpose:</strong> Fund health infrastructure development</li>
+            </ul>
+
+            <h3>💊 Pradhan Mantri Swasthya Suraksha Nidhi (PMSSN, 2021)</h3>
+            <ul>
+                <li><strong>Objective:</strong> Dedicated fund for health sector</li>
+                <li><strong>Source:</strong> Health Cess and other health-related funds</li>
+                <li><strong>Use:</strong> Health infrastructure, schemes, programs</li>
+            </ul>
+
+            <h3>🚭 COTPA Act, 2003</h3>
+            <ul>
+                <li><strong>Full Form:</strong> Cigarettes and Other Tobacco Products (Prohibition of Advertisement and Regulation of Trade and Commerce, Production, Supply and Distribution) Act</li>
+                <li><strong>Objective:</strong> Prohibit advertisement and regulate trade of tobacco products</li>
+                <li><strong>Provisions:</strong> Ban on smoking in public places, restrictions on tobacco advertising</li>
+            </ul>
+
+            <h3>🎗️ HIV/AIDS Programs</h3>
+            <ul>
+                <li><strong>Global Fund to Fight AIDS, Tuberculosis and Malaria (2002):</strong> International financing organization</li>
+                <li><strong>3-in-1 TLD Pill:</strong> Combined drug for HIV treatment (2023)</li>
+                <li><strong>National AIDS Control Programme:</strong> Prevention, treatment, care and support</li>
+            </ul>
+
+            <h3>🤧 PRADHAN MANTRI TB MUKT BHARAT ABHIYAN</h3>
+            <ul>
+                <li><strong>Objective:</strong> Eliminate tuberculosis from India by 2025</li>
+                <li><strong>Strategy:</strong> Community engagement, patient support, treatment adherence</li>
+            </ul>
+
+            <h3>🤧 SAANS Initiative for Pneumonia (2019)</h3>
+            <ul>
+                <li><strong>Full Form:</strong> Social Awareness and Actions to Neutralize Pneumonia Successfully</li>
+                <li><strong>Objective:</strong> Reduce child mortality due to pneumonia</li>
+            </ul>
+
+            <h3>🦟 Malaria Free Country</h3>
+            <ul>
+                <li><strong>Target:</strong> Eliminate malaria by 2030</li>
+                <li><strong>Strategy:</strong> Prevention, diagnosis, treatment, surveillance</li>
+            </ul>
+
+            <h3>🌴🦇🐷 "One Health" Approach</h3>
+            <ul>
+                <li><strong>Concept:</strong> Integrated approach recognizing health of humans, animals, and environment are interconnected</li>
+                <li><strong>Benefit:</strong> Better prevention and control of zoonotic diseases</li>
+            </ul>
+
+            <h3>👻 Ayushman Bharat National Digital Health Mission (15th Aug, 2020)</h3>
+            <ul>
+                <li><strong>Objective:</strong> Create digital health ecosystem</li>
+                <li><strong>Components:</strong>
+                    <ul>
+                        <li>Health ID for every citizen</li>
+                        <li>Healthcare Professionals Registry</li>
+                        <li>Health Facility Registry</li>
+                        <li>Personal Health Records</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>👻 E-Sanjeevani Telemedicine</h3>
+            <ul>
+                <li><strong>Objective:</strong> Provide teleconsultation services</li>
+                <li><strong>Benefit:</strong> Access to healthcare in remote areas</li>
+            </ul>
+
+            <h3>👻 PM AtmaNirbhar Swasth Bharat Yojana (PMASBY) - Budget-2021</h3>
+            <ul>
+                <li><strong>Objective:</strong> Strengthen health infrastructure</li>
+                <li><strong>Components:</strong> Support for health and wellness centers, critical care hospital blocks, integrated public health labs</li>
+            </ul>
+
+            <h3>👻 PM-Ayushman Bharat Health Infrastructure Mission (PM-ABHIM)</h3>
+            <ul>
+                <li><strong>Objective:</strong> Strengthen health infrastructure at primary, secondary and tertiary levels</li>
+                <li><strong>Focus:</strong> Critical care facilities, disease surveillance, research</li>
+            </ul>
+        </div>
+
+        <!-- 3. Education -->
+        <div class="card">
+            <h2>3. Education</h2>
+
+            <h3>📚 Key Schemes</h3>
+            <ul>
+                <li><strong>RTE Act:</strong> Right to Education (Free & compulsory education 6-14 years)</li>
+                <li><strong>Samagra Shiksha:</strong> Integrated scheme for school education</li>
+                <li><strong>PM Poshan:</strong> Mid-day meal scheme</li>
+                <li><strong>Skill India:</strong> Skill development programs</li>
+            </ul>
+
+            <h3>📊 Education Indicators</h3>
+            <ul>
+                <li><strong>Literacy Rate:</strong> % of population aged 7+ who can read/write</li>
+                <li><strong>Gross Enrollment Ratio (GER):</strong> Enrollment as % of eligible population</li>
+                <li><strong>Dropout Rate:</strong> % of students leaving before completion</li>
+            </ul>
+        </div>
+
+        <!-- 4. Poverty -->
+        <div class="card">
+            <h2>4. Poverty</h2>
+
+            <h3>📊 Poverty Measurement</h3>
+            <ul>
+                <li><strong>Poverty Line:</strong> Minimum income/consumption level</li>
+                <li><strong>Tendulkar Committee:</strong> Based on consumption expenditure</li>
+                <li><strong>Rangarajan Committee:</strong> Higher poverty line</li>
+                <li><strong>Multidimensional Poverty Index (MPI):</strong> Health, Education, Living standards</li>
+            </ul>
+
+            <h3>💰 Poverty Alleviation Schemes</h3>
+            <ul>
+                <li><strong>MGNREGA:</strong> Mahatma Gandhi National Rural Employment Guarantee Act</li>
+                <li><strong>NFSA:</strong> National Food Security Act (PDS, MDM, ICDS)</li>
+                <li><strong>PM Awas Yojana:</strong> Housing for all</li>
+                <li><strong>PM KISAN:</strong> Direct income support to farmers</li>
+            </ul>
+        </div>
+
+        <!-- 5. Human Development Index -->
+        <div class="card">
+            <h2>5. Human Development Index (HDI)</h2>
+
+            <h3>📊 Components</h3>
+            <table>
+                <tr>
+                    <th>Component</th>
+                    <th>Indicator</th>
+                </tr>
+                <tr>
+                    <td><strong>Health</strong></td>
+                    <td>Life Expectancy at Birth</td>
+                </tr>
+                <tr>
+                    <td><strong>Education</strong></td>
+                    <td>Mean Years of Schooling, Expected Years of Schooling</td>
+                </tr>
+                <tr>
+                    <td><strong>Standard of Living</strong></td>
+                    <td>GNI per capita (PPP $)</td>
+                </tr>
+            </table>
+
+            <h3>📈 India's HDI</h3>
+            <ul>
+                <li><strong>Rank:</strong> 132 out of 191 countries (2021-22)</li>
+                <li><strong>Category:</strong> Medium Human Development</li>
+            </ul>
+        </div>
+
+        <!-- 6. Sustainable Development Goals -->
+        <div class="card">
+            <h2>6. Sustainable Development Goals (SDGs)</h2>
+
+            <h3>🌍 17 SDGs (2015-2030)</h3>
+            <ul>
+                <li><strong>SDG 1:</strong> No Poverty</li>
+                <li><strong>SDG 2:</strong> Zero Hunger</li>
+                <li><strong>SDG 3:</strong> Good Health & Well-being</li>
+                <li><strong>SDG 4:</strong> Quality Education</li>
+                <li><strong>SDG 5:</strong> Gender Equality</li>
+                <li><strong>SDG 6:</strong> Clean Water & Sanitation</li>
+                <li><strong>SDG 7:</strong> Affordable & Clean Energy</li>
+                <li><strong>SDG 8:</strong> Decent Work & Economic Growth</li>
+                <li><strong>SDG 9:</strong> Industry, Innovation & Infrastructure</li>
+                <li><strong>SDG 10:</strong> Reduced Inequalities</li>
+                <li><strong>SDG 11:</strong> Sustainable Cities</li>
+                <li><strong>SDG 12:</strong> Responsible Consumption</li>
+                <li><strong>SDG 13:</strong> Climate Action</li>
+                <li><strong>SDG 14:</strong> Life Below Water</li>
+                <li><strong>SDG 15:</strong> Life on Land</li>
+                <li><strong>SDG 16:</strong> Peace, Justice & Strong Institutions</li>
+                <li><strong>SDG 17:</strong> Partnerships for Goals</li>
+            </ul>
+        </div>
+
+        <!-- PYQ Snipers -->
+        <div class="pyq-box">
+            <h2>🎯 PYQ Sniper Shots</h2>
+
+            <div class="pyq-item">
+                <strong>Q: What is HDI?</strong><br>
+                A: Human Development Index - Composite index measuring health, education, and standard of living. India ranks 132.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is Demographic Dividend?</strong><br>
+                A: Economic growth potential from favorable age structure (large working-age population relative to dependents).
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is Ayushman Bharat?</strong><br>
+                A: Health insurance scheme providing ₹5 lakh coverage per family per year for secondary and tertiary care.
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; color: #64748b; font-size: 0.9em;">
+            Created by Antigravity • UPPCS Economics Pillar 6
+        </div>
+    </div>
+
+    <script src="../theme-toggle.js"></script>
+</body>
+
+</html>
+

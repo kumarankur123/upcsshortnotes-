@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 14: Aurangzeb (1658-1707) - UPPCS Notes</title>
+    <link rel="stylesheet" href="../dark-theme.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        [data-theme="dark"] body {
+            background: linear-gradient(135deg, #7f1d1d 0%, #991b1b 100%);
+        }
+
+        header {
+            background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%);
+            color: white;
+            padding: 50px 30px;
+            border-radius: 20px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 20px 60px rgba(220, 38, 38, 0.5);
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '⚔️';
+            position: absolute;
+            font-size: 15rem;
+            opacity: 0.1;
+            top: -30px;
+            right: -30px;
+            animation: rotate 20s linear infinite;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #dc2626;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(220, 38, 38, 0.2);
+        }
+
+        [data-theme="dark"] .card {
+            background: #1e293b;
+        }
+
+        h2 {
+            color: #dc2626;
+            border-bottom: 3px solid #fee2e2;
+            padding-bottom: 10px;
+            font-size: 1.8rem;
+        }
+
+        [data-theme="dark"] h2 {
+            color: #f87171;
+            border-bottom-color: #7f1d1d;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .grid-container>div {
+            background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+            padding: 20px;
+            border-radius: 12px;
+            border: 2px solid #fecaca;
+        }
+
+        [data-theme="dark"] .grid-container>div {
+            background: linear-gradient(135deg, #7f1d1d 0%, #991b1b 100%);
+            border-color: #dc2626;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            border-left: 5px solid #f59e0b;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        [data-theme="dark"] .highlight-box {
+            background: linear-gradient(135deg, #78350f 0%, #92400e 100%);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        th,
+        td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #fee2e2;
+        }
+
+        th {
+            background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%);
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background: #fef2f2;
+        }
+
+        [data-theme="dark"] tr:hover {
+            background: #374151;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .tag-imp {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+
+        .tag-red {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .tag-green {
+            background: #dcfce7;
+            color: #166534;
+        }
+
+        .pyq-box {
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 16px;
+            margin-top: 40px;
+        }
+
+        .pyq-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 10px;
+            border-left: 4px solid #dc2626;
+        }
+
+        .timeline-event {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 15px;
+            border-left: 3px solid #dc2626;
+        }
+
+        .timeline-event::before {
+            content: '';
+            position: absolute;
+            left: -8px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            background: #dc2626;
+            border-radius: 50%;
+            box-shadow: 0 0 0 3px white, 0 0 0 5px #dc2626;
+        }
+
+        [data-theme="dark"] .timeline-event::before {
+            box-shadow: 0 0 0 3px #1e293b, 0 0 0 5px #dc2626;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark Mode">🌓</button>
+            <h1>⚔️ Chapter 14: Aurangzeb (1658-1707)</h1>
+            <div class="subtitle">The Last Great Mughal • The Puritan Emperor</div>
+        </header>
+
+        <!-- 1. Introduction & Titles -->
+        <div class="card">
+            <h2>1. The Basics: Titles & Personality</h2>
+            <div class="grid-container">
+                <div>
+                    <h3>👑 Titles</h3>
+                    <ul>
+                        <li><strong>Alamgir:</strong> "World Conqueror"</li>
+                        <li><strong>Zinda Pir:</strong> "Living Saint" <span class="tag tag-imp">PYQ</span></li>
+                        <li><strong>Shahi Darvesh:</strong> Royal Ascetic</li>
+                        <li><strong>Bahadur:</strong> Given by Shah Jahan</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>👤 Personality</h3>
+                    <ul>
+                        <li><strong>Orthodox Sunni:</strong> Followed Naqshbandi order</li>
+                        <li><strong>Veena Player:</strong> Expert (despite banning music!) <span
+                                class="tag tag-imp">PYQ</span></li>
+                        <li><strong>No Harem:</strong> Monogamous in spirit</li>
+                        <li><strong>Sewed Caps/Copied Quran:</strong> To earn living</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="highlight-box">
+                <strong>Coronation:</strong> ONLY Mughal Emperor coronated <strong>TWICE</strong> <span
+                    class="tag tag-imp">PYQ</span>
+                <br>1. <strong>July 1658:</strong> After Battle of Samugarh (Agra)
+                <br>2. <strong>June 1659:</strong> After Battle of Deorai (Delhi)
+            </div>
+        </div>
+
+        <!-- 2. War of Succession -->
+        <div class="card">
+            <h2>2. War of Succession (1658-59)</h2>
+            <p><em>"Succession by Sword, not Age."</em> Fought against Dara Shukoh (Eldest), Shuja, and Murad.</p>
+            <table>
+                <tr>
+                    <th>Battle</th>
+                    <th>Year</th>
+                    <th>Opponent</th>
+                    <th>Result & Key Fact</th>
+                </tr>
+                <tr>
+                    <td><strong>Bahadurpur</strong></td>
+                    <td>Feb 1658</td>
+                    <td>Shuja</td>
+                    <td>Sulaiman Shukoh (Dara's son) defeated Shuja</td>
+                </tr>
+                <tr>
+                    <td><strong>Dharmat</strong></td>
+                    <td>Apr 1658</td>
+                    <td>Dara's Army</td>
+                    <td>Aurangzeb + Murad won. <strong>Loc: MP (Ujjain)</strong> <span class="tag tag-imp">PYQ</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Samugarh</strong></td>
+                    <td>May 1658</td>
+                    <td>Dara Shukoh</td>
+                    <td><strong>Decisive Battle.</strong> Dara defeated. Aurangzeb captured Agra</td>
+                </tr>
+                <tr>
+                    <td><strong>Khajwa</strong></td>
+                    <td>Jan 1659</td>
+                    <td>Shuja</td>
+                    <td>Aurangzeb won. Shuja fled to Arakan (died there)</td>
+                </tr>
+                <tr>
+                    <td><strong>Deorai</strong></td>
+                    <td>Apr 1659</td>
+                    <td>Dara Shukoh</td>
+                    <td>Final blow. Dara captured & executed</td>
+                </tr>
+            </table>
+            <p><strong>Fate of Dara:</strong> Buried in <strong>Humayun's Tomb</strong>. Described as "Prince of High
+                Fortune" (Shah-i-Buland Iqbal) by Shah Jahan.</p>
+        </div>
+
+        <!-- 3. Rebellions -->
+        <div class="card">
+            <h2>3. Major Rebellions (The Cracks Begin)</h2>
+
+            <h3>🚜 Jats (Mathura/Agra)</h3>
+            <ul>
+                <li><strong>1669:</strong> First organized revolt under <strong>Gokula</strong> (Zamindar of Tilpat)
+                </li>
+                <li><strong>1685:</strong> Under <strong>Rajaram</strong>
+                    <br><span class="tag tag-imp">TRAP</span> <strong>Rajaram plundered Akbar's Tomb</strong> at
+                    Sikandra and burnt his bones!
+                </li>
+                <li><strong>Later:</strong> Under <strong>Churaman</strong> (Founder of Bharatpur state)</li>
+            </ul>
+
+            <h3>🕉️ Satnamis (1672)</h3>
+            <ul>
+                <li>Peasant-religious revolt in <strong>Narnaul</strong> (Haryana)</li>
+                <li>Called "Mundiyas" (Shaved heads)</li>
+            </ul>
+
+            <h3>⚔️ Sikhs</h3>
+            <ul>
+                <li><strong>9th Guru Tegh Bahadur:</strong> Executed in 1675 at Chandni Chowk (Delhi) for refusing to
+                    convert <span class="tag tag-imp">PYQ</span></li>
+                <li><strong>10th Guru Gobind Singh:</strong> Founded <strong>Khalsa</strong> (1699). Constant wars
+                    (Battle of Chamkaur etc.)</li>
+            </ul>
+
+            <h3>🛡️ Rajputs (1679-1707)</h3>
+            <ul>
+                <li>Trigger: Death of Jaswant Singh (Marwar). Aurangzeb interfered in succession</li>
+                <li><strong>Durgadas Rathore:</strong> "Ulysses of Rathores". Protected Ajit Singh (Jaswant's son)</li>
+                <li><strong>Prince Akbar's Revolt (1681):</strong> Aurangzeb's son rebelled, joined Rajputs/Marathas
+                    <span class="tag tag-imp">PYQ</span></li>
+            </ul>
+        </div>
+
+        <!-- 4. Religious Policy -->
+        <div class="card">
+            <h2>4. Religious Policy (Reversal of Akbar)</h2>
+            <div class="grid-container">
+                <div>
+                    <h3>🚫 The Bans</h3>
+                    <ul>
+                        <li><strong>1663:</strong> Sati System banned</li>
+                        <li><strong>1668:</strong> Hindu Festivals (Holi/Diwali) in court</li>
+                        <li><strong>1669:</strong> Music in court (buried music)</li>
+                        <li><strong>Other Bans:</strong> Jharokha Darshan, Tuladan, Kalma on Coins</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>🕌 The Impositions</h3>
+                    <ul>
+                        <li><strong>1679: Re-imposed Jizya</strong> <span class="tag tag-imp">Super PYQ</span></li>
+                        <li><strong>Pilgrim Tax:</strong> Re-imposed</li>
+                        <li><strong>Temple Destruction:</strong>
+                            <br>• Kashi Vishwanath (Varanasi)
+                            <br>• Keshavdev (Mathura)
+                            <br>• Somnath (Gujarat)
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="highlight-box">
+                <strong>Muhtasibs:</strong> Officers appointed to enforce moral code (Sharia) and check weights/measures
+                <span class="tag tag-imp">PYQ</span>
+            </div>
+        </div>
+
+        <!-- 5. Deccan Policy -->
+        <div class="card">
+            <h2>5. The Deccan Policy (1682-1707)</h2>
+            <p><em>"The Deccan was the grave of his reputation and his body."</em></p>
+            <ul>
+                <li><strong>Goal:</strong> Crush Marathas + Annex Shia Sultanates</li>
+                <li><strong>Shift:</strong> Moved capital/base to Deccan in 1682 (never returned to North)</li>
+            </ul>
+
+            <h3>🏰 Annexations</h3>
+            <ul>
+                <li><strong>1686: Bijapur</strong> (Sikandar Adil Shah surrendered) <span class="tag tag-imp">PYQ</span>
+                </li>
+                <li><strong>1687: Golconda</strong> (Abul Hasan Qutb Shah defeated via treachery) <span
+                        class="tag tag-imp">PYQ</span></li>
+            </ul>
+
+            <h3>🚩 Maratha Conflict</h3>
+            <ul>
+                <li><strong>1665: Treaty of Purandar</strong> (Jai Singh vs Shivaji) <span
+                        class="tag tag-imp">PYQ</span></li>
+                <li><strong>1689:</strong> Captured & executed <strong>Sambhaji</strong> (Shivaji's son)</li>
+                <li><strong>Result:</strong> Maratha war became a "People's War". Never fully subdued</li>
+            </ul>
+        </div>
+
+        <!-- 6. Administration & Culture -->
+        <div class="card">
+            <h2>6. Administration & Culture</h2>
+            <ul>
+                <li><strong>Hindu Mansabdars:</strong> <strong>31.6% (Highest % in Mughal history!)</strong> Mostly
+                    Marathas <span class="tag tag-imp">PYQ</span></li>
+                <li><strong>Largest Empire:</strong> Stretched from Kabul to Chittagong, Kashmir to Kaveri</li>
+                <li><strong>Architecture:</strong>
+                    <br>• <strong>Bibi Ka Maqbara</strong> (Aurangabad): "Taj of Deccan"
+                    <br>• <strong>Moti Masjid</strong> (Red Fort, Delhi) <span class="tag tag-imp">PYQ</span>
+                    <br>• <strong>Badshahi Mosque</strong> (Lahore)
+                </li>
+                <li><strong>Literature:</strong>
+                    <br>• <strong>Fatawa-i-Alamgiri:</strong> Digest of Muslim laws
+                    <br>• <strong>Muntakhab-ul-Lubab:</strong> By Khafi Khan (History of reign, written secretly)
+                </li>
+            </ul>
+        </div>
+
+        <!-- PYQ Snipers -->
+        <div class="pyq-box">
+            <h2>🎯 PYQ Sniper Shots</h2>
+
+            <div class="pyq-item">
+                <strong>Q: Which Mughal emperor was coronated twice?</strong><br>
+                A: <strong>Aurangzeb</strong> (1658 & 1659)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: When was Jizya re-imposed?</strong><br>
+                A: <strong>1679</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Which Sikh Guru was executed by Aurangzeb?</strong><br>
+                A: <strong>Guru Tegh Bahadur</strong> (9th Guru, 1675)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: When were Bijapur and Golconda annexed?</strong><br>
+                A: <strong>Bijapur: 1686, Golconda: 1687</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What was Aurangzeb's title meaning "Living Saint"?</strong><br>
+                A: <strong>Zinda Pir</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Highest percentage of Hindu Mansabdars under which Mughal?</strong><br>
+                A: <strong>Aurangzeb (31.6%)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Who plundered Akbar's tomb?</strong><br>
+                A: <strong>Rajaram</strong> (Jat leader, 1685)
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; color: #64748b; font-size: 0.9em;">
+            Created by Antigravity • UPPCS Medieval India
+        </div>
+    </div>
+
+    <script src="../theme-toggle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pillar 1: Money, Banking & Finance - UPPCS Notes</title>
+    <link rel="stylesheet" href="../dark-theme.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        [data-theme="dark"] body {
+            background: linear-gradient(135deg, #78350f 0%, #92400e 100%);
+        }
+
+        header {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            color: white;
+            padding: 50px 30px;
+            border-radius: 20px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 20px 60px rgba(245, 158, 11, 0.4);
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '💰';
+            position: absolute;
+            font-size: 15rem;
+            opacity: 0.1;
+            top: -30px;
+            left: -30px;
+            animation: float 10s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(30px); }
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #f59e0b;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(245, 158, 11, 0.2);
+        }
+
+        [data-theme="dark"] .card {
+            background: #1e293b;
+        }
+
+        h2 {
+            color: #f59e0b;
+            border-bottom: 3px solid #fef3c7;
+            padding-bottom: 10px;
+            font-size: 1.8rem;
+         }
+
+        [data-theme="dark"] h2 {
+            color: #fbbf24;
+            border-bottom-color: #92400e;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            border-left: 5px solid #f59e0b;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        [data-theme="dark"] .highlight-box {
+            background: linear-gradient(135deg, #78350f 0%, #92400e 100%);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #fde68a;
+        }
+
+        th {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background: #fef3c7;
+        }
+
+        [data-theme="dark"] tr:hover {
+            background: #374151;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-left: 8px;
+        }
+
+        .tag-imp {
+            background: #fecaca;
+            color: #991b1b;
+        }
+
+        .pyq-box {
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 16px;
+            margin-top: 40px;
+        }
+
+        .pyq-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 10px;
+            border-left: 4px solid #f59e0b;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" style="max-width: 1000px; margin: auto; padding: 40px 20px;">
+        <header>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark Mode">🌓</button>
+            <h1>💰 Pillar 1: Money, Banking & Finance</h1>
+            <div class="subtitle">RBI • Monetary Policy • Digital Payments • Banking</div>
+        </header>
+
+        <!-- 1. Money: Evolution & Functions -->
+        <div class="card">
+            <h2>1. Money: Evolution & Functions</h2>
+            
+            <h3>🍅🌽 Barter System & Its Disadvantages</h3>
+            <ul>
+                <li><strong>Double Coincidence of Wants:</strong> Both parties must want what the other has</li>
+                <li><strong>High Search & Transaction Costs:</strong> Finding the right trading partner is difficult</li>
+                <li><strong>Storage Problems:</strong> Perishable commodities lose value over time</li>
+                <li><strong>No Specialization:</strong> Discourages division of labour</li>
+            </ul>
+
+            <h3>📏 Functions of Money</h3>
+            <div class="grid-container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 20px 0;">
+                <div>
+                    <strong>Primary Functions (2):</strong>
+                    <ul>
+                        <li><strong>Measure of Value:</strong> Unit of account (gm=wt, ml=vol, ₹=value)</li>
+                        <li><strong>Medium of Exchange:</strong> Facilitates buying & selling of goods/services</li>
+                    </ul>
+                </div>
+                <div>
+                    <strong>Secondary Functions (3):</strong>
+                    <ul>
+                        <li><strong>Store of Value:</strong> Savings for future use</li>
+                        <li><strong>Transfer of Value:</strong> Remittances (e.g., soldier in Kashmir to parents in Kanyakumari)</li>
+                        <li><strong>Deferred Payments:</strong> Credit/EMI system (e.g., iPhone on EMI)</li>
+                    </ul>
+                </div>
+                <div>
+                    <strong>Contingent Functions (3):</strong>
+                    <ul>
+                        <li><strong>Basis of Credit System:</strong> Financial markets (shares, bonds)</li>
+                        <li><strong>Employing Factors of Production:</strong> Land, Labour, Capital</li>
+                        <li><strong>Redistribution of National Income:</strong> Via taxation</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3>💵 Evolution of Money</h3>
+            <table>
+                <tr>
+                    <th>Type</th>
+                    <th>Features</th>
+                    <th>Intrinsic Value</th>
+                    <th>Examples</th>
+                </tr>
+                <tr>
+                    <td><strong>Commodity Money</strong></td>
+                    <td>Perishable, not uniform, not pure</td>
+                    <td>✅ Yes</td>
+                    <td>Iron nails, bear pelts, cocoa beans, whale teeth, gold nuggets</td>
+                </tr>
+                <tr>
+                    <td><strong>Metallic Money</strong></td>
+                    <td>Stamped by traders/kings for uniformity & trust</td>
+                    <td>✅ Yes</td>
+                    <td>Indo-Greek coins, Kushana coins, Gupta gold coins (most spectacular), Delhi Sultanate Silver Tanka, Sher Shah Suri Rupiyah, Akbar's Muhr</td>
+                </tr>
+                <tr>
+                    <td><strong>Full-Bodied Coins</strong></td>
+                    <td>Intrinsic value ≥ Face value</td>
+                    <td>✅ Yes</td>
+                    <td>Gupta coins (~8gm gold), risk of debasement</td>
+                </tr>
+                <tr>
+                    <td><strong>Token Coins</strong></td>
+                    <td>Intrinsic value < Face value</td>
+                    <td>⚠️ Less</td>
+                    <td>Modern Indian coins (Cupronickel), Coinage Act 2011 prohibits melting</td>
+                </tr>
+                <tr>
+                    <td><strong>Paper Money (Fiat)</strong></td>
+                    <td>No intrinsic value, issued by Govt/Central Bank</td>
+                    <td>❌ No</td>
+                    <td>Currency notes (RBI Act 1934), ₹1 note by Finance Secretary, other notes by RBI Governor</td>
+                </tr>
+                <tr>
+                    <td><strong>Bank Money</strong></td>
+                    <td>Deposit money, cheques, DD</td>
+                    <td>❌ No</td>
+                    <td>Cheques, Demand Drafts (Negotiable Instruments Act 1881)</td>
+                </tr>
+                <tr>
+                    <td><strong>Digital Money</strong></td>
+                    <td>Electronic payments</td>
+                    <td>❌ No</td>
+                    <td>UPI, NEFT, RTGS, IMPS, Cards</td>
+                </tr>
+            </table>
+
+            <div class="highlight-box">
+                <strong>💵⚖️ Legal Tender:</strong> Currency that must be accepted for payment of debts (fulfills 2 conditions: Fiat Money + Legally valid)
+                <table style="margin-top: 15px;">
+                    <tr>
+                        <th>Type</th>
+                        <th>Limit</th>
+                        <th>Examples</th>
+                    </tr>
+                    <tr>
+                        <td><strong>Limited Legal Tender</strong></td>
+                        <td>Recipient can refuse beyond limit</td>
+                        <td>
+                            <ul style="margin: 5px 0;">
+                                <li>Coins: ₹1 and above upto ₹1000</li>
+                                <li>50 paisa × 20 coins = upto ₹10</li>
+                                <li>₹1 paper note</li>
+                                <li>Below 50 paisa coins withdrawn (2011)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Unlimited Legal Tender</strong></td>
+                        <td>No restriction</td>
+                        <td>All RBI bank notes (Section 26, RBI Act 1934)</td>
+                    </tr>
+                </table>
+            </div>
+
+            <h3>💵 Demonetization</h3>
+            <ul>
+                <li><strong>Definition:</strong> Removal of legal tender status of currency notes</li>
+                <li><strong>Previous Instances:</strong> 1946, 1978</li>
+                <li><strong>2016 Demonetization:</strong> ₹500 & ₹1000 notes (Mahatma Gandhi series) banned</li>
+                <li><strong>Specified Bank Notes Act 2017:</strong> RBI not required to honor "I promise to pay..."</li>
+            </ul>
+
+            <h3>💵 ₹2000 Note Withdrawal (2023)</h3>
+            <ul>
+                <li><strong>Status:</strong> NOT demonetized, but withdrawn from circulation</li>
+                <li><strong>Options:</strong> Deposit (no limit) or Exchange (₹20,000 per visit) by Sept 30, 2023</li>
+                <li><strong>Reasons:</strong> Temporary measure, not commonly used, clean note policy, 4-5 year lifespan</li>
+                <li><strong>Result:</strong> 97%+ notes returned by Jan 2024</li>
+            </ul>
+
+            <h3>🐷🔖 Bank Money / Deposit Money</h3>
+            <ul>
+                <li><strong>Cheque:</strong> Three parties - Drawer (Sender), Drawee (Bank), Payee (Recipient)</li>
+                <li><strong>Types:</strong> Stale (3 months), Post-dated, Ante-dated</li>
+                <li><strong>IFSC Code:</strong> 11 alphanumeric - identifies bank branch</li>
+                <li><strong>MICR Code:</strong> 9 digits in Magnetic Ink - for automated clearance</li>
+                <li><strong>Cheque Truncation System (CTS):</strong> Faster settlement via scanned images</li>
+                <li><strong>Positive Pay Mechanism:</strong> Protects against cheque manipulation</li>
+                <li><strong>2024 Reform:</strong> CTS settlement within few hours (T+1 cycle)</li>
+            </ul>
+        </div>
+
+        <!-- 2. Digital Payments -->
+        <div class="card">
+            <h2>2. Digital Payment Systems</h2>
+
+            <h3>💸📡 Electronic Orders / Digital Payment</h3>
+            <p><strong>Payment & Settlement System Act 2007:</strong> Empowers RBI to regulate card payment, e-payment related products and services.</p>
+            
+            <h3>💸📡 Core Banking Solution (CBS)</h3>
+            <ul>
+                <li>Banking software with web-platform for centralized data management & branch-less banking</li>
+                <li>Examples: Finacle, BanCS, E-Kuber (RBI)</li>
+            </ul>
+
+            <h3>📡 Payment Systems Comparison</h3>
+            <table>
+                <tr>
+                    <th>System</th>
+                    <th>Full Form</th>
+                    <th>Amount Range</th>
+                    <th>Settlement</th>
+                    <th>Features</th>
+                </tr>
+                <tr>
+                    <td><strong>RTGS</strong></td>
+                    <td>Real Time Gross Settlement</td>
+                    <td>Min ₹2 lakh</td>
+                    <td>Instant, 24/7</td>
+                    <td>Gross settlement (individual transactions)</td>
+                </tr>
+                <tr>
+                    <td><strong>NEFT</strong></td>
+                    <td>National Electronic Funds Transfer</td>
+                    <td>Upto ₹10 lakh</td>
+                    <td>30 min intervals, 24/7</td>
+                    <td>Batch processing</td>
+                </tr>
+                <tr>
+                    <td><strong>IMPS</strong></td>
+                    <td>Immediate Payment Service</td>
+                    <td>₹1 to ₹5 lakh</td>
+                    <td>Instant, 24/7</td>
+                    <td>Mobile-based, immediate</td>
+                </tr>
+                <tr>
+                    <td><strong>UPI</strong></td>
+                    <td>Unified Payment Interface</td>
+                    <td>₹1 lakh/day (normal)<br>₹2 lakh (capital markets)<br>₹5 lakh (G-Sec/IPO)</td>
+                    <td>Instant, 24/7</td>
+                    <td>QR code, Push & Pull transactions</td>
+                </tr>
+            </table>
+
+            <h3>🕵🏻 NPCI (National Payment Corporation of India)</h3>
+            <ul>
+                <li><strong>Established:</strong> 2008 (Not-for-profit company under Companies Act)</li>
+                <li><strong>Ownership:</strong> Promoted by banks, later Paytm/PhonePe became shareholders</li>
+                <li><strong>Key Products:</strong>
+                    <ul>
+                        <li>UPI (Unified Payment Interface)</li>
+                        <li>RuPay Card</li>
+                        <li>BHIM (Bharat Interface for Money, 2016)</li>
+                        <li>NACH (National Automated Clearing House)</li>
+                        <li>Aadhaar Enabled Payment System (AEPS)</li>
+                        <li>e-RUPI (Digital gift voucher, 2021)</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>🤳 UPI (Unified Payment Interface)</h3>
+            <ul>
+                <li><strong>Technology:</strong> Based on IMPS, QR code based payments</li>
+                <li><strong>Features:</strong>
+                    <ul>
+                        <li>Push transactions (payer initiates)</li>
+                        <li>Pull transactions (payee requests)</li>
+                        <li>Bank account linking via VPA (Virtual Payment Address)</li>
+                    </ul>
+                </li>
+                <li><strong>Daily Limits:</strong>
+                    <ul>
+                        <li>Normal transactions: ₹1 lakh/day</li>
+                        <li>Capital markets: ₹2 lakhs/day</li>
+                        <li>G-Sec/IPO: ₹5 lakhs/day</li>
+                    </ul>
+                </li>
+                <li><strong>UPI Variants:</strong>
+                    <ul>
+                        <li><strong>UPI Lite:</strong> On-device wallet, upto ₹500/transaction, no PIN required</li>
+                        <li><strong>UPI Lite-X:</strong> Offline payments via NFC (Near Field Communication)</li>
+                        <li><strong>123PAY:</strong> For feature phones - IVR, missed call, USSD based</li>
+                        <li><strong>Conversational Payments:</strong> Voice-based UPI transactions</li>
+                    </ul>
+                </li>
+                <li><strong>Pre-sanctioned Credit Line:</strong> UPI overdraft facility (2023)</li>
+                <li><strong>Interoperable Card-less Cash Withdrawal (ICCW):</strong> UPI at ATMs</li>
+                <li><strong>QR Code Coin Vending Machine:</strong> Using UPI (2023)</li>
+                <li><strong>UPI for Cash Deposit Machines (CDMs):</strong> Card-less deposits</li>
+                <li><strong>Single-block-multiple-debits:</strong> One authorization for multiple payments</li>
+                <li><strong>Delegated Payments:</strong> Secondary accounts for children (2024)</li>
+            </ul>
+
+            <h3>💳 RuPay Card</h3>
+            <ul>
+                <li><strong>Launched:</strong> 2012 (World's 7th payment gateway)</li>
+                <li><strong>Channels:</strong> ATM, PoS, Online portals</li>
+                <li><strong>Benefit:</strong> Lower fees than Mastercard/Visa</li>
+                <li><strong>Network Portability:</strong> RBI order (2024) - customers can switch networks</li>
+                <li><strong>International Acceptance:</strong> Growing acceptance in UAE, Singapore, etc.</li>
+            </ul>
+
+            <h3>💳 Card Types & Security</h3>
+            <ul>
+                <li><strong>Card Tokenization (Oct 2022):</strong> Replaces card details with tokens for security</li>
+                <li><strong>CVC Less Transactions:</strong> For recurring payments</li>
+                <li><strong>Auto-Debit/E-mandates:</strong> Additional Factor of Authentication (AFA) required</li>
+            </ul>
+
+            <h3>💳 Transport & Travel Cards</h3>
+            <ul>
+                <li><strong>National Common Mobility Card (NCMC, 2019):</strong> One card for all transport</li>
+                <li><strong>FASTag (2017):</strong> Electronic toll collection on highways</li>
+                <li><strong>SBI Nation First Transit Card (2023):</strong> For public transport</li>
+            </ul>
+
+            <h3>💳 Merchant Discount Rate (MDR)</h3>
+            <ul>
+                <li><strong>Definition:</strong> Fee charged by payment gateway from merchant</li>
+                <li><strong>MDR Subsidy:</strong> MEITY provides subsidy for digital transactions</li>
+                <li><strong>RuPay MDR:</strong> Lower than international cards</li>
+            </ul>
+
+            <h3>🌐 Global Money Transfer</h3>
+            <ul>
+                <li><strong>UPI for Foreign Tourists (2023):</strong> UPI facility for international visitors</li>
+                <li><strong>UPI in Sri Lanka, Mauritius (2024):</strong> International expansion</li>
+                <li><strong>India-UAE LCSS:</strong> UPI-IPP linkage (2023)</li>
+                <li><strong>Project Nexus:</strong> Indian UPI connect with Asian nations (2024)</li>
+                <li><strong>SWIFT:</strong> Financial messaging system (Russia banned in 2022)</li>
+            </ul>
+
+            <h3>👨‍⚖️ Payment System Operators</h3>
+            <ul>
+                <li><strong>New Umbrella Entity (NUE, 2019):</strong> Alternative to NPCI for retail payments</li>
+                <li><strong>Third Party Application Providers (TPAPs):</strong> Google Pay, WhatsApp Pay</li>
+            </ul>
+
+            <h3>🕵️‍♂️ Digital Payment Regulatory Bodies</h3>
+            <ul>
+                <li><strong>Digital Transactions Ombudsman (DTO, 2019):</strong> Consumer grievance redressal</li>
+                <li><strong>BPSS:</strong> Board for Regulation and Supervision of Payment and Settlement Systems (Statutory body)</li>
+                <li><strong>Payment Regulatory Board (PRB):</strong> Under RBI Act amendment</li>
+            </ul>
+        </div>
+
+        <!-- 3. RBI & Monetary Policy -->
+        <div class="card">
+            <h2>3. RBI & Monetary Policy</h2>
+
+            <h3>🐯 Reserve Bank of India (RBI)</h3>
+            <ul>
+                <li><strong>Established:</strong> 1935 (RBI Act 1934), Nationalized: 1949 (RBI Transfer of Ownership Act 1948)</li>
+                <li><strong>History:</strong>
+                    <ul>
+                        <li>1926: Hilton Young Commission recommended setting up RBI</li>
+                        <li>1929: Great Depression led to collapse of 450+ banks in India</li>
+                        <li>1935: RBI operational from April 1, first Governor: Sir Osborne Smith</li>
+                        <li>1949: All private shares transferred to Govt of India</li>
+                    </ul>
+                </li>
+                <li><strong>Central Board:</strong>
+                    <ul>
+                        <li>Official Directors: RBI Governor + 4 Dy. Governors</li>
+                        <li>Non-Official Directors: 2 Govt officials + 10 nominated by Govt + 4 from local boards</li>
+                    </ul>
+                </li>
+                <li><strong>Functions:</strong>
+                    <ul>
+                        <li><strong>Monetary Authority:</strong> Controls money supply, makes monetary policy</li>
+                        <li><strong>Banker to Government:</strong> Union & State govts, Public Debt Manager</li>
+                        <li><strong>Banker to Banks:</strong> Lender of Last Resort, advises on monetary matters</li>
+                        <li><strong>Currency Issuer:</strong> Issues M0 under RBI Act</li>
+                        <li><strong>Regulator:</strong> All banks (BR Act 1949), Payment Systems (2007), AIFI, NBFC-D</li>
+                        <li><strong>Promotional:</strong> Customer protection (Ombudsman), Financial Inclusion (PSL norms)</li>
+                        <li><strong>Data Publication:</strong> Annual Financial Stability Report</li>
+                        <li><strong>International Cooperation:</strong> BASEL, IMF, G20 FSB, NGFS (Network for Greening Financial System)</li>
+                    </ul>
+                </li>
+                <li><strong>RBI Portals:</strong>
+                    <ul>
+                        <li><strong>UDGAM (2023):</strong> Unclaimed Deposits Gateway To Access inforMation</li>
+                        <li><strong>PRAVAAH (2023):</strong> Platform for Regulatory Application, Validation And AutHorisation</li>
+                        <li><strong>Daksh (2022):</strong> Web portal for supervision</li>
+                        <li><strong>E-Kuber:</strong> Core banking solution for RBI operations</li>
+                        <li><strong>Digital Payments Intelligence Platform (2024):</strong> To reduce payment fraud</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>🤑 Money's Demand, Supply & Creation</h3>
+            
+            <h4>🤲 Demand of Money: Liquidity Preference Theory (Keynes, 1936)</h4>
+            <p>People prefer to keep assets in liquid form (cash) with 3 motives:</p>
+            <ul>
+                <li><strong>Transaction Motive:</strong> For daily purchases (milk, vegetables)</li>
+                <li><strong>Precautionary Motive:</strong> Against sudden/unforeseen expenditure (medical emergency)</li>
+                <li><strong>Speculative Motive:</strong> To make best use of investment opportunities (waiting for gold/land prices to fall)</li>
+            </ul>
+            <p><strong>Key Point:</strong> Amount of money held in cash varies inversely with deposit interest rates.</p>
+
+            <h4>💸📥 Deposit Types</h4>
+            <table>
+                <tr>
+                    <th>Type</th>
+                    <th>Examples</th>
+                    <th>Liquidity</th>
+                    <th>Interest</th>
+                </tr>
+                <tr>
+                    <td><strong>Time Deposits (FDRD)</strong></td>
+                    <td>Fixed deposits, Recurring deposits, Staff security deposits</td>
+                    <td>Less liquid</td>
+                    <td>Higher interest</td>
+                </tr>
+                <tr>
+                    <td><strong>Demand Deposits (CASA)</strong></td>
+                    <td>Current Account, Savings Account, Demand Draft, Overdue FD balance</td>
+                    <td>More liquid</td>
+                    <td>Lower/No interest</td>
+                </tr>
+            </table>
+
+            <h4>🏦🍀 Green Deposits</h4>
+            <ul>
+                <li><strong>2023:</strong> RBI released guidelines for Green Fixed Deposits</li>
+                <li><strong>Purpose:</strong> Money loaned to green/environment related projects</li>
+                <li><strong>Who can collect:</strong> Banks, deposit-taking NBFCs, Housing Finance companies</li>
+                <li><strong>Allowed:</strong> Renewable energy, waste management, clean transportation, energy efficiency, afforestation</li>
+                <li><strong>Not Allowed:</strong> Fossil fuels, nuclear power, tobacco</li>
+                <li><strong>Coverage:</strong> Covered by DICGC (upto ₹5 lakh)</li>
+            </ul>
+
+            <h4>💸📥📐 Measures of Money Supply (M0, M1, M2, M3, M4)</h4>
+            <table>
+                <tr>
+                    <th>Measure</th>
+                    <th>Components</th>
+                    <th>Type</th>
+                    <th>Liquidity</th>
+                </tr>
+                <tr>
+                    <td><strong>M0 (Reserve Money)</strong></td>
+                    <td>Currency in circulation + Bankers' deposits with RBI + Other deposits with RBI</td>
+                    <td>Base Money</td>
+                    <td>Highest</td>
+                </tr>
+                <tr>
+                    <td><strong>M1 (Narrow Money)</strong></td>
+                    <td>Currency with public + Demand deposits with Commercial Banks</td>
+                    <td>Narrow</td>
+                    <td>Very High</td>
+                </tr>
+                <tr>
+                    <td><strong>M2</strong></td>
+                    <td>M1 + Time deposits with Post Office Savings Bank</td>
+                    <td>Narrow</td>
+                    <td>High</td>
+                </tr>
+                <tr>
+                    <td><strong>M3 (Broad Money)</strong></td>
+                    <td>M1 + Time deposits with Commercial Banks</td>
+                    <td>Broad</td>
+                    <td>Medium</td>
+                </tr>
+                <tr>
+                    <td><strong>M4</strong></td>
+                    <td>M3 + Total deposits with Post Office (excluding NSC)</td>
+                    <td>Broad</td>
+                    <td>Lower</td>
+                </tr>
+            </table>
+            <p><strong>Note:</strong> M3 is most commonly used measure (Aggregate Monetary Resources). M1 & M2 = Narrow Money. M3 & M4 = Broad Money.</p>
+
+            <h4>💸⚡⛵️ Money Multiplier</h4>
+            <ul>
+                <li><strong>Definition:</strong> Amount of M3 generated with each rupee of M0</li>
+                <li><strong>Formula:</strong> Money Multiplier = 1 / CRR (simplified)</li>
+                <li><strong>Example:</strong> 10% CRR generates 10x times of M0 money</li>
+                <li><strong>Factors Increasing MM:</strong>
+                    <ul>
+                        <li>↓ CRR</li>
+                        <li>↑ Banking penetration</li>
+                        <li>↑ Financial inclusion</li>
+                        <li>↑ Loan demand (boom period)</li>
+                        <li>Expansionary monetary policy</li>
+                    </ul>
+                </li>
+                <li><strong>Historical:</strong> 1960s < 2x, 1990s > 3x, Present > 5x</li>
+            </ul>
+
+            <h4>💸🖨 M0: Creation of Money</h4>
+            <p><strong>RBI's Issue Department:</strong> Assets must match liabilities</p>
+            <table>
+                <tr>
+                    <th>Assets of Issue Department</th>
+                    <th>Liabilities of Issue Department (M0)</th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Rupee coins (from Govt)</li>
+                            <li>Gold coins (Min ₹200 cr)</li>
+                            <li>Gold bullion (Min ₹115 cr)</li>
+                            <li>Foreign Securities (earlier Min ₹400 cr, post-1995 no requirement)</li>
+                            <li>Indian Govt Securities</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Currency in circulation (Public + Banks' vault cash)</li>
+                            <li>Bankers' Deposits with RBI (CRR)</li>
+                            <li>Other deposits with RBI (Public, NBFCs, Govts, Intl orgs)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+            <p><strong>Key Point:</strong> M0 ↑ increases when RBI's asset side increases ↑</p>
+
+            <h3>🐯📢 Monetary Policy</h3>
+            <p><strong>Definition:</strong> Macroeconomic policy designed by Central Bank to manage money supply & interest rates, shaping inflation, consumption, savings, investment, & capital formation.</p>
+            
+            <p><strong>Objective:</strong> Keep inflation within 2-6% CPI (All India) using bi-monthly monetary policy by 6-member statutory Monetary Policy Committee (MPC).</p>
+
+            <h4>📐 Quantitative Tools (General/Indirect Tools)</h4>
+            
+            <h5>🗄✂️ Statutory Reserve Requirements: CRR & SLR</h5>
+            <table>
+                <tr>
+                    <th>Parameter</th>
+                    <th>CRR (Cash Reserve Ratio)</th>
+                    <th>SLR (Statutory Liquidity Ratio)</th>
+                </tr>
+                <tr>
+                    <td><strong>Full Form</strong></td>
+                    <td>Cash Reserve Ratio</td>
+                    <td>Statutory Liquidity Ratio</td>
+                </tr>
+                <tr>
+                    <td><strong>Where kept</strong></td>
+                    <td>With RBI (no interest, except extraordinary circumstances)</td>
+                    <td>In liquid assets (cash, gold, G-Sec, T-Bills, State Development Loan Bonds)</td>
+                </tr>
+                <tr>
+                    <td><strong>Current Rate</strong></td>
+                    <td>4.50% of NDTL</td>
+                    <td>18.00% of NDTL</td>
+                </tr>
+                <tr>
+                    <td><strong>Legal Limit</strong></td>
+                    <td>No min/max (but RBI won't keep 100%)</td>
+                    <td>Max 40%</td>
+                </tr>
+                <tr>
+                    <td><strong>Act</strong></td>
+                    <td>RBI Act 1934</td>
+                    <td>Banking Regulation Act 1949</td>
+                </tr>
+                <tr>
+                    <td><strong>Purpose</strong></td>
+                    <td>Money multiplier effect, buffer during bank run</td>
+                    <td>Liquidity buffer, buffer during bank run</td>
+                </tr>
+            </table>
+            <p><strong>Note:</strong> CRR/SLR counted on fortnightly basis. Penalty if not maintained.</p>
+
+            <h5>📐 Rates: LAF Corridor</h5>
+            <table>
+                <tr>
+                    <th>Rate</th>
+                    <th>Full Form</th>
+                    <th>Purpose</th>
+                    <th>Current (2024)</th>
+                </tr>
+                <tr>
+                    <td><strong>MSF</strong></td>
+                    <td>Marginal Standing Facility</td>
+                    <td>Emergency borrowing from RBI (Repo + 0.25%)</td>
+                    <td>6.75%</td>
+                </tr>
+                <tr>
+                    <td><strong>Repo Rate</strong></td>
+                    <td>Repurchase Rate</td>
+                    <td>RBI lends to banks (Policy Rate)</td>
+                    <td>6.50%</td>
+                </tr>
+                <tr>
+                    <td><strong>SDF</strong></td>
+                    <td>Standing Deposit Facility</td>
+                    <td>Banks park excess funds (Repo - 0.25%, no collaterals)</td>
+                    <td>6.25%</td>
+                </tr>
+                <tr>
+                    <td><strong>Reverse Repo</strong></td>
+                    <td>-</td>
+                    <td>Legacy rate (unchanged at 3.35%)</td>
+                    <td>3.35%</td>
+                </tr>
+                <tr>
+                    <td><strong>Bank Rate</strong></td>
+                    <td>-</td>
+                    <td>Penalty rate for CRR/SLR shortfall</td>
+                    <td>Linked to Repo</td>
+                </tr>
+            </table>
+            <p><strong>Policy Corridor:</strong> MSF (6.75%) ← → Repo (6.50%) ← → SDF (6.25%)</p>
+
+            <h5>🏪 Open Market Operations (OMO)</h5>
+            <ul>
+                <li><strong>Inflation ↑:</strong> RBI sells G-Sec → Money supply ↓</li>
+                <li><strong>Deflation ↓:</strong> RBI buys G-Sec → Money supply ↑</li>
+                <li><strong>Operation Twist (2019):</strong> Simultaneous buying long-term G-Sec & selling short-term G-Sec to flatten yield curve</li>
+                <li><strong>G-SAP (2021):</strong> Government Securities Acquisition Programme - pre-announced OMO for predictability</li>
+            </ul>
+
+            <h4>🌽 Qualitative Tools (Selective Tools)</h4>
+            <ul>
+                <li><strong>Moral Suasion:</strong> RBI advises banks (informal pressure)</li>
+                <li><strong>Direct Action:</strong> Strict warning, deeper audit, restricting operations</li>
+                <li><strong>Margin Requirements / LTV:</strong> Loan to Value ratio for secured loans</li>
+                <li><strong>Selective Credit Control:</strong> Sector-specific lending restrictions</li>
+            </ul>
+
+            <h4>🐯📢🌽 Priority Sector Lending (PSL)</h4>
+            <ul>
+                <li><strong>Target:</strong> 40% of Adjusted Net Bank Credit (ANBC) for SCBs</li>
+                <li><strong>Categories:</strong>
+                    <ul>
+                        <li>Agriculture (18%)</li>
+                        <li>Micro, Small & Medium Enterprises (MSME) - 7.5%</li>
+                        <li>Export Credit</li>
+                        <li>Education</li>
+                        <li>Housing</li>
+                        <li>Social Infrastructure</li>
+                        <li>Renewable Energy</li>
+                        <li>Startups</li>
+                    </ul>
+                </li>
+                <li><strong>PSL Shortfalls:</strong> Contribute to RIDF (Rural Infrastructure Development Fund) or UIDF (Urban Infrastructure Development Fund)</li>
+                <li><strong>PSLC (2016):</strong> Priority Sector Lending Certificates - banks can buy/sell to meet targets</li>
+            </ul>
+
+            <h4>📢 Monetary Policy Committee (MPC)</h4>
+            <ul>
+                <li><strong>Established:</strong> 2016 (RBI Act amendment)</li>
+                <li><strong>Composition:</strong> 6 members
+                    <ul>
+                        <li>3 from RBI: Governor (Chairperson) + 2 Dy. Governors</li>
+                        <li>3 External: Appointed by Central Govt (4-year term, not eligible for reappointment)</li>
+                    </ul>
+                </li>
+                <li><strong>Meetings:</strong> Bi-monthly (every 2 months)</li>
+                <li><strong>Decision:</strong> By majority vote (Governor has casting vote in case of tie)</li>
+                <li><strong>Mandate:</strong> Maintain inflation within 2-6% CPI (All India)</li>
+                <li><strong>Stance Types:</strong> Accommodative, Neutral, Calibrated Tightening</li>
+            </ul>
+
+            <h4>🔪🤲🏻🏠🛵 Banks' Lending Rates</h4>
+            <p><strong>Evolution:</strong></p>
+            <ul>
+                <li><strong>1969-1991:</strong> Administered interest rates (Govt decided)</li>
+                <li><strong>2003:</strong> Benchmark Prime Lending Rate (BPLR)</li>
+                <li><strong>2010:</strong> Base Rate system (ineffective transmission)</li>
+                <li><strong>2016:</strong> Marginal Cost of Funds based Lending Rate (MCLR) - still ineffective</li>
+                <li><strong>2019 (Oct 1):</strong> External Benchmark system (mandatory for new loans)</li>
+            </ul>
+            <p><strong>External Benchmark Formula:</strong> External Benchmark + Spread (Profit) + Risk Premium = Bank's Loan Interest Rate</p>
+            <p><strong>External Benchmarks:</strong> RBI repo rate, 91-day T-bill yield, 182-day T-bill yield, or Financial Benchmarks India Ltd benchmarks</p>
+            <p><strong>Eligible Loans:</strong> Personal loans, Retail loans (home, vehicle), MSME loans</p>
+
+            <h4>🐯🔇 Limitations of Monetary Policy</h4>
+            <ul>
+                <li>Poor transmission (before External Benchmark)</li>
+                <li>Supply-side issues (monsoon, oil prices, wars)</li>
+                <li>Fiscal deficit, subsidy leakage, populist loan waivers</li>
+                <li>Structural issues (ease of doing business, infrastructure)</li>
+                <li>Informal moneylenders in rural areas</li>
+                <li>Black Swan Events (unprecedented crises)</li>
+                <li>Liquidity Trap (interest rates near zero, no impact on demand)</li>
+            </ul>
+
+            <div class="highlight-box">
+                <strong>💡 Key Concepts:</strong>
+                <ul>
+                    <li><strong>Money Multiplier:</strong> How much M3 increases per unit of M0. Formula: MM = 1/CRR (simplified). Higher MM = more liquidity.</li>
+                    <li><strong>Liquidity Overhang:</strong> Money supply >> Demand for money (loans). Results in cheaper loan rates.</li>
+                    <li><strong>Incremental CRR (i-CRR):</strong> Temporary CRR on incremental deposits (used after ₹2000 withdrawal)</li>
+                    <li><strong>Net Interest Margin (NIM):</strong> Loan interest - Deposit interest. NIM >5% is dangerous for financial stability.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 4. Banking Classification -->
+        <div class="card">
+            <h2>4. Banking Classification</h2>
+
+            <h3>🏦👨‍⚖️ Scheduled Banks</h3>
+            <p><strong>Definition:</strong> Banks listed in 2nd Schedule of RBI Act. Must fulfill 2 conditions:</p>
+            <ol>
+                <li>Paid Up Capital + Reserves = Min ₹5 Lakhs</li>
+                <li>Not conducting business harmful to depositors</li>
+            </ol>
+            <p><strong>Benefits:</strong> Eligible for RBI window operations (Repo, MSF), Govt accounts, Financial inclusion schemes</p>
+
+            <h3>🏦👨‍⚖️ Commercial Banks - Pre-Independence</h3>
+            <ul>
+                <li><strong>1770:</strong> Bank of Hindustan, Calcutta (Europeans)</li>
+                <li><strong>1806-42:</strong> Three Presidency Banks (Bengal, Bombay, Madras) → 1921: Combined into Imperial Bank of India</li>
+                <li><strong>1865:</strong> Allahabad Bank (Europeans)</li>
+                <li><strong>1894:</strong> PNB (Indian owned, Lala Lajpat Rai helped)</li>
+                <li><strong>1908:</strong> Bank of Baroda by Maharaja Sayajirao Gaekwad III</li>
+                <li><strong>1913-30s:</strong> State Bank of Mysore, Patiala, Banking industry rise & collapse, Birth of RBI (1935)</li>
+            </ul>
+
+            <h3>🦁 Nationalization of Banks After Independence</h3>
+            <table>
+                <tr>
+                    <th>Year</th>
+                    <th>Event</th>
+                </tr>
+                <tr>
+                    <td><strong>1948</strong></td>
+                    <td>RBI Transfer of Ownership Act</td>
+                </tr>
+                <tr>
+                    <td><strong>1955</strong></td>
+                    <td>Imperial Bank nationalized → SBI</td>
+                </tr>
+                <tr>
+                    <td><strong>1969</strong></td>
+                    <td>14 Private banks with ₹50 cr+ deposits nationalized (Bank of Baroda, PNB, Dena, Canara, etc.)</td>
+                </tr>
+                <tr>
+                    <td><strong>1980</strong></td>
+                    <td>6 banks with ₹200 cr+ deposits nationalized (Corporation Bank, Vijaya Bank, Oriental Bank of Commerce, etc.)</td>
+                </tr>
+                <tr>
+                    <td><strong>2019</strong></td>
+                    <td>10 banks merged into 4 anchor banks (PNB, Canara, Union Bank, Indian Bank)</td>
+                </tr>
+            </table>
+            <p><strong>Reasons for Nationalization:</strong> Nexus between banks & industrialists, reckless lending, unwillingness to open rural branches, need for financial inclusion & Five Year Plans</p>
+
+            <h3>🏦👨‍⚖️ Commercial Banks - Private Sector Banks</h3>
+            <p><strong>Three Rounds of Licensing:</strong></p>
+            <ul>
+                <li><strong>Round-1 (1993-95):</strong> ICICI, HDFC, IndusInd, DCB, UTI (later Axis), IDBI (now LIC owned), Global Trust Bank</li>
+                <li><strong>Round-2 (2001-04):</strong> Kotak Mahindra, Yes Bank</li>
+                <li><strong>Round-3 (2013-16):</strong> Bandhan, IDFC (later IDFC-First)</li>
+            </ul>
+            <p><strong>On-Tap License (2016):</strong> Can apply anytime (like driving license), provided eligibility requirements met (min 10 years XP, ₹500 cr capital, etc.)</p>
+
+            <h3>🈶 Foreign Banks</h3>
+            <ul>
+                <li><strong>Incorporated abroad:</strong> Registered under foreign nation's Companies Act</li>
+                <li><strong>Examples:</strong> Citibank, Bank of America, HSBC</li>
+                <li><strong>On-tap license:</strong> On reciprocal basis (if foreign nation allows Indian banks, RBI allows their banks)</li>
+                <li><strong>FDI Limits:</strong>
+                    <ul>
+                        <li>Public Sector Banks: Max 20%</li>
+                        <li>Private Sector Banks: Upto 49% (automatic), upto 74% (with Govt approval)</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>🌎🚫 Differential Banks</h3>
+            <table>
+                <tr>
+                    <th>Type</th>
+                    <th>Established</th>
+                    <th>Features</th>
+                    <th>Examples</th>
+                </tr>
+                <tr>
+                    <td><strong>RRB (Regional Rural Bank)</strong></td>
+                    <td>1976</td>
+                    <td>Geographical restrictions, 75% PSL, Shareholding: Union 50% + State 15% + Sponsor Bank 35% (2015 amendment: 51% + 49% pvt)</td>
+                    <td>Uttar Bihar Gramin Bank</td>
+                </tr>
+                <tr>
+                    <td><strong>LAB (Local Area Bank)</strong></td>
+                    <td>1996</td>
+                    <td>Max 3 districts, 1 urban centre per district, rest rural</td>
+                    <td>Subhadhra Local Area Bank, Kolhapur</td>
+                </tr>
+                <tr>
+                    <td><strong>SFB (Small Finance Bank)</strong></td>
+                    <td>2015</td>
+                    <td>25% branches in unbanked rural, 75% PSL, 50% of loans < ₹25 lakh, Can become Universal Bank after 5 years</td>
+                    <td>Capital SFB, Ujjivan, Utkarsh (Total 10)</td>
+                </tr>
+                <tr>
+                    <td><strong>PB (Payment Bank)</strong></td>
+                    <td>2015</td>
+                    <td>Max ₹2 lakh deposit, No FD, No loans, No credit cards, 25% access points in rural, Can become SFB after 5 years</td>
+                    <td>Airtel, India Post, FINO, Paytm, Jio, NSDL (6 at present)</td>
+                </tr>
+            </table>
+
+            <h3>🏦👨‍🌾 Cooperative Banks</h3>
+            <ul>
+                <li><strong>Types:</strong> Primary Agricultural Credit Societies (PACS), District Central Cooperative Banks (DCCBs), State Cooperative Banks</li>
+                <li><strong>Regulation:</strong> RBI + State Govt (dual control)</li>
+                <li><strong>2019 Crisis:</strong> PMC Bank scam</li>
+                <li><strong>2020 Ordinance:</strong> Banking Regulation (Amendment) Act - RBI gets more powers over UCBs</li>
+                <li><strong>NUCFDC (2024):</strong> National Urban Cooperative Finance and Development Corporation - Umbrella org/SRO for UCBs</li>
+            </ul>
+
+            <h3>🚫🏦👨‍⚖️ Non-Banking Financial Institutions</h3>
+            
+            <h4>Development Finance Institutions (DFI)</h4>
+            <ul>
+                <li><strong>Purpose:</strong> Long-term finance for infrastructure, industry</li>
+                <li><strong>Examples:</strong> EXIM Bank, NABARD, NHB, SIDBI</li>
+            </ul>
+
+            <h4>🚫🏦👨‍⚖️ NBFCs (Non-Banking Financial Companies)</h4>
+            <ul>
+                <li><strong>Definition:</strong> Financial institutions that provide banking services without holding banking license</li>
+                <li><strong>Types:</strong>
+                    <ul>
+                        <li><strong>Deposit-taking NBFCs (NBFC-D):</strong> Can accept deposits (e.g., Bajaj Finserv)</li>
+                        <li><strong>Non-deposit taking NBFCs:</strong> Cannot accept deposits (e.g., IL&FS)</li>
+                        <li><strong>Systemically Important NBFCs:</strong> Asset size > ₹500 cr</li>
+                    </ul>
+                </li>
+                <li><strong>Regulation:</strong> RBI (under RBI Act 1934)</li>
+                <li><strong>2022 Reform:</strong> NBFCs can directly issue credit cards</li>
+                <li><strong>PCA Framework (2022):</strong> RBI monitors NBFCs using NPA, CRAR, Tier 1 capital</li>
+            </ul>
+
+            <h4>🤖💳 FinTech Companies</h4>
+            <ul>
+                <li><strong>Definition:</strong> Technology companies providing financial services</li>
+                <li><strong>Regulated by RBI:</strong> Digital lenders, Account Aggregators, Payment Aggregators</li>
+                <li><strong>Regulated by Others:</strong> SEBI (robo-advisors), IRDAI (insurtech)</li>
+                <li><strong>Digital Lending Norms (2022):</strong> RBI guidelines for LSPs (Lending Service Providers)</li>
+                <li><strong>FLDG:</strong> First Loss Default Guarantee - FinTech covers some losses</li>
+                <li><strong>SRO:</strong> Self-Regulatory Organisation for FinTech</li>
+            </ul>
+
+            <h4>👻🚫🏦 Shadow Banking</h4>
+            <p>Non-bank financial intermediation that performs bank-like activities but outside normal banking regulations. Includes NBFCs, Money Market Funds, etc.</p>
+
+            <h3>🕵️‍♂️ Credit Information & Rating</h3>
+            <ul>
+                <li><strong>Credit Information Companies (CIC):</strong> Collect credit history (e.g., CIBIL, Experian, Equifax, CRIF High Mark)</li>
+                <li><strong>Credit Rating Agencies (CRA):</strong> Rate creditworthiness (e.g., CRISIL, ICRA, CARE, India Ratings)</li>
+                <li><strong>CRILC:</strong> Central Repository of Information on Large Credits (RBI) - for loans > ₹5 cr</li>
+                <li><strong>PCR:</strong> Public Credit Registry (proposed by RBI)</li>
+                <li><strong>NFIR (Budget 2023):</strong> National Financial Information Registry - 360° credit information</li>
+                <li><strong>Public-Tech Platform (2023):</strong> RBI's platform for frictionless credit</li>
+            </ul>
+        </div>
+
+        <!-- 5. NPA & Banking Issues -->
+        <div class="card">
+            <h2>5. NPA & Banking Issues</h2>
+
+            <h3>🔪💀 Non-Performing Assets (NPA)</h3>
+            <p><strong>Definition:</strong> Loan where interest/principal not paid for 90+ days from due date. For farm loans: counted on cropping seasons, not days.</p>
+            
+            <h4>🔪💀 NPA Categories</h4>
+            <table>
+                <tr>
+                    <th>Category</th>
+                    <th>Definition</th>
+                    <th>Duration</th>
+                </tr>
+                <tr>
+                    <td><strong>Standard Assets</strong></td>
+                    <td>Borrower repaying principal & interest timely</td>
+                    <td>Not NPA</td>
+                </tr>
+                <tr>
+                    <td><strong>SMA-0</strong></td>
+                    <td>Special Mention Account - 0</td>
+                    <td>1-30 days overdue</td>
+                </tr>
+                <tr>
+                    <td><strong>SMA-1</strong></td>
+                    <td>Special Mention Account - 1</td>
+                    <td>31-60 days overdue</td>
+                </tr>
+                <tr>
+                    <td><strong>SMA-2</strong></td>
+                    <td>Special Mention Account - 2</td>
+                    <td>61-90 days overdue</td>
+                </tr>
+                <tr>
+                    <td><strong>Substandard Asset</strong></td>
+                    <td>NPA for < 12 months</td>
+                    <td>90+ days</td>
+                </tr>
+                <tr>
+                    <td><strong>Doubtful Asset</strong></td>
+                    <td>Substandard for 12+ months</td>
+                    <td>12+ months as NPA</td>
+                </tr>
+                <tr>
+                    <td><strong>Loss Asset</strong></td>
+                    <td>Uncollectible, little/no salvageable value</td>
+                    <td>Written off</td>
+                </tr>
+            </table>
+
+            <h4>🔪💀 NPA Related Terms</h4>
+            <ul>
+                <li><strong>Gross NPA (GNPA):</strong> Total of all NPA loans</li>
+                <li><strong>Net NPA:</strong> GNPA minus Provisioning</li>
+                <li><strong>Provisioning:</strong> Funds set aside to cover NPA losses (reduces profitability)</li>
+                <li><strong>Loan Write-Off:</strong> Removes loan from balance sheet (saves tax), but bank retains right to recover</li>
+                <li><strong>Restructured Loan:</strong> Modified principal/interest rate/tenure</li>
+                <li><strong>Stressed Assets:</strong> NPA + Written-Off + Restructured Loans</li>
+                <li><strong>Evergreening:</strong> New loan to pay off old loan</li>
+                <li><strong>OTS with Haircut:</strong> One Time Settlement - borrower pays less than due (e.g., 60% payment, 40% haircut)</li>
+            </ul>
+
+            <h4>🔪💀-🤑-😕-😭 Three Stages of NPA Problem</h4>
+            <ol>
+                <li><strong>🤑 Till mid-2000s:</strong> Boom period - corporates became over-leveraged</li>
+                <li><strong>😟 2007-08:</strong> Subprime & Global Financial Crisis - exports ↓, policy paralysis, judicial activism → projects delayed</li>
+                <li><strong>😰 By 2013:</strong> ~1/3rd bank loans owned by "IC1 companies" (Interest Coverage Ratio < 1) → Twin Balance Sheet Syndrome (TBS)</li>
+            </ol>
+
+            <h3>⚖️🔪 SARFAESI Act 2002</h3>
+            <p><strong>Full Form:</strong> Securitization and Reconstruction of Financial Assets and Enforcement of Security Interest Act</p>
+            <ul>
+                <li><strong>Origin:</strong> Narsimham-I (1991) & Narsimham-II (1998) recommendations</li>
+                <li><strong>Purpose:</strong> Banks can attach mortgaged assets, change board of directors, auction assets without court intervention</li>
+                <li><strong>Not Applicable:</strong> Farm loans</li>
+                <li><strong>Appeal:</strong> DRT (Debt Recovery Tribunal) → DRAT (Debt Recovery Appellate Tribunal) → High Court</li>
+                <li><strong>Who has SARFAESI Powers:</strong>
+                    <ul>
+                        <li>All types of banks</li>
+                        <li>Housing Finance Companies (HFCs)</li>
+                        <li>NBFCs with asset size ≥ ₹100 cr AND loan ≥ ₹20 lakh</li>
+                    </ul>
+                </li>
+                <li><strong>Limitations:</strong> DRTs understaffed (1 lakh+ cases pending), asset value erosion, not suitable for all businesses</li>
+            </ul>
+
+            <h3>⚖️🔪🤝 Insolvency and Bankruptcy Code (IBC) 2016</h3>
+            <p><strong>Purpose:</strong> Time-bound resolution of stressed assets (330 days limit)</p>
+            
+            <h4>Creditor Categories</h4>
+            <table>
+                <tr>
+                    <th>Type</th>
+                    <th>Definition</th>
+                    <th>Committee of Creditors (CoC)</th>
+                </tr>
+                <tr>
+                    <td><strong>Financial Creditors (FC)</strong></td>
+                    <td>Banks, NBFCs, bond holders, home buyers</td>
+                    <td>✅ Can sit in CoC</td>
+                </tr>
+                <tr>
+                    <td><strong>Operational Creditors (OC)</strong></td>
+                    <td>Suppliers, contractors, salaried employees</td>
+                    <td>❌ Cannot sit</td>
+                </tr>
+            </table>
+
+            <h4>IBC Process</h4>
+            <ul>
+                <li><strong>Insolvency Professional (IP):</strong> Makes resolution plan (reduce interest, extend tenure, find new investor)</li>
+                <li><strong>Committee of Creditors (CoC):</strong> Financial Creditors vote on resolution plan</li>
+                <li><strong>If approved:</strong> Plan implemented</li>
+                <li><strong>If rejected:</strong> Liquidation of assets</li>
+            </ul>
+
+            <h4>⚖️🔪🤝 IBC Statutory Bodies</h4>
+            <ul>
+                <li><strong>NCLT:</strong> National Company Law Tribunal (Adjudicating Authority for companies)</li>
+                <li><strong>NCLAT:</strong> National Company Law Appellate Tribunal</li>
+                <li><strong>IBBI:</strong> Insolvency and Bankruptcy Board of India (regulator, under MCA)</li>
+                <li><strong>Information Utility (IU):</strong> NeSL (National E-Governance Services Ltd) - maintains borrower database</li>
+            </ul>
+
+            <h4>⚖️🔪🤝 Pre-Packaged Insolvency Resolution Process (PIRP)</h4>
+            <ul>
+                <li><strong>2021:</strong> Enabled for MSMEs</li>
+                <li><strong>Process:</strong> Borrower negotiates resolution plan with lenders BEFORE approaching NCLT</li>
+                <li><strong>Time Limit:</strong> 120 days (faster than CIRP's 330 days)</li>
+                <li><strong>Benefits:</strong> Quick, discreet, prevents brand damage, cost-effective, preserves jobs</li>
+            </ul>
+
+            <h3>👻🤧🔪✋ Atmanirbhar - Loan/EMI/NPA Relief (2020)</h3>
+            <ul>
+                <li><strong>Moratorium:</strong> Optional 6-month suspension of loan repayment (March-Aug 2020)</li>
+                <li><strong>Not Waiver:</strong> Loan not removed, only temporarily suspended</li>
+                <li><strong>Resolution Framework 1.0 & 2.0:</strong> KV Kamath Committee recommendations for loan restructuring</li>
+            </ul>
+
+            <h3>👩🔧 Bad Bank (NARCL-IDRCL, 2021)</h3>
+            <ul>
+                <li><strong>NARCL:</strong> National Asset Reconstruction Company Limited (ARC) - Purchases bad loans</li>
+                <li><strong>IDRCL:</strong> India Debt Resolution Company Ltd (AMC) - Manages/auctions bad loan assets</li>
+                <li><strong>Ownership:</strong> NARCL: 51% PSBs + 49% Pvt banks/NBFCs | IDRCL: 49% PSBs + 51% Pvt</li>
+                <li><strong>Functioning:</strong> Pays 15% cash + 85% Security Receipts (SR) to banks</li>
+                <li><strong>Sovereign Guarantee:</strong> ₹30,600 cr for Security Receipts (5 years)</li>
+                <li><strong>Target:</strong> Resolve stressed loan accounts > ₹500 cr each (Total ~₹2 lakh cr)</li>
+            </ul>
+
+            <h3>🐯💉👹🦵💬✋ Prompt Corrective Action (PCA) Framework</h3>
+            <ul>
+                <li><strong>Purpose:</strong> RBI classifies banks into Risk thresholds (#1, #2, #3) based on capital, asset quality</li>
+                <li><strong>Actions:</strong> Strict warning, deeper audit, restrict salaries/dividends, restrict branch expansion/lending, force merger/shutdown</li>
+                <li><strong>2022:</strong> PCA framework extended to NBFCs</li>
+                <li><strong>2022:</strong> 4-tiered regulatory framework for Urban Cooperative Banks</li>
+            </ul>
+
+            <h3>🌐🕵️‍♀️ BASEL-III Norms</h3>
+            <ul>
+                <li><strong>BIS:</strong> Bank for International Settlements (HQ: BASEL, Switzerland) - 60 countries' Central Banks</li>
+                <li><strong>Purpose:</strong> Ensure global financial stability</li>
+                <li><strong>Implementation in India:</strong> Phased from 1/4/2013</li>
+                <li><strong>Key Requirements:</strong>
+                    <ul>
+                        <li><strong>CRAR:</strong> Capital to Risk Weighted Assets Ratio ≥ 9%</li>
+                        <li><strong>CCB:</strong> Capital Conservation Buffer</li>
+                        <li><strong>CCCB:</strong> Counter Cyclical Capital Buffer (when RBI notifies)</li>
+                        <li><strong>Leverage Ratio (LR)</strong></li>
+                        <li><strong>NSFR:</strong> Net Stable Funding Ratio</li>
+                        <li><strong>HQLA:</strong> High Quality Liquid Assets</li>
+                        <li><strong>LCR:</strong> Liquidity Coverage Ratio</li>
+                    </ul>
+                </li>
+                <li><strong>Risk-Weighted Assets (RWA):</strong> Assets weighted by risk</li>
+                <li><strong>2023 Reform:</strong> Increased CRAR for unsecured loans (personal loans 100%→125%, credit cards 125%→150%)</li>
+                <li><strong>D-SIB:</strong> Domestic Systemically Important Banks (SBI, ICICI, HDFC) - must keep additional capital</li>
+            </ul>
+
+            <h3>🕵️‍♂️🏦💸🙇 DICGC Act</h3>
+            <ul>
+                <li><strong>Full Form:</strong> Deposit Insurance and Credit Guarantee Corporation</li>
+                <li><strong>1961 Act:</strong> All banks must buy deposit insurance from DICGC</li>
+                <li><strong>Ownership:</strong> 100% owned by RBI</li>
+                <li><strong>Coverage:</strong> Upto ₹5 lakh per depositor per bank (increased from ₹1 lakh in 2021)</li>
+                <li><strong>Payment Timeline:</strong> Within 90 days of RBI moratorium on weak bank</li>
+                <li><strong>Limitations:</strong> Doesn't cover PACS, NBFCs, amounts > ₹5 lakh</li>
+            </ul>
+
+            <h3>🈶🌐⚖️ Fugitive Economic Offenders Act, 2018</h3>
+            <ul>
+                <li><strong>Target:</strong> Economic offenders with ₹100 cr+ cases who left India</li>
+                <li><strong>Process:</strong> Special courts under PMLA order appearance within 6 weeks → Declare FEO → Attach Indian & Overseas properties</li>
+                <li><strong>Appeal:</strong> Only High Court & Supreme Court (no stay orders from ordinary courts)</li>
+            </ul>
+        </div>
+
+        <!-- 6. Capital Markets -->
+        <div class="card">
+            <h2>6. Capital Markets & Securities</h2>
+
+            <h3>📈 Share Market Basics</h3>
+            <ul>
+                <li><strong>Primary Market:</strong> New issues (IPO, FPO, QIP)</li>
+                <li><strong>Secondary Market:</strong> Trading of existing securities (BSE, NSE)</li>
+                <li><strong>SEBI:</strong> Securities Exchange Board of India (regulator, established 1992)</li>
+            </ul>
+
+            <h3>🐮📈🐻 Equity Instruments</h3>
+            <ul>
+                <li><strong>Equity Holders:</strong> Owners/proprietors of company, get dividends, last claim during liquidation</li>
+                <li><strong>Preference Shares:</strong> Fixed dividend, no voting rights, priority in liquidation</li>
+                <li><strong>Ordinary Shares:</strong> Variable dividend, voting rights, last in liquidation</li>
+                <li><strong>Share Types:</strong> Penny stocks, Blue Chip, Multi-bagger, Cyclical/Seasonal</li>
+            </ul>
+
+            <h3>🔪🗃 Debt Instruments (Bonds)</h3>
+            <ul>
+                <li><strong>Definition:</strong> Fixed income instrument, loan to issuer</li>
+                <li><strong>Types:</strong>
+                    <ul>
+                        <li><strong>G-Sec:</strong> Government Securities (T-Bills, Dated Securities)</li>
+                        <li><strong>Corporate Bonds:</strong> Issued by companies</li>
+                        <li><strong>Municipal Bonds:</strong> Issued by local bodies</li>
+                        <li><strong>Green Bonds:</strong> For environment projects</li>
+                        <li><strong>Social Bonds:</strong> For social projects</li>
+                        <li><strong>Zero Coupon Zero Principal (ZCZP):</strong> Donation-like, no repayment</li>
+                    </ul>
+                </li>
+                <li><strong>Bond Yield:</strong> Return on investment (inversely related to bond price)</li>
+                <li><strong>Operation Twist:</strong> RBI buys long-term G-Sec & sells short-term to flatten yield curve</li>
+            </ul>
+
+            <h3>📊 SENSEX & NIFTY</h3>
+            <ul>
+                <li><strong>SENSEX:</strong> BSE's 30 stock index (base: 1978-79 = 100)</li>
+                <li><strong>NIFTY:</strong> NSE's 50 stock index (base: 1995 = 1000)</li>
+                <li><strong>Beta:</strong> Measure of stock volatility relative to market (Beta > 1 = more volatile)</li>
+                <li><strong>Alpha:</strong> Measure of fund performance vs benchmark</li>
+            </ul>
+
+            <h3>📦🤹🏻‍♂️👴🏻 Mutual Funds</h3>
+            <ul>
+                <li><strong>Definition:</strong> Pooled investment managed by Asset Management Companies (AMCs)</li>
+                <li><strong>Types:</strong>
+                    <ul>
+                        <li><strong>Open-ended:</strong> Can buy/sell anytime</li>
+                        <li><strong>Close-ended:</strong> Fixed tenure</li>
+                        <li><strong>Hybrid:</strong> Mix of equity & debt</li>
+                        <li><strong>ELSS:</strong> Equity Linked Savings Scheme (tax saving)</li>
+                        <li><strong>ESG Funds:</strong> Environment, Social, Governance focused</li>
+                        <li><strong>Shariya Funds:</strong> Sharia-compliant</li>
+                    </ul>
+                </li>
+                <li><strong>SIP:</strong> Systematic Investment Plan (regular investment)</li>
+                <li><strong>Risk-o-meter:</strong> SEBI mandated risk indicator (1-6 scale)</li>
+            </ul>
+
+            <h3>🗃😼 SEBI (Securities Exchange Board of India)</h3>
+            <ul>
+                <li><strong>Established:</strong> 1992 (statutory body)</li>
+                <li><strong>Functions:</strong> Regulate securities market, protect investors, promote market development</li>
+                <li><strong>Key Reforms:</strong>
+                    <ul>
+                        <li><strong>Circuit Breaker:</strong> Trading halt if market moves too much</li>
+                        <li><strong>T+1 Settlement:</strong> Trade settlement in 1 day (instead of T+2)</li>
+                        <li><strong>T+0 & T+1 hour:</strong> Instantaneous & 1-hour settlement (proposed)</li>
+                        <li><strong>Investor Protection Fund (IPF):</strong> Compensation for investor losses</li>
+                        <li><strong>Settlement Guarantee Fund (SGF):</strong> Ensures trade settlement</li>
+                    </ul>
+                </li>
+                <li><strong>SCORES Portal:</strong> SEBI Complaints Redress System</li>
+                <li><strong>SAT:</strong> Securities Appellate Tribunal (appeals against SEBI)</li>
+            </ul>
+
+            <h3>📈 Stock Exchanges</h3>
+            <ul>
+                <li><strong>BSE:</strong> Bombay Stock Exchange (1875, oldest in Asia)</li>
+                <li><strong>NSE:</strong> National Stock Exchange (1992)</li>
+                <li><strong>Social Stock Exchange:</strong> For social enterprises (zero-coupon, zero-principal instruments)</li>
+                <li><strong>DEMAT Account:</strong> Dematerialized account for holding securities (CDSL, NSDL)</li>
+            </ul>
+
+            <h3>📦 Investment Funds</h3>
+            <ul>
+                <li><strong>ETF:</strong> Exchange Traded Fund (tracks index, traded like stocks)</li>
+                <li><strong>CPSE-ETF:</strong> Central Public Sector Enterprise ETF</li>
+                <li><strong>Bharat Bond ETF:</strong> Debt ETF (2019)</li>
+                <li><strong>Gold ETF:</strong> Tracks gold prices</li>
+                <li><strong>Bitcoin ETF:</strong> Approved in USA (2024)</li>
+                <li><strong>Hedge Funds:</strong> For accredited investors (rich)</li>
+                <li><strong>REITs/InvITs:</strong> Real Estate Investment Trusts / Infrastructure Investment Trusts</li>
+                <li><strong>Sovereign Wealth Fund:</strong> State-owned investment fund</li>
+                <li><strong>AIF:</strong> Alternative Investment Funds</li>
+            </ul>
+
+            <h3>🔗💮 Cryptocurrency & Blockchain</h3>
+            <ul>
+                <li><strong>Status in India:</strong> Not legal tender, regulated for taxation</li>
+                <li><strong>Taxation (Budget 2022):</strong> 30% on profits, 1% TDS on transfers</li>
+                <li><strong>Blockchain:</strong> Distributed ledger technology</li>
+                <li><strong>Hot Wallet vs Cold Wallet:</strong> Online vs offline storage</li>
+                <li><strong>Bitcoin Halving (2024):</strong> 50% reduction in mining reward</li>
+            </ul>
+
+            <h3>💮 Central Bank Digital Currency (CBDC) - e₹</h3>
+            <ul>
+                <li><strong>Definition:</strong> Digital token of legal tender issued by RBI</li>
+                <li><strong>Types:</strong>
+                    <ul>
+                        <li><strong>Retail CBDC:</strong> For general public (P2P, P2M)</li>
+                        <li><strong>Wholesale CBDC:</strong> For interbank settlements</li>
+                    </ul>
+                </li>
+                <li><strong>Features:</strong>
+                    <ul>
+                        <li>No interest earning</li>
+                        <li>Programmability (conditional spending)</li>
+                        <li>Offline capability (proposed)</li>
+                        <li>Interoperability with UPI QR codes</li>
+                        <li>Settlement finality (instant, irreversible)</li>
+                    </ul>
+                </li>
+                <li><strong>Benefits:</strong> ↓ Printing cost, ↓ Counterfeiting, ↑ Traceability, Global money transfer easier</li>
+                <li><strong>Challenges:</strong> Digital divide, cyber terrorism, electricity dependency</li>
+                <li><strong>2024:</strong> Non-banks can also create CBDC wallets</li>
+            </ul>
+
+            <h3>💠 Non-Fungible Token (NFT)</h3>
+            <ul>
+                <li><strong>Definition:</strong> Digital file (photo, music, art) stored using blockchain</li>
+                <li><strong>Features:</strong> Cannot be subdivided, unique, non-fungible</li>
+                <li><strong>Uses:</strong> Digital art, ownership documents, collectibles</li>
+                <li><strong>Challenges:</strong> Investment bubble, money laundering, high electricity consumption</li>
+            </ul>
+        </div>
+
+        <!-- 7. Insurance -->
+        <div class="card">
+            <h2>7. Insurance</h2>
+
+            <h3>⚰️ Insurance: Meaning & Significance</h3>
+            <ul>
+                <li><strong>Definition:</strong> Legal contract against eventualities of death or damage</li>
+                <li><strong>Parties:</strong> Insured (client) & Insurer (underwriter)</li>
+                <li><strong>Significance:</strong> Provides stability to households & entrepreneurs, channels savings to investment</li>
+            </ul>
+
+            <h3>⚰️ Insurance Principles</h3>
+            <ul>
+                <li><strong>Uberrima Fides:</strong> Good faith, hide nothing</li>
+                <li><strong>Indemnity:</strong> Only "REAL" loss, not imaginary</li>
+                <li><strong>Subrogation:</strong> Insurer can recover from negligent 3rd party</li>
+                <li><strong>Causa Proxima:</strong> Direct loss link</li>
+                <li><strong>Insurable Interest:</strong> Client must have legitimate interest</li>
+            </ul>
+
+            <h3>⚰️🏺 History of Insurance in India</h3>
+            <ul>
+                <li><strong>1818:</strong> Europeans started insurance companies (charged higher premium on Indians)</li>
+                <li><strong>1870:</strong> Bombay Mutual Life Insurance (first Swadeshi company)</li>
+                <li><strong>1912:</strong> Life Insurance Companies Act</li>
+                <li><strong>1938:</strong> Insurance Act (tougher regulation)</li>
+                <li><strong>1956:</strong> LIC Act - nationalized ~245 private life insurance companies</li>
+                <li><strong>1972:</strong> GIC Act - nationalized ~107 private general insurance companies</li>
+                <li><strong>1993:</strong> Malhotra Committee → Private insurance allowed, FDI liberalized</li>
+            </ul>
+
+            <h3>⚰️💀 Life Insurance</h3>
+            <table>
+                <tr>
+                    <th>Type</th>
+                    <th>Money Returned at Maturity</th>
+                    <th>Money at Death</th>
+                    <th>Examples</th>
+                </tr>
+                <tr>
+                    <td><strong>Whole Life</strong></td>
+                    <td>✅ Yes (35-40 years)</td>
+                    <td>✅ Yes</td>
+                    <td>Long-term policy</td>
+                </tr>
+                <tr>
+                    <td><strong>Endowment</strong></td>
+                    <td>✅ Yes (10-20 years)</td>
+                    <td>✅ Yes</td>
+                    <td>Shorter policy</td>
+                </tr>
+                <tr>
+                    <td><strong>Term Life</strong></td>
+                    <td>❌ No</td>
+                    <td>✅ Yes</td>
+                    <td>PM Jeevan Jyoti Bima</td>
+                </tr>
+                <tr>
+                    <td><strong>ULIP</strong></td>
+                    <td>✅ Yes (with profit)</td>
+                    <td>✅ Yes</td>
+                    <td>Unit Linked Insurance Plan (part insurance, part mutual fund)</td>
+                </tr>
+            </table>
+
+            <h3>⚰️💀🦁 Life Insurance - Public Sector</h3>
+            <ul>
+                <li><strong>Post Office Life Insurance (PLI):</strong> 1884, for employees in Panchayat/municipal/PSU/Cooperative</li>
+                <li><strong>Rural Postal Life Insurance:</strong> 1995, for villagers</li>
+                <li><strong>LIC (1956):</strong> Life Insurance Corporation of India
+                    <ul>
+                        <li>HQ: Mumbai, Magazine: "Yogakshema"</li>
+                        <li>Motto: "Yogakshemam Vahamyaham" (from Gita)</li>
+                        <li>Aam Aadmi Bima Yojana (AABY, 2007): For BPL citizens</li>
+                        <li>Disinvestment (2022): Govt sold 5% shares via IPO</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>🧔⚰️ PM Schemes for Life & Accident Insurance (2015)</h3>
+            <table>
+                <tr>
+                    <th>Scheme</th>
+                    <th>Type</th>
+                    <th>Age</th>
+                    <th>Coverage</th>
+                    <th>Premium</th>
+                </tr>
+                <tr>
+                    <td><strong>PM Jeevan Jyoti Bima (PMJJB)</strong></td>
+                    <td>Life Insurance</td>
+                    <td>18-50 years</td>
+                    <td>₹2 lakh on death</td>
+                    <td>₹436/year (auto-debit)</td>
+                </tr>
+                <tr>
+                    <td><strong>PM Suraksha Bima (PMSBY)</strong></td>
+                    <td>Accident Insurance</td>
+                    <td>18-70 years</td>
+                    <td>₹2 lakh on death/disability</td>
+                    <td>₹20/year (auto-debit)</td>
+                </tr>
+            </table>
+
+            <h3>⚰️💊🚕🌽 General Insurance</h3>
+            <ul>
+                <li><strong>Public Sector:</strong> GIC (1972) with 4 subsidiaries: National Insurance, New India Assurance, Oriental Insurance, United India Insurance</li>
+                <li><strong>2021 Amendment:</strong> General Insurance Business (Nationalisation) Amendment Bill - allows privatization</li>
+                <li><strong>ESIC:</strong> Employees' State Insurance Corporation (for organized sector workers)</li>
+            </ul>
+
+            <h3>💊 Health Insurance Schemes</h3>
+            <ul>
+                <li><strong>Standalone Health Insurers (SAHI):</strong> Companies only providing health insurance</li>
+                <li><strong>Types:</strong> Individual vs Floater, Fixed vs Indemnity-based</li>
+                <li><strong>Corona Kavach vs Rakshak:</strong> COVID-specific policies</li>
+                <li><strong>Arogya Sanjeevani Policy:</strong> Standardized health insurance</li>
+                <li><strong>SARAL JEEVAN BIMA:</strong> Standardized term life insurance</li>
+            </ul>
+
+            <h3>💊🤕5️⃣👪📆 Ayushman Bharat / PM Jan Arogya Yojana (PMJAY, 2018)</h3>
+            <ul>
+                <li><strong>Coverage:</strong> ₹5 lakh annual health insurance per family</li>
+                <li><strong>Beneficiaries:</strong> Based on SECC 2011 data (rural & urban poor), All senior citizens aged 70+ (2024)</li>
+                <li><strong>NHA:</strong> National Health Authority (implementing agency)</li>
+                <li><strong>SHA:</strong> State Health Agency (state-level implementation)</li>
+                <li><strong>Funding:</strong> 60:40 (Centre:State) for states, 90:10 for NE states</li>
+                <li><strong>Ayushman Bharat Digital Mission:</strong> Digital health records</li>
+            </ul>
+
+            <h3>⚰️💊🚕🌽 Other General Insurance</h3>
+            <ul>
+                <li><strong>PM Fasal Bima Yojana (2016):</strong> Crop insurance (1.5-5% premium)</li>
+                <li><strong>PM-FBY 2.0 (2020):</strong> Reforms in crop insurance</li>
+                <li><strong>NIRVIC Scheme (2019):</strong> Insurance to banks on exporters' NPA</li>
+                <li><strong>Third Party Motor Insurance:</strong> Mandatory</li>
+                <li><strong>Own Damage (OD) Insurance:</strong> Optional, covers vehicle damage</li>
+                <li><strong>Free/Cashless Treatment (2024):</strong> For road accident victims</li>
+                <li><strong>Title Insurance:</strong> For property ownership disputes</li>
+                <li><strong>Clinical Trial Liability Insurance:</strong> For pharma companies</li>
+                <li><strong>Bharat Griha Raksha:</strong> Standardized home insurance</li>
+                <li><strong>Catastrophe Insurance:</strong> Proposed for natural disasters</li>
+                <li><strong>Cyber Insurance:</strong> For cyber attacks</li>
+            </ul>
+
+            <h3>⚰️↗️⚰️ Re-insurance</h3>
+            <p>Insurance companies buy insurance from re-insurers to spread risk. GIC Re is India's national re-insurer.</p>
+
+            <h3>⚰️🕵️‍♀️ IRDAI (Insurance Regulatory and Development Authority of India)</h3>
+            <ul>
+                <li><strong>Established:</strong> 1999 (IRDAI Act)</li>
+                <li><strong>Functions:</strong> Regulate insurance sector, protect policyholders</li>
+                <li><strong>D-SIIs:</strong> Domestic Systemically Important Insurers (LIC, GIC Re, New India Assurance)</li>
+                <li><strong>Reforms (2024):</strong>
+                    <ul>
+                        <li>30-day free-look period rule</li>
+                        <li>Reforms for senior citizens & HIV/Cancer patients</li>
+                        <li>Bima Vahak - Village level salesmen</li>
+                        <li>Bima Vistaar - All-in-1 Policy</li>
+                        <li>Bima Sugam - One-stop digital platform</li>
+                        <li>Insurance for all at Gram Panchayat Level</li>
+                    </ul>
+                </li>
+                <li><strong>NHCX:</strong> National Health Claim Exchange - portal for faster hospital bill clearing</li>
+            </ul>
+
+            <h3>🇺🇸💸 FDI in Insurance Sector</h3>
+            <ul>
+                <li><strong>Limit:</strong> 74% (automatic upto 26%, approval route 26-74%)</li>
+                <li><strong>Arguments For:</strong> Capital infusion, technology transfer, competition</li>
+                <li><strong>Arguments Against:</strong> Profit repatriation, less focus on rural/social obligations</li>
+            </ul>
+        </div>
+
+        <!-- 8. Pension -->
+        <div class="card">
+            <h2>8. Pension</h2>
+
+            <h3>👴🏻 Pension Systems</h3>
+            <ul>
+                <li><strong>EPFO:</strong> Employees' Provident Fund Organisation (for organized sector)</li>
+                <li><strong>NPS:</strong> National Pension System (voluntary, regulated by PFRDA)</li>
+                <li><strong>Atal Pension Yojana:</strong> For unorganized sector (pension ₹1,000-5,000/month)</li>
+                <li><strong>PM Shram Yogi Mandhan:</strong> For unorganized workers (pension ₹3,000/month)</li>
+                <li><strong>PM Vay Vandana:</strong> For senior citizens (8% return via LIC)</li>
+                <li><strong>Maan-Dhan Yojanas:</strong> Various pension schemes (₹3,000/month)</li>
+            </ul>
+
+            <h3>👴🏻 PFRDA (Pension Fund Regulatory and Development Authority)</h3>
+            <ul>
+                <li><strong>Established:</strong> 2003 (PFRDA Act)</li>
+                <li><strong>Functions:</strong> Regulate NPS, pension funds, protect subscribers</li>
+            </ul>
+        </div>
+
+        <!-- 9. Financial Inclusion -->
+        <div class="card">
+            <h2>9. Financial Inclusion</h2>
+
+            <h3>🎯 Key Schemes</h3>
+            
+            <h4>💰 PM Jan Dhan Yojana (PMJDY, 2014)</h4>
+            <ul>
+                <li><strong>Purpose:</strong> Bank accounts for all</li>
+                <li><strong>Features:</strong> Zero balance account, RuPay debit card, overdraft upto ₹10,000, accident insurance ₹2 lakh</li>
+            </ul>
+
+            <h4>🚫🏦👨‍⚖️🚫👨🌾 MUDRA (Micro Units Development & Refinance Agency, 2015)</h4>
+            <ul>
+                <li><strong>Ownership:</strong> 100% SIDBI subsidiary</li>
+                <li><strong>Purpose:</strong> Indirect lending via SCB, RRB, Cooperative Banks, MFI, NBFCs</li>
+                <li><strong>Products:</strong>
+                    <ul>
+                        <li><strong>Shishu:</strong> Loans upto ₹50,000</li>
+                        <li><strong>Kishor:</strong> ₹50,000 - ₹5 lakh</li>
+                        <li><strong>Tarun:</strong> ₹5 lakh - ₹10 lakh (upgraded to ₹20 lakh in Budget 2024)</li>
+                    </ul>
+                </li>
+                <li><strong>Collateral:</strong> Collateral-free, covered by CGFMU (Credit Guarantee Fund for Micro Units)</li>
+                <li><strong>MUDRA Rupay Card:</strong> ATM cum Debit Card for working capital</li>
+                <li><strong>2020:</strong> 2% interest subvention on Shishu loans for prompt payees</li>
+            </ul>
+
+            <h4>🙋‍♀️ Stand Up India Scheme (2016)</h4>
+            <ul>
+                <li><strong>Purpose:</strong> Each SCB branch to give Greenfield Loans ₹10 lakh - ₹1 Crore to atleast 1 SC/ST and 1 Woman entrepreneur</li>
+                <li><strong>Tenure:</strong> Upto 7 years</li>
+                <li><strong>Collateral:</strong> Can ask, or covered by CGFSI if without collateral</li>
+                <li><strong>Budget 2021:</strong> Margin money reduced from 25% to 15%, Agri-biz also eligible</li>
+            </ul>
+
+            <h4>👭 Self-Help Group (SHG) - Bank Linkage</h4>
+            <ul>
+                <li><strong>Definition:</strong> Informal group of 10-20 local people combining savings/resources</li>
+                <li><strong>1992:</strong> NABARD started SHG-Bank linkage program</li>
+                <li><strong>Budget 2019:</strong> 1 woman in each SHG eligible for ₹1 lakh loan under Mudra</li>
+                <li><strong>2020:</strong> SHGs given ₹20 lakh collateral-free loans, Govt procures masks/sanitizers from SHGs</li>
+            </ul>
+
+            <h4>🤑👨🏭 PM Street Vendors' AtmaNirbhar Nidhi (PM-SVANidhi)</h4>
+            <ul>
+                <li><strong>Boss:</strong> Ministry of Housing and Urban Affairs (MoHUA)</li>
+                <li><strong>Loan Tenure:</strong> 1 year, monthly repayment</li>
+                <li><strong>Interest:</strong> ~7.25%, 7% interest subsidy for timely repayment</li>
+                <li><strong>Cycles:</strong> 1st cycle ₹10,000 → 2nd cycle ₹20,000 → 3rd cycle ₹50,000</li>
+                <li><strong>Main Bhi Digital (2021):</strong> Digital literacy, connect with Swiggy/Zomato</li>
+                <li><strong>Rashtriya Udyamita Vikas Pariyojana (2024):</strong> 22 weeks entrepreneurship training</li>
+            </ul>
+
+            <h4>🪡🧵 PM Vishwakarma Scheme (2023-Sept)</h4>
+            <ul>
+                <li><strong>Boss:</strong> MSME Ministry</li>
+                <li><strong>Beneficiaries:</strong> 18 trades (Carpenter, Blacksmith, Potter, Cobbler, Tailor, etc.)</li>
+                <li><strong>Entitlements:</strong>
+                    <ul>
+                        <li>PM Vishwakarma certificate & ID card</li>
+                        <li>Skill Upgradation: Basic (5-7 days) + Advanced (15+ days), ₹500/day stipend</li>
+                        <li>Toolkit purchase: Upto ₹15,000 e-vouchers</li>
+                        <li>₹1 per digital transaction bonus (max ₹100/month)</li>
+                        <li>Marketing Support</li>
+                        <li>Loan: Upto ₹3 lakh collateral-free (5% interest by beneficiary, 8% subvention by govt)</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h4>👨🏻🌾💳 Kisan Credit Card (1998)</h4>
+            <ul>
+                <li><strong>Launched by:</strong> RBI + NABARD</li>
+                <li><strong>Purpose:</strong> Farm inputs, investment credit, working capital, post-harvest expenses, consumption requirements</li>
+                <li><strong>Budget 2018:</strong> Extended to Animal Husbandry & Fisheries</li>
+                <li><strong>Interest Subvention:</strong> 9% - 2% (all farmers) - 3% (regular payees) = 4% effective rate</li>
+            </ul>
+
+            <h4>🌐🦁 Financial Inclusion Web Portals</h4>
+            <ul>
+                <li><strong>psbloansin59minutes.com (2018):</strong> MSME loans ₹10L - 1 cr</li>
+                <li><strong>Jan Samarth Portal (2022):</strong> Single portal for all govt loan schemes</li>
+                <li><strong>SARTHI Portal (2024):</strong> Insurance portal for farmers/villagers</li>
+                <li><strong>PM-SURAJ Portal (2024):</strong> Loans for SC/ST/OBC/Nomadic tribes</li>
+            </ul>
+
+            <h4>📈🌐🦁 Financial Inclusion Reports</h4>
+            <ul>
+                <li><strong>Global Microscope Report:</strong> The Economist, Accion, Gates Foundation</li>
+                <li><strong>Global Findex Database:</strong> World Bank</li>
+                <li><strong>Global Pension Index:</strong> Mercer CFA Institute</li>
+                <li><strong>Financial Inclusion Index:</strong> RBI (2021) - 0-100 score</li>
+                <li><strong>National Strategy for Financial Inclusion:</strong> RBI</li>
+            </ul>
+
+            <h4>👨🏻🌾👨🏼‍🔧 Customer Protection</h4>
+            <table>
+                <tr>
+                    <th>Sector</th>
+                    <th>Ombudsman</th>
+                    <th>Appeal</th>
+                </tr>
+                <tr>
+                    <td>Bank/NBFC</td>
+                    <td>Banking Ombudsman, NBFC Ombudsman, Digital Transaction Ombudsman (Integrated Ombudsman, 2021)</td>
+                    <td>RBI</td>
+                </tr>
+                <tr>
+                    <td>Share/Commodity</td>
+                    <td>SCORES Portal</td>
+                    <td>SEBI SAT</td>
+                </tr>
+                <tr>
+                    <td>Insurance</td>
+                    <td>Insurance Ombudsman (IRDAI Act 1999, upto ₹30 lakh)</td>
+                    <td>SAT</td>
+                </tr>
+                <tr>
+                    <td>Pension</td>
+                    <td>EPFO (internal) / NPS (NSDL → PFRDA)</td>
+                    <td>SAT</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- PYQ Snipers -->
+        <div class="pyq-box">
+            <h2>🎯 PYQ Sniper Shots</h2>
+
+            <div class="pyq-item">
+                <strong>Q: What is Money Multiplier? (Prelims 2019, 2021)</strong><br>
+                A: Ratio showing how much M3 increases per unit of M0. Formula: MM = 1/CRR (simplified). Increases when CRR decreases, banking penetration increases, loan demand increases.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Difference between RTGS and NEFT?</strong><br>
+                A: RTGS - Min ₹2 lakh, instant gross settlement, 24/7. NEFT - Upto ₹10 lakh, 30 min batch intervals, 24/7.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is NPCI? (Prelims 2016)</strong><br>
+                A: National Payment Corporation of India - Not-for-profit company (2008) promoting digital payments. Products: UPI, RuPay, BHIM, NACH, AEPS, e-RUPI.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is CBDC? (Prelims 2023, 2024)</strong><br>
+                A: Central Bank Digital Currency (e₹) - Digital token of legal tender issued by RBI. Types: Retail & Wholesale. Features: No interest, programmability, offline capability, interoperability with UPI QR codes, settlement finality.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is NPA? (Prelims 2020)</strong><br>
+                A: Non-Performing Asset - Loan where interest/principal not paid for 90+ days. Categories: Substandard (<12 months), Doubtful (>12 months), Loss (uncollectible). For farm loans: counted on cropping seasons.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is Legal Tender? (Prelims 2018, CDS 2011)</strong><br>
+                A: Currency that must be accepted for debt payment. Limited: Coins (upto ₹1000), ₹1 note. Unlimited: All RBI bank notes (Section 26, RBI Act 1934).
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is RBI's function as 'Lender of Last Resort'? (Prelims 2012, 2021)</strong><br>
+                A: RBI provides liquidity to banks having temporary crisis. Banks can borrow from RBI in emergencies (MSF, Repo). This prevents bank runs and maintains financial stability.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is Interest Coverage Ratio (ICR)? (Prelims 2020)</strong><br>
+                A: Ratio of company's earnings to interest payments. ICR > 1 = good (can pay interest), ICR < 1 = bad (cannot pay interest). IC1 companies = ICR < 1.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is BASEL-III? (Prelims 2016)</strong><br>
+                A: International banking norms by BIS (Bank for International Settlements) to ensure financial stability. Requires banks to maintain CRAR ≥ 9%, Capital Conservation Buffer, Counter Cyclical Buffer, Liquidity ratios.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is SARFAESI Act? (Prelims 2017)</strong><br>
+                A: Securitization and Reconstruction of Financial Assets and Enforcement of Security Interest Act 2002. Allows banks to attach mortgaged assets, auction them without court intervention. Not applicable on farm loans.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is IBC Code? (Prelims 2019)</strong><br>
+                A: Insolvency and Bankruptcy Code 2016 - Time-bound resolution (330 days) of stressed assets. Process: IP makes resolution plan → CoC votes → If approved: implement, If rejected: liquidation.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is Payment Bank? (Prelims 2016, 2017)</strong><br>
+                A: Differential bank accepting max ₹2 lakh deposits, no FD, no loans, no credit cards. Examples: Airtel, India Post, Paytm. Can become Small Finance Bank after 5 years.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is Small Finance Bank? (Prelims 2017)</strong><br>
+                A: Differential bank for financial inclusion. 25% branches in unbanked rural, 75% PSL, 50% loans < ₹25 lakh. Can become Universal Bank after 5 years. Examples: Capital SFB, Ujjivan, Utkarsh.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is MUDRA? (Prelims 2016)</strong><br>
+                A: Micro Units Development & Refinance Agency (2015) - 100% SIDBI subsidiary. Indirect lending via banks/NBFCs. Products: Shishu (upto ₹50k), Kishor (₹50k-5L), Tarun (₹5L-20L). Collateral-free, covered by CGFMU.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is NFT? (Prelims 2022)</strong><br>
+                A: Non-Fungible Token - Digital file (photo, music, art) stored using blockchain. Cannot be subdivided, unique, non-fungible. Used for digital art, ownership documents. Challenges: Investment bubble, money laundering.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is DICGC? (Prelims 2019)</strong><br>
+                A: Deposit Insurance and Credit Guarantee Corporation - 100% RBI owned. Insures deposits upto ₹5 lakh per depositor per bank. Pays within 90 days of RBI moratorium on weak bank.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is MPC? (Prelims 2017)</strong><br>
+                A: Monetary Policy Committee (2016) - 6 members (3 RBI + 3 External). Bi-monthly meetings. Mandate: Maintain inflation within 2-6% CPI (All India). Decides Repo Rate.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is External Benchmark system? (Prelims 2020)</strong><br>
+                A: Bank's loan interest rate = External Benchmark (Repo/T-bill yield) + Spread + Risk Premium. Mandatory from Oct 2019 for new loans. Better transmission of monetary policy.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is Stand Up India? (Prelims 2016)</strong><br>
+                A: Each SCB branch to give Greenfield Loans ₹10L-1Cr to atleast 1 SC/ST and 1 Woman entrepreneur. Tenure: Upto 7 years. Collateral-free, covered by CGFSI.
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is PM Jan Dhan Yojana? (Prelims 2015)</strong><br>
+                A: Bank accounts for all (2014). Features: Zero balance, RuPay debit card, overdraft upto ₹10,000, accident insurance ₹2 lakh. Part of financial inclusion.
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; color: #64748b; font-size: 0.9em;">
+            Created by Antigravity • UPPCS Economics Pillar 1
+        </div>
+    </div>
+
+    <script src="../theme-toggle.js"></script>
+</body>
+
+</html>
+

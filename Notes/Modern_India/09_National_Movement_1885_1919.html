@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 9: Indian National Movement (1885-1919) - UPPCS Notes</title>
+    <link rel="stylesheet" href="../dark-theme.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        [data-theme="dark"] body {
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+        }
+
+        header {
+            background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+            color: white;
+            padding: 50px 30px;
+            border-radius: 20px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 20px 60px rgba(59, 130, 246, 0.5);
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '🇮🇳';
+            position: absolute;
+            font-size: 15rem;
+            opacity: 0.1;
+            top: -30px;
+            right: -30px;
+            animation: flag-wave 5s ease-in-out infinite;
+        }
+
+        @keyframes flag-wave {
+
+            0%,
+            100% {
+                transform: rotate(-5deg);
+            }
+
+            50% {
+                transform: rotate(5deg);
+            }
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #3b82f6;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(59, 130, 246, 0.2);
+        }
+
+        [data-theme="dark"] .card {
+            background: #1e293b;
+        }
+
+        h2 {
+            color: #3b82f6;
+            border-bottom: 3px solid #dbeafe;
+            padding-bottom: 10px;
+            font-size: 1.8rem;
+        }
+
+        [data-theme="dark"] h2 {
+            color: #60a5fa;
+            border-bottom-color: #1e40af;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            border-left: 5px solid #f59e0b;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        [data-theme="dark"] .highlight-box {
+            background: linear-gradient(135deg, #78350f 0%, #92400e 100%);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        th,
+        td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #dbeafe;
+        }
+
+        th {
+            background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background: #eff6ff;
+        }
+
+        [data-theme="dark"] tr:hover {
+            background: #374151;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .tag-imp {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+
+        .tag-year {
+            background: #dcfce7;
+            color: #166534;
+        }
+
+        .tag-leader {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        .pyq-box {
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 16px;
+            margin-top: 40px;
+        }
+
+        .pyq-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 10px;
+            border-left: 4px solid #3b82f6;
+        }
+
+        .timeline-item {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 15px;
+            border-left: 3px solid #3b82f6;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -8px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            background: #3b82f6;
+            border-radius: 50%;
+            box-shadow: 0 0 0 3px white, 0 0 0 5px #3b82f6;
+        }
+
+        [data-theme="dark"] .timeline-item::before {
+            box-shadow: 0 0 0 3px #1e293b, 0 0 0 5px #3b82f6;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark Mode">🌓</button>
+            <h1>🇮🇳 Chapter 9: Indian National Movement</h1>
+            <div class="subtitle">Early Phase (1885-1919): From Moderates to Extremists</div>
+        </header>
+
+        <!-- Foundation of INC -->
+        <div class="card">
+            <h2>🏛️ Foundation of Indian National Congress (1885)</h2>
+
+            <div class="highlight-box">
+                <strong>🎯 Background:</strong> <span class="tag tag-imp">Super PYQ</span>
+                <ul>
+                    <li>Growing political awareness among regional organizations</li>
+                    <li><strong>1883:</strong> Indian National Conference recognized need for pan-Indian platform</li>
+                    <li>Idea formally proposed by <strong>Allan Octavian Hume</strong> (retired British civil servant)
+                    </li>
+                </ul>
+            </div>
+
+            <h3>📅 First Session (December 1885)</h3>
+            <ul>
+                <li><strong>Place:</strong> Gokuldas Tejpal Sanskrit College, Bombay <span
+                        class="tag tag-year">1885</span></li>
+                <li><strong>President:</strong> Womesh Chunder Bonnerjee (first INC President) <span
+                        class="tag tag-leader">President</span></li>
+                <li><strong>Attendees:</strong> 72 delegates</li>
+                <li><strong>Founder (disputed):</strong> A.O. Hume</li>
+            </ul>
+
+            <div class="highlight-box">
+                <h4>🔍 Safety Valve Theory <span class="tag tag-imp">PYQ</span></h4>
+                <ul>
+                    <li><strong>Theory:</strong> INC created as "safety valve" by A.O. Hume</li>
+                    <li><strong>Purpose (British view):</strong> Allow grievances to be expressed in controlled manner
+                    </li>
+                    <li><strong>Prevent:</strong> Major uprising against British rule</li>
+                    <li><strong>Nationalist View:</strong> NOT accepted - INC was natural result of nationalist efforts
+                    </li>
+                    <li><strong>Reality:</strong> Early nationalists used INC as platform for political struggle</li>
+                    <li><strong>Outcome:</strong> INC transformed into powerful tool against British rule</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- First Phase: Moderates -->
+        <div class="card">
+            <h2>📚 First Phase (1885-1905): The Moderates</h2>
+
+            <h3>🎯 Aims & Methods</h3>
+            <table>
+                <tr>
+                    <th>Aspect</th>
+                    <th>Details</th>
+                </tr>
+                <tr>
+                    <td><strong>Main Demand</strong></td>
+                    <td>Increase Indian representation in government & political reforms</td>
+                </tr>
+                <tr>
+                    <td><strong>Focus Area</strong></td>
+                    <td>Civil services where Indians faced discrimination</td>
+                </tr>
+                <tr>
+                    <td><strong>Methods</strong></td>
+                    <td>Constitutional agitation, petitions, appeals to British authorities</td>
+                </tr>
+                <tr>
+                    <td><strong>Approach</strong></td>
+                    <td>Avoided direct confrontation with British</td>
+                </tr>
+                <tr>
+                    <td><strong>Mass Involvement</strong></td>
+                    <td>Did NOT involve masses in active struggle</td>
+                </tr>
+                <tr>
+                    <td><strong>Contribution</strong></td>
+                    <td>Laid foundation for future mass movements</td>
+                </tr>
+            </table>
+
+            <h3>👥 Key Moderate Leaders</h3>
+            <ul>
+                <li><strong>Dadabhai Naoroji:</strong> "Grand Old Man of India" - Drain Theory</li>
+                <li><strong>Gopal Krishna Gokhale:</strong> Political mentor to Gandhi</li>
+                <li><strong>Pherozeshah Mehta:</strong> Bombay leader</li>
+                <li><strong>Mahadev Govind Ranade:</strong> Social & political reformer</li>
+                <li><strong>Surendranath Banerjee:</strong> Bengal leader</li>
+            </ul>
+
+            <h3>🎯 Achievements</h3>
+            <ul>
+                <li>Created <strong>political awareness</strong> among educated Indians</li>
+                <li>Exposed <strong>economic exploitation</strong> by British</li>
+                <li>Established INC as permanent political organization</li>
+                <li>Built foundation for future mass nationalism</li>
+            </ul>
+        </div>
+
+        <!-- Second Phase: Extremists -->
+        <div class="card">
+            <h2>🔥 Second Phase (1905-1919): Rise of Extremists</h2>
+
+            <h3>⚡ Partition of Bengal (1905) <span class="tag tag-imp">Super PYQ</span></h3>
+
+            <div class="highlight-box">
+                <strong>📅 16 October 1905</strong>
+                <h4>Division:</h4>
+                <ul>
+                    <li><strong>Eastern Bengal:</strong> Muslim-majority (present-day Bangladesh & Assam)</li>
+                    <li><strong>Western Bengal:</strong> Hindu-majority (Bihar, Bengal, Odisha)</li>
+                </ul>
+
+                <h4>Impact:</h4>
+                <ul>
+                    <li>Sparked <strong>nationwide protests</strong></li>
+                    <li>Beginning of <strong>aggressive phase</strong> of freedom struggle</li>
+                    <li>Nationalists realized petitions were <strong>ineffective</strong></li>
+                    <li>Led to rise of <strong>extremists</strong> who believed in direct action</li>
+                </ul>
+            </div>
+
+            <h3>👊 Key Extremist Leaders (Garam Dal = Hot Faction)</h3>
+
+            <table>
+                <tr>
+                    <th>Leader</th>
+                    <th>Contribution</th>
+                </tr>
+                <tr>
+                    <td><strong>Bal Gangadhar Tilak</strong> <span class="tag tag-leader">Lokmanya</span></td>
+                    <td>• Newspapers: Kesari (Marathi) & Mahratta (English)
+                        <br>• Revived Shivaji festival (1895)
+                        <br>• Started Ganpati festival (1893)
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Lala Lajpat Rai</strong> <span class="tag tag-leader">Punjab Kesari</span></td>
+                    <td>• Punjab leader
+                        <br>• Active in protests & movements
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Bipin Chandra Pal</strong></td>
+                    <td>• Bengal leader
+                        <br>• Active in Swadeshi Movement
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Aurobindo Ghosh</strong></td>
+                    <td>• Advocated complete independence
+                        <br>• Revolutionary ideology
+                    </td>
+                </tr>
+            </table>
+
+            <div class="highlight-box">
+                <strong>🔥 Lal-Bal-Pal Trio:</strong> Famous trio of extremist leaders representing Punjab, Maharashtra,
+                Bengal
+            </div>
+        </div>
+
+        <!-- Swadeshi Movement -->
+        <div class="card">
+            <h2>🧵 Swadeshi Movement (1905) <span class="tag tag-imp">Super PYQ</span></h2>
+
+            <h3>📍 Congress Session 1905 (Banaras)</h3>
+            <ul>
+                <li><strong>President:</strong> Gopal Krishna Gokhale</li>
+                <li><strong>Resolution:</strong> Beginning of Swadeshi Movement</li>
+                <li><strong>Goal:</strong> Self-reliance & economic independence</li>
+                <li><strong>Method:</strong> Boycott British goods, promote indigenous industries</li>
+            </ul>
+
+            <h3>🎨 Cultural Impact</h3>
+            <ul>
+                <li><strong>"Amar Sonar Bangla":</strong> By Rabindranath Tagore → later national anthem of Bangladesh
+                </li>
+                <li><strong>"Vande Mataram":</strong> From Bankim Chandra's Anandamath → theme song of movement</li>
+                <li><strong>Bharat Mata painting:</strong> Symbolizing Mother India became inspirational icon</li>
+                <li><strong>Oriental Society of Art (1907):</strong> Established to promote Indian artistic traditions
+                </li>
+                <li><strong>Indian art flourished:</strong> Painters moved to Indian themes & temples</li>
+            </ul>
+
+            <h3>👥 Key Contributors</h3>
+            <ul>
+                <li><strong>Chakravarti Ganesh Deshkar:</strong>
+                    <br>• Proposed Swadeshi in 1904
+                    <br>• Wrote <strong>"Deshkartha"</strong> (later banned by British)
+                </li>
+                <li><strong>Chidambaram Pillai:</strong>
+                    <br>• Founded <strong>Swadeshi Steam Navigation Company</strong>
+                    <br>• Challenge British shipping dominance
+                </li>
+                <li><strong>Acharya P.C. Ray:</strong>
+                    <br>• Established <strong>Bengal Chemical Factory</strong>
+                    <br>• Promoted indigenous industry
+                </li>
+            </ul>
+
+            <h3>❌ Limitations</h3>
+            <ul>
+                <li><strong>Muslim Support:</strong> Struggled to gain Muslim support</li>
+                <li><strong>Reasons:</strong>
+                    <br>1. British "Divide and Rule" policy
+                    <br>2. Lack of strong Muslim leadership in movement
+                    <br>3. Movement largely led by Hindu leaders
+                </li>
+                <li><strong>Result:</strong> Formation of <strong>All India Muslim League (1906)</strong></li>
+            </ul>
+
+            <div class="highlight-box">
+                <strong>🕌 Muslim League (1906):</strong> <span class="tag tag-imp">PYQ</span>
+                <ul>
+                    <li><strong>Founders:</strong> Nawab Salimullah of Dhaka, Siddharth Khan</li>
+                    <li><strong>Support:</strong> With British backing</li>
+                    <li><strong>Position:</strong> Maintained loyalty to British while claiming to represent Muslim
+                        interests</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Moderates vs Extremists -->
+        <div class="card">
+            <h2>⚔️ Moderates vs Extremists</h2>
+
+            <table>
+                <tr>
+                    <th>Aspect</th>
+                    <th>Moderates</th>
+                    <th>Extremists</th>
+                </tr>
+                <tr>
+                    <td><strong>Leaders</strong></td>
+                    <td>Gokhale, Naoroji, Mehta</td>
+                    <td>Tilak, Lal Lajpat Rai, Bipin Chandra Pal, Aurobindo</td>
+                </tr>
+                <tr>
+                    <td><strong>Methods</strong></td>
+                    <td>Constitutional methods, selective boycotts</td>
+                    <td>Total boycott of British goods & services</td>
+                </tr>
+                <tr>
+                    <td><strong>Approach</strong></td>
+                    <td>Gradual approach</td>
+                    <td>Direct action</td>
+                </tr>
+                <tr>
+                    <td><strong>Goal</strong></td>
+                    <td>Reforms within British system</td>
+                    <td>Complete independence (Swaraj)</td>
+                </tr>
+            </table>
+
+            <h3>🤝 Dadabhai Naoroji's Compromise (1906)</h3>
+            <div class="highlight-box">
+                <strong>Four Key Resolutions:</strong> <span class="tag tag-imp">Super PYQ</span>
+                <ol>
+                    <li><strong>Rejection of Partition of Bengal</strong></li>
+                    <li><strong>Demand for Swaraj (Self-rule)</strong></li>
+                    <li><strong>Promotion of Swadeshi (Indigenous Goods)</strong></li>
+                    <li><strong>Boycott of British Products & National Educational Institutions</strong></li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- Surat Split -->
+        <div class="card">
+            <h2>💔 Surat Split (1907) <span class="tag tag-imp">Super PYQ</span></h2>
+
+            <h3>📍 What Happened</h3>
+            <ul>
+                <li><strong>Year:</strong> 1907 <span class="tag tag-year">1907</span></li>
+                <li><strong>President:</strong> Rashbehari Ghosh (Moderate)</li>
+                <li><strong>Issue:</strong> Differences over reorganization</li>
+                <li><strong>Result:</strong> Physical altercation, session ended in chaos</li>
+                <li><strong>Outcome:</strong> INC split into Moderates & Extremists</li>
+            </ul>
+
+            <h3>🎭 British "Carrot and Stick" Policy</h3>
+            <div class="highlight-box">
+                <strong>Carrot (Appeasement):</strong>
+                <ul>
+                    <li>Appeased Moderates with limited reforms</li>
+                </ul>
+
+                <strong>Stick (Repression):</strong>
+                <ul>
+                    <li><strong>Bal Gangadhar Tilak:</strong> Imprisoned in Mandalay Jail for <strong>6 years</strong>
+                        <span class="tag tag-imp">PYQ</span></li>
+                    <li><strong>Lala Lajpat Rai & Bipin Chandra Pal:</strong> Jailed for <strong>1 year each</strong>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Constitutional Acts -->
+        <div class="card">
+            <h2>📜 Constitutional Acts (1858-1909)</h2>
+
+            <h3>1. Government of India Act (1858) <span class="tag tag-imp">Super PYQ</span></h3>
+            <ul>
+                <li><strong>Formally ended:</strong> Company Rule</li>
+                <li><strong>Transferred power:</strong> To British Crown</li>
+                <li><strong>Queen's Proclamation (1858):</strong> Issued at Darbar Hill, Allahabad
+                    <br>• Princely states' rights respected
+                    <br>• No further territorial expansion
+                    <br>• Religious tolerance promised
+                    <br>• Indians eligible for administrative services (merit-based)
+                </li>
+                <li><strong>Changes:</strong>
+                    <br>• Governor-General → <strong>Viceroy of India</strong>
+                    <br>• Created: <strong>Secretary of State for India</strong> (British minister)
+                    <br>• Created: 50-member <strong>Council of India</strong>
+                    <br>• Abolished: Board of Control & Court of Directors
+                </li>
+            </ul>
+
+            <h3>2. Indian Councils Act (1861)</h3>
+            <ul>
+                <li>Introduced <strong>limited representation</strong> in legislative process</li>
+                <li>Indians could be <strong>nominated</strong> to legislative councils</li>
+                <li><strong>Decentralization:</strong> Restored legislative powers to provinces</li>
+                <li><strong>Portfolio System:</strong> Departments headed by specific officers</li>
+                <li><strong>New Legislative Councils:</strong> Bengal (1862), Bombay & Madras, Punjab (1897)</li>
+                <li><strong>Viceroy's Power:</strong> Issue ordinances during emergencies</li>
+            </ul>
+
+            <h3>3. Indian Councils Act (1892)</h3>
+            <ul>
+                <li>Increased <strong>non-official members</strong> to ~20</li>
+                <li>Maintained <strong>official majority</strong></li>
+                <li>Expanded functions: discuss budget, ask questions</li>
+                <li><strong>Indirect elections</strong> (word "election" not explicitly mentioned)</li>
+            </ul>
+
+            <h3>4. Indian Councils Act (1909) - Morley-Minto Reforms <span class="tag tag-imp">Super PYQ</span></h3>
+            <div class="highlight-box">
+                <strong>Key Provisions:</strong>
+                <ul>
+                    <li>Allowed <strong>elections</strong> to Provincial Legislative Councils</li>
+                    <li><strong>Indirect elections</strong> through Electoral College (landlords, traders, teachers)
+                    </li>
+                    <li>Abolished <strong>official majority in Provincial Councils</strong> (retained in Central)</li>
+                    <li>Allowed <strong>discussion on budget</strong>, voting on separate items</li>
+                    <li><strong>Separate electorates for Muslims</strong> with lower income qualifications <span
+                            class="tag tag-imp">PYQ</span></li>
+                    <li><strong>First Indian</strong> to Viceroy's Executive Council: <strong>Satyendra Prasad
+                            Sinha</strong></li>
+                </ul>
+
+                <strong>❌ Criticism:</strong>
+                <ul>
+                    <li>Failed to satisfy Indian aspirations</li>
+                    <li><strong>Separate electorates</strong> divided Indian society</li>
+                    <li>Reinforced British "Divide and Rule" policy</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Revolutionary Movements -->
+        <div class="card">
+            <h2>💣 Revolutionary Nationalism (1876-1915)</h2>
+
+            <h3>🔥 Bengal</h3>
+            <div class="highlight-box">
+                <strong>Anushilan Samiti (1902):</strong>
+                <ul>
+                    <li><strong>Leaders:</strong> Barindra Kumar Ghosh, Jatindranath Mukherjee (Bagha Jatin)</li>
+                    <li><strong>Magazine:</strong> Yugantar (advocated armed revolution)</li>
+                    <li><strong>Method:</strong> Bomb attacks & assassinations</li>
+                </ul>
+
+                <strong>Alipore Bomb Case (1908):</strong> <span class="tag tag-imp">PYQ</span>
+                <ul>
+                    <li><strong>Target:</strong> Douglas Kingsford (British judge)</li>
+                    <li><strong>Attempt by:</strong> Khudiram Bose &Prafulla Chaki</li>
+                    <li><strong>Mistake:</strong> Bombed carriage with 2 British women</li>
+                    <li><strong>End:</strong> Khudiram hanged, Prafull shot himself</li>
+                    <li><strong>Arrested:</strong> Barindra Ghosh, Aurobindo Ghosh (acquitted)</li>
+                </ul>
+            </div>
+
+            <h3>🔥 Maharashtra</h3>
+            <ul>
+                <li><strong>1897:</strong> Chapekar brothers (Damodar & Balkrishna) assassinated W.C. Rand & Lt. Ayerst
+                    in Pune</li>
+                <li><strong>1904:</strong> Vinayak Damodar Savarkar formed <strong>Abhinav Bharat</strong> (secret
+                    society)</li>
+                <li><strong>1909:</strong> Assassination of A.M.T. Jackson in Nashik</li>
+                <li><strong>Punishment:</strong> Savarkar sentenced to Cellular Jail, Andaman</li>
+            </ul>
+
+            <h3>🌍 Revolutionary Activities Abroad</h3>
+
+            <div class="highlight-box">
+                <strong>India House (London, 1905):</strong>
+                <ul>
+                    <li><strong>Founder:</strong> Shyamji Krishna Varma</li>
+                    <li><strong>Notable:</strong> Madan Lal Dhingra assassinated Curzon Wyllie (1909)</li>
+                    <li><strong>Madame Bhikaji Cama:</strong> Published "Bande Mataram" from Paris</li>
+                </ul>
+
+                <strong>Ghadar Movement (1913-1915):</strong> <span class="tag tag-imp">Super PYQ</span>
+                <ul>
+                    <li><strong>Formed in:</strong> USA & Canada by Punjabi expatriates</li>
+                    <li><strong>Leaders:</strong> Lala Hardayal, Kartar Singh Sarabha, Sohan Singh Bhakna</li>
+                    <li><strong>Newspaper:</strong> The Ghadar (weekly)</li>
+                    <li><strong>Goal:</strong> Armed uprising in India (1915)</li>
+                    <li><strong>Support:</strong> Germany (during WWI)</li>
+                    <li><strong>Result:</strong> British intelligence crushed, mass arrests & executions</li>
+                </ul>
+
+                <strong>Komagata Maru Incident (1914):</strong>
+                <ul>
+                    <li><strong>376 Indian passengers</strong> denied entry into Canada</li>
+                    <li>Forced to return to India</li>
+                    <li>British forces opened fire at Budge Budge (Calcutta)</li>
+                    <li>Fueled anti-British sentiments</li>
+                </ul>
+            </div>
+
+            <h3>🎯 Other Notable Acts</h3>
+            <ul>
+                <li><strong>1912:</strong> Ras Bihari Bose & Sachindra Nath Sanyal bombed Lord Hardinge's procession in
+                    Delhi</li>
+                <li><strong>Tamil Nadu:</strong> Vanchi Iyer assassinated British collector Robert Ashe</li>
+            </ul>
+        </div>
+
+        <!-- Home Rule Movement -->
+        <div class="card">
+            <h2>🏠 Home Rule Movement (1916-1918) <span class="tag tag-imp">Super PYQ</span></h2>
+
+            <h3>🎯 Background</h3>
+            <ul>
+                <li><strong>WWI Hardships:</strong> Food shortages, rising prices, economic distress</li>
+                <li><strong>Disillusionment:</strong> 1909 Morley-Minto Reforms failed to grant self-rule</li>
+                <li><strong>Political Deadlock:</strong> Congress weakened by moderate-extremist divisions</li>
+                <li><strong>Demand:</strong> Swaraj (self-rule) gaining momentum</li>
+            </ul>
+
+            <h3>📍 Two Home Rule Leagues</h3>
+
+            <table>
+                <tr>
+                    <th>Aspect</th>
+                    <th>Tilak's League (April 1916)</th>
+                    <th>Annie Besant's League (Sept 1916)</th>
+                </tr>
+                <tr>
+                    <td><strong>Coverage</strong></td>
+                    <td>Maharashtra, Karnataka, Central Provinces</td>
+                    <td>Rest of India (Bombay, Madras, UP)</td>
+                </tr>
+                <tr>
+                    <td><strong>Branches</strong></td>
+                    <td>6 branches</td>
+                    <td>200 branches</td>
+                </tr>
+                <tr>
+                    <td><strong>Focus</strong></td>
+                    <td>Political education, vernacular languages</td>
+                    <td>Rapid expansion, attracted major leaders</td>
+                </tr>
+                <tr>
+                    <td><strong>Notable Leaders</strong></td>
+                    <td>-</td>
+                    <td>Motilal Nehru, Jawaharlal Nehru, C.R. Das, Lala Lajpat Rai</td>
+                </tr>
+            </table>
+
+            <h3>🔥 British Repression</h3>
+            <ul>
+                <li><strong>1917:</strong> Annie Besant arrested → mass protests</li>
+                <li><strong>Protest:</strong> Subramania Iyer renounced his knighthood</li>
+                <li><strong>Support:</strong> Muhammad Ali Jinnah defended Tilak in legal cases</li>
+            </ul>
+
+            <h3>✅ Impact</h3>
+            <ul>
+                <li>Created <strong>nationwide political awakening</strong></li>
+                <li>Strengthened demand for Swaraj</li>
+                <li>Pressured British → <strong>Montagu Declaration (1917)</strong></li>
+                <li>Laid foundation for <strong>Gandhi's Non-Cooperation Movement (1920)</strong></li>
+                <li>Spread nationalism into <strong>rural areas</strong></li>
+                <li>Connected urban elites with masses</li>
+            </ul>
+        </div>
+
+        <!-- Lucknow Pact -->
+        <div class="card">
+            <h2>🤝 Lucknow Pact (1916) <span class="tag tag-imp">Super PYQ</span></h2>
+
+            <h3>📍 Key Points</h3>
+            <ul>
+                <li><strong>Reunited:</strong> Congress & Muslim League in joint session</li>
+                <li><strong>Congress Concession:</strong> Accepted <strong>separate electorates</strong> for Muslims
+                </li>
+                <li><strong>Demand:</strong> More Indian representation in legislatures</li>
+                <li><strong>Criticism:</strong>
+                    <br>• Set precedent for communal politics
+                    <br>• Potentially encouraged similar demands from other communities
+                </li>
+            </ul>
+        </div>
+
+        <!-- Montagu-Chelmsford Reforms -->
+        <div class="card">
+            <h2>📜 Montagu Declaration & Reforms (1917-1919)</h2>
+
+            <h3>📅 Montagu Declaration (20 August 1917)</h3>
+            <ul>
+                <li>British promised <strong>responsible government</strong> in India</li>
+                <li>Committee formed under <strong>Edwin Montagu</strong> (Secretary of State for India)</li>
+            </ul>
+
+            <h3>⚖️ Montagu-Chelmsford Reforms (1919) <span class="tag tag-imp">PYQ</span></h3>
+
+            <div class="highlight-box">
+                <strong>Dyarchy in Provinces:</strong>
+                <ul>
+                    <li><strong>Reserved Subjects</strong> (British Governor & Executive Council):
+                        <br>• Law, Finance, Police, Irrigation
+                    </li>
+                    <li><strong>Transferred Subjects</strong> (Indian Ministers):
+                        <br>• Health, Education, Local Government, Industry
+                    </li>
+                </ul>
+
+                <strong>❌ Weaknesses:</strong>
+                <ul>
+                    <li>Governor had <strong>overriding powers</strong></li>
+                    <li>Real autonomy was weak</li>
+                    <li>Failed to satisfy nationalists</li>
+                    <li>Led to <strong>Non-Cooperation Movement (1920)</strong></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- PYQ Snipers -->
+        <div class="pyq-box">
+            <h2>🎯 PYQ Sniper Shots</h2>
+
+            <div class="pyq-item">
+                <strong>Q: When was Indian National Congress founded?</strong><br>
+                A: <strong>December 1885</strong> in Bombay
+            </div>
+            <div class="pyq-item">
+                <strong>Q: First President of INC?</strong><br>
+                A: <strong>Womesh Chunder Bonnerjee</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Who proposed the idea of INC?</strong><br>
+                A: <strong>Allan Octavian Hume</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: When was Bengal partitioned?</strong><br>
+                A: <strong>16 October 1905</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Who were Lal-Bal-Pal?</strong><br>
+                A: <strong>Lala Lajpat Rai, Bal Gangadhar Tilak, Bipin Chandra Pal</strong> (extremist trio)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: When was Surat Split?</strong><br>
+                A: <strong>1907</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: How long was Tilak imprisoned in Mandalay?</strong><br>
+                A: <strong>6 years</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: When was All India Muslim League founded?</strong><br>
+                A: <strong>1906</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Morley-Minto Reforms year?</strong><br>
+                A: <strong>1909</strong> (Indian Councils Act)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: First Indian in Viceroy's Executive Council?</strong><br>
+                A: <strong>Satyendra Prasad Sinha</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Who was Khudiram Bose?</strong><br>
+                A: <strong>Revolutionary who attempted to kill Douglas Kingsford (1908), later hanged</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Who founded Abhinav Bharat?</strong><br>
+                A: <strong>Vinayak Damodar Savarkar (1904)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Ghadar Party leaders?</strong><br>
+                A: <strong>Lala Hardayal, Kartar Singh Sarabha, Sohan Singh Bhakna</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: When was Home Rule Movement launched?</strong><br>
+                A: <strong>1916</strong> (Tilak: April, Annie Besant: September)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: When was Lucknow Pact signed?</strong><br>
+                A: <strong>1916</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Montagu Declaration year?</strong><br>
+                A: <strong>20 August 1917</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What was Dyarchy?</strong><br>
+                A: <strong>Montagu-Chelmsford Reforms (1919): Divided subjects into Reserved (British) & Transferred
+                    (Indian)</strong>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; color: #64748b; font-size: 0.9em;">
+            Created by Antigravity • UPPCS Modern India • From Your Class Notes
+        </div>
+    </div>
+
+    <script src="../theme-toggle.js"></script>
+</body>
+
+</html>

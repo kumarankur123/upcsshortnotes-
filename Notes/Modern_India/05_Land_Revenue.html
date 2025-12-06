@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 5: Land Revenue Systems - UPPCS Notes</title>
+    <link rel="stylesheet" href="../dark-theme.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        [data-theme="dark"] body {
+            background: linear-gradient(135deg, #14532d 0%, #166534 100%);
+        }
+
+        header {
+            background: linear-gradient(135deg, #16a34a 0%, #15803d 100%);
+            color: white;
+            padding: 50px 30px;
+            border-radius: 20px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 20px 60px rgba(22, 163, 74, 0.5);
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '🌾';
+            position: absolute;
+            font-size: 15rem;
+            opacity: 0.1;
+            top: -30px;
+            left: -30px;
+            animation: sway 3s ease-in-out infinite;
+        }
+
+        @keyframes sway {
+
+            0%,
+            100% {
+                transform: rotate(-5deg);
+            }
+
+            50% {
+                transform: rotate(5deg);
+            }
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #16a34a;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(22, 163, 74, 0.2);
+        }
+
+        [data-theme="dark"] .card {
+            background: #1e293b;
+        }
+
+        h2 {
+            color: #16a34a;
+            border-bottom: 3px solid #dcfce7;
+            padding-bottom: 10px;
+            font-size: 1.8rem;
+        }
+
+        [data-theme="dark"] h2 {
+            color: #4ade80;
+            border-bottom-color: #166534;
+        }
+
+        .system-box {
+            background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+            padding: 25px;
+            border-radius: 12px;
+            margin: 20px 0;
+            border-left: 5px solid #16a34a;
+        }
+
+        [data-theme="dark"] .system-box {
+            background: linear-gradient(135deg, #14532d 0%, #166534 100%);
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            border-left: 5px solid #f59e0b;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        [data-theme="dark"] .highlight-box {
+            background: linear-gradient(135deg, #78350f 0%, #92400e 100%);
+        }
+
+        .impact-box {
+            background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);
+            border-left: 5px solid #dc2626;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        [data-theme="dark"] .impact-box {
+            background: linear-gradient(135deg, #7f1d1d 0%, #991b1b 100%);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        th,
+        td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #dcfce7;
+        }
+
+        th {
+            background: linear-gradient(135deg, #16a34a 0%, #15803d 100%);
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background: #f0fdf4;
+        }
+
+        [data-theme="dark"] tr:hover {
+            background: #374151;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .tag-imp {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .tag-area {
+            background: #e0e7ff;
+            color: #3730a3;
+        }
+
+        .pyq-box {
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 16px;
+            margin-top: 40px;
+        }
+
+        .pyq-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 10px;
+            border-left: 4px solid #16a34a;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark Mode">🌓</button>
+            <h1>🌾 Chapter 5: Land Revenue Systems</h1>
+            <div class="subtitle">Permanent, Ryotwari, Mahalwari (1793-1833)</div>
+        </header>
+
+        <!-- Introduction -->
+        <div class="card">
+            <h2>📜 Introduction: British Land Revenue Policy</h2>
+
+            <h3>🎯 Objectives</h3>
+            <ul>
+                <li><strong>Maximize Revenue:</strong> Ensure steady income for British administration</li>
+                <li><strong>Create Loyal Class:</strong> Landlords loyal to British</li>
+                <li><strong>Political Control:</strong> Through economic dominance</li>
+                <li><strong>Agricultural Production:</strong> Secondary concern</li>
+            </ul>
+
+            <h3>📊 Three Major Systems</h3>
+            <table>
+                <tr>
+                    <th>System</th>
+                    <th>Year</th>
+                    <th>Area Covered</th>
+                    <th>% of British India</th>
+                </tr>
+                <tr>
+                    <td><strong>Permanent Settlement</strong></td>
+                    <td>1793</td>
+                    <td>Bengal, Bihar, Odisha, Varanasi, N. Madras</td>
+                    <td>~19%</td>
+                </tr>
+                <tr>
+                    <td><strong>Ryotwari</strong></td>
+                    <td>1820</td>
+                    <td>Madras, Bombay, Assam, Coorg</td>
+                    <td>~51%</td>
+                </tr>
+                <tr>
+                    <td><strong>Mahalwari</strong></td>
+                    <td>1833</td>
+                    <td>Punjab, UP, MP, Haryana</td>
+                    <td>~30%</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Permanent Settlement -->
+        <div class="card">
+            <div class="system-box">
+                <h2>🏛️ Permanent Settlement (1793)</h2>
+                <p><strong>Also called: Zamindari System, Cornwallis System</strong> <span class="tag tag-imp">Super
+                        PYQ</span></p>
+
+                <h3>📍 Coverage</h3>
+                <ul>
+                    <li><strong>Main Areas:</strong> Bengal, Bihar, Odisha (90% of these regions)</li>
+                    <li><strong>Extended to:</strong> Varanasi, Northern districts of Madras Presidency</li>
+                    <li><strong>Introduced by:</strong> Lord Cornwallis (Governor-General, 1786-93)</li>
+                </ul>
+
+                <h3>🎯 Key Features</h3>
+
+                <h4>1. Zamindars as Landowners</h4>
+                <ul>
+                    <li>Zamindars given <strong>hereditary ownership rights</strong> <span
+                            class="tag tag-imp">PYQ</span></li>
+                    <li>Could sell, transfer, or mortgage land</li>
+                    <li>Became intermediaries between British & peasants</li>
+                </ul>
+
+                <h4>2. Fixed Revenue</h4>
+                <ul>
+                    <li><strong>Revenue Fixed Permanently:</strong> Never to be increased</li>
+                    <li><strong>Amount:</strong> 10/11th (90.9%) to British, 1/11th to Zamindar</li>
+                    <li><strong>Calculation:</strong> Based on average of previous 10 years</li>
+                </ul>
+
+                <h4>3. Sunset Law</h4>
+                <ul>
+                    <li>Revenue to be paid by <strong>sunset on fixed date</strong> <span class="tag tag-imp">PYQ</span>
+                    </li>
+                    <li>If failed, land auctioned immediately</li>
+                    <li>No grace period, no relief during calamities</li>
+                </ul>
+
+                <h4>4. No Peasant Protection</h4>
+                <ul>
+                    <li>Peasants had <strong>no legal rights</strong> over land</li>
+                    <li>Zamindars could evict them anytime</li>
+                    <li>No fixed rent rates for peasants</li>
+                </ul>
+
+                <h3>✅ Reasons for Implementation</h3>
+                <ul>
+                    <li><strong>Create Loyal Class:</strong> Zamindars would support British rule</li>
+                    <li><strong>Stable Revenue:</strong> Fixed income for British administration</li>
+                    <li><strong>Agricultural Development:</strong> Zamindars expected to invest in land (didn't happen)
+                    </li>
+                    <li><strong>English Gentry Model:</strong> Inspired by British landlord system</li>
+                </ul>
+
+                <h3>❌ Consequences</h3>
+
+                <div class="impact-box">
+                    <h4>Negative Impact on British</h4>
+                    <ul>
+                        <li><strong>Revenue Limitation:</strong> Couldn't increase tax even if production rose</li>
+                        <li><strong>Lost Opportunity:</strong> Agricultural output increased but revenue stayed same
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="impact-box">
+                    <h4>Impact on Zamindars</h4>
+                    <ul>
+                        <li><strong>Many Lost Land:</strong> Due to Sunset Law (especially in early years)</li>
+                        <li><strong>New Zamindars:</strong> Merchants, moneylenders bought auctioned lands</li>
+                        <li><strong>Absentee Landlords:</strong> Many lived in cities, didn't manage land</li>
+                        <li><strong>Sub-feudalism:</strong> Created layers of intermediaries (tenure holders, sub-tenure
+                            holders)</li>
+                    </ul>
+                </div>
+
+                <div class="impact-box">
+                    <h4>Impact on Peasants (Most Severe)</h4>
+                    <ul>
+                        <li><strong>No Land Rights:</strong> Became tenants-at-will</li>
+                        <li><strong>High Rents:</strong> Zamindars charged arbitrary rents (often 50-60% of produce)
+                        </li>
+                        <li><strong>Eviction:</strong> Could be thrown out anytime</li>
+                        <li><strong>Debt Trap:</strong> Forced to borrow from moneylenders at high interest</li>
+                        <li><strong>Poverty:</strong> Living conditions worsened drastically</li>
+                        <li><strong>No Investment:</strong> Neither British nor Zamindars invested in agriculture</li>
+                    </ul>
+                </div>
+
+                <h3>🔥 Peasant Revolts</h3>
+                <ul>
+                    <li><strong>Patna Uprising</strong></li>
+                    <li><strong>Mahatma Singh Revolt</strong></li>
+                    <li><strong>Nakauli Revolt</strong></li>
+                    <li>Many other local uprisings due to exploitation</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Ryotwari System -->
+        <div class="card">
+            <div class="system-box">
+                <h2>👨‍🌾 Ryotwari Settlement (1820)</h2>
+                <p><strong>Also called: Peasant Proprietorship System</strong> <span class="tag tag-imp">Super
+                        PYQ</span></p>
+
+                <h3>📍 Coverage</h3>
+                <ul>
+                    <li><strong>Main Areas:</strong> Madras Presidency, Bombay Presidency</li>
+                    <li><strong>Also:</strong> Assam, Coorg, parts of Central India</li>
+                    <li><strong>Introduced by:</strong> Captain Alexander Read (1792 experiment), Sir Thomas Munro (1820
+                        full implementation)</li>
+                    <li><strong>Coverage:</strong> ~51% of British India <span class="tag tag-area">Largest</span></li>
+                </ul>
+
+                <h3>🎯 Key Features</h3>
+
+                <h4>1. Direct Ownership by Peasants</h4>
+                <ul>
+                    <li><strong>Ryot (peasant):</strong> Direct owner of land <span class="tag tag-imp">PYQ</span></li>
+                    <li><strong>Hereditary & Transferable:</strong> Could sell or mortgage land</li>
+                    <li><strong>No Intermediaries:</strong> Unlike Permanent Settlement</li>
+                </ul>
+
+                <h4>2. Direct Revenue Collection</h4>
+                <ul>
+                    <li>British government dealt <strong>directly with peasants</strong></li>
+                    <li>No Zamindars or middlemen</li>
+                    <li>Revenue officers collected tax from each peasant</li>
+                </ul>
+
+                <h4>3. Scientific Assessment</h4>
+                <ul>
+                    <li><strong>Land Survey:</strong> Detailed classification of land</li>
+                    <li><strong>Soil Quality:</strong> Assessed for fertility</li>
+                    <li><strong>Crop Inspection:</strong> Type of crops grown</li>
+                    <li><strong>Production Capacity:</strong> Estimated yield</li>
+                </ul>
+
+                <h4>4. Revenue Rates</h4>
+                <ul>
+                    <li><strong>Official Rate:</strong> 50% of net produce</li>
+                    <li><strong>Actual Rate:</strong> Often exceeded 57% <span class="tag tag-imp">PYQ</span></li>
+                    <li><strong>Revision:</strong> Every 20-30 years (unlike Permanent Settlement)</li>
+                </ul>
+
+                <h4>5. Sunset Law Applied</h4>
+                <ul>
+                    <li>If peasant failed to pay, land confiscated</li>
+                    <li>Relief during calamities rarely granted in practice</li>
+                </ul>
+
+                <h3>❌ Consequences</h3>
+
+                <div class="impact-box">
+                    <h4>Problems</h4>
+                    <ul>
+                        <li><strong>High Administrative Cost:</strong> Required large number of revenue officials</li>
+                        <li><strong>Corruption:</strong> Subordinate officials exploited peasants</li>
+                        <li><strong>Excessive Tax:</strong> 50-57% was too high for subsistence farmers</li>
+                        <li><strong>Debt:</strong> Peasants borrowed from moneylenders to pay tax</li>
+                        <li><strong>Land Alienation:</strong> Many lost land to moneylenders</li>
+                        <li><strong>New Elite:</strong> Traditional Palegars & Mirasdars became powerful</li>
+                    </ul>
+                </div>
+
+                <h3>🔍 Madras Torture Commission (1855)</h3>
+                <ul>
+                    <li><strong>Reason:</strong> Widespread complaints of corruption & torture by revenue officials</li>
+                    <li><strong>Findings:</strong> Confirmed systematic exploitation</li>
+                    <li><strong>Reforms:</strong>
+                        <br>• New scientific land survey
+                        <br>• Revised revenue assessment
+                        <br>• Some relief measures introduced
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Mahalwari System -->
+        <div class="card">
+            <div class="system-box">
+                <h2>🏘️ Mahalwari Settlement (1833)</h2>
+                <p><strong>Also called: Village Settlement System</strong> <span class="tag tag-imp">Super PYQ</span>
+                </p>
+
+                <h3>📍 Coverage</h3>
+                <ul>
+                    <li><strong>Main Areas:</strong> North-Western Provinces (UP), Punjab, Madhya Pradesh, Haryana</li>
+                    <li><strong>Suggested by:</strong> Holt Mackenzie (1819)</li>
+                    <li><strong>Implemented:</strong> Martin Board (1822, 1833)</li>
+                    <li><strong>Coverage:</strong> ~30% of British India</li>
+                </ul>
+
+                <h3>🎯 Key Features</h3>
+
+                <h4>1. Village as Unit</h4>
+                <ul>
+                    <li><strong>Mahal:</strong> Village or group of villages <span class="tag tag-imp">PYQ</span></li>
+                    <li><strong>Collective Responsibility:</strong> Entire village responsible for revenue</li>
+                    <li><strong>Not Individual:</strong> Unlike Ryotwari</li>
+                </ul>
+
+                <h4>2. Village Elders as Collectors</h4>
+                <ul>
+                    <li><strong>Lambardar:</strong> Village headman collected revenue</li>
+                    <li><strong>Talukdar:</strong> Local leader in some areas</li>
+                    <li><strong>British Agreement:</strong> With village community, not individuals</li>
+                </ul>
+
+                <h4>3. Peasant Ownership</h4>
+                <ul>
+                    <li>Land ownership with peasants (like Ryotwari)</li>
+                    <li><strong>Hereditary & Transferable</strong></li>
+                    <li>But could lose land if failed to pay taxes</li>
+                </ul>
+
+                <h4>4. Land Records</h4>
+                <ul>
+                    <li><strong>First Time:</strong> Systematic registers & maps used <span
+                            class="tag tag-imp">PYQ</span></li>
+                    <li><strong>Field Boundaries:</strong> Documented</li>
+                    <li><strong>Ownership Records:</strong> Maintained</li>
+                </ul>
+
+                <h4>5. Revenue Assessment</h4>
+                <ul>
+                    <li>Based on survey (often inaccurate)</li>
+                    <li><strong>Unrealistic Estimates:</strong> Led to excessive tax demands</li>
+                    <li><strong>Periodic Revision:</strong> Unlike Permanent Settlement</li>
+                </ul>
+
+                <h3>❌ Consequences</h3>
+
+                <div class="impact-box">
+                    <h4>Problems</h4>
+                    <ul>
+                        <li><strong>High Tax Rates:</strong> Based on unrealistic estimates</li>
+                        <li><strong>Agricultural Depression (1828):</strong> Worsened peasant condition</li>
+                        <li><strong>Debt & Land Sales:</strong> Many forced to sell land</li>
+                        <li><strong>Land Became Commodity:</strong> Increased speculation</li>
+                        <li><strong>Moneylenders Gained:</strong> Became new landowners</li>
+                        <li><strong>Traditional Farmers Displaced:</strong> Became tenant farmers or laborers</li>
+                    </ul>
+                </div>
+
+                <h3>🔥 Contribution to 1857 Revolt</h3>
+                <ul>
+                    <li>Grievances of North Indian peasants fueled discontent</li>
+                    <li>Many villages participated in Revolt of 1857</li>
+                    <li>Anger against British economic policies</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Comparison -->
+        <div class="card">
+            <h2>📊 Comparison of Three Systems</h2>
+
+            <table>
+                <tr>
+                    <th>Feature</th>
+                    <th>Permanent</th>
+                    <th>Ryotwari</th>
+                    <th>Mahalwari</th>
+                </tr>
+                <tr>
+                    <td><strong>Landowner</strong></td>
+                    <td>Zamindar</td>
+                    <td>Peasant (Ryot)</td>
+                    <td>Peasant (Village)</td>
+                </tr>
+                <tr>
+                    <td><strong>Revenue Fixed?</strong></td>
+                    <td>Yes (Permanent)</td>
+                    <td>No (Revised 20-30 yrs)</td>
+                    <td>No (Periodic)</td>
+                </tr>
+                <tr>
+                    <td><strong>Collection Unit</strong></td>
+                    <td>Zamindari</td>
+                    <td>Individual peasant</td>
+                    <td>Village (Mahal)</td>
+                </tr>
+                <tr>
+                    <td><strong>Intermediaries</strong></td>
+                    <td>Yes (Zamindars)</td>
+                    <td>No (Direct)</td>
+                    <td>Village elders</td>
+                </tr>
+                <tr>
+                    <td><strong>Revenue Rate</strong></td>
+                    <td>10/11 to British</td>
+                    <td>50-57% of produce</td>
+                    <td>Variable</td>
+                </tr>
+                <tr>
+                    <td><strong>Main Areas</strong></td>
+                    <td>Bengal, Bihar</td>
+                    <td>Madras, Bombay</td>
+                    <td>UP, Punjab, MP</td>
+                </tr>
+                <tr>
+                    <td><strong>% Coverage</strong></td>
+                    <td>~19%</td>
+                    <td>~51%</td>
+                    <td>~30%</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Common Impact -->
+        <div class="card">
+            <h2>💔 Common Negative Impact of All Systems</h2>
+
+            <div class="impact-box">
+                <h3>On Peasants</h3>
+                <ul>
+                    <li>✗ Extreme poverty & debt</li>
+                    <li>✗ Land alienation to moneylenders</li>
+                    <li>✗ No investment in agriculture</li>
+                    <li>✗ Decline in soil fertility</li>
+                    <li>✗ Frequent famines (1770, 1866, 1876-78, 1896-97, 1899-1900)</li>
+                    <li>✗ Rural distress & revolts</li>
+                </ul>
+            </div>
+
+            <div class="impact-box">
+                <h3>On Agriculture</h3>
+                <ul>
+                    <li>✗ Stagnant production</li>
+                    <li>✗ No technological improvement</li>
+                    <li>✗ Shift to cash crops (indigo, opium) instead of food</li>
+                    <li>✗ Food insecurity</li>
+                </ul>
+            </div>
+
+            <div class="highlight-box">
+                <h3>✓ British Benefits</h3>
+                <ul>
+                    <li>✓ Steady revenue for administration</li>
+                    <li>✓ Loyal landlord class created</li>
+                    <li>✓ Political control through economic dominance</li>
+                    <li>✓ Funded British expansion & wars</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- PYQ Snipers -->
+        <div class="pyq-box">
+            <h2>🎯 PYQ Sniper Shots</h2>
+
+            <div class="pyq-item">
+                <strong>Q: Who introduced Permanent Settlement?</strong><br>
+                A: <strong>Lord Cornwallis (1793)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What was Sunset Law?</strong><br>
+                A: <strong>Revenue to be paid by sunset on fixed date, else land auctioned</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Who introduced Ryotwari System?</strong><br>
+                A: <strong>Thomas Munro (1820)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Revenue rate in Ryotwari System?</strong><br>
+                A: <strong>50-57% of net produce</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is Mahal in Mahalwari System?</strong><br>
+                A: <strong>Village or group of villages</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Which system covered maximum area?</strong><br>
+                A: <strong>Ryotwari (~51%)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Madras Torture Commission was set up in?</strong><br>
+                A: <strong>1855</strong> (to investigate corruption in Ryotwari system)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Which system had intermediaries?</strong><br>
+                A: <strong>Permanent Settlement (Zamindars)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Revenue share of Zamindar in Permanent Settlement?</strong><br>
+                A: <strong>1/11th (British got 10/11th)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Which system used village elders as collectors?</strong><br>
+                A: <strong>Mahalwari (Lambardar, Talukdar)</strong>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; color: #64748b; font-size: 0.9em;">
+            Created by Antigravity • UPPCS Modern India
+        </div>
+    </div>
+
+    <script src="../theme-toggle.js"></script>
+</body>
+
+</html>

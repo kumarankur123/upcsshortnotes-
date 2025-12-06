@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 3: Buddhist Art & Architecture - UPPCS Notes</title>
+    <link rel="stylesheet" href="../dark-theme.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #fef3c7 0%, #fed7aa 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        [data-theme="dark"] body {
+            background: linear-gradient(135deg, #7c2d12 0%, #9a3412 100%);
+        }
+
+        header {
+            background: linear-gradient(135deg, #fb923c 0%, #f97316 100%);
+            color: white;
+            padding: 50px 30px;
+            border-radius: 20px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 20px 60px rgba(251, 146, 60, 0.5);
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '☸️';
+            position: absolute;
+            font-size: 15rem;
+            opacity: 0.1;
+            top: -30px;
+            right: -30px;
+            animation: spin 30s linear infinite;
+        }
+
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #fb923c;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(251, 146, 60, 0.2);
+        }
+
+        [data-theme="dark"] .card {
+            background: #1e293b;
+        }
+
+        h2 {
+            color: #fb923c;
+            border-bottom: 3px solid #fef3c7;
+            padding-bottom: 10px;
+            font-size: 1.8rem;
+        }
+
+        [data-theme="dark"] h2 {
+            color: #fdba74;
+            border-bottom-color: #7c2d12;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+            border-left: 5px solid #3b82f6;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        [data-theme="dark"] .highlight-box {
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        th,
+        td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #fef3c7;
+        }
+
+        th {
+            background: linear-gradient(135deg, #fb923c 0%, #f97316 100%);
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background: #fef3c7;
+        }
+
+        [data-theme="dark"] tr:hover {
+            background: #374151;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .tag-imp {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .tag-site {
+            background: #dcfce7;
+            color: #166534;
+        }
+
+        .pyq-box {
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 16px;
+            margin-top: 40px;
+        }
+
+        .pyq-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 10px;
+            border-left: 4px solid #fb923c;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark Mode">🌓</button>
+            <h1>☸️ Chapter 3: Buddhist Art & Architecture</h1>
+            <div class="subtitle">Stupas, Viharas, Chaityas & Sculptures</div>
+        </header>
+
+        <!-- Introduction -->
+        <div class="card">
+            <h2>📖 Introduction</h2>
+            <p><strong>Buddhism</strong> (founded ~6th century BC by Gautama Buddha) profoundly influenced Indian art
+                and architecture.</p>
+            <ul>
+                <li>Buddhist art emerged during the <strong>Mauryan period</strong> (especially under Emperor Ashoka)
+                </li>
+                <li>Major forms: <strong>Stupas, Viharas, Chaityas, Pillars, Sculptures</strong></li>
+                <li>Initially <strong>aniconic</strong> (no direct image of Buddha) → Later <strong>iconic</strong>
+                    (anthropomorphic Buddha images)</li>
+            </ul>
+        </div>
+
+        <!-- Stupas -->
+        <div class="card">
+            <h2>🕉️ Stupas <span class="tag tag-imp">Super PYQ</span></h2>
+
+            <div class="highlight-box">
+                <strong>What is a Stupa?</strong> A hemispherical dome-shaped structure containing Buddhist relics.
+                <br><strong>Purpose:</strong> Commemorative monument, meditation site, pilgrimage center
+            </div>
+
+            <h3>📐 Components of a Stupa:</h3>
+            <table>
+                <tr>
+                    <th>Component</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td><strong>Anda</strong></td>
+                    <td>Hemispherical dome (main body)</td>
+                </tr>
+                <tr>
+                    <td><strong>Harmika</strong></td>
+                    <td>Square railing on top of dome</td>
+                </tr>
+                <tr>
+                    <td><strong>Yashti (Chhatravali)</strong></td>
+                    <td>Central pillar with umbrellas symbolizing honor</td>
+                </tr>
+                <tr>
+                    <td><strong>Vedika</strong></td>
+                    <td>Railing/fence around the stupa</td>
+                </tr>
+                <tr>
+                    <td><strong>Torana</strong></td>
+                    <td>Ornamental gateway (usually 4 directions)</td>
+                </tr>
+                <tr>
+                    <td><strong>Medhi</strong></td>
+                    <td>Circular terrace for circumambulation (Pradakshina)</td>
+                </tr>
+            </table>
+
+            <h3>🏛️ Famous Stupas: <span class="tag tag-imp">Super PYQ</span></h3>
+            <ul>
+                <li><strong>Sanchi Stupa (Madhya Pradesh)</strong> <span class="tag tag-site">UNESCO World
+                        Heritage</span>
+                    <ul>
+                        <li>Commissioned by Emperor <strong>Ashoka</strong> (3rd century BC)</li>
+                        <li>Enlarged during <strong>Shunga dynasty</strong></li>
+                        <li>Famous for <strong>4 ornate Toranas</strong> with intricate carvings</li>
+                        <li>Depicts <strong>Jataka tales</strong> (Buddha's previous births)</li>
+                        <li>No direct image of Buddha (aniconic phase)</li>
+                    </ul>
+                </li>
+                <li><strong>Bharhut Stupa (Madhya Pradesh)</strong>
+                    <ul>
+                        <li>Built during <strong>Shunga period</strong></li>
+                        <li>Famous for narrative sculptures</li>
+                    </ul>
+                </li>
+                <li><strong>Amaravati Stupa (Andhra Pradesh)</strong>
+                    <ul>
+                        <li>Built during <strong>Satavahana dynasty</strong></li>
+                        <li>Famous for white marble carvings</li>
+                    </ul>
+                </li>
+                <li><strong>Dhamek Stupa (Sarnath, UP)</strong>
+                    <ul>
+                        <li>Marks the spot where Buddha gave his <strong>first sermon</strong></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Chaityas & Viharas -->
+        <div class="card">
+            <h2>🛕 Chaityas & Viharas <span class="tag tag-imp">PYQ</span></h2>
+
+            <h3>1️⃣ Chaitya (Prayer Hall):</h3>
+            <ul>
+                <li>Buddhist <strong>prayer hall</strong> with a stupa inside</li>
+                <li>Usually <strong>rock-cut</strong> (carved from solid rock)</li>
+                <li>Horseshoe-shaped entrance (Chaitya window)</li>
+                <li><strong>Apsidal</strong> (semi-circular) plan</li>
+                <li><strong>Famous Example:</strong> Karla Chaitya (Maharashtra) - largest rock-cut Chaitya</li>
+            </ul>
+
+            <h3>2️⃣ Vihara (Monastery):</h3>
+            <ul>
+                <li>Buddhist <strong>monastery</strong> for monks to reside</li>
+                <li>Central courtyard surrounded by cells (kutis)</li>
+                <li>Used for meditation, study, living</li>
+                <li><strong>Famous Examples:</strong> Ajanta Caves, Ellora Caves</li>
+            </ul>
+
+            <div class="highlight-box">
+                <strong>💡 Difference:</strong> <strong>Chaitya</strong> = Prayer hall with stupa |
+                <strong>Vihara</strong> = Residential monastery
+            </div>
+        </div>
+
+        <!-- Rock-Cut Caves -->
+        <div class="card">
+            <h2>🏔️ Rock-Cut Buddhist Caves <span class="tag tag-imp">Super PYQ</span></h2>
+
+            <h3>🎨 Ajanta Caves (Maharashtra) <span class="tag tag-site">UNESCO World Heritage</span></h3>
+            <ul>
+                <li>Total <strong>30 caves</strong> (5th-6th century AD)</li>
+                <li>Contains both <strong>Chaityas and Viharas</strong></li>
+                <li>Famous for <strong>Buddhist paintings</strong> (frescoes)</li>
+                <li>Depicts: <strong>Jataka tales, Buddha's life, Bodhisattvas</strong></li>
+                <li>Cave 1: <strong>Padmapani</strong> and <strong>Vajrapani</strong> Bodhisattva paintings</li>
+                <li>Cave 26: <strong>Mahaparinirvana</strong> (reclining Buddha)</li>
+            </ul>
+
+            <h3>🗿 Ellora Caves (Maharashtra) <span class="tag tag-site">UNESCO World Heritage</span></h3>
+            <ul>
+                <li>Total <strong>34 caves</strong> (Buddhist, Hindu, Jain)</li>
+                <li><strong>Cave 10 (Vishwakarma Cave):</strong> Famous Buddhist Chaitya</li>
+                <li>Multi-religious complex (unique feature)</li>
+            </ul>
+        </div>
+
+        <!-- Aniconic vs Iconic -->
+        <div class="card">
+            <h2>🔄 Aniconic vs Iconic Representation <span class="tag tag-imp">PYQ</span></h2>
+
+            <table>
+                <tr>
+                    <th>Aniconic Phase</th>
+                    <th>Iconic Phase</th>
+                </tr>
+                <tr>
+                    <td><strong>No direct image of Buddha</strong></td>
+                    <td><strong>Anthropomorphic Buddha images</strong></td>
+                </tr>
+                <tr>
+                    <td>Buddha represented by symbols:</td>
+                    <td>Buddha depicted in human form</td>
+                </tr>
+                <tr>
+                    <td>- Bodhi Tree (Enlightenment)</td>
+                    <td>Developed in <strong>Gandhara & Mathura schools</strong></td>
+                </tr>
+                <tr>
+                    <td>- Dharma Chakra (Wheel)</td>
+                    <td>Shows Buddha in various <strong>mudras</strong> (gestures)</td>
+                </tr>
+                <tr>
+                    <td>- Footprints (Paduka)</td>
+                    <td>Influences: Greco-Roman (Gandhara), Indian (Mathura)</td>
+                </tr>
+                <tr>
+                    <td>- Empty throne</td>
+                    <td>Later spread to entire Buddhist world</td>
+                </tr>
+                <tr>
+                    <td>- Stupa</td>
+                    <td>Gupta period: Refined & idealized Buddha images</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Symbolism -->
+        <div class="card">
+            <h2>🔣 Buddhist Symbolism</h2>
+
+            <ul>
+                <li><strong>Bodhi Tree:</strong> Enlightenment</li>
+                <li><strong>Dharma Chakra (Wheel):</strong> Buddha's first sermon (Dhammachakra Pravartan)</li>
+                <li><strong>Lotus:</strong> Purity, spiritual awakening</li>
+                <li><strong>Empty Throne:</strong> Buddha's royal renunciation</li>
+                <li><strong>Footprints:</strong> Buddha's presence</li>
+                <li><strong>Stupa:</strong> Buddha's Parinirvana (final liberation)</li>
+                <li><strong>Lion:</strong> Royal power, Buddha's clan (Shakya)</li>
+                <li><strong>Deer:</strong> Buddha's first sermon at Sarnath (Deer Park)</li>
+            </ul>
+        </div>
+
+        <!-- PYQ Section -->
+        <div class="pyq-box">
+            <h2>🎯 PYQ Sniper Shots</h2>
+
+            <div class="pyq-item">
+                <strong>Q: What are the main components of a Stupa?</strong><br>
+                A: <strong>Anda, Harmika, Yashti, Vedika, Torana, Medhi</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Which is the largest rock-cut Buddhist Chaitya in India?</strong><br>
+                A: <strong>Karla Chaitya (Maharashtra)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Sanchi Stupa was commissioned by which emperor?</strong><br>
+                A: <strong>Emperor Ashoka</strong> (Mauryan dynasty)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Which cave at Ajanta depicts Padmapani Bodhisattva?</strong><br>
+                A: <strong>Cave 1</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What is the difference between Chaitya and Vihara?</strong><br>
+                A: <strong>Chaitya</strong> = Prayer hall with stupa | <strong>Vihara</strong> = Monastery for monks
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Which symbol represents Buddha's enlightenment?</strong><br>
+                A: <strong>Bodhi Tree</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: UPPCS 2017: Ajanta caves are famous for?</strong><br>
+                A: <strong>Buddhist paintings (frescoes)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: What does "aniconic" mean in Buddhist art?</strong><br>
+                A: <strong>No direct image of Buddha</strong> (represented by symbols)
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Where did Buddha give his first sermon?</strong><br>
+                A: <strong>Sarnath (Deer Park)</strong> - marked by Dhamek Stupa
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; color: #64748b; font-size: 0.9em;">
+            Created by Antigravity • UPPCS Art & Culture • From Your Class Notes
+        </div>
+    </div>
+
+    <script src="../theme-toggle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 4: British Administrative Reforms (1773-1858) - UPPCS Notes</title>
+    <link rel="stylesheet" href="../dark-theme.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        [data-theme="dark"] body {
+            background: linear-gradient(135deg, #0c4a6e 0%, #075985 100%);
+        }
+
+        header {
+            background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+            color: white;
+            padding: 50px 30px;
+            border-radius: 20px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 20px 60px rgba(2, 132, 199, 0.5);
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '⚖️';
+            position: absolute;
+            font-size: 15rem;
+            opacity: 0.1;
+            top: -30px;
+            right: -30px;
+            animation: swing 4s ease-in-out infinite;
+        }
+
+        @keyframes swing {
+
+            0%,
+            100% {
+                transform: rotate(-10deg);
+            }
+
+            50% {
+                transform: rotate(10deg);
+            }
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #0284c7;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(2, 132, 199, 0.2);
+        }
+
+        [data-theme="dark"] .card {
+            background: #1e293b;
+        }
+
+        h2 {
+            color: #0284c7;
+            border-bottom: 3px solid #e0f2fe;
+            padding-bottom: 10px;
+            font-size: 1.8rem;
+        }
+
+        [data-theme="dark"] h2 {
+            color: #38bdf8;
+            border-bottom-color: #075985;
+        }
+
+        .act-box {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+            padding: 25px;
+            border-radius: 12px;
+            margin: 20px 0;
+            border-left: 5px solid #0284c7;
+        }
+
+        [data-theme="dark"] .act-box {
+            background: linear-gradient(135deg, #0c4a6e 0%, #075985 100%);
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .grid-container>div {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+            padding: 20px;
+            border-radius: 12px;
+            border: 2px solid #bae6fd;
+        }
+
+        [data-theme="dark"] .grid-container>div {
+            background: linear-gradient(135deg, #0c4a6e 0%, #075985 100%);
+            border-color: #0284c7;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            border-left: 5px solid #f59e0b;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        [data-theme="dark"] .highlight-box {
+            background: linear-gradient(135deg, #78350f 0%, #92400e 100%);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        th,
+        td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #e0f2fe;
+        }
+
+        th {
+            background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background: #f0f9ff;
+        }
+
+        [data-theme="dark"] tr:hover {
+            background: #374151;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .tag-imp {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .tag-year {
+            background: #e0e7ff;
+            color: #3730a3;
+        }
+
+        .pyq-box {
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 16px;
+            margin-top: 40px;
+        }
+
+        .pyq-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 10px;
+            border-left: 4px solid #0284c7;
+        }
+
+        .timeline-item {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 15px;
+            border-left: 3px solid #0284c7;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -8px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            background: #0284c7;
+            border-radius: 50%;
+            box-shadow: 0 0 0 3px white, 0 0 0 5px #0284c7;
+        }
+
+        [data-theme="dark"] .timeline-item::before {
+            box-shadow: 0 0 0 3px #1e293b, 0 0 0 5px #0284c7;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark Mode">🌓</button>
+            <h1>⚖️ Chapter 4: British Administrative Reforms</h1>
+            <div class="subtitle">Acts, Governance & Four Pillars (1773-1858)</div>
+        </header>
+
+        <!-- Background -->
+        <div class="card">
+            <h2>📜 Background: Need for Reforms</h2>
+
+            <h3>⚠️ Problems Before 1773</h3>
+            <ul>
+                <li><strong>Dual Government (1765-72):</strong> Chaos in Bengal. British had Diwani (revenue), Nawab had
+                    Nizamat (administration)</li>
+                <li><strong>Famine of 1770:</strong> 1/3rd of Bengal's population died. No one took responsibility</li>
+                <li><strong>Company Bankruptcy:</strong> EIC on verge of collapse. Took £1 million loan from British
+                    govt (1772)</li>
+                <li><strong>Corruption:</strong> Company servants became "English Nawabs". Robert Clive received huge
+                    bribes</li>
+                <li><strong>No Accountability:</strong> 3 Presidencies (Bengal, Bombay, Madras) worked independently
+                </li>
+            </ul>
+
+            <div class="highlight-box">
+                <strong>Parliamentary Investigation (1772):</strong><br>
+                Secret committee found massive corruption. British Parliament decided to regulate Company's affairs in
+                India.
+            </div>
+        </div>
+
+        <!-- Regulating Act 1773 -->
+        <div class="card">
+            <div class="act-box">
+                <h2>📋 Regulating Act of 1773</h2>
+                <p><strong>First Parliamentary intervention in Company's Indian affairs</strong> <span
+                        class="tag tag-imp">Super PYQ</span></p>
+
+                <h3>🎯 Key Provisions</h3>
+
+                <h4>1. Governor-General of Bengal</h4>
+                <ul>
+                    <li><strong>Warren Hastings:</strong> First Governor-General of Bengal (1773-85) <span
+                            class="tag tag-imp">PYQ</span></li>
+                    <li><strong>Executive Council:</strong> 4 members to assist him
+                        <br>• Philip Francis, Clavering, Monson, Barwell
+                        <br>• Decisions by majority vote
+                        <br>• Governor-General had casting vote in case of tie
+                    </li>
+                    <li><strong>Superiority:</strong> Governors of Bombay & Madras made subordinate to Bengal</li>
+                </ul>
+
+                <h4>2. Supreme Court at Calcutta (1774)</h4>
+                <ul>
+                    <li><strong>Established:</strong> Supreme Court at Fort William, Calcutta</li>
+                    <li><strong>Composition:</strong> 1 Chief Justice + 3 Judges</li>
+                    <li><strong>First Chief Justice:</strong> Sir Elijah Impey <span class="tag tag-imp">PYQ</span></li>
+                    <li><strong>Jurisdiction:</strong> Over British subjects & Company servants</li>
+                </ul>
+
+                <h4>3. Anti-Corruption Measures</h4>
+                <ul>
+                    <li>Prohibited Company servants from <strong>private trade</strong></li>
+                    <li>Banned <strong>accepting gifts</strong> from Indians</li>
+                    <li>Required <strong>declaration of assets</strong> by all officials</li>
+                </ul>
+
+                <h4>4. Court of Directors</h4>
+                <ul>
+                    <li>Term fixed at <strong>5 years</strong> (earlier annual election)</li>
+                    <li>Company required to submit reports to British Parliament</li>
+                </ul>
+
+                <h3>❌ Defects of the Act</h3>
+                <ul>
+                    <li><strong>Vague Powers:</strong> No clear demarcation between Governor-General & Supreme Court
+                    </li>
+                    <li><strong>Council Conflicts:</strong> Governor-General often clashed with council members (Philip
+                        Francis vs Warren Hastings)</li>
+                    <li><strong>Supreme Court Overreach:</strong> Court interfered in revenue matters, angering Indians
+                    </li>
+                    <li><strong>No Indian Welfare:</strong> Act focused on Company, not Indian people</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Act of 1781 -->
+        <div class="card">
+            <div class="act-box">
+                <h2>📋 Act of 1781 (Amending Act)</h2>
+
+                <h3>🎯 Key Provisions</h3>
+                <ul>
+                    <li><strong>Supreme Court's Power Reduced:</strong> Couldn't interfere in revenue matters</li>
+                    <li><strong>Governor-General's Authority:</strong> Clearly defined vis-a-vis Supreme Court</li>
+                    <li><strong>Protection to Officials:</strong> Company servants protected from court cases for
+                        official acts</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Pitt's India Act 1784 -->
+        <div class="card">
+            <div class="act-box">
+                <h2>📋 Pitt's India Act of 1784</h2>
+                <p><strong>Established dual control - Company + British Government</strong> <span
+                        class="tag tag-imp">Super PYQ</span></p>
+
+                <h3>🎯 Key Provisions</h3>
+
+                <h4>1. Board of Control</h4>
+                <ul>
+                    <li><strong>Established:</strong> Board of Control in Britain (6 members)</li>
+                    <li><strong>Powers:</strong> Supervised Company's civil, military & revenue affairs in India</li>
+                    <li><strong>Significance:</strong> British Government gained direct control over Company</li>
+                </ul>
+
+                <h4>2. Dual Government</h4>
+                <ul>
+                    <li><strong>Court of Directors:</strong> Managed commercial affairs</li>
+                    <li><strong>Board of Control:</strong> Managed political affairs</li>
+                    <li><strong>Result:</strong> Joint rule by Parliament & Company began <span
+                            class="tag tag-imp">PYQ</span></li>
+                </ul>
+
+                <h4>3. Separation of Functions</h4>
+                <ul>
+                    <li><strong>Commercial:</strong> Trade & business</li>
+                    <li><strong>Political:</strong> Governance & administration</li>
+                    <li><strong>First Time:</strong> Company's Indian territory recognized as "British possession"</li>
+                </ul>
+
+                <h4>4. Governor-General's Powers</h4>
+                <ul>
+                    <li>Given overriding powers over Governors of Bombay & Madras</li>
+                    <li>Could override council in emergencies</li>
+                </ul>
+
+                <div class="highlight-box">
+                    <strong>Lord Cornwallis (1786-93):</strong><br>
+                    • First Governor-General under Pitt's India Act<br>
+                    • Also made Commander-in-Chief of British Indian Army<br>
+                    • Given special powers to override council
+                </div>
+            </div>
+        </div>
+
+        <!-- Charter Act 1793 -->
+        <div class="card">
+            <div class="act-box">
+                <h2>📋 Charter Act of 1793</h2>
+
+                <h3>🎯 Key Provisions</h3>
+                <ul>
+                    <li><strong>Company's Charter:</strong> Extended for 20 years</li>
+                    <li><strong>Cornwallis Powers:</strong> Extended to all future Governors-General</li>
+                    <li><strong>Written Laws:</strong> Governance based on written laws, not personal whims</li>
+                    <li><strong>Indian Languages:</strong> Laws to be printed in Indian languages for people to
+                        understand</li>
+                    <li><strong>Salaries:</strong> Governor-General & council paid from Indian revenues</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Charter Act 1813 -->
+        <div class="card">
+            <div class="act-box">
+                <h2>📋 Charter Act of 1813</h2>
+
+                <h3>🔥 Background</h3>
+                <ul>
+                    <li><strong>Industrial Revolution:</strong> British capitalists wanted free trade</li>
+                    <li><strong>Napoleon's Continental System:</strong> Blocked British trade with Europe</li>
+                    <li><strong>Adam Smith's Theory:</strong> Free trade ideas gaining popularity</li>
+                </ul>
+
+                <h3>🎯 Key Provisions</h3>
+                <ul>
+                    <li><strong>Trade Monopoly Ended:</strong> Company's monopoly on Indian trade ended <span
+                            class="tag tag-imp">Super PYQ</span>
+                        <br>• But retained monopoly on China trade (tea, opium)
+                    </li>
+                    <li><strong>Charter Extended:</strong> For 20 years</li>
+                    <li><strong>Christian Missionaries:</strong> Allowed to enter India with license</li>
+                    <li><strong>Education Fund:</strong> ₹1 lakh per year for education, literature & science <span
+                            class="tag tag-imp">PYQ</span></li>
+                </ul>
+
+                <div class="highlight-box">
+                    <strong>Significance:</strong> Opened India to British manufactured goods. Beginning of
+                    de-industrialization of India.
+                </div>
+            </div>
+        </div>
+
+        <!-- Charter Act 1833 -->
+        <div class="card">
+            <div class="act-box">
+                <h2>📋 Charter Act of 1833</h2>
+                <p><strong>Most comprehensive reform till date</strong> <span class="tag tag-imp">Super PYQ</span></p>
+
+                <h3>🎯 Key Provisions</h3>
+
+                <h4>1. End of Commercial Activities</h4>
+                <ul>
+                    <li><strong>All Trade Monopoly Ended:</strong> Including China trade</li>
+                    <li><strong>Company:</strong> Became purely administrative body</li>
+                </ul>
+
+                <h4>2. Governor-General of India</h4>
+                <ul>
+                    <li><strong>Title Changed:</strong> Governor-General of Bengal → Governor-General of India</li>
+                    <li><strong>First:</strong> Lord William Bentinck (1833-35) <span class="tag tag-imp">PYQ</span>
+                    </li>
+                    <li><strong>Centralization:</strong> All civil & military powers concentrated</li>
+                </ul>
+
+                <h4>3. Law Member</h4>
+                <ul>
+                    <li><strong>4th Member:</strong> Added to Governor-General's Council for legislative purposes</li>
+                    <li><strong>First Law Member:</strong> Lord Macaulay <span class="tag tag-imp">PYQ</span></li>
+                    <li><strong>Indian Law Commission:</strong> Established to codify laws</li>
+                </ul>
+
+                <h4>4. Indian Civil Service</h4>
+                <ul>
+                    <li><strong>Section 87:</strong> No discrimination based on religion, caste, color, or place of
+                        birth <span class="tag tag-imp">Super PYQ</span></li>
+                    <li><strong>Reality:</strong> In practice, Indians rarely got high posts</li>
+                </ul>
+
+                <h4>5. Slavery</h4>
+                <ul>
+                    <li>Steps taken for abolition of slavery in India</li>
+                </ul>
+
+                <div class="highlight-box">
+                    <strong>Codification of Laws:</strong><br>
+                    • <strong>Indian Penal Code (IPC) - 1860</strong><br>
+                    • <strong>Criminal Procedure Code (CrPC) - 1861</strong><br>
+                    • <strong>Civil Procedure Code (CPC) - 1859</strong><br>
+                    All drafted by Macaulay's Law Commission
+                </div>
+            </div>
+        </div>
+
+        <!-- Charter Act 1853 -->
+        <div class="card">
+            <div class="act-box">
+                <h2>📋 Charter Act of 1853</h2>
+                <p><strong>Last Charter Act before 1857 Revolt</strong></p>
+
+                <h3>🎯 Key Provisions</h3>
+
+                <h4>1. No Fixed Term</h4>
+                <ul>
+                    <li><strong>First Time:</strong> Charter renewed without fixed time period</li>
+                    <li><strong>Reason:</strong> Company's future uncertain</li>
+                </ul>
+
+                <h4>2. Separation of Powers</h4>
+                <ul>
+                    <li><strong>Legislative Council:</strong> Separated from Executive Council <span
+                            class="tag tag-imp">PYQ</span></li>
+                    <li><strong>6 New Members:</strong> Added for legislative work</li>
+                    <li><strong>Beginning:</strong> Of parliamentary system in India</li>
+                </ul>
+
+                <h4>3. Civil Service Reforms</h4>
+                <ul>
+                    <li><strong>Open Competition:</strong> Civil service exams made open to all <span
+                            class="tag tag-imp">Super PYQ</span></li>
+                    <li><strong>Macaulay Committee (1854):</strong> Recommended competitive exams</li>
+                    <li><strong>First Indian ICS:</strong> Satyendra Nath Tagore (1863) <span
+                            class="tag tag-imp">PYQ</span></li>
+                </ul>
+
+                <h4>4. Court of Directors</h4>
+                <ul>
+                    <li><strong>Reduced:</strong> From 24 to 18 directors</li>
+                    <li><strong>Crown Nominees:</strong> 6 directors appointed by British Crown</li>
+                    <li><strong>Patronage Ended:</strong> Directors lost power to appoint officials</li>
+                </ul>
+
+                <h4>5. Local Representation</h4>
+                <ul>
+                    <li><strong>4 Members:</strong> From Madras, Bombay, Bengal, Agra (NWP) added to Legislative Council
+                    </li>
+                    <li><strong>First Time:</strong> Local representation in central legislature</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Four Pillars -->
+        <div class="card">
+            <h2>🏛️ Four Pillars of British Administration</h2>
+
+            <div class="grid-container">
+                <div>
+                    <h3>1. Civil Services</h3>
+                    <p><strong>Creator:</strong> Lord Cornwallis</p>
+                    <ul>
+                        <li>Banned private trade</li>
+                        <li>Increased salaries (highest paid in world)</li>
+                        <li>Promotions by seniority</li>
+                        <li><strong>Europeanization (1793):</strong> Posts above £500/year reserved for British</li>
+                        <li><strong>Training:</strong> Fort William College (Kolkata), Haileybury (England, 1806)</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>2. Army</h3>
+                    <p><strong>Two Forces:</strong></p>
+                    <ul>
+                        <li><strong>Queen's Army:</strong> Smaller, British troops</li>
+                        <li><strong>Company's Army:</strong> Larger, 86% Indian sepoys by 1857</li>
+                        <li><strong>Highest Indian Rank:</strong> Subedar</li>
+                        <li><strong>Martial Races:</strong> Pathans, Rajputs, Sikhs, Gorkhas preferred</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>3. Judiciary</h3>
+                    <p><strong>Cornwallis Reforms:</strong></p>
+                    <ul>
+                        <li>Provincial Circuit Courts (4)</li>
+                        <li>Sadar Diwani Adalat (Civil)</li>
+                        <li>Sadar Nizamat Adalat (Criminal)</li>
+                        <li><strong>1865:</strong> High Courts in Bombay, Calcutta, Madras</li>
+                        <li><strong>1937:</strong> Federal Court</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>4. Police</h3>
+                    <p><strong>Organized System:</strong></p>
+                    <ul>
+                        <li>District Magistrate (head)</li>
+                        <li>Thanas at local level</li>
+                        <li>Daroga (police station in-charge)</li>
+                        <li>Used for suppressing dissent</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Comparison Table -->
+        <div class="card">
+            <h2>📊 Quick Comparison of Acts</h2>
+
+            <table>
+                <tr>
+                    <th>Act</th>
+                    <th>Year</th>
+                    <th>Key Feature</th>
+                </tr>
+                <tr>
+                    <td><strong>Regulating Act</strong></td>
+                    <td>1773</td>
+                    <td>First Parliamentary intervention. Warren Hastings as Governor-General</td>
+                </tr>
+                <tr>
+                    <td><strong>Pitt's India Act</strong></td>
+                    <td>1784</td>
+                    <td>Board of Control. Dual government began</td>
+                </tr>
+                <tr>
+                    <td><strong>Charter Act</strong></td>
+                    <td>1793</td>
+                    <td>Extended Company charter. Written laws</td>
+                </tr>
+                <tr>
+                    <td><strong>Charter Act</strong></td>
+                    <td>1813</td>
+                    <td>Trade monopoly ended (except China). ₹1 lakh for education</td>
+                </tr>
+                <tr>
+                    <td><strong>Charter Act</strong></td>
+                    <td>1833</td>
+                    <td>All trade ended. Governor-General of India. Law Member added</td>
+                </tr>
+                <tr>
+                    <td><strong>Charter Act</strong></td>
+                    <td>1853</td>
+                    <td>Open competition for ICS. Legislative Council separated</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- PYQ Snipers -->
+        <div class="pyq-box">
+            <h2>🎯 PYQ Sniper Shots</h2>
+
+            <div class="pyq-item">
+                <strong>Q: Who was the first Governor-General of Bengal?</strong><br>
+                A: <strong>Warren Hastings (1773)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Who was the first Governor-General of India?</strong><br>
+                A: <strong>Lord William Bentinck (1833)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: First Chief Justice of Supreme Court at Calcutta?</strong><br>
+                A: <strong>Sir Elijah Impey (1774)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Which Act established Board of Control?</strong><br>
+                A: <strong>Pitt's India Act (1784)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Which Act ended Company's trade monopoly with India?</strong><br>
+                A: <strong>Charter Act of 1813</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Which Act allocated ₹1 lakh for education?</strong><br>
+                A: <strong>Charter Act of 1813</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Who was the first Law Member of Governor-General's Council?</strong><br>
+                A: <strong>Lord Macaulay (1833)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: First Indian to pass ICS exam?</strong><br>
+                A: <strong>Satyendra Nath Tagore (1863)</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Which Act separated legislative and executive functions?</strong><br>
+                A: <strong>Charter Act of 1853</strong>
+            </div>
+            <div class="pyq-item">
+                <strong>Q: Who created modern civil service in India?</strong><br>
+                A: <strong>Lord Cornwallis</strong>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; color: #64748b; font-size: 0.9em;">
+            Created by Antigravity • UPPCS Modern India
+        </div>
+    </div>
+
+    <script src="../theme-toggle.js"></script>
+</body>
+
+</html>
