@@ -35,4 +35,3 @@ Notes/
 ## License
 
 Educational content for UPPCS aspirants.
-
