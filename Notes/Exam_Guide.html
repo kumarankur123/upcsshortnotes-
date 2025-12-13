@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPPCS Exam Complete Guide - Syllabus, Pattern, Cutoffs</title>
+    <link rel="stylesheet" href="./dark-theme.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary-color: #667eea;
+            --secondary-color: #764ba2;
+            --gradient-start: #667eea;
+            --gradient-end: #764ba2;
+        }
+
+        [data-theme="dark"] {
+            --primary-color: #818cf8;
+            --secondary-color: #a78bfa;
+            --gradient-start: #818cf8;
+            --gradient-end: #a78bfa;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background: var(--bg-color);
+            padding: 20px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        [data-theme="dark"] body {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            padding: 40px;
+            position: relative;
+        }
+
+        [data-theme="dark"] .container {
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        
+        h1 {
+            color: var(--primary-color);
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            border-bottom: 4px solid var(--secondary-color);
+            padding-bottom: 20px;
+        }
+        
+        h2 {
+            color: var(--secondary-color);
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            border-left: 5px solid var(--primary-color);
+            padding-left: 15px;
+        }
+        
+        h3 {
+            color: var(--primary-color);
+            margin-top: 25px;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+        
+        h4 {
+            color: var(--text-color);
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+        
+        .exam-structure {
+            background: var(--bg-color);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border: 1px solid var(--border-color);
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        th {
+            background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid var(--border-color);
+            background: var(--card-bg);
+        }
+        
+        tr:hover {
+            background-color: var(--bg-color);
+        }
+        
+        tr:nth-child(even) td {
+            background-color: var(--bg-color);
+        }
+        
+        ul, ol {
+            margin-left: 30px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        
+        li {
+            margin: 8px 0;
+            line-height: 1.8;
+        }
+        
+        .highlight {
+            background: #fff3cd;
+            padding: 15px;
+            border-left: 4px solid #ffc107;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+
+        [data-theme="dark"] .highlight {
+            background: rgba(255, 243, 205, 0.1);
+            border-left-color: #ffc107;
+        }
+        
+        .info-box {
+            background: #e7f3ff;
+            padding: 15px;
+            border-left: 4px solid #2196F3;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+
+        [data-theme="dark"] .info-box {
+            background: rgba(231, 243, 255, 0.1);
+            border-left-color: #2196F3;
+        }
+        
+        .warning-box {
+            background: #ffe7e7;
+            padding: 15px;
+            border-left: 4px solid #f44336;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+
+        [data-theme="dark"] .warning-box {
+            background: rgba(255, 231, 231, 0.1);
+            border-left-color: #f44336;
+        }
+        
+        .success-box {
+            background: #e8f5e9;
+            padding: 15px;
+            border-left: 4px solid #4caf50;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+
+        [data-theme="dark"] .success-box {
+            background: rgba(232, 245, 233, 0.1);
+            border-left-color: #4caf50;
+        }
+        
+        .section {
+            margin: 30px 0;
+            padding: 20px;
+            background: var(--bg-color);
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
+        }
+        
+        .paper-details {
+            background: var(--card-bg);
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+            border: 2px solid var(--border-color);
+        }
+        
+        .cutoff-table {
+            overflow-x: auto;
+        }
+        
+        .total-marks {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: var(--secondary-color);
+            margin-top: 10px;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            table {
+                font-size: 0.9em;
+            }
+            
+            th, td {
+                padding: 8px;
+            }
+        }
+        
+        .toc {
+            background: var(--bg-color);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border: 1px solid var(--border-color);
+        }
+        
+        .toc ul {
+            list-style: none;
+            margin-left: 0;
+        }
+        
+        .toc li {
+            margin: 8px 0;
+        }
+        
+        .toc a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .toc a:hover {
+            text-decoration: underline;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        header {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark Mode">🌓</button>
+            <a href="./index.html" class="back-link">← Back to Dashboard</a>
+            <h1>UPPCS Complete Exam Guide</h1>
+            <p style="text-align: center; color: var(--text-color); margin-bottom: 30px; font-size: 1.1em;">
+                Uttar Pradesh Public Service Commission - Combined State/Upper Subordinate Services Examination
+            </p>
+        </header>
+        
+        <div class="toc">
+            <h3>Table of Contents</h3>
+            <ul>
+                <li><a href="#overview">1. Exam Overview</a></li>
+                <li><a href="#prelims">2. Preliminary Examination</a></li>
+                <li><a href="#mains">3. Main Examination</a></li>
+                <li><a href="#interview">4. Interview</a></li>
+                <li><a href="#marking">5. Marking Scheme</a></li>
+                <li><a href="#cutoffs">6. Historical Cutoffs</a></li>
+                <li><a href="#optional">7. Optional Subjects</a></li>
+            </ul>
+        </div>
+        <section id="overview">
+            <h2>1. Exam Overview</h2>
+            <div class="info-box">
+                <strong>UPPCS Examination Structure:</strong> The UPPCS exam is conducted in three stages:
+                <ol>
+                    <li><strong>Preliminary Examination</strong> (Objective Type - Screening Test)</li>
+                    <li><strong>Main Examination</strong> (Descriptive Type - Written Test)</li>
+                    <li><strong>Personality Test</strong> (Interview)</li>
+                </ol>
+            </div>
+        </section>
+        <section id="prelims">
+            <h2>2. Preliminary Examination (Prelims)</h2>
+            
+            <div class="exam-structure">
+                <h3>Paper Structure</h3>
+                
+                <div class="paper-details">
+                    <h4>Paper I: General Studies</h4>
+                    <ul>
+                        <li><strong>Type:</strong> Objective (Multiple Choice Questions)</li>
+                        <li><strong>Number of Questions:</strong> 150</li>
+                        <li><strong>Total Marks:</strong> 200</li>
+                        <li><strong>Duration:</strong> 2 hours</li>
+                        <li><strong>Nature:</strong> Merit-based (Marks counted for merit list)</li>
+                    </ul>
+                </div>
+                <div class="paper-details">
+                    <h4>Paper II: General Studies II (CSAT)</h4>
+                    <ul>
+                        <li><strong>Type:</strong> Objective (Multiple Choice Questions)</li>
+                        <li><strong>Number of Questions:</strong> 100</li>
+                        <li><strong>Total Marks:</strong> 200</li>
+                        <li><strong>Duration:</strong> 2 hours</li>
+                        <li><strong>Nature:</strong> Qualifying only (Minimum 33% required - 66 marks)</li>
+                        <li><strong>Note:</strong> Marks of this paper are NOT counted for merit list</li>
+                    </ul>
+                </div>
+            </div>
+            <h3>Prelims Syllabus</h3>
+            
+            <div class="section">
+                <h4>Paper I: General Studies Syllabus</h4>
+                <ul>
+                    <li><strong>Current Events:</strong> Events of national and international importance</li>
+                    <li><strong>History of India:</strong> Ancient, Medieval, and Modern Indian History</li>
+                    <li><strong>Indian National Movement:</strong> Freedom struggle, important movements, personalities</li>
+                    <li><strong>Indian and World Geography:</strong> Physical, Social, Economic Geography of India and World</li>
+                    <li><strong>Indian Polity and Governance:</strong> Constitution, Political System, Panchayati Raj, Public Policy, Rights Issues</li>
+                    <li><strong>Economic and Social Development:</strong> Sustainable Development, Poverty, Inclusion, Demographics, Social Sector Initiatives</li>
+                    <li><strong>Environmental Ecology, Biodiversity, and Climate Change:</strong> General issues on Environmental Ecology (no subject specialization required)</li>
+                    <li><strong>General Science:</strong> Physics, Chemistry, Biology (Class 10 level)</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h4>Paper II: CSAT Syllabus</h4>
+                <ul>
+                    <li><strong>Comprehension:</strong> Reading comprehension passages</li>
+                    <li><strong>Interpersonal Skills:</strong> Communication skills</li>
+                    <li><strong>Logical Reasoning and Analytical Ability:</strong> Logical reasoning, analytical ability</li>
+                    <li><strong>Decision Making and Problem Solving:</strong> Decision making, problem-solving skills</li>
+                    <li><strong>General Mental Ability:</strong> Basic numeracy, data interpretation</li>
+                    <li><strong>Basic Numeracy:</strong> Numbers and their relations, orders of magnitude (Class 10 level)</li>
+                    <li><strong>Data Interpretation:</strong> Charts, graphs, tables, data sufficiency (Class 10 level)</li>
+                    <li><strong>English Language Comprehension Skills:</strong> Class 10 level</li>
+                </ul>
+            </div>
+            <div class="highlight">
+                <strong>Important:</strong> Only candidates who qualify Paper II (CSAT) with minimum 33% marks are eligible for evaluation of Paper I. Paper I marks determine the merit list for Prelims.
+            </div>
+        </section>
+        <section id="mains">
+            <h2>3. Main Examination (Mains)</h2>
+            
+            <div class="info-box">
+                <strong>Total Papers:</strong> 8 Papers<br>
+                <strong>Total Marks:</strong> 1500 Marks (Written) + 100 Marks (Interview) = 1600 Marks
+            </div>
+            <h3>Mains Paper Structure</h3>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Paper</th>
+                        <th>Subject</th>
+                        <th>Marks</th>
+                        <th>Duration</th>
+                        <th>Nature</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Paper I</td>
+                        <td>General Hindi</td>
+                        <td>150</td>
+                        <td>3 hours</td>
+                        <td>Qualifying (Minimum marks required)</td>
+                    </tr>
+                    <tr>
+                        <td>Paper II</td>
+                        <td>Essay</td>
+                        <td>150</td>
+                        <td>3 hours</td>
+                        <td>Merit (Counted in final marks)</td>
+                    </tr>
+                    <tr>
+                        <td>Paper III</td>
+                        <td>General Studies I</td>
+                        <td>200</td>
+                        <td>3 hours</td>
+                        <td>Merit</td>
+                    </tr>
+                    <tr>
+                        <td>Paper IV</td>
+                        <td>General Studies II</td>
+                        <td>200</td>
+                        <td>3 hours</td>
+                        <td>Merit</td>
+                    </tr>
+                    <tr>
+                        <td>Paper V</td>
+                        <td>General Studies III</td>
+                        <td>200</td>
+                        <td>3 hours</td>
+                        <td>Merit</td>
+                    </tr>
+                    <tr>
+                        <td>Paper VI</td>
+                        <td>General Studies IV</td>
+                        <td>200</td>
+                        <td>3 hours</td>
+                        <td>Merit</td>
+                    </tr>
+                    <tr>
+                        <td>Paper VII</td>
+                        <td>Optional Subject Paper I</td>
+                        <td>200</td>
+                        <td>3 hours</td>
+                        <td>Merit</td>
+                    </tr>
+                    <tr>
+                        <td>Paper VIII</td>
+                        <td>Optional Subject Paper II</td>
+                        <td>200</td>
+                        <td>3 hours</td>
+                        <td>Merit</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="total-marks">
+                Total Written Marks: 1500 | Interview: 100 | Grand Total: 1600
+            </div>
+            <h3>Mains Detailed Syllabus</h3>
+            <div class="section">
+                <h4>Paper I: General Hindi (150 Marks)</h4>
+                <ul>
+                    <li>Hindi Grammar (व्याकरण)</li>
+                    <li>Precis Writing (संक्षेपण)</li>
+                    <li>Letter Writing (पत्र लेखन)</li>
+                    <li>Translation (अनुवाद)</li>
+                    <li>Essay in Hindi (निबंध)</li>
+                </ul>
+                <div class="warning-box">
+                    <strong>Note:</strong> This is a qualifying paper. Minimum marks are required, but marks are NOT added to final merit.
+                </div>
+            </div>
+            <div class="section">
+                <h4>Paper II: Essay (150 Marks)</h4>
+                <ul>
+                    <li>Candidates need to write essays on multiple topics</li>
+                    <li>Topics cover: Social, Economic, Political, Philosophical, Environmental, and Current Affairs</li>
+                    <li>Essay should be well-structured with introduction, body, and conclusion</li>
+                    <li>Word limit and number of essays may vary</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h4>Paper III: General Studies I (200 Marks)</h4>
+                <p><strong>Topics Covered:</strong></p>
+                <ul>
+                    <li><strong>History of India:</strong> Ancient, Medieval, and Modern History</li>
+                    <li><strong>Indian Culture:</strong> Art forms, Literature, Architecture from ancient to modern times</li>
+                    <li><strong>Modern Indian History:</strong> From the middle of the eighteenth century until the present</li>
+                    <li><strong>Freedom Struggle:</strong> Significant events, personalities, issues from the 18th century</li>
+                    <li><strong>Post-Independence India:</strong> Consolidation and reorganization within the country</li>
+                    <li><strong>World History:</strong> Events from 18th century (Industrial Revolution, World Wars, etc.)</li>
+                    <li><strong>Indian Geography:</strong> Physical, Social, Economic Geography of India</li>
+                    <li><strong>World Geography:</strong> Distribution of key natural resources, factors responsible for location of industries</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h4>Paper IV: General Studies II (200 Marks)</h4>
+                <p><strong>Topics Covered:</strong></p>
+                <ul>
+                    <li><strong>Indian Constitution:</strong> Historical underpinnings, evolution, features, amendments</li>
+                    <li><strong>Governance:</strong> Structure, organization, functioning of Executive, Legislature, Judiciary</li>
+                    <li><strong>Federal Structure:</strong> Devolution of powers and finances, challenges therein</li>
+                    <li><strong>Separation of Powers:</strong> Dispute redressal mechanisms and institutions</li>
+                    <li><strong>Comparison of Indian Constitutional Scheme:</strong> With that of other countries</li>
+                    <li><strong>Parliament and State Legislatures:</strong> Structure, functioning, conduct of business, powers & privileges</li>
+                    <li><strong>Executive and Judiciary:</strong> Structure, organization, functioning</li>
+                    <li><strong>Ministries and Departments:</strong> Structure and functioning of government</li>
+                    <li><strong>Statutory, Regulatory, and Quasi-judicial Bodies:</strong> Various constitutional and statutory bodies</li>
+                    <li><strong>Pressure Groups and Formal/Informal Associations:</strong> Their role in Polity</li>
+                    <li><strong>Salient Features of Representation of People's Act:</strong> Electoral system in India</li>
+                    <li><strong>Appointment to Constitutional Posts:</strong> Powers, functions, and responsibilities</li>
+                    <li><strong>Statutory, Regulatory, and Quasi-judicial Bodies:</strong> Various bodies and their functions</li>
+                    <li><strong>Government Policies and Interventions:</strong> For development in various sectors</li>
+                    <li><strong>Development Processes:</strong> Role of NGOs, SHGs, groups, associations, donors, charities, institutional stakeholders</li>
+                    <li><strong>Welfare Schemes:</strong> For vulnerable sections, mechanisms, laws, institutions, and bodies</li>
+                    <li><strong>Issues Relating to Development:</strong> Management of social sector/services relating to Health, Education, Human Resources</li>
+                    <li><strong>Issues Relating to Poverty and Hunger:</strong> Various aspects and government initiatives</li>
+                    <li><strong>Important Aspects of Governance:</strong> Transparency and accountability, e-governance, citizens charters</li>
+                    <li><strong>Role of Civil Services:</strong> In a democracy</li>
+                    <li><strong>India and its Neighborhood Relations:</strong> Bilateral, regional, and global groupings</li>
+                    <li><strong>Effect of Policies and Politics:</strong> Of developed and developing countries on India's interests</li>
+                    <li><strong>Important International Institutions:</strong> Agencies, their structure, mandate</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h4>Paper V: General Studies III (200 Marks)</h4>
+                <p><strong>Topics Covered:</strong></p>
+                <ul>
+                    <li><strong>Indian Economy:</strong> Planning, mobilization of resources, growth, development, employment</li>
+                    <li><strong>Inclusive Growth:</strong> Issues arising from it</li>
+                    <li><strong>Government Budgeting:</strong> Budget process, components, deficits</li>
+                    <li><strong>Major Crops:</strong> Cropping patterns, storage, transport, marketing of agricultural produce</li>
+                    <li><strong>Issues in Agriculture:</strong> E-technology in aid of farmers</li>
+                    <li><strong>PDS, Buffer Stocks, Food Security:</strong> Issues and related constraints</li>
+                    <li><strong>Technology Missions:</strong> Economics of animal-rearing</li>
+                    <li><strong>Food Processing:</strong> Related industries in India, scope and significance, location, upstream and downstream requirements</li>
+                    <li><strong>Land Reforms in India:</strong> Various aspects</li>
+                    <li><strong>Effects of Liberalization:</strong> On economy, changes in industrial policy and their effects</li>
+                    <li><strong>Infrastructure:</strong> Energy, Ports, Roads, Airports, Railways, etc.</li>
+                    <li><strong>Investment Models:</strong> Various models and their effectiveness</li>
+                    <li><strong>Science and Technology:</strong> Developments and their applications and effects in everyday life</li>
+                    <li><strong>Achievements of Indians:</strong> In science & technology, indigenization of technology</li>
+                    <li><strong>Awareness in IT, Space, Computers, Robotics, Nano-technology, Bio-technology:</strong> Issues relating to intellectual property rights</li>
+                    <li><strong>Conservation:</strong> Environmental pollution and degradation, environmental impact assessment</li>
+                    <li><strong>Disaster and Disaster Management:</strong> Various types of disasters and management</li>
+                    <li><strong>Linkages between Development and Spread of Extremism:</strong> Role of external state and non-state actors</li>
+                    <li><strong>Challenges to Internal Security:</strong> Through communication networks, role of media and social networking sites</li>
+                    <li><strong>Basics of Cyber Security:</strong> Money-laundering and its prevention</li>
+                    <li><strong>Security Challenges:</strong> Border management, various security forces and agencies</li>
+                    <li><strong>Organized Crime and Terrorism:</strong> Various aspects and linkages</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h4>Paper VI: General Studies IV (200 Marks)</h4>
+                <p><strong>Topics Covered:</strong></p>
+                <ul>
+                    <li><strong>Ethics and Human Interface:</strong> Essence, determinants, and consequences of Ethics</li>
+                    <li><strong>Human Values:</strong> Lessons from the lives and teachings of great leaders, reformers, and administrators</li>
+                    <li><strong>Role of Family, Society, and Educational Institutions:</strong> In inculcating values</li>
+                    <li><strong>Attitude:</strong> Content, structure, function, its influence, and relation with thought and behavior</li>
+                    <li><strong>Aptitude and Foundational Values:</strong> For Civil Service, integrity, impartiality, non-partisanship, objectivity</li>
+                    <li><strong>Emotional Intelligence:</strong> Concepts, and their utilities and application in administration and governance</li>
+                    <li><strong>Contributions of Moral Thinkers and Philosophers:</strong> From India and world</li>
+                    <li><strong>Public/Civil Service Values and Ethics:</strong> In Public administration, status and problems</li>
+                    <li><strong>Ethical Concerns and Dilemmas:</strong> In government and private institutions</li>
+                    <li><strong>Laws, Rules, Regulations, and Conscience:</strong> As sources of ethical guidance</li>
+                    <li><strong>Accountability and Ethical Governance:</strong> Strengthening of ethical and moral values in governance</li>
+                    <li><strong>Ethical Issues in International Relations and Funding:</strong> Corporate governance</li>
+                    <li><strong>Probity in Governance:</strong> Concept of public service, Philosophical basis of governance and probity</li>
+                    <li><strong>Information Sharing and Transparency in Government:</strong> Right to Information, Codes of Ethics, Codes of Conduct</li>
+                    <li><strong>Citizen's Charters:</strong> Work culture, Quality of service delivery</li>
+                    <li><strong>Utilization of Public Funds:</strong> Challenges of corruption</li>
+                    <li><strong>Case Studies:</strong> On above issues</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h4>Paper VII & VIII: Optional Subject (200 Marks Each)</h4>
+                <p>Candidates need to choose ONE optional subject from the list provided by UPPSC. Each optional subject has 2 papers of 200 marks each.</p>
+                <div class="info-box">
+                    <strong>Note:</strong> Optional subjects list is provided in a separate section below.
+                </div>
+            </div>
+        </section>
+        <section id="interview">
+            <h2>4. Personality Test (Interview)</h2>
+            <div class="section">
+                <ul>
+                    <li><strong>Total Marks:</strong> 100</li>
+                    <li><strong>Nature:</strong> Personality assessment, not a knowledge test</li>
+                    <li><strong>Duration:</strong> Usually 20-30 minutes per candidate</li>
+                    <li><strong>Purpose:</strong> To assess the candidate's suitability for a career in public service</li>
+                </ul>
+                
+                <h4>What is Assessed:</h4>
+                <ul>
+                    <li>Mental alertness</li>
+                    <li>Critical powers of assimilation</li>
+                    <li>Clear and logical exposition</li>
+                    <li>Balance of judgment</li>
+                    <li>Variety and depth of interest</li>
+                    <li>Ability for social cohesion and leadership</li>
+                    <li>Intellectual and moral integrity</li>
+                    <li>Knowledge of current affairs</li>
+                    <li>Understanding of UP-specific issues</li>
+                </ul>
+            </div>
+        </section>
+        <section id="marking">
+            <h2>5. Marking Scheme</h2>
+            
+            <h3>Preliminary Examination</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Paper</th>
+                        <th>Questions</th>
+                        <th>Marks per Question</th>
+                        <th>Total Marks</th>
+                        <th>Negative Marking</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Paper I (GS)</td>
+                        <td>150</td>
+                        <td>+1.333</td>
+                        <td>200</td>
+                        <td>-0.444 (1/3 deduction)</td>
+                    </tr>
+                    <tr>
+                        <td>Paper II (CSAT)</td>
+                        <td>100</td>
+                        <td>+2.0</td>
+                        <td>200</td>
+                        <td>-0.5 (1/4 deduction)</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="highlight">
+                <strong>Important Rules:</strong>
+                <ul>
+                    <li>For each correct answer: Full marks as per scheme</li>
+                    <li>For each wrong answer: 1/3 marks deducted in Paper I, 1/4 in Paper II</li>
+                    <li>If multiple answers are marked: Question is considered wrong</li>
+                    <li>Unanswered questions: No negative marking</li>
+                    <li>Only Paper I marks are counted for Prelims merit list</li>
+                    <li>Paper II is qualifying (minimum 33% = 66 marks required)</li>
+                </ul>
+            </div>
+            <h3>Main Examination</h3>
+            <div class="info-box">
+                <ul>
+                    <li><strong>General Hindi:</strong> Qualifying only (minimum marks required, not added to merit)</li>
+                    <li><strong>All Other Papers:</strong> Marks are added to final merit</li>
+                    <li><strong>Answer Format:</strong> Descriptive/essay type answers</li>
+                    <li><strong>Evaluation:</strong> Based on content, structure, presentation, language, and examples</li>
+                </ul>
+            </div>
+            <h3>Final Merit Calculation</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Component</th>
+                        <th>Marks</th>
+                        <th>Nature</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Essay</td>
+                        <td>150</td>
+                        <td>Counted</td>
+                    </tr>
+                    <tr>
+                        <td>General Studies I</td>
+                        <td>200</td>
+                        <td>Counted</td>
+                    </tr>
+                    <tr>
+                        <td>General Studies II</td>
+                        <td>200</td>
+                        <td>Counted</td>
+                    </tr>
+                    <tr>
+                        <td>General Studies III</td>
+                        <td>200</td>
+                        <td>Counted</td>
+                    </tr>
+                    <tr>
+                        <td>General Studies IV</td>
+                        <td>200</td>
+                        <td>Counted</td>
+                    </tr>
+                    <tr>
+                        <td>Optional Paper I</td>
+                        <td>200</td>
+                        <td>Counted</td>
+                    </tr>
+                    <tr>
+                        <td>Optional Paper II</td>
+                        <td>200</td>
+                        <td>Counted</td>
+                    </tr>
+                    <tr>
+                        <td>Interview</td>
+                        <td>100</td>
+                        <td>Counted</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong>1450</strong></td>
+                        <td><strong>Final Merit</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="warning-box">
+                <strong>Note:</strong> General Hindi (150 marks) is qualifying only and NOT added to final merit calculation.
+            </div>
+        </section>
+        <section id="cutoffs">
+            <h2>6. Historical Cutoffs</h2>
+            
+            <h3>Preliminary Examination Cutoffs</h3>
+            <div class="cutoff-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Year</th>
+                            <th>General</th>
+                            <th>OBC</th>
+                            <th>SC</th>
+                            <th>ST</th>
+                            <th>EWS</th>
+                            <th>Female</th>
+                            <th>PwD</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2023</td>
+                            <td>125</td>
+                            <td>128</td>
+                            <td>112</td>
+                            <td>109</td>
+                            <td>129</td>
+                            <td>124</td>
+                            <td>99</td>
+                        </tr>
+                        <tr>
+                            <td>2022</td>
+                            <td>111</td>
+                            <td>114</td>
+                            <td>99</td>
+                            <td>91</td>
+                            <td>114</td>
+                            <td>109</td>
+                            <td>80-107</td>
+                        </tr>
+                        <tr>
+                            <td>2021</td>
+                            <td>115</td>
+                            <td>113</td>
+                            <td>96</td>
+                            <td>82</td>
+                            <td>117</td>
+                            <td>110</td>
+                            <td>92-107</td>
+                        </tr>
+                        <tr>
+                            <td>2020</td>
+                            <td>~115</td>
+                            <td>~113</td>
+                            <td>~97</td>
+                            <td>~90</td>
+                            <td>~115</td>
+                            <td>~110</td>
+                            <td>~95</td>
+                        </tr>
+                        <tr>
+                            <td>2019</td>
+                            <td>~118</td>
+                            <td>~116</td>
+                            <td>~100</td>
+                            <td>~92</td>
+                            <td>~118</td>
+                            <td>~113</td>
+                            <td>~98</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="info-box">
+                <strong>Note:</strong> Cutoffs are out of 200 marks (Paper I only). Cutoffs vary based on:
+                <ul>
+                    <li>Difficulty level of the exam</li>
+                    <li>Number of vacancies</li>
+                    <li>Number of candidates appearing</li>
+                    <li>Performance of candidates</li>
+                </ul>
+            </div>
+            <h3>Main Examination Cutoffs</h3>
+            <div class="cutoff-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Year</th>
+                            <th>General</th>
+                            <th>OBC</th>
+                            <th>SC</th>
+                            <th>ST</th>
+                            <th>EWS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2023</td>
+                            <td>960-980</td>
+                            <td>940-960</td>
+                            <td>860-880</td>
+                            <td>800-820</td>
+                            <td>970-990</td>
+                        </tr>
+                        <tr>
+                            <td>2022</td>
+                            <td>970-990</td>
+                            <td>950-970</td>
+                            <td>870-890</td>
+                            <td>810-830</td>
+                            <td>980-1000</td>
+                        </tr>
+                        <tr>
+                            <td>2021</td>
+                            <td>950-970</td>
+                            <td>930-950</td>
+                            <td>850-870</td>
+                            <td>790-810</td>
+                            <td>960-980</td>
+                        </tr>
+                        <tr>
+                            <td>2020</td>
+                            <td>980-1000</td>
+                            <td>960-980</td>
+                            <td>880-900</td>
+                            <td>820-840</td>
+                            <td>990-1010</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="info-box">
+                <strong>Note:</strong> Main exam cutoffs are out of 1500 marks (written papers only, excluding interview).
+            </div>
+            <h3>Final Cutoffs (Mains + Interview)</h3>
+            <div class="cutoff-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Year</th>
+                            <th>General</th>
+                            <th>OBC</th>
+                            <th>SC</th>
+                            <th>ST</th>
+                            <th>EWS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2023</td>
+                            <td>1060-1080</td>
+                            <td>1040-1060</td>
+                            <td>960-980</td>
+                            <td>900-920</td>
+                            <td>1070-1090</td>
+                        </tr>
+                        <tr>
+                            <td>2022</td>
+                            <td>1070-1090</td>
+                            <td>1050-1070</td>
+                            <td>970-990</td>
+                            <td>910-930</td>
+                            <td>1080-1100</td>
+                        </tr>
+                        <tr>
+                            <td>2021</td>
+                            <td>1050-1070</td>
+                            <td>1030-1050</td>
+                            <td>950-970</td>
+                            <td>890-910</td>
+                            <td>1060-1080</td>
+                        </tr>
+                        <tr>
+                            <td>2020</td>
+                            <td>1080-1100</td>
+                            <td>1060-1080</td>
+                            <td>980-1000</td>
+                            <td>920-940</td>
+                            <td>1090-1110</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="success-box">
+                <strong>Final Merit Calculation:</strong> Mains Written (1500) + Interview (100) = Total 1600 marks
+            </div>
+        </section>
+        <section id="optional">
+            <h2>7. Optional Subjects</h2>
+            
+            <div class="section">
+                <p>Candidates need to choose <strong>ONE</strong> optional subject from the list provided by UPPSC. Each optional subject has <strong>2 papers of 200 marks each</strong> (Total 400 marks).</p>
+                
+                <h3>List of Optional Subjects (Common Choices)</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin: 20px 0;">
+                    <div class="paper-details">
+                        <h4>Literature Subjects</h4>
+                        <ul>
+                            <li>Hindi Literature</li>
+                            <li>English Literature</li>
+                            <li>Urdu Literature</li>
+                            <li>Sanskrit Literature</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="paper-details">
+                        <h4>History & Culture</h4>
+                        <ul>
+                            <li>History</li>
+                            <li>Anthropology</li>
+                            <li>Sociology</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="paper-details">
+                        <h4>Geography & Environment</h4>
+                        <ul>
+                            <li>Geography</li>
+                            <li>Geology</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="paper-details">
+                        <h4>Political Science</h4>
+                        <ul>
+                            <li>Political Science & International Relations</li>
+                            <li>Public Administration</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="paper-details">
+                        <h4>Economics & Commerce</h4>
+                        <ul>
+                            <li>Economics</li>
+                            <li>Commerce & Accountancy</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="paper-details">
+                        <h4>Science Subjects</h4>
+                        <ul>
+                            <li>Mathematics</li>
+                            <li>Physics</li>
+                            <li>Chemistry</li>
+                            <li>Botany</li>
+                            <li>Zoology</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="paper-details">
+                        <h4>Agriculture</h4>
+                        <ul>
+                            <li>Agriculture</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="paper-details">
+                        <h4>Law</h4>
+                        <ul>
+                            <li>Law</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="highlight">
+                    <strong>Important Tips for Choosing Optional:</strong>
+                    <ul>
+                        <li>Choose a subject you have interest and background in</li>
+                        <li>Consider scoring potential and availability of study material</li>
+                        <li>Check overlap with General Studies syllabus</li>
+                        <li>Consider time available for preparation</li>
+                        <li>Popular choices: History, Geography, Public Administration, Political Science, Literature subjects</li>
+                    </ul>
+                </div>
+                <div class="warning-box">
+                    <strong>Note:</strong> The complete list of optional subjects is provided in the official UPPSC notification. Candidates should refer to the latest notification for the complete and updated list.
+                </div>
+            </div>
+        </section>
+        <div style="margin-top: 50px; padding: 20px; background: var(--bg-color); border-radius: 10px; text-align: center; border: 1px solid var(--border-color);">
+            <h3 style="color: var(--primary-color);">Important Reminders</h3>
+            <ul style="list-style: none; margin: 20px 0;">
+                <li style="margin: 10px 0;">✓ Always refer to the latest UPPSC official notification for updated syllabus and exam pattern</li>
+                <li style="margin: 10px 0;">✓ Cutoffs are indicative and may vary each year</li>
+                <li style="margin: 10px 0;">✓ Focus on both static subjects and current affairs</li>
+                <li style="margin: 10px 0;">✓ Practice answer writing regularly for Mains</li>
+                <li style="margin: 10px 0;">✓ Time management is crucial in all stages</li>
+            </ul>
+            <p style="margin-top: 20px; color: var(--text-color);">
+                <strong>Best of Luck for Your UPPCS Preparation! 🎯</strong>
+            </p>
+        </div>
+        <footer style="margin-top: 40px; padding: 20px; text-align: center; color: var(--text-color); border-top: 2px solid var(--border-color);">
+            <p>UPPCS Exam Guide | Last Updated: 2024</p>
+            <p style="font-size: 0.9em; margin-top: 10px;">For official information, please visit: <a href="https://uppsc.up.nic.in" target="_blank" style="color: var(--primary-color);">uppsc.up.nic.in</a></p>
+        </footer>
+    </div>
+    <script src="./theme-toggle.js"></script>
+</body>
+</html>
+
