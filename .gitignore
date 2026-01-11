@@ -10,6 +10,8 @@ __pycache__/
 *_extracted.txt
 *.txt
 !README.md
+!robots.txt
+
 
 # Batch files
 *.bat
