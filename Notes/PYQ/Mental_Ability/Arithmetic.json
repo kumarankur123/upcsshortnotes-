@@ -1,0 +1,1380 @@
+[
+  {
+    "number": 35,
+    "text": "In 1930, a person’s age was 8 times that of his Son. In 1938, 45. Each of the five persons A, B, C, D and E possesses unequal the father's age became ten times that of his son’s age in number of similar items. A, B and C possesses Twenty-one 1930. The ages of the son and father in 1940 were items in all, while C, D and E possess seven items in all. How respectively",
+    "year": "2001",
+    "options": {
+      "a": "16 years, 58 years",
+      "b": "15 years, 50 years",
+      "c": "14 years, 42 years",
+      "d": "13 years, 34 years"
+    },
+    "answer": "c",
+    "explanation": "Total number of arrangements, when any 3 boys are R B B R selected out of 5 = 5C . Now, when groups contains both C 3 R W W R and D, then their selection is fixed and the remaining 1 boy can be selected out of the remaining 3 boys. It can be done There are eight such arrangements, if we start with Red ball. in 3C ways. Similarly, there are 8 arrangements, if we start with black or 1 So, number of groups, when none contains both C and D white ball. = total number of arrangements-number of arrange"
+  },
+  {
+    "number": 36,
+    "text": "Amit started a business by investing ` 30,000. Rahul joined 46. (Each small circle represents a different station) the business after some time and invested ` 20,000. At the What is the maximum number of different paths that exist end of the year, profit was divided in the ratio of 2 : 1. After between the station A and the station B?",
+    "year": "2007",
+    "options": {
+      "a": "2",
+      "b": "3",
+      "c": "4",
+      "d": "5"
+    },
+    "answer": "b",
+    "explanation": "Let us take books A and B as one i.e., they are always = 4C + 4C + 4C + 4C 1 2 3 4 continuous. = 4 + 6 + 4 + 1 = 15 Now, number of books = 4 – 2 + 1 = 3"
+  },
+  {
+    "number": 37,
+    "text": "When the time in the wall-clock is 3.25 p.m., the acute angle A between the hours-hand and the minutes-hand is",
+    "year": "2002",
+    "options": {
+      "a": "60°",
+      "b": "52.5°",
+      "c": "47.5°",
+      "d": "42°"
+    },
+    "answer": "c",
+    "explanation": "Suppose any particular student is always selected. Here, either case I or case II is possible. Hence, total no. of Now, remaining 2 students are to be selected out of the ways = 81 + 18 = 99 remaining 5 students."
+  },
+  {
+    "number": 47,
+    "text": "6 equidistant vertical lines are drawn on a board 6 (a) 40 years (b) 45 years equidistant horizontal lines are also drawn on the board (c) 50 years (d) 55 years cutting the 6 vertical lines, and the distance between any 39. In a company, 60% of the employees are men. Of these 40% two consecutive horizontal lines is equal to that between are drawing more than ` 50,000 per year. If 36% of the total ",
+    "year": "2007",
+    "options": {
+      "a": "37",
+      "b": "55",
+      "c": "126",
+      "d": "225 than ` 50,000 per year?"
+    },
+    "answer": "d",
+    "explanation": "First person can shake hand with the other 9 i.e, in 9 No. of ways for Task T = 2 ways. Second person can shake hand with the remaining 8 1 No. of ways for Task T = 1 persons and so on. 2 No. of ways for Task T = 3 \\ total no. of hands shaked = 9 + 8 + ....... + 2 + 1 3 No. of ways for Task T = 3 4 = 9(9+1) =45 No. of ways for Task T 5 = 3 Total number of ways for condition II 2 = 3 + 3 + 3 + 2 +1 = 12"
+  },
+  {
+    "number": 48,
+    "text": "A person has to completely put each of three liquids: 403 (a) 70 (b) 60 (c) 40 (d) 30 litres of petrol, 465 litres of diesel and 496 litres of Mobile 40. A trader fixed the price of an article in such a way that by Oil in bottles of equal size without mixing any of the above giving a rebate of 10% on the price fixed, he made a profit of three types of liquids such that each bottle is completely 15",
+    "year": "2002",
+    "options": {
+      "a": "` 82.80",
+      "b": "` 90.00",
+      "c": "` 92.00",
+      "d": "` 97.80"
+    },
+    "answer": "b",
+    "explanation": "Take, A and B to be always together as a single entity. Total number of ways for condition I and II = 12 + 12 = 24 Now, total no. of children = 4 – 2 + 1 = 3"
+  },
+  {
+    "number": 41,
+    "text": "Three bells toll at intervals of 9, 12 and 15 minutes 49. If all the numbers from 501 to 700 are written, what is the respectively. All the three begin to toll at 8 a.m. At what time total number of times does the digit 6 appear?",
+    "year": "2007",
+    "options": {
+      "a": "138",
+      "b": "139",
+      "c": "140",
+      "d": "141"
+    },
+    "answer": "b",
+    "explanation": "No. of different sums of money = any 1 coin at a time + = 5C – 3C = 10 – 3 = 7 any 2 coins + any 3 coins it all 4 coins 3 1"
+  },
+  {
+    "number": 10,
+    "text": "30 a.m. 50. The average salary of 100 employees in an office is ` 16,000 (c) 11.00 a.m. (d) 1. 30 p.m. per month. The management decided to raise salary of every 42. Left pan of a faulty weight weighs 100 gram more than its employee by 5% but stopped a transport allowance of ` 800 right pan. A shopkeeper keeps the weight measure in the per month which was paid earlier to every employee. What left ",
+    "year": "2007",
+    "options": {
+      "a": "` 16,000 If he sells his goods at the listed cost price, what is his",
+      "b": "` 16,500 gain?",
+      "c": "` 16,800",
+      "d": "Cannot be known since data are insufficient 200 100"
+    },
+    "answer": "c",
+    "explanation": "8 7 7 (i) Number of ways of arranging three colours taken 1 at = ´ = 104 103 1339 3´2!"
+  },
+  {
+    "number": 51,
+    "text": "In the series 11 11 AABABCABCDABCDE.. . 1000 200 Which letter occupies the 100th position?",
+    "year": "2008",
+    "options": {
+      "a": "H",
+      "b": "I",
+      "c": "%",
+      "d": "%"
+    },
+    "answer": "d",
+    "explanation": "We cannot predict the number of dinners for a According to question particular member from the given data. It may be possible Þ 5 ´ 3x + yx = 100 ... (i) that by choosing members from picking lots, one may have Now, clerk has interchanged socks pairs then price is to host a dinner more than one times. increased by 100%"
+  },
+  {
+    "number": 52,
+    "text": "What is the number of terms in the series 117, 120, 123, 43. There are 6 person ; A ,B, C, D, E and F. A has 3 items more 126,.............., 333?",
+    "year": "2008",
+    "options": {
+      "a": "72",
+      "b": "73",
+      "c": "76",
+      "d": "79 D has 4 items less than B"
+    },
+    "answer": "c",
+    "explanation": "Here are five persons, and 5 tasks (15x+yx)´100 So, When T task is fixed for person 3 3xy + 5x = (15x+yx)+ 2 100 Task Þ 3xy + 5x = 30x + 2xy ... (ii) Þ 30x + 2yx = 3xy + 5x T 2 Þ 25x = xy 1 2 3 4 5 y = 25 \\ So, number of brown socks = 25 F 86 Topicwise Solved Papers 58. (*)"
+  },
+  {
+    "number": 53,
+    "text": "A person purchases 100 pens at a discount of 10%. The net E has 6 items less than F amount of money spent by the person to purchase the pens C has 2 items more than E is ` 600. The selling expenses incurred by the person are F has 3 items more than D 15% on the net cost price. What should be the selling price Which one of the following figure can not be equal to the for 100 pens in order to earn a",
+    "year": "2008",
+    "options": {
+      "a": "` 802.50",
+      "b": "` 811.25 6 persons?",
+      "c": "` 862.50",
+      "d": "` 875"
+    },
+    "answer": "c",
+    "explanation": "Let x be the number of women. These can be arranged in 3! ways and A, B can be arranged Let y be the number of men. among themselves in 2! ways. Total number of hand shakes = xy = 24 Hence, no. of arrangements such that A and B are always Then, the possible factors of x and y are x = 6 or 4, y = 4 or 6 together = 3! × 2! = 3 × 2 × 2 = 12 Number of hugs =xC + yC"
+  },
+  {
+    "number": 54,
+    "text": "In an examination, 70% of the students passed in the Paper I, 44. How many numbers are there in all from 6000 to 6999 (Both and 60% of the students passed in the Paper II. 15% of the 6000 and 6999 included) having all digits same?",
+    "year": "2006",
+    "options": {
+      "a": "216",
+      "b": "356 both the papers. What is the total number of students?",
+      "c": "496",
+      "d": "504"
+    },
+    "answer": "b",
+    "explanation": "White MarblesRed Marbles i.e. n(F) = 30 10 13 Number of students who play both the games = 10 White MarblesGreen Marbles i.e. n(C Ç F) = 10 10 . 0 5 Now, total number of Marbles = 5 + 10 + 13 = 28 To find : n(C¢Ç F¢) = ?"
+  },
+  {
+    "number": 55,
+    "text": "March 1, 2008 was Saturday. Which day was it on March 1, 2002? (c) A quarter of the villagers who have their own houses",
+    "year": "2008",
+    "options": {
+      "a": "Thursday",
+      "b": "Friday",
+      "c": "Saturday",
+      "d": "Half of the villagers who cultivate paddy are literate"
+    },
+    "answer": "d",
+    "explanation": "Number of ways to select Principal = 2C we know, 1 Number of ways to select Vice Principal = 5C n(C È F) = n(C) + n(F) – n(C Ç F) Total number of ways= 2C + 5C 2 = 60 + 30 –10 = 80 1 2 n(C¢ Ç F¢) = n(C È F)¢ = n(U) – n(C È F) 5´4 = 2+ = 2 + 10 = 12 = 100 – 80 = 20 2´1"
+  },
+  {
+    "number": 67,
+    "text": "Each person’s performance compared with all other persons 56. There are four persons A, B, C, D; and A has some coins. A is to be done to rank them subjectively. How many gave half of the coins to B and 4 more besides. B gave half comparisons are needed in total, if there are 11 persons? of the coins to C and 4 more besides. C gave half of the",
+    "year": "2010",
+    "options": {
+      "a": "66",
+      "b": "55",
+      "c": "54",
+      "d": "45 same number of coins. How many coins did A have"
+    },
+    "answer": "d",
+    "explanation": "x y z 7 1 0,1 ï 1 1 4 2 ï 3 0,1,2 ïï 1 4 1 ý21 0,1,2,3 4 1 1 4 ï 0,1,2,3,4 ï 1 2 3 5 ï 6 0,1,2,3,4,5ïþ 1 3 2 3 1 2 8 1 0 ü 3 2 1 ï 2 0,1 ï 2 2 2 3 0,1,2 ï 2 3 1 ï 4 0,1,2,3 ý28 2 1 3 ï 5 0,1,2,3,4 ï Total Number of triplets = 10. 6 0,1,2,3,4,5 ï 7 ï"
+  },
+  {
+    "number": 68,
+    "text": "A man fills a basket with eggs in such a way that the number originally?",
+    "year": "2009",
+    "options": {
+      "a": "96",
+      "b": "84",
+      "c": "72",
+      "d": "64 number already present in the basket. This way the basket"
+    },
+    "answer": "c",
+    "explanation": "Pages till 9 uses 9 digits i.e.; 1 to 9. 0,1,2,3,4,5,6þ Pages from 10 to 99 uses 2 digits each. 9 1 0 ü Number of pages = (99 – 10) + 1 = 90 ï Number of digits = 2 × 90 = 180. 2 0,1 ï Pages from 100 to 999 uses 3 digits each. 3 0,1,2 ï Number of pages = 999 – 100 + 1 = 900. ï Number of digits = 3 × 900 = 2700. 4 0,1,2,3 ï ý36 Pages from 1000 to 9999 uses 4 digits each. 5 0,1,2,3,4 ï Remaining digits = 3089 – 2700 – 180 – 9 = 200. 6 0,1,2,3,4,5 ï 200 ï Remaining number of pages = =50. 7 0,1,2,3,4"
+  },
+  {
+    "number": 177,
+    "text": "What was the number missed?",
+    "year": "2009",
+    "options": {
+      "a": "11",
+      "b": "12",
+      "c": "13",
+      "d": "14"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 58,
+    "text": "Four metal rods of lengths 78 cm, 104 cm 117 cm and 169 cm 69. The difference between the simple interest received from are to be cut into parts of equal length. Each part must be as two banks on `500 for two years is ` 2.50. What is the long as possible. What is the maximum number of pieces difference between their rates?",
+    "year": "2010",
+    "options": {
+      "a": "0.25%",
+      "b": "0.5%",
+      "c": "43",
+      "d": "400"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 59,
+    "text": "In an examination, there are three subjects A, B and C. A 70. A candidate attempted 12 questions and secured full marks student has to pass in each subject. 20% students failed in in all of them. If he obtained 60% in the test and all questions A, 22% students failed in B and 16% failed carried equal marks, then what is the number of questions in C. The total number of students passing the whole i",
+    "year": "2010",
+    "options": {
+      "a": "36",
+      "b": "30",
+      "c": "25",
+      "d": "20"
+    },
+    "answer": "a",
+    "explanation": "Black White Number of way"
+  },
+  {
+    "number": 71,
+    "text": "A contract on construction job specifies a penalty for delay (c) 58% and 78% (d) 58% and 84% in completion of the work beyond a certain date is as follows: 60. How many times are an hour hand and a minute hand of a ` 200 for the first day, ` 250 for the second day, ` 300 for the clock at right angles during their motion from 1.00 p.m. to third day etc., the penalty for each succeeding day being ` ",
+    "year": "2009",
+    "options": {
+      "a": "9",
+      "b": "10",
+      "c": "18",
+      "d": "20 should the contractor pay if he delays the work by 10 days?"
+    },
+    "answer": "b",
+    "explanation": "Let, there are n number of pages in the book. obtained by the digits 1, 2, 3, 4 and 5 will be divisible by 3. All 5 digits numbers obtained by using all the digits 1, n(n+1) Sum of page numbers = 2, 3, 4 and 5 without repetition of digits, will be divisible 2 by 3. \\n(n+1)=2´(Sum of page numbers) Hence, no 5 digits prime number can be obtained by Here given, sum of page numbers = 195. the digits 1, 2, 3, 4 and 5."
+  },
+  {
+    "number": 61,
+    "text": "There are 240 balls and n number of boxes B , B , B , ...... [2011 - II] 1 2 3 Bn. The balls are to be placed in the boxes such that B (a) ` 4950 (b) ` 4250 1 should contain 4 balls more than B , B should contain 4 (c) ` 3600 (d) ` 650 2 2 balls more than B , and so on. Which one of the following 72. Consider the following figure and answer the item that follows: 3 cannot be the possible value of ",
+    "year": "2009",
+    "options": {
+      "a": "4",
+      "b": "5",
+      "c": "6",
+      "d": "7"
+    },
+    "answer": "c",
+    "explanation": "—B —B — 2 (two adjacent or two opposite 1 2 2 4 2 boys can take their seats in 2! ways and 3 girls can take faces are black) the remaining 3 seats in 3 C2 ´2! ways. 2 (around a corner or not around a Hence, 2!´3 C2 ´2! = 12 ways. 3 3 corner are either black or white) 6!"
+  },
+  {
+    "number": 62,
+    "text": "In a tournament 14 teams play league/matches. If each team plays against every other team only once then how many 48 matches are played?",
+    "year": "2010",
+    "options": {
+      "a": "105",
+      "b": "91",
+      "c": "85",
+      "d": "78"
+    },
+    "answer": "a",
+    "explanation": "Required number of ways = = 120 3! 2 (adjacent or opposite faces are 4 2 white)"
+  },
+  {
+    "number": 63,
+    "text": "Two numbers X and Y are respectively 20% and 28% less than a third number Z. By what percentage is the number Y A square is divided into four rectangles as shown above. less than the number X ?",
+    "year": "2010",
+    "options": {
+      "a": "8%",
+      "b": "9%",
+      "c": "10%",
+      "d": "12% The areas of two rectangles are indicated in the figure. What"
+    },
+    "answer": "a",
+    "explanation": "Number of diagonals in an octagon =8C – 8 2 8´7 5 1 1 = – 8 = 20 6 0 1 2 Hence, total number of ways"
+  },
+  {
+    "number": 64,
+    "text": "How many numbers from 0 to 999 are not divisible by either is the length of each side of the square? [2011 - II] 5 or 7 ?",
+    "year": "2010",
+    "options": {
+      "a": "10",
+      "b": "341",
+      "c": "686",
+      "d": "786"
+    },
+    "answer": "c",
+    "explanation": "HundredCorresponding Corresponding Digit Ten’s Digit Unit’s Digit = 1 + 1 + 2 + 2 + 2 + 1 + 1 = 10 0 ü"
+  },
+  {
+    "number": 65,
+    "text": "In a group of five persons A, B, C, D and E, there is a professor, (c) 15 a doctor and lawyer. A and D are unmarried ladies, and do (d) Cannot be determined as the given data are insufficient not work. Of the married couple in the Group, E is the 73. A person has only ` 1 and ` 2 coins with her. If the total husband. B is the brother of A and is neither a doctor nor a number of coins that she has ",
+    "year": "2010",
+    "options": {
+      "a": "B",
+      "b": "C respectively",
+      "c": "A",
+      "d": "None of these"
+    },
+    "answer": "b",
+    "explanation": "Total number of balls 15 + 20 = 35 Total number of red balls numbered 3 `50 `10 `1 Numberofways æ100-20-40ö 40 2 0 7 1 = 15 ×ç ÷ = 15× = 6 è 100 ø 100 1 (0–5) (7–57) 6 Total number of black ball numbered 1 or 2 0 (0–10) (7–107) 11 æ100-30ö 70 Total number of ways = 1 + 6 + 11 = 18. = 20 × ç ÷ = 20 × = 14 è 100 ø 100"
+  },
+  {
+    "number": 66,
+    "text": "Half of the villagers of a certain village have their own houses. (c) 30 and 20 (d) 25 and 25 One-fifth of the villagers cultivate paddy. One-third of the 74. Three persons start walking together and their steps villagers are literate. Four-fifth of the villagers are below twenty measure 40 cm, 42 cm and 45 cm respectively. What is the minimum distance each should walk so that each can cover five.",
+    "year": "2010",
+    "options": {
+      "a": "25 m 20 cm",
+      "b": "50 m 40 cm",
+      "c": "75 m 60 cm",
+      "d": "100 m 80 cm"
+    },
+    "answer": "b",
+    "explanation": "A cube has 6 symmetric faces. Here m = n = 4. So, Number of prallelograms Number of faces of a cube coloured by: = 4 C ×4 C = 6 × 6 = 36. 2 2 5337_DBE Permutation, Combination & Probability F 87"
+  },
+  {
+    "number": 81,
+    "text": "In a garrison, there was food for 1000 soldiers for one month. (a) 24,000 and 18,000 (b) 28,000 and 21,000 After 10 days, 1000 more soldiers joined the garrison. How (c) 32,000 and 24,000 (d) 34,000 and 26,000 long would the soldiers be able to carry on with the remaining 92. A cow costs more than 4 goats but less than 5 goats. If a food? [2013 - II] goat costs between ` 600 and ` 800, which of th",
+    "year": "2015-II",
+    "options": {
+      "a": "A cow costs more than ` 2,",
+      "c": "15 days",
+      "d": "10 days"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 500,
+    "text": "82. The tank-full pertrol in Arun’s motor-cycle lasts for 10 days. (b) A cow costs less than ` 3,600. If he starts using 25% more everyday, how many days will (c) A cow costs between ` 2,600 and ` 3,800. the tank-full pertrol last? [2013 - II] (d) A cow costs between ` 2,400 and ` 4,000. (a) 5 (b) 6 (c) 7 (d) 8 93. Candidates in a competitive examination consisted of 60% 83. There are some balls o",
+    "year": "2015-II",
+    "options": {
+      "a": "is equal to the sum of yellow and green balls",
+      "b": "is double the number of green balls.",
+      "c": "is equal to yellow balls minus green balls.",
+      "d": "cannot be ascertained."
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 84,
+    "text": "For a charity show, the total tickets sold were 420. Half of 94. The sum of the ages of 5 members comprising a family, 3 these tickets were sold at the rate of ` 5 each, one-third at years ago, was 80 years. The average age of the family the rate of ` 3 each and the rest for ` 2 each. What was the today is the same as it was 3 years ago, because of an total amount received? [2014 - II] addition of",
+    "year": "2016-II",
+    "options": {
+      "a": "6 months",
+      "b": "1 year",
+      "c": "` 1,610",
+      "d": "` 2,000"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 85,
+    "text": "If Sohan, while selling two goats at the same price, makes a (c) 2 years (d) 2 years and 6 months profit of 10% on one goat and suffers a loss of 10% on the 95. The total emoluments of two persons are the same, but one other [2014 - II] gets allowances to the extent of 65% of his basic pay and (a) he makes no profit and no loss. the other gets allowances to the extent of 80% of his basic (b) he ma",
+    "year": "2016-II",
+    "options": {
+      "a": "16 : 13",
+      "b": "5 : 4",
+      "c": "7 : 5",
+      "d": "he suffers a loss of 2%."
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 107,
+    "text": "30g of sugar was mixed in 180 ml water in a vessel A, 40 g of (a) 8 (b) 9 (c) 10 (d) 11 sugar Was mixed in 280 ml of water in vessel B and 20 g of 97. AB is a vertical trunk of a huge tree with A being the point sugar was mixed in 100 ml of water in vessel C. The solution where the base of the trunk touches the ground. Due to a in vessel B is :",
+    "year": "2016-II",
+    "options": {
+      "a": "sweeter than that in C of 12 meters, broken part is partially attached to the vertical",
+      "b": "sweeter than that in A portion of the trunk at C. If the end of the broken part B",
+      "c": "as sweet as that in C touches the ground at D which is at a distance of 5 meters",
+      "d": "less sweet than that in C from A, then the original height of the trunk is:"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 108,
+    "text": "In aid of charity, every student in a class contributes as (a) 20 m (b) 25 m (c) 30 m (d) 35 m many rupees as the number of students in that class. With 98. Ram and Shyam work on a job together for four days and the additional contribution of ` 2 by one student only, the complete 60% of it. Ram takes leave then and Shyam works total collection is ` 443. Then how many students are there in the clas",
+    "year": "2016-II",
+    "options": {
+      "a": "12",
+      "b": "21",
+      "c": "43",
+      "d": "45 Ram take to complete the entire job alone?"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 109,
+    "text": "Anita’s mathematics test had 70 problems carrying equal (a) 6 days (b) 8 days marks i.e., 10 arithmetic, 30 algebra and 30 geometry. (c) 10 days (d) 11 days Although she answered 70% of the arithmetic, 40% of the 99. If R and S are different integers both divisible by 5, then algebra and 60% of the geometry problems correctly, she which of the following is not necessarily true? did not pass the te",
+    "year": "2016-II",
+    "options": {
+      "a": "1",
+      "b": "R + S is divisible by 10 correctly to earn a 60% passing marks is:",
+      "c": "R × S is divisible by 25",
+      "d": "9"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 110,
+    "text": "In a class, there are 18 very tall boys. If these constitute 100. How many numbers are there between 100 and 300 which three-fourths of the boys and the total number of boys is either begin with or end with 2?",
+    "year": "2016-II",
+    "options": {
+      "a": "110",
+      "b": "111 is the number of girls in the class?",
+      "c": "112",
+      "d": "None of the above"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 101,
+    "text": "W can do 25% of a work-in 30 days, X can do 1/4 of the 111. The monthly average salary paid to all the employees of a work in 10 days, Y can do 40% of the work in 40 days and Z company was ` 5000. The monthly average salary paid to male can do 1/3 of the work in 13 days. Who will complete the and female employees was ` 5200 and ` 4200 respectively. Then work first?",
+    "year": "2016-II",
+    "options": {
+      "a": "W",
+      "b": "X",
+      "c": "Y",
+      "d": "Z"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 102,
+    "text": "The average monthly income of a person in a certain family 112. Two numbers X and Y are respectively 20% and 28% less of 5 is ` 10,000. What will be the average monthly income of a than a third number Z. By what percentage is the number Y person in the same family if the income of one person less than the number X ?",
+    "year": "2016-II",
+    "options": {
+      "a": "12%",
+      "b": "10%",
+      "c": "9%",
+      "d": "8%"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 113,
+    "text": "What is the total number of digits printed, if a book (c) ` 20,000 (d) ` 34,000 containing 150 pages is to be numebred from 1 to 150 103. In a race, a competitor has to collect 6 apples which are kept",
+    "year": "2017-II",
+    "options": {
+      "a": "262",
+      "b": "342",
+      "c": "360",
+      "d": "450 beginning of the track which is a starting point. The"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 114,
+    "text": "If there is a policy that 1 / 3rd of a population of a condition is that the competitor can pick only one apple at community has migrated every year from one place to a time, run back with it and drop it in the bucket. If he has to some other place, what is the leftover population of that drop all the apples in the bucket, how much total distance community after the sixth year, if there is no furt",
+    "year": "2017-II",
+    "options": {
+      "a": "16/243rd part of the population",
+      "b": "50 m",
+      "c": "150 m",
+      "d": "75 m"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 104,
+    "text": "A round archery target of diameter 1 m is marked with four (c) 32 / 729th part of the population scoring regions from the centre outwards as red, blue, yellow (d) 64/ 729th part of the population and white. The radius of the red band is 0.20 m. The width of 115. There are three pillars, X, Y and Z of different heights. all the remaining bands is equal. If archers throw arrows Three spiders A, B an",
+    "year": "2016-II",
+    "options": {
+      "a": "0.40",
+      "b": "0.20",
+      "c": "0.16",
+      "d": "0.04 3 cm. C climbs on Z by 6.5 cm but slips down 2 cm. If each"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 105,
+    "text": "A person allows 10% discount for cash payment from the of the requires 40 chances to reach the top of the pillars, marked price of a toy and still he makes a 10% gain. What is what is the height of the shortest pillar?",
+    "year": "2017-II",
+    "options": {
+      "a": "161 cm",
+      "b": "163 cm",
+      "c": "182 cm",
+      "d": "210 cm"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 116,
+    "text": "Gopal bought a cell phone and sold it to Ram at 10% profit. 106. A class starts at 11:00 am and lasts till 2:27 pm. Four periods Then Ram wanted to sell it back to Gopal at 10% loss. of equal duration are held during this interval. After every What will be Gopal's position if he agreed?",
+    "year": "2017-II",
+    "options": {
+      "a": "Neither loss nor gain",
+      "b": "Loss 1% exact duration of each period is:",
+      "c": "Gain 1%",
+      "d": "Gain 0.5% F 48 Topicwise Solved Papers"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 117,
+    "text": "Suppose the average weight of 9 persons is 50 kg. The 128. P works thrice as fast as Q, whereas P and Q together can average weight of the first 5 persons is 45 kg, whereas the work four times as fast as R. If P, Q and R together work average weight of the last 5 persons is 55 kg, Then the on a job, in what ratio should they share the earnings? weight of the 5th person will be",
+    "year": "2017-II",
+    "options": {
+      "a": "3 : 1 : 1",
+      "b": "3 : 2 : 4",
+      "c": "50 kg",
+      "d": "52.5 kg"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 118,
+    "text": "A watch loses 2 minutes in every 24 hours. while another 129. There are certain 2-digit numbers. The difference between watch gains 2 minutes in every 24 hours. At a particular the number and the one obtained on reversing it is always instant, the two watches showed an identical time. Which 27. How many such maximum 2-digit numbers are there? of the following statements is correct if 24-hour clock",
+    "year": "2017-II",
+    "options": {
+      "a": "The two watches show the identical time again on",
+      "c": "5",
+      "d": "None of the above"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 130,
+    "text": "A 2-digit number is reversed. The larger of the two completion of 30 days. numbers is divided by the smaller one. What is the largest (b) The two watches show the identical time again on possible remainder",
+    "year": "2017-II",
+    "options": {
+      "a": "9",
+      "b": "27",
+      "c": "36",
+      "d": "45"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 131,
+    "text": "The monthly incomes of X and Y are in the ratio of 4 : completion of 120 days. 3 and their monthly expenses are in the ratio of 3 : 2. (d) None of the above statements is correct. However, each saves ` 6,000 per month. What is their 119. In a city, 12% of households earn less than ` 30,000 per total monthly income?",
+    "year": "2017-II",
+    "options": {
+      "a": "` 28,000",
+      "b": "` 42,000 22% households earn more than `1,00,000 per year and",
+      "c": "` 56,000",
+      "d": "` 84,000 990 house- holds earn between ` 30,000 and ` 1,00,000"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 132,
+    "text": "Two walls and a ceiling of a room meet at right angles at per year. How many households earn between ` 1,00,000 a point P. A fly is in the air 1 m from one wall, 8 m from and ` 2,00,000 per year?",
+    "year": "2017-II",
+    "options": {
+      "a": "250",
+      "b": "240",
+      "c": "230",
+      "d": "225 is the fly from the ceiling?"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 120,
+    "text": "A clock strikes once at 1o'clock, twice at 2o'clock and (a) 4 (b) 6 (c) 12 (d) 15 thrice at 3 o'clock, and so on. If it takes 12 seconds to 133. A lift has the capacity of 18 adults or 30 children. How strike at 5 o'clock, what is the time taken by it to strike many children can board the lift with 12 adults?",
+    "year": "2018-II",
+    "options": {
+      "a": "6",
+      "b": "10",
+      "c": "12",
+      "d": "15"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 134,
+    "text": "A person bought a refrigerater worth ` 22,800 with 12.5% (c) 28 seconds (d) 30 seconds interest compounded yearly. At the end of first year he 121. There are thirteen 2-digit consecutive odd numbers. If 39 paid ` 8,650 and at the end of second year `9,125. How is the mean of the first five such numbers, then what is much will he have to pay at the end of third year to clear the mean of all the thi",
+    "year": "2017-II",
+    "options": {
+      "a": "47",
+      "b": "49",
+      "c": "51",
+      "d": "45"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 2,
+    "text": "If x is positive, y must be negative for any value of (a) 25% (b) 30% (c) 35% (d) 40% x and y. 123. There are 4 horizontal and 4 vertical lines, parallel and 3. If x is negative, y must be positive for any value of equidistant to one another on a board. What is the x and y. maximum number of rectangles and squares that can be Select the correct answer using the code given below. formed?",
+    "year": "2017-II",
+    "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "36",
+      "d": "42"
+    },
+    "answer": "c",
+    "explanation": "For finding the silver coin, only drawer 1 and 3 remains So probability (P) = Total number of samples (150) in consideration, because the open drawer in any case When we consider the given statements cannot be the drawer that have only gold coins. Now the probability of next coin being a gold coin = 1/2 = 0.5 3+7+10+15+28+33 96 (1) P(X£15)= = = 0.64"
+  },
+  {
+    "number": 2,
+    "text": "The number is divisible by 7. of loss. What is the original cost of the article? 3. The number on reversing the digits is also divisible by 7. (a) ` 10 (b) ` 20 (c) ` 30 (d) ` 40 How many such 3-digit numbers are there? 137. There are 24 equally spaced points lying on the (a) 2 (b) 4 (c) 6 (d) 3 circumference of a circle. What is the maximum number of 125. How many numbers are there between 99 and",
+    "year": "2017-II",
+    "options": {
+      "a": "64",
+      "b": "80",
+      "c": "90",
+      "d": "104"
+    },
+    "answer": "c",
+    "explanation": "For finding the silver coin, only drawer 1 and 3 remains So probability (P) = Total number of samples (150) in consideration, because the open drawer in any case When we consider the given statements cannot be the drawer that have only gold coins. Now the probability of next coin being a gold coin = 1/2 = 0.5 3+7+10+15+28+33 96 (1) P(X£15)= = = 0.64"
+  },
+  {
+    "number": 138,
+    "text": "A number consists of three digits of which the middle Mean < Median < Mode one is zero and their sum is 4. If the number formed by then the distribution is interchanging the first number itself by 198, then the (a) symmetric difference between the first and last digits is",
+    "year": "2018-II",
+    "options": {
+      "a": "1",
+      "b": "skewed to the right",
+      "c": "3",
+      "d": "4"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 139,
+    "text": "A bookseller sold ‘a’ number of Geography textbooks at (d) skewed to the left the rate of ` x per book, ’a + 2’ number of History 127. The age of Mr. X last year was the square of a number textbooks at the rate of ` (x + 2) per book and ‘a – 2’ and it would be the cube of a number next year. What is number of mathematics textbooks at the rate of ` (x –2) the least number of years he must wait for ",
+    "year": "2018-II",
+    "options": {
+      "a": "3x + 3a",
+      "b": "3ax + 8",
+      "c": "25",
+      "d": "16"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 141,
+    "text": "19 boys turn out for playing hockey. Of these, 11 are (a) 4 (b) 8 (c) 10 (d) 12 wearing hockey shirts and 14 are wearing hockey pants. 153. Raju has ` 9000 with him and he wants to buy a mobile There are no boys without shirts and/or pants. What is handset; but he finds that he has only 75% of the amount the number of boys wearing full uniform?",
+    "year": "2018-II",
+    "options": {
+      "a": "3",
+      "b": "5",
+      "c": "6",
+      "d": "8 from a friend. Then"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 142,
+    "text": "If X is between – 3 and – 1, and yis between – 1 and 1, (a) Raju still does not have enough amount to buy the handset. then X 2-Y 2 is in between which of the following? (b) Ruju has exactly the same amount as required to buy (a) – 9 and 1 (b) – 9 and – 1",
+    "year": "2018-II",
+    "options": {
+      "c": "0 and 8",
+      "d": "0 and 9"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 143,
+    "text": "X and Y are natural numbers other than 1, and Y is greater will have ` 500 with him after buying the handset. than X. Which of the following represents the largest (d) Ruju has enough amount to buy the handset and he number?",
+    "year": "2018-II",
+    "options": {
+      "a": "XY",
+      "b": "X /Y"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 154,
+    "text": "In 2002, Meenu’s age was one-third of the age of Meera, (c) Y / X (d) (X + Y) / XY whereas in 2010, Meenu’s age was half the age of Meera. 144. Sunita cuts a sheet of paper into three pieces. Length of What is Meenu’s year of birth?",
+    "year": "2019-II",
+    "options": {
+      "a": "1992",
+      "b": "1994",
+      "c": "1996",
+      "d": "1998 odd prime numbers. Length of the second piece is equal to"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 155,
+    "text": "Rakesh and Rajesh together bought 10 balls and 10 rackets. that of the first plus one-third the length of the third. The Rakesh spent `1300 and Rajesh spent `1500. If each racket third piece is as long as the other two pieces together. The costs three times a ball does, then what is the price of a length of the original sheet of paper is",
+    "year": "2019-II",
+    "options": {
+      "a": "13 units",
+      "b": "15 units",
+      "c": "`210",
+      "d": "`240"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 156,
+    "text": "In a conference, out of a total 100 participants, 70 are Indians. 145. An 8-digit number 4252746B leaves remainder 0 when divided If 60 of the total participants are vegetarian, then which of by 3. How many values of B are possible?",
+    "year": "2019-II",
+    "options": {
+      "a": "2",
+      "b": "3",
+      "c": "4",
+      "d": "6"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 1,
+    "text": "At least 30 Indian participants are vagetarian. 146. A wall clock moves 10 minutes fast in every 24 hours. The 2. At least 10 Indian participants are non-vegetarian. clock was set right to show the correct time at 8:00 a.m. on Select the correct answer using the codes given below : Monday. When the clock shows the time 6:00 p.m. on (a) 1 only (b) 2 only Wednesday, what is the correct time?",
+    "year": "2019-II",
+    "options": {
+      "a": "5:36 p.m.",
+      "b": "5:30 p.m.",
+      "c": "Both 1 and 2",
+      "d": "Neither 1 nor 2"
+    },
+    "answer": "d",
+    "explanation": "P(E) = Probability of passing in English = 0.6 1"
+  },
+  {
+    "number": 1,
+    "text": "40% members went for shopping as well as sightseeing. (a) 10 (b) 9 (c)5 (d) 4 2. 20% members went for only shopping. 148. A family has two children along with their parents. The Select the correct answer using the code given below : (a) 1 only (b) 2 only average of the weights of the children and their mother is 50 (c) Both 1 and 2 (d) Neither 1 nor 2 kg. The average of the weights of the children",
+    "year": "2019-II",
+    "options": {
+      "a": "48 kg",
+      "b": "50 kg",
+      "c": "52 kg",
+      "d": "54 kg"
+    },
+    "answer": "d",
+    "explanation": "P(E) = Probability of passing in English = 0.6 1"
+  },
+  {
+    "number": 149,
+    "text": "Number 136 is added to 5B7 and the sum obtained is 7A3, 159. In an examination, A has scored 20 marks more than B. If B where A and B are integers. It is given that 7A3 is exactly has scored 5% less marks than A, how much has B scored? divisible by 3.",
+    "year": "2019-II",
+    "options": {
+      "a": "360",
+      "b": "380",
+      "c": "400",
+      "d": "420"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 160,
+    "text": "If x is greater than or equal to 25 and y is less than or equal 150. The number of times the digit 5 will appear while writing the to 40, then which one of the following is always correct? integers from 1 to 1000 is",
+    "year": "2019-II",
+    "options": {
+      "a": "x is greater than y",
+      "b": "271",
+      "c": "300",
+      "d": "302"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 151,
+    "text": "A and B are two heavy steel blocks. If B is placed on the top (c) (y – x) is less than or equal to 15 of A, the weight increases by 60%. How much weight will (d) (x + y) is greater than or equal to 65 reduce with respect to the total weight of A and B, if B is 161. Ena was born 4 years after her parents, marriage. Her mother removed from the top of A?",
+    "year": "2019-II",
+    "options": {
+      "a": "60 %",
+      "b": "45.5 %",
+      "c": "40 %",
+      "d": "37.5 % than Ena, who is 13 years old. At what age did Ena’s father"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 152,
+    "text": "In a school every student is assigned a unique identification get married?",
+    "year": "2019-II",
+    "options": {
+      "a": "22 years",
+      "b": "23 years",
+      "c": "24 years",
+      "d": "25 years F 50 Topicwise Solved Papers"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 162,
+    "text": "Rakesh had money to buy 8 mobile handsets of a specific (a) S1 alone is sufficient to answer the Question. company. But the retailer offered very good discount on (b) S2 alone is sufficient to answer the Question. that particular handset. Rakesh could buy 10 mobile handsets (c) S1 and S2 together are sufficient to answer the with the amount he had. What was the discount the retailer Question, but ",
+    "year": "2019-II",
+    "options": {
+      "a": "15%",
+      "b": "20%",
+      "c": "25%",
+      "d": "30%"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 83,
+    "text": "The corrected mean marks are",
+    "year": "2019-II",
+    "options": {
+      "a": "39",
+      "b": "39.7",
+      "c": "40",
+      "d": "40.3 for which digit does the symbolÄ stand?"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 171,
+    "text": "If you have two straight sticks of length 7.5 feet and 3.25 All numbers are divisible by 2. feet, what is the minimum length can you measure? All numbers are divisible by 3.",
+    "year": "2020-II",
+    "options": {
+      "a": "0.05 foot",
+      "b": "0.25 foot All numbers are divisible by"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 6,
+    "text": "(c) 1 foot (d) 3.25 feet Conclusion-II: 172. A simple mathematical operation in each number of the All numbers are divisible by 4. sequence 14, 18, 20, 24, 30, 32, ... results in a sequence with Which of the above Conclusions logically follows/follow respect to prime numbers. Which one of the following is from the two given Statements? the next number in the sequence?",
+    "year": "2020-II",
+    "options": {
+      "a": "Only Conclusion-I",
+      "b": "36",
+      "c": "38",
+      "d": "40"
+    },
+    "answer": "c",
+    "explanation": "Probability of Head or Tail on the upper side for a coin = P(EÇM) = Probability of passing in Maths and English 2 = 0.54 \\ Probability of same side on the upper side for the three P(M) = Probability of passing in Maths 3 Since, P(M) and P(E), both are independent events. 1 1 1 æ1ö 1 So, P(EÇM) = P(E) × P(M) coins = 2 × 2 × 2 = ç è2 ÷ ø = 8 0.54 P(M) = P(EÇM)/ P(E) = = 0.9"
+  },
+  {
+    "number": 173,
+    "text": "Let A3BC and DE2F be four-digit numbers where each letter (c) Neither Conclusion-I nor Conclusion-II represents a different digit greater than 3. If the sum of the (d) Both Conclusion-I Conclusion-II numbers is 15902, then what is the difference between the 165. How many integers are there between 1 and 100 which values of A and D?",
+    "year": "2020-II",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "4"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 166,
+    "text": "The average age are of a teacher and three students is 20 years. If all the three students are of same age and the Average marks Average difference between the age of the teacher and each student in English marks in Hindi is 20 years, then what is the age of the teacher?",
+    "year": "2020-II",
+    "options": {
+      "a": "25 years",
+      "b": "30 years",
+      "c": "35 years",
+      "d": "45 years Boys 8 7"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 167,
+    "text": "A person bought a car and sold it for ` 3,00,000. If he incurred Overall average marks 8.8 x a loss of 20%, then how much did he spend to buy the car?",
+    "year": "2020-II",
+    "options": {
+      "a": "` 3,60,000",
+      "b": "` 3,65,000",
+      "c": "7.4",
+      "d": "7.2"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 10,
+    "text": "(b) 12 (c) 14 (d) 15 S2: n leaves a remainder of 1 when divided by 4. 176. Let XYZ be a three-digit number, where (X+ Y + Z) is not a Question: multiple of 3. Then (XYZ + YZX + ZXY) is not divisible by If n is a unique natural number between 10 and 20, then",
+    "year": "2020-II",
+    "options": {
+      "a": "3",
+      "b": "9",
+      "c": "3"
+    },
+    "answer": "c",
+    "explanation": "8 7 7 (i) Number of ways of arranging three colours taken 1 at = ´ = 104 103 1339 3´2!"
+  },
+  {
+    "number": 177,
+    "text": "Let p, q, r and s be natural numbers such that",
+    "year": "2020-II",
+    "options": {
+      "a": "S1 alone is sufficient to answer the Question. Which one of the following is the largest natural number?",
+      "b": "S2 alone is sufficient to answer the Question.",
+      "c": "r",
+      "d": "s"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 178,
+    "text": "How many pairs of natural numbers are there such that the Question, but neither S1 alone nor S2 alone is sufficient difference of whose squares is 63?",
+    "year": "2020-II",
+    "options": {
+      "a": "3",
+      "b": "4",
+      "c": "5",
+      "d": "2"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 21,
+    "text": "3 4 5 6 S2: Their sum is 10. 2 3 4 5 Question: (a) (b) (c) (d) 3 4 5 6 What are the two numbers? 180. A digit n > 3 is divisible by 3 but not divisible by 6. Which Which one the following is correct in respect of the above one of the following is divisible by 4?",
+    "year": "2020-II",
+    "options": {
+      "a": "2n",
+      "b": "3n",
+      "c": "2n + 4",
+      "d": "3n + 1 5337_DBE Arithmetic F 51"
+    },
+    "answer": "c",
+    "explanation": "2 Women can occupy 2 chairs out of the first four Thus, no of ways, when Ajit and Mukerjee are always together = 5 ! × 2! chairs in 4P 2 ways. 3 men can be arranged in the remaining Hence, no of ways when they are never together 6 chairs in 6P ways. 3 = Total no of ways – no of ways when they are always Hence, total no. of ways = 4P × 6P = 1440 together 2 3"
+  },
+  {
+    "number": 181,
+    "text": "A frog tries to come out of a dried well 4.5 m deep with 189. What is the remainder when 51 × 27 × 35 × 62 × 75 is divided slippery walls. Every time the frog jumps 30 cm, slides down by 100?",
+    "year": "2020-II",
+    "options": {
+      "a": "50",
+      "b": "25",
+      "c": "5",
+      "d": "1 come out of the well?"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 190,
+    "text": "A sum of `2,500 is distributed among X, Y and Z in the (a) 28 (b) 29 (c) 30 (d) 31 1 3 5 182. A bottle contains 20 litres of liquid A., 4 litrs of liquid A is ratio : : . What is the difference between the maximum 2 4 6 taken out of it and replaced by same quantity of liquid B. share and the minimum share?",
+    "year": "2020-II",
+    "options": {
+      "a": "` 300",
+      "b": "` 350",
+      "c": "` 400",
+      "d": "` 450 same quantity of liquid B. What is the ratio of quantity of"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 191,
+    "text": "For what value of n, the sum of digits in the number liquid A to that of liquid B in the final mixture?",
+    "year": "2020-II",
+    "options": {
+      "a": "4 : 1",
+      "b": "5 : 1",
+      "c": "16 : 9",
+      "d": "17 : 8"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 192,
+    "text": "In a class, there are three groups, A, B and C. If one student (a) 122 (b) 91 (c) 62 (d) 49 from group A and two students from group B are shifted to 184. As a result of 25% hike in the price of rice per kg, a person group C, then what happens to the average weight for the is able to purchase 6 kg less rice for `1,200. What was the students of the class?",
+    "year": "2020-II",
+    "options": {
+      "a": "It increases.",
+      "b": "` 40",
+      "c": "`50",
+      "d": "`60"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 193,
+    "text": "A shop owner offers the following discount options on an article to a customer:",
+    "year": "2020-II",
+    "options": {
+      "a": "1 m",
+      "b": "1 m",
+      "c": "1 m",
+      "d": "1 m"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 1,
+    "text": "Successive discounts of 10% and 20%, and then pay 2 3 4 4 a service tax of 10%. 186. The recurring decimal representation 1.272727 ... is 2. Successive discounts of 20% and 10%, and then pay equivalent to",
+    "year": "2020-II",
+    "options": {
+      "a": "13/11",
+      "b": "14/11",
+      "c": "127/99",
+      "d": "137/99"
+    },
+    "answer": "d",
+    "explanation": "P(E) = Probability of passing in English = 0.6 1"
+  },
+  {
+    "number": 3,
+    "text": "Pay a service tax of 10% first, then successive 187. What is the least four-digit number when divided by 3, 4, 5 discounts of 20% and 10%. and 6 leaves a remainder 2 in each case?",
+    "year": "2020-II",
+    "options": {
+      "a": "1012",
+      "b": "1022",
+      "c": "1122",
+      "d": "1222"
+    },
+    "answer": "c",
+    "explanation": "Let the radius of the circle be unity 150 150 Equation of the circle, x2 + y2 = 1 28+33+24+11 96 (2) P(13<X£17)= = = 0.64 y= 1-x2 .....(i) 150 150 and, x=sin t .... (ii) 33 (3) P(X = 15) = = 0.22 150 From (i) and (ii), y= 1-sin2t = cos t"
+  },
+  {
+    "number": 188,
+    "text": "In adult population of a city, 40% men and 30% women are (b) 2 only is the best option for the customer. married. What is the percentage of married adult population (c) 3 only is the best option for the customer. if no man marries more than one woman and no woman (d) All the options are equally good for the customer. marries more than one man; and there are no widows and 194. What is the largest n",
+    "year": "2020-II",
+    "options": {
+      "a": "33 %",
+      "c": "34 %",
+      "d": "35% 7 F 52 Topicwise Solved Papers HINTS & SOLUTIONS"
+    },
+    "answer": null,
+    "explanation": ""
+  },
+  {
+    "number": 1,
+    "text": "(b) 1 yard = 36 inches The third person who knows 3 languages can also speak 2 1 inch = 2.54 cm languages. \\ 1 yard = 2.54 × 36 cm He should not be called on two places Hence, number persons = 27 – 3 = 24 2.54´36 \\ 100 yard = ´100 = 91.44 m. 10. (b) Total number of persons who know only English or 100 french or German = 170 + 180 + 200 = 550 Difference (100m – 100 yards) = (100 –91.44)m = 8.56 m. ",
+    "year": "1996",
+    "options": {
+      "a": "The areas of the three figures are all different",
+      "d": "impossible to find unless diagonals are known the these figures? lengths of the"
+    },
+    "answer": "d",
+    "explanation": "P(E) = Probability of passing in English = 0.6 1"
+  },
+  {
+    "number": 2,
+    "text": "A rectangular sump of dimension 6m × 5m × 4m is to be built (b) The areas of all the three figures are equal by using bricks to make the outer dimension 6.2 m × 5.2 m × 4.2 (c) The perimeters of the three figures are equal m. Approximately how many bricks of size 20 cm × 10 cm × 5 (d) The perimeters of figures I and II are equal cm are required to build the sump for storing water? 7. In the follow",
+    "year": "1997",
+    "options": {
+      "a": "15408",
+      "b": "3000",
+      "c": "15000",
+      "d": "30000 North"
+    },
+    "answer": "c",
+    "explanation": "For finding the silver coin, only drawer 1 and 3 remains So probability (P) = Total number of samples (150) in consideration, because the open drawer in any case When we consider the given statements cannot be the drawer that have only gold coins. Now the probability of next coin being a gold coin = 1/2 = 0.5 3+7+10+15+28+33 96 (1) P(X£15)= = = 0.64"
+  },
+  {
+    "number": 3,
+    "text": "Consider the figure given below: Q S R R P 1 Q O East P P is 300 km eastward of O and Q is 400 km north of O. R is PQRS is a square of side 1 unit and Q, S are the centres of exactly in the middle of Q and P. The distance between Q the two circles. The area of the shaded portion is",
+    "year": "1995",
+    "options": {
+      "a": "250 km",
+      "b": "300 km p 1 p 1 p",
+      "c": "-",
+      "d": "-1"
+    },
+    "answer": "c",
+    "explanation": "Let the radius of the circle be unity 150 150 Equation of the circle, x2 + y2 = 1 28+33+24+11 96 (2) P(13<X£17)= = = 0.64 y= 1-x2 .....(i) 150 150 and, x=sin t .... (ii) 33 (3) P(X = 15) = = 0.22 150 From (i) and (ii), y= 1-sin2t = cos t"
+  },
+  {
+    "number": 8,
+    "text": "A rectangular plot of lawn shown in the figure has 4. The following figure contains three squares with areas of dimensions 'x' and 'y' and is surrounded by a gravel pathway 100, 16 and 49 sq. units respectively laying side by side as of width 2 m. What is the total area of the Gravel Pathway? shown. By how much should the area of the middle square",
+    "year": "1997",
+    "options": {
+      "a": "12",
+      "b": "4",
+      "c": "2",
+      "d": "2"
+    },
+    "answer": "d",
+    "explanation": "Since, 8 Green balls + 7 White balls = 15 balls Now, option (c) is the graph of y = cos t. 7 White balls + 5 Red balls = 12 balls"
+  },
+  {
+    "number": 5,
+    "text": "A rectangle has perimeter of 50 metres. If its length is 13 metres more than its breadth, then its area is:",
+    "year": "1996",
+    "options": {
+      "a": "124 m2",
+      "b": "144 m2",
+      "c": "114 m2",
+      "d": "104 m2"
+    },
+    "answer": "a",
+    "explanation": "As DTQS is an isosceles triangle. a time = 3P 1 = 2! = 3 \\ ÐTSQ = ÐTQS = 47° (ii) Number of ways of arranging three colours taken 2 at a Now, in equilateral triangle DQRS, 3! time = 3P = =6 ÐRQS = ÐRSQ = ÐQRS = 60° 2 1! Now, ÐRQS = ÐRQT + ÐTQS = 60° (iii) Number of ways of arranging three colours taken 3 ÐRQT = Y = 60° – 47° = 13° at a time = 3P = 6 3 F 82 Topicwise Solved Papers Hence, Maximum no. of codes = No. of ways of arranging (i) Lady these flags = 3 + 6 + 6 = 15 Fixing one seat for the "
+  },
+  {
+    "number": 9,
+    "text": "If the numbers representing volume and surface area of a 14. A hemispherical bowl is filled to the brim with a beverage. cube are equal, then the length of the edge of the cube in The contents of the bowl are transferred into a cylindrical terms of the unit of measurement will be",
+    "year": "1997",
+    "options": {
+      "a": "3",
+      "b": "4",
+      "c": "5",
+      "d": "6 diameter is same for both bowl and cylinder, then the volume"
+    },
+    "answer": "d",
+    "explanation": "Probability that the light is not green 7 and probability for the jack in second draw = 103 time for which light is not green ( 5+30 ) 35 7 = = = = Since both the events are independent events. time taken for the entire cycle 60 60 12 Hence the probability that both of them are jacks."
+  },
+  {
+    "number": 10,
+    "text": "The length, breadth and height of a room are , b and h l of the beverage in the cylindrical vessel will be",
+    "year": "1999",
+    "options": {
+      "a": "66 % 100 3",
+      "b": "%",
+      "c": "100% h",
+      "d": "%"
+    },
+    "answer": "c",
+    "explanation": "8 7 7 (i) Number of ways of arranging three colours taken 1 at = ´ = 104 103 1339 3´2!"
+  },
+  {
+    "number": 11,
+    "text": "LMNOP is a semicircle with centre at R and diametre LP. 15. A man is standing on the 6m long pole whose length of LSR and RQP are also semi circles with centres at T and U shadow is 8m. If the length of his shadow is 2.4m, what is 1 the height of the man ?",
+    "year": "1999",
+    "options": {
+      "a": "1.4 m",
+      "b": "1.6 m The ratio of perimeter of LMNOP and LSRQP is",
+      "c": "1.8 m",
+      "d": "2.0 m N"
+    },
+    "answer": "d",
+    "explanation": "For each combination, let us name the females and males remaining 4 seats in four ways and the 2nd man occupy any Female (3) Male (5) of the remaining 3 seats in three ways. A B Hence, no of ways = 1 × 4 × 3 = 12 C D (ii) E F Leaving the reserved seat, 1st man can occupy any of the G 4 seats in four ways. 2nd man can occupy any of the H remaining 3 seats in three ways. Lady can occupy any of Since A can’t go with B, it will make team with four males in the remaining 2 seats in two ways. four way"
+  },
+  {
+    "number": 16,
+    "text": "If the angle of triangle are in the ratio of 4 : 3 : 2, then the M O triangle",
+    "year": "1999",
+    "options": {
+      "a": "is obtuse angled triangle S",
+      "b": "has one angle greater than 80°",
+      "c": "is a right triangle",
+      "d": "is acute angled triangle R L P"
+    },
+    "answer": "d",
+    "explanation": "For (10 + A + B) = 12 stations, no of tickets required, i.e., zero, when the points will overlap on the same line and when 4 new stations are added for one way journey all the points are along the same vertical line. = 12 × 4 = 48"
+  },
+  {
+    "number": 17,
+    "text": "At a given time, two players are standing on a play-field. T U The cartesian coordinates of their locations are (20, 60) and (–40, –20) units. What is the distance between the players?",
+    "year": "1999",
+    "options": {
+      "a": "60 units",
+      "b": "80 units",
+      "c": "100 units",
+      "d": "140 units"
+    },
+    "answer": "b",
+    "explanation": "There can be two cases : ah ch eh gf (i) Lady occupies the reserved seat Now, team ad can play only with: cb, cg, ch, eb, eh, (ii) Lady does not occupy the reserved seat. gb, gf, i.e. 7 5337_DBE Permutation, Combination & Probability F 83 The same will apply with all teams. 4! So no. of total match = 12 × 7 = 84 Case IV : Number of ways for (3, 3, 1, 1) = = 6 2!´2! Since every match includes 2 teams, so the No. of matches = 84/2 = 42 4!"
+  },
+  {
+    "number": 18,
+    "text": "The area of an ellipse is twice that of a circle. The major 12. A square pond has 2 m sides and is 1m deep. If it is to be diameter of the ellipse is twice that of the minor diameter. enlarged, the depth remaining the same, into a circular pond with the diagonal of the square as diameter as shown in the The radius of the circle is",
+    "year": "1999",
+    "options": {
+      "a": "50% of minor diameter of the ellipse removed?",
+      "b": "50% of major diameter of the ellipse",
+      "c": "minor diameter of the ellipse",
+      "d": "major diameter of the ellipse 2m"
+    },
+    "answer": "d",
+    "explanation": "Total number of ways in which 9 balls occupy any of"
+  },
+  {
+    "number": 19,
+    "text": "P 2m O (a) (2p – 4) m3 (b) (4p – 4) m3 2 0 30° ° (c) (4p – 2) m3 (d) (2p – 2) m3 13. The surface area of spherical dome-shaped roof of a cylindrical water tank shown in the figure is",
+    "year": "1999",
+    "options": {
+      "a": "100°",
+      "b": "120°",
+      "c": "130°",
+      "d": "140°"
+    },
+    "answer": "a",
+    "explanation": "On the first attempt four coins are overturned. No of ways of arranging the items = 5 × 4 × 3 × 2 × 1=120 Now, six coins are left. Now, in this arrangement there is one such arrangement, In the next turn, four more are overturned. Now only two which is the correct answer. would be left. We take one more from the left over two coins \\ Maximum number of examinees = no. of ways of and any three from the previously turned ones. Finally, the arrangement of items = 120 – 1 = 119 leftover coin and the "
+  },
+  {
+    "number": 20,
+    "text": "Which one of the following has a greater perimeter than the rest?",
+    "year": "2000",
+    "options": {
+      "a": "A square with an area of 36 sq.cm Cylinder Diameter",
+      "b": "An equilateral triangle with a side of 9 cm",
+      "c": "A rectangle with 10 cm as length and 40 sq cm as area",
+      "d": "A circle with a radius of 4 cm"
+    },
+    "answer": "c",
+    "explanation": "Probability of a particle lying in any particular half = 2"
+  },
+  {
+    "number": 21,
+    "text": "A goat is tied to two poles P and Q with ropes that are 15 meters long. P and Q are 20 metres apart as shown in the given diagram:",
+    "year": "2000",
+    "options": {
+      "a": "P Q",
+      "b": "P Q",
+      "c": "",
+      "d": "P Q P Q"
+    },
+    "answer": "c",
+    "explanation": "2 Women can occupy 2 chairs out of the first four Thus, no of ways, when Ajit and Mukerjee are always together = 5 ! × 2! chairs in 4P 2 ways. 3 men can be arranged in the remaining Hence, no of ways when they are never together 6 chairs in 6P ways. 3 = Total no of ways – no of ways when they are always Hence, total no. of ways = 4P × 6P = 1440 together 2 3"
+  },
+  {
+    "number": 22,
+    "text": "What is the maximum number of pieces of 5 cm × 5 cm × 10 cm of cake that can be cut from a big cake of 5cm × 30 cm × 30 cm size?",
+    "year": "2000",
+    "options": {
+      "a": "10",
+      "b": "15",
+      "c": "18",
+      "d": "30"
+    },
+    "answer": "d",
+    "explanation": "Let the total no. of participants be 'n' at the beginning. = 6 ! – (5 ! × 2 !) = 6 × 5 ! – (5 ! × 2 !) = 5 ! (6 – 2) = 480 Players remaining after sometime = n – 3"
+  },
+  {
+    "number": 23,
+    "text": "A rectangular water tank measures 15m × 6m at top and is 10m deep. It is full of water. If water is drawn out lowering the level by 1 meter, how much of water has been drawn out?",
+    "year": "2000",
+    "options": {
+      "a": "90000 litres",
+      "b": "45000 litres",
+      "c": "4500 litres",
+      "d": "900 litres"
+    },
+    "answer": "b",
+    "explanation": "Maximum number of triangles can be formed by 365 365 selecting 3, 4 or 5 points out of 6 at a time. 1 1 Hence, required probability = 1´ = So, maximum no. of triangles = 6C + 6C + 6C which is ( 365 )2 ( 365 )2 clearly more than 18. Now, triangles fo 3 rmed 4 will be 5 minimum"
+  },
+  {
+    "number": 26,
+    "text": "1 m A circle of 1 m radius is drawn inside a square as shown in figure given above. What is the area of the shaded portion (in m2) ?",
+    "year": "2001",
+    "options": {
+      "b": "ç1- ÷ è 2ø æ1 pö æ pö",
+      "c": "ç - ÷",
+      "d": "ç1- ÷ è4 4ø è 4ø"
+    },
+    "answer": "c",
+    "explanation": "Since, every question has five options, so no. of Case I : number of ways = 2C × 3C × 3C × 2C = 36 1 1 1 1 choices for each question = 5 Case II : number of ways = 3C × 3C = 9 \\ total no. of choices = 5 × 5 × 5 × 5 = 625 2 2 Case III : number of ways = 2C × 2C = 1 Now, no. of choices of all correct answer = 1 2 2 Hence, no of choices for all the four answers not correct Hence, total number of ways = 36 + 9 + 1 = 46 = total no. of choices – no. of choices of all correct answer"
+  },
+  {
+    "number": 27,
+    "text": "In the above figure, ABCD is a cyclic quadrilateral, AB = BC and ÐBAC = 70°, then ÐADC is",
+    "year": "2001",
+    "options": {
+      "a": "40°",
+      "b": "80°",
+      "c": "110°",
+      "d": "140°"
+    },
+    "answer": "a",
+    "explanation": "Contains 1 ball each. Case II - One box contain 1 ball and rest two x Contains 2 balls each. y Case 1 : Number of ways = 5C × 2C × 1C = 20 3 1 1 3! There can be two cases: Now, these 3 boxes can be arranged in among themselves, 2! Case (I) : When x row contains 6 balls: as two of them contains similar number of balls. Then the 2 balls can be arranged in y row in 6P ways = 15 2 3! or the 2 balls can be arranged in any of the 4 two box row in So, number of ways = 20´ =60 2! 4 ways. Case II : Numbe"
+  },
+  {
+    "number": 28,
+    "text": "The length of the longest pole that can be placed in a room 12 m long, 9 m wide and 8 m high, is",
+    "year": "2002",
+    "options": {
+      "a": "12 m",
+      "b": "14 m",
+      "c": "17 m",
+      "d": "21 m"
+    },
+    "answer": "c",
+    "explanation": "Suppose three people have been given a, b and c 2! number of items. Now, either of case (I) or case (II) is possible, Then, a × b × c = 30 Hence, total number of ways = 60 + 90 = 150 Now, There can be 5 cases :"
+  },
+  {
+    "number": 1,
+    "text": "A parallelopiped of length 5 cm, breadth 3 cm and height 4 cm 2. A cube of each side 4 cm 3. A cylinder of radius 3 cm and length 3 cm. 4. A sphere of radius 3 cm. The volumes of these in the decreasing order is (a) 1, 3, 2, 4 (b) 4, 2, 3, 1 (c) 1, 2, 3, 4 (d) 4, 3, 2, 1 30. A big rectangular plot of area 4320 m2 is divided into 3 square shaped smaller plots by fencing parallel to the smaller side",
+    "year": "2005",
+    "options": {
+      "a": "160 m × 27 m",
+      "b": "240 m × 15 m",
+      "c": "120 m × 36 m",
+      "d": "135 m × 32 m"
+    },
+    "answer": "d",
+    "explanation": "P(E) = Probability of passing in English = 0.6 1"
+  },
+  {
+    "number": 25,
+    "text": "A rectangular piece of iron sheet measuring 50 cm by 100 (a) 9 (b) 6 (c) 3 (d) 1.5 cm is rolled into cylinder of height 50 cm. If the cost of 32. A village having a population of 4000 requires 150 litres of water painting the cylinder is ` 50 per square metre, then what per head per day. It has a tank measuring 20 m × 15 m × 6 m. The will be the cost of painting the outer surface of the cylinder? ",
+    "year": "2011-II",
+    "options": {
+      "a": "2 days",
+      "b": "3 days",
+      "c": "` 75.00",
+      "d": "` 87.50"
+    },
+    "answer": "c",
+    "explanation": "Let E be the event of selecting the three numbers such Case V : Number of ways for (3, 2, 2, 1) = =12 2! that their product is odd and S be the sample space. As, either of these five cases are possible, For the product to be odd, 3 numbers choosen must be odd. Hence total number of ways = 4 + 12 + 1 + 6 + 12 = 35 \\ n (E) = 5C 3"
+  },
+  {
+    "number": 33,
+    "text": "Two glasses of equal volume are respectively half and three- 39. Consider the following three-dimensional figure:",
+    "year": "2018-II",
+    "options": {
+      "a": "1 : 3",
+      "b": "2 : 3",
+      "c": "3 : 2",
+      "d": "5 : 3"
+    },
+    "answer": "c",
+    "explanation": "There can be 3 cases :"
+  },
+  {
+    "number": 34,
+    "text": "A gardener increased the area of his rectangular garden by increasing its length by 40% and decreasing its width by 20%. The area of the new garden [2014 - II] (a) has increased by 20%. (b) has increased by 12%. (c) has increased by 8%. How many triangles does the above figure have? (d) is exactly the same as the old area. (a) 18 (b) 20 (c) 22 (d) 24 35. In a plane, line X is perpendicular to line",
+    "year": "2015-II",
+    "options": {
+      "a": "Z, U and W are parallel. bigger cubes is painted blue. How many cubes have only",
+      "b": "X, V and Y are parallel. one face painted?",
+      "c": "Z, V and U are all perpendicular to W.",
+      "d": "10"
+    },
+    "answer": "b",
+    "explanation": "3 balls can be placed be in any of the 12 squares in This row, containing 1 ball can be selected in 3C ways and 12C ways. 1 Tota 3 l number of arrangements = 12C = 220 number of ways of arrangement in this row = 3C 1 . In other 3 two rows, containing 2 balls each, number of ways of Now, assume that balls lie along the some line. arrangement in each = 3C . There can be 3 cases : 2 Thus, number of ways for case II = 3C × 3C × 3C × 3C Case I: When balls lie along the straight horizontal line. 1 1 2"
+  },
+  {
+    "number": 41,
+    "text": "Let x, y be the volumes; m, n be the masses of two metallic 36. A cylindrical overhead tank of radius 2 m and height 7 m is to be filled from an underground tank of size 5.5 m × 4 m × 6 m. cubes P and Q respectively. Each side of Q is two times that How much portion of the underground tank is still filled with of P and mass of Q is two times that of P. Let u = m/x and water after filling the overh",
+    "year": "2016-II",
+    "options": {
+      "a": "1/3",
+      "b": "1/2",
+      "c": "1/4",
+      "d": "1/6"
+    },
+    "answer": "b",
+    "explanation": "No. of different sums of money = any 1 coin at a time + = 5C – 3C = 10 – 3 = 7 any 2 coins + any 3 coins it all 4 coins 3 1"
+  },
+  {
+    "number": 37,
+    "text": "A piece of tin is in the form of a rectangle having length 12 (c) v = u (d) v = 4u cm and width 8 cm. This is used to construct a closed cube. 42. If 1 litre of water weighs 1 kg, then how many cubic The side of the cube is:",
+    "year": "2016-II",
+    "options": {
+      "a": "2 cm",
+      "b": "3 cm",
+      "c": "4 cm",
+      "d": "7 cm"
+    },
+    "answer": "c",
+    "explanation": "Suppose any particular student is always selected. Here, either case I or case II is possible. Hence, total no. of Now, remaining 2 students are to be selected out of the ways = 81 + 18 = 99 remaining 5 students."
+  },
+  {
+    "number": 38,
+    "text": "Twelve equal squares are placed to fit in a rectangle of (c) 100 (d) 1000 diagonal 5 cm. There are three rows containing four squares 43. A vessel full of water weighs 40 kg. If it is one-third filled, each. No gaps are left between adjacent squares. What is its weight becomes 20 kg. What is the weight of the empty the area of each square?",
+    "year": "2018-II",
+    "options": {
+      "a": "sq. cm",
+      "b": "sq. cm",
+      "c": "20 kg",
+      "d": "25 kg 25"
+    },
+    "answer": "d",
+    "explanation": "There can be two cases : Hence, total no. of ways = 9C × 1 = 84 3 Case I : When 1 row contains 3 balls and rest two contains"
+  }
+]
